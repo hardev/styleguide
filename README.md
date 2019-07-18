@@ -1,3 +1,3 @@
-# HAR Styleguide
+## HAR Stylguide
 
 Under development.

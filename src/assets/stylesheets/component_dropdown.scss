@@ -1,0 +1,15 @@
+.dropdown {
+
+  a.dropdown-item {
+    font-size: $font-size-medium;
+    color: $color-carbon;
+
+    &:hover {
+      background: $color-cloudy-sky-light;
+    }
+
+    &:active {
+      background: $color-har-blue-light-extra;
+    }
+  }
+}
