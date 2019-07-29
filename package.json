@@ -18,6 +18,7 @@
     "typescript": "^3.5.3"
   },
   "scripts": {
+    "homepage" : "http://riandesign.github.io/har_styleguide",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
