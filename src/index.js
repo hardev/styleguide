@@ -28,23 +28,22 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" exact={true} component={App} />
-      <Route path="/har_styleguide/" exact={true} component={App} />
 
-      <Route path="/har_styleguide/design/border_radius" component={BorderRadius} />
-      <Route path="/har_styleguide/design/color_scheme" component={ColorScheme} />
-      <Route path="/har_styleguide/design/depth" component={Depth} />
-      <Route path="/har_styleguide/design/iconography" component={Iconography} />
-      <Route path="/har_styleguide/design/typography" component={Typography} />
+      <Route path="/design/border_radius" component={BorderRadius} />
+      <Route path="/design/color_scheme" component={ColorScheme} />
+      <Route path="/design/depth" component={Depth} />
+      <Route path="/design/iconography" component={Iconography} />
+      <Route path="/design/typography" component={Typography} />
 
-      <Route path="/har_styleguide/components/agent_signatures" component={AgentSignatures} />
-      <Route path="/har_styleguide/components/buttons" component={Buttons} />
-      <Route path="/har_styleguide/components/filter_pills" component={FilterPills} />
-      <Route path="/har_styleguide/components/form_elements" component={FormElements} />
-      <Route path="/har_styleguide/components/listing_cards" component={ListingCards} />
-      <Route path="/har_styleguide/components/listing_status_tags" component={ListingStatusTags} />
-      <Route path="/har_styleguide/components/popovers" component={Popovers} />
-      <Route path="/har_styleguide/components/search_map" component={SearchMap} />
-      <Route path="/har_styleguide/components/tables" component={Tables} />
+      <Route path="/components/agent_signatures" component={AgentSignatures} />
+      <Route path="/components/buttons" component={Buttons} />
+      <Route path="/components/filter_pills" component={FilterPills} />
+      <Route path="/components/form_elements" component={FormElements} />
+      <Route path="/components/listing_cards" component={ListingCards} />
+      <Route path="/components/listing_status_tags" component={ListingStatusTags} />
+      <Route path="/components/popovers" component={Popovers} />
+      <Route path="/components/search_map" component={SearchMap} />
+      <Route path="/components/tables" component={Tables} />
 
       <Route path="/*" exact={true} component={Error404} />
 

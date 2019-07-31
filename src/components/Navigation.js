@@ -26,7 +26,7 @@ export default class Header extends Component {
 
 	toggleMenu() {
 		let auxState;
-		if (this.state.isMobileMenuOn == '') {
+		if (this.state.isMobileMenuOn == '') { 
 			auxState = 'menu_open';
 		} else {
 			auxState = '';
@@ -47,7 +47,7 @@ export default class Header extends Component {
           <div onClick={this.toggleMenu} aria-label="Show/hide menu" className={`header_mobile__mobile_menu_btn ${this.state.HeaderMobileMenuBtnClass}`}></div>
 
           <div className="header_mobile__logo">
-            <Link to="/har_styleguide/"><img src={logo} alt="HAR Styleguide" /></Link>
+            <Link to="/"><img src={logo} alt="HAR Styleguide" /></Link>
           </div>
         </header>
 
@@ -55,14 +55,14 @@ export default class Header extends Component {
         <aside className={`aside_main ${this.state.asideMainClass}`}>
 
           <div className="aside_main__logo">
-            <Link to="/har_styleguide/"><img src={logo} alt="HAR Styleguide" /></Link><br />Styleguide
+            <Link to="/"><img src={logo} alt="HAR Styleguide" /></Link><br />Styleguide
           </div>
 
           <nav id="aside_main_nav" className="aside_main__nav aside_main__nav--main">
             <ul>
 
               <li className="li">
-                <Link to="/har_styleguide/">Introduction</Link>
+                <Link to="/">Introduction</Link>
               </li>
 
               <li className="li li--has-children">
@@ -81,19 +81,19 @@ export default class Header extends Component {
 									data-parent="#aside_main_nav">
 
                   <li className={`li ${this.props.activeChild == 'border_radius' ? 'li--active' : ''} `}>
-                    <Link to="/har_styleguide/design/border_radius">Border Radius</Link>
+                    <Link to="/design/border_radius">Border Radius</Link>
                   </li>
                   <li className={`li ${this.props.activeChild == 'color_scheme' ? 'li--active' : ''} `}>
-                    <Link to="/har_styleguide/design/color_scheme">Color Scheme</Link>
+                    <Link to="/design/color_scheme">Color Scheme</Link>
                   </li>
                   <li className={`li ${this.props.activeChild == 'depth' ? 'li--active' : ''} `}>
-                    <Link to="/har_styleguide/design/depth">Depth</Link>
+                    <Link to="/design/depth">Depth</Link>
                   </li>
                   <li className={`li ${this.props.activeChild == 'iconography' ? 'li--active' : ''} `}>
-										<Link to="/har_styleguide/design/iconography">Iconography</Link>
+										<Link to="/design/iconography">Iconography</Link>
                   </li>
                   <li className={`li ${this.props.activeChild == 'typography' ? 'li--active' : ''} `}>
-										<Link to="/har_styleguide/design/typography">Typography</Link>
+										<Link to="/design/typography">Typography</Link>
                   </li>
                 </ul>
               </li>
@@ -114,31 +114,31 @@ export default class Header extends Component {
 									data-parent="#aside_main_nav">
 
                   <li className={`li ${this.props.activeChild == 'agent_signatures' ? 'li--active' : ''} `}>
-                    <Link to="/har_styleguide/components/agent_signatures">Agent Singnatures</Link>
+                    <Link to="/components/agent_signatures">Agent Singnatures</Link>
                   </li>
                   <li className={`li ${this.props.activeChild == 'buttons' ? 'li--active' : ''} `}>
-                    <Link to="/har_styleguide/components/buttons">Buttons</Link>
+                    <Link to="/components/buttons">Buttons</Link>
                   </li>
                   <li className={`li ${this.props.activeChild == 'filter_pills' ? 'li--active' : ''} `}>
-                    <Link to="/har_styleguide/components/filter_pills">Filter Pills</Link>
+                    <Link to="/components/filter_pills">Filter Pills</Link>
                   </li>
                   <li className={`li ${this.props.activeChild == 'form_elements' ? 'li--active' : ''} `}>
-                    <Link to="/har_styleguide/components/form_elements">Form Elements</Link>
+                    <Link to="/components/form_elements">Form Elements</Link>
                   </li>
                   <li className={`li ${this.props.activeChild == 'listing_cards' ? 'li--active' : ''} `}>
-                    <Link to="/har_styleguide/components/listing_cards">Listing Cards</Link>
+                    <Link to="/components/listing_cards">Listing Cards</Link>
                   </li>
                   <li className={`li ${this.props.activeChild == 'listing_status_tags' ? 'li--active' : ''} `}>
-                    <Link to="/har_styleguide/components/listing_status_tags">Listing Status Tags</Link>
+                    <Link to="/components/listing_status_tags">Listing Status Tags</Link>
                   </li>
                   <li className={`li ${this.props.activeChild == 'popovers' ? 'li--active' : ''} `}>
-                    <Link to="/har_styleguide/components/popovers">Popovers</Link>
+                    <Link to="/components/popovers">Popovers</Link>
                   </li>
                   <li className={`li ${this.props.activeChild == 'search_map' ? 'li--active' : ''} `}>
-                    <Link to="/har_styleguide/components/search_map">Search Map</Link>
+                    <Link to="/components/search_map">Search Map</Link>
                   </li>
                   <li className={`li ${this.props.activeChild == 'tables' ? 'li--active' : ''} `}>
-                    <Link to="/har_styleguide/components/tables">Tables</Link>
+                    <Link to="/components/tables">Tables</Link>
                   </li>
                 </ul>
               </li>
