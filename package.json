@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://riandesign.github.io/har_styleguide/",
+  "homepage": "https://hardev.github.io/styleguide/",
   "dependencies": {
     "ajv": "^6.10.2",
     "bootstrap": "^4.3.1",
