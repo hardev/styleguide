@@ -13,10 +13,18 @@ export default class Content extends Component {
     Prism.highlightAll();
   }
 
-	render(){
+	render() {
+
+    let isTitleVisible = "block";
+
+    if (this.props.blockTitle === null || this.props.blockTitle === "") {
+      isTitleVisible = "none";
+    }
+
 		return (
       <article className="component_content">
-        <h2 tabIndex="0" className="h2">{this.props.blockTitle}</h2>
+
+        <h2 tabIndex="0" className="h2" style={{display: isTitleVisible}}>{this.props.blockTitle}</h2>
 
         <div>
           <div className="component_content__demo" dangerouslySetInnerHTML={{__html: this.props.elements}}></div>

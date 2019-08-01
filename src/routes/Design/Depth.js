@@ -1,59 +1,102 @@
-import React from 'react';
+import React, {Component} from "react";
 import TemplateDefault from '../../components/TemplateDefault';
+import TemplateComponentBlock from '../../components/TemplateComponentBlock';
 
-function Depth() {
-  return (
-    <TemplateDefault
-      pageTitle="Depth"
-      activeParent="design"
-      activeChild="depth">
+export default class Depth extends Component {
 
-      <article style={{marginBottom: "56px"}}>
-        <h2 tabIndex="0" className="h2">Landed</h2>
-        <div style={{margin: "-16px 0 24px 0"}}>e.g., Ordinary gridded-content information</div>
+  constructor(props) {
+    super(props);
 
-        <div className="row">
-          <div className="col col-sm-4 col-12">
-            <div className="depth depth--landed border_radius border_radius--default" style={{height: "120px"}}></div>
+    this.elements = [
+      `<div class="row justify-content-center">
+        <div class="col col-sm-6 col-12">
+          <div class="depth depth--landed border_radius border_radius--default" style="height: 128px"></div>
+          <div class="component_content__demo__description">
+            e.g., Ordinary gridded-content information
           </div>
         </div>
-      </article>
+        <div class="clear_both"></div>
+      </div>`,
 
-      <article style={{marginBottom: "56px"}}>
-        <h2 tabIndex="0" className="h2">Emboss</h2>
-        <div style={{margin: "-16px 0 24px 0"}}>e.g., Listing Card</div>
-
-        <div className="row">
-          <div className="col col-sm-4 col-12">
-            <div className="depth depth--emboss border_radius border_radius--default" style={{height: "120px"}}></div>
+      `<div class="row justify-content-center">
+        <div class="col col-sm-6 col-12">
+          <div class="depth depth--emboss border_radius border_radius--default" style="height: 128px"></div>
+          <div class="component_content__demo__description">
+            e.g., Listing card
           </div>
         </div>
-      </article>
+        <div class="clear_both"></div>
+      </div>`,
 
-      <article style={{marginBottom: "56px"}}>
-        <h2 tabIndex="0" className="h2">Standed Out</h2>
-        <div style={{margin: "-16px 0 24px 0"}}>e.g., Filter Dropdown</div>
-
-        <div className="row">
-          <div className="col col-sm-4 col-12">
-            <div className="depth depth--standed_out border_radius border_radius--default" style={{height: "120px"}}></div>
+      `<div class="row justify-content-center">
+        <div class="col col-sm-6 col-12">
+          <div class="depth depth--standed_out border_radius border_radius--default" style="height: 128px"></div>
+          <div class="component_content__demo__description">
+            e.g., Filter dropdown
           </div>
         </div>
-      </article>
+        <div class="clear_both"></div>
+      </div>`,
 
-      <article style={{marginBottom: "56px"}}>
-        <h2 tabIndex="0" className="h2">Above All</h2>
-        <div style={{margin: "-16px 0 24px 0"}}>e.g., Listing Card Preview on search map</div>
-
-        <div className="row">
-          <div className="col col-sm-4 col-12">
-            <div className="depth depth--above_all border_radius border_radius--default" style={{height: "120px"}}></div>
+      `<div class="row justify-content-center">
+        <div class="col col-sm-6 col-12">
+          <div class="depth depth--above_all border_radius border_radius--default" style="height: 128px"></div>
+          <div class="component_content__demo__description">
+            e.g., Listing Card Preview on search map
           </div>
         </div>
-      </article>
+        <div class="clear_both"></div>
+      </div>`,
+    ];
 
-    </TemplateDefault>
-  );
+
+    this.codeSnippets = [
+`<div class="depth depth--landed border_radius border_radius--default">
+  <!--
+  Content goes here
+  If you want to use it as a card, don't do it. Instead, use the class "card"
+  -->
+</div>`,
+
+`<div class="depth depth--emboss border_radius border_radius--default">
+  <!--
+  Content goes here
+  If you want to use it as a card, don't do it. Instead, use the class "card"
+  -->
+</div>`,
+
+`<div class="depth depth--standed_out border_radius border_radius--default">
+  <!--
+  Content goes here
+  If you want to use it as a card, don't do it. Instead, use the class "card"
+  -->
+</div>`,
+
+`<div class="depth depth--above_all border_radius border_radius--default">
+  <!--
+  Content goes here
+  If you want to use it as a card, don't do it. Instead, use the class "card"
+  -->
+</div>`,
+    ];
+
+  }
+
+  render() {
+
+    return (
+      <TemplateDefault
+        pageTitle="Depth"
+        activeParent="design"
+        activeChild="depth">
+
+        <TemplateComponentBlock blockTitle="Landed" elements={this.elements[0]} codeSnippets={this.codeSnippets[0]} />
+        <TemplateComponentBlock blockTitle="Emboss" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
+        <TemplateComponentBlock blockTitle="Standed Out" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
+        <TemplateComponentBlock blockTitle="Above All" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
+
+      </TemplateDefault>
+    )
+  }
+
 }
-
-export default Depth;

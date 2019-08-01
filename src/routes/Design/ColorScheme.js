@@ -2,8 +2,13 @@ import React, {Component} from "react";
 import TemplateDefault from '../../components/TemplateDefault';
 import TemplateComponentBlock from '../../components/TemplateComponentBlock';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
+import $ from 'jquery';
 
 export default class ColorScheme extends Component {
+
+  componentDidMount() {
+    $('[data-toggle="tooltip"]').tooltip();
+  }
 
   constructor(props) {
     super(props);
@@ -267,7 +272,8 @@ export default class ColorScheme extends Component {
                           {
                             colorGroups.colors.map(color =>
                               <CopyToClipboard text={color.code} onCopy={() => { /* Do stuff here */ }}>
-                                <li onClick={this.copyCode} className={`design_color_scheme__item ${color.class} `}>
+                                <li onClick={this.copyCode} className={`design_color_scheme__item ${color.class} `}
+                                    data-toggle="tooltip" data-placement="top" title="Copy hex color code">
                                   {color.name}<br />
                                   <span>{color.code}</span>
                                 </li>
