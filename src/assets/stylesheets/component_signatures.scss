@@ -1,0 +1,38 @@
+.agent_signature {
+  text-align: left;
+
+  a {
+    &:hover {
+      img {
+        opacity: 0.85;
+      }
+    }
+  }
+
+  &__photo {
+    float: left;
+    margin-right: 8px;
+
+    img {
+      width: 32px;
+      height: 32px;
+      object-fit: contain;
+      border-radius: 50%;
+    }
+  }
+
+  &__info {
+    line-height: 16px;
+
+    &__agent_name {
+      font-size: $font-size-small;
+      color: $color-slate !important;
+      font-weight: $font-weight-semi-bold;
+    }
+    &__broker_name {
+      font-size: $font-size-small;
+      color: $color-slate !important;
+      opacity: 0.75;
+    }
+  }
+}
