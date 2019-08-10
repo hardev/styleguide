@@ -1,57 +1,98 @@
+.table_wrapper {
+  position: relative;
+
+  &:before {
+    content: "";
+    width: 50px;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,0.8));
+    position: absolute;
+    top: 0;
+    right: -1px;
+    pointer-events: none;
+  }
+}
+
 .table {
   text-align: left;
-  
-  &--normal-medium {
-  	font-size:$font-size-small;
-  	line-height:16px;
-  	
-  	td { 
-	  	padding:10px 0px;
+  border-collapse: collapse;
+  overflow-x: auto;
+
+  @media screen and (max-width: 480px) {
+    display: block;
+  }
+
+
+  td {
+    white-space: nowrap;
+  }
+
+  th {
+    white-space: nowrap;
+  }
+
+  caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+  }
+
+  &--medium {
+  	font-size: $font-size-small;
+  	line-height: 16px;
+
+  	td {
+	  	padding: 10px 10px 10px 0;
 	  	color: $color-slate;
-	  	border-top-color:$color-cloudy-sky;
+	  	border-top-color: $color-cloudy-sky;
   	}
-  	
-  	tr:last-child td { 
-	  	border-bottom:1px solid $color-cloudy-sky;
+
+  	tr:last-child td {
+	  	border-bottom: 1px solid $color-cloudy-sky;
   	}
-  	
+
   	thead th {
 	  	color: $color-carbon;
 	  	font-weight: $font-weight-semi-bold;
-	  	padding:10px 0px;
+	  	padding: 10px 10px 10px 0;
 	  	border-top: none;
-	  	border-bottom:1px solid $color-carbon;	  	
+	  	border-bottom: 1px solid $color-carbon;
+      text-transform: uppercase;
   	}
   }
 
-  &--normal-small {
-  	font-size:$font-size-small;
-  	line-height:16px;
-  	
-  	td { 
-	  	padding:4px 0px;
+  &--small {
+  	font-size: $font-size-small;
+  	line-height: 16px;
+
+  	td {
+	  	padding: 4px 4px 4px 0px;
 	  	color: $color-slate;
-	  	border-top-color:$color-cloudy-sky;
-	  	
+	  	border-top-color: $color-cloudy-sky;
+
   	}
-  	
-  	tr:last-child td { 
-	  	border-bottom:1px solid $color-cloudy-sky;
+
+  	tr:last-child td {
+	  	border-bottom: 1px solid $color-cloudy-sky;
   	}
-  	
+
   	thead th {
 	  	color: $color-carbon;
 	  	font-weight: $font-weight-semi-bold;
-	  	padding:4px 0px;
+	  	padding: 4px 0px;
 	  	border-top: none;
-	  	border-bottom:1px solid $color-carbon;	  	
+	  	border-bottom: 1px solid $color-carbon;
   	}
   }
-  
-  &_description_title{
+
+  &__description_highlighted {
 	  	color: $color-carbon;
 	  	font-weight: $font-weight-semi-bold;
-	  	padding-right:2px;
+	  	padding-right: 2px;
   	}
 
 }
