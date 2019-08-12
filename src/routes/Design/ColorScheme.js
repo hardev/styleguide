@@ -260,7 +260,7 @@ export default class ColorScheme extends Component {
         {
           this.colors.map(branch =>
             <article style={{marginBottom: "56px"}}>
-              <h2 tabIndex="0" className="h2">{branch.name}</h2>
+              <h2 tabIndex="0">{branch.name}</h2>
 
               <div className="row">
                 {
