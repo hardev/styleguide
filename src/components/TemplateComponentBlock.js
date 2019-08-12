@@ -24,7 +24,7 @@ export default class Content extends Component {
 		return (
       <article className="component_content">
 
-        <h2 tabIndex="0" className="h2" style={{display: isTitleVisible}}>{this.props.blockTitle}</h2>
+        <h2 tabIndex="0" style={{display: isTitleVisible}}>{this.props.blockTitle}</h2>
 
         <div>
           <div className="component_content__demo" dangerouslySetInnerHTML={{__html: this.props.elements}}></div>

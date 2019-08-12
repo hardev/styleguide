@@ -10,7 +10,7 @@ export default class Content extends Component {
             <div className="col-12">
 
               <div className="content_title">
-                <h1 tabIndex="0" className="h1">{this.props.pageTitle}</h1>
+                <h1 tabIndex="0">{this.props.pageTitle}</h1>
               </div>
 
               {this.props.children}

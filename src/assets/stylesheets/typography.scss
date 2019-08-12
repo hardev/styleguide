@@ -1,4 +1,4 @@
-/* Font Sizes */
+/* Font sizes */
 .font_size {
   &--small_extra {
     font-size: $font-size-small-extra;
@@ -37,9 +37,26 @@
   }
 }
 
+/* Font weights */
+.font_weight {
+  &--light {
+    font-weight: $font-weight-light;
+  }
+  &--regular {
+    font-weight: $font-weight-regular;
+  }
+  &--semi_bold {
+    font-weight: $font-weight-semi-bold;
+  }
+  &--bold {
+    font-weight: $font-weight-bold;
+  }
+}
+
 
 /* Headings */
-h1.h1 {
+h1 {
+  text-align: left !important;
   cursor: default;
   font-weight: $font-weight-bold;
   color: $color-har-blue-dark;
@@ -51,7 +68,7 @@ h1.h1 {
     margin-bottom: 64px;
   // }
 
-  &--inner_page {
+  &.h1--inner_page {
     font-size: $font-size-large-extra-extra-extra;
     line-height: 40px;
     letter-spacing: -0.8px;
@@ -59,7 +76,8 @@ h1.h1 {
   }
 }
 
-h2.h2 {
+h2 {
+  text-align: left !important;
   position: relative;
   cursor: default;
   font-weight: $font-weight-bold;
@@ -79,7 +97,8 @@ h2.h2 {
   }
 }
 
-h3.h3 {
+h3 {
+  text-align: left !important;
   cursor: default;
   font-weight: $font-weight-bold;
   color: $color-har-blue-dark;
@@ -88,11 +107,23 @@ h3.h3 {
   margin-bottom: 16px;
 }
 
-h4.h4 {
+h4 {
+  text-align: left !important;
   cursor: default;
   font-weight: $font-weight-bold;
   color: $color-carbon;
   font-size: $font-size-large;
   line-height: 24px;
   margin-bottom: 16px;
+}
+
+/* Alignments */
+.text_align_left {
+  text-align: left;
+}
+.text_align_right {
+  text-align: right;
+}
+.text_align_justify {
+  text-align: justify;
 }
