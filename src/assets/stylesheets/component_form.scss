@@ -1,0 +1,111 @@
+
+/* form label */
+label {
+	color: $color-auxiliary;
+	font-size: $font-size-small;
+	font-weight: $font-weight-bold;
+	text-align:left;
+	display:block;
+}
+
+/* form control */
+.form-control {
+	border: 1px solid $color-auxiliary-light;
+	font-size: $font-size-medium;
+	color: $color-har-blue !important;
+	height: 40px;
+	padding:12px;
+	
+	&::placeholder {
+		color: $color-slate-light;
+	}
+	
+	&:disabled,
+	&[readonly] {
+		background-color: $color-cloudy-sky-light;
+		opacity: 0.75;
+	}
+}
+
+/* form input quick search */
+.input-group {
+	
+	&--quicksearch {
+		margin-bottom: 20px;
+		
+		.form-control {
+			height: 73px;
+			font-size:18px;
+			padding:26px;
+			border-radius: 5px;
+			
+			&::placeholder {
+				color: $color-auxiliary-light;
+			}
+			
+			&:focus {
+		    	border-color: $color-har-blue;
+		    	box-shadow: 0 0 0 0 rgba(0,0,0, 0.0);
+		    }
+		}
+		
+		.btn {
+			height: 71px;
+			border-radius: 5px;
+		}
+	}
+
+}
+
+/* input radio */
+.custom-radio {
+  .custom-control-label{
+	  color: $color-carbon;
+	  font-size:12px;
+	  font-weight: $font-weight-regular;
+	  padding:2px 0px 0px 3px;
+	  cursor: pointer;
+	  margin:0px 15px 10px 0px;
+  }
+  .custom-control-label::before {
+    background-color: transparent;
+    background-image:url("https://content.harstatic.com/resource_2019/imgs/home/radiosimple.svg");
+    width: 16px;
+    height: 16px;
+    border: none;
+  }
+  .custom-control-label::after {
+    display: none;
+  }
+
+  .custom-control-input:checked ~ .custom-control-label {
+    &::before {
+	  background-color: transparent;
+      background-image:url("https://content.harstatic.com/resource_2019/imgs/home/radiosimple_checked.svg");
+    }
+  }
+  
+  .custom-control-input:disabled {
+    &:checked ~ .custom-control-label::before {
+      
+    }
+  }
+  &--large {
+	  .custom-control-label{
+		  font-size:18px;
+		  font-weight: $font-weight-bold;
+		  padding:0px 0px 0px 5px;
+		  line-height: normal;
+		  font-weight: $font-weight-regular;
+		  margin:0px 15px 10px 0px;
+	  }	  
+  }  
+  &--negative {
+	  .custom-control-label{
+		  font-weight: $font-weight-bold;
+		  color: $color-auxiliary-light;
+		  font-weight: $font-weight-semi-bold;
+		  margin:0px 15px 10px 0px;
+  		}
+  	}
+}

@@ -54,7 +54,7 @@ body {
 }
 
 
-footer {
+.wrapper footer {
   background: $color-cloudy-sky-light;
   text-align: left;
   margin-top: 80px;
@@ -278,7 +278,7 @@ footer {
 
 
 
-.container {
+.wrapper .container {
   @media (min-width: 1200px) {
     max-width: 800px;
   }
