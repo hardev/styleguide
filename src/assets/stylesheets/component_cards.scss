@@ -1,0 +1,41 @@
+
+.card {
+	&--badge_horizental,
+	&--badge_vertical {
+		background-position: left center;
+		background-repeat: no-repeat;
+		overflow: hidden;
+		margin-bottom: 30px;
+		
+		.content {
+			background-color: $color-snow-white;
+			height: 120px;
+			overflow: hidden;
+			margin-left: 120px;
+			padding: 22px;
+			color: $color-auxiliary;
+		}
+		
+		.text { 
+			color: $color-auxiliary;
+			font-size: $font-size-small;
+			line-height: 18px;
+		}
+	}
+	
+	&--badge_vertical{
+		width:165px;
+		height:290px; 
+		background-position:top center;
+		margin-bottom:22px;
+		margin-right:22px;
+		
+		.content {
+			height:100px;
+			margin-top:190px;
+			padding:16px;
+			margin-left:0px;
+			text-align:center;
+		}
+	}
+}
