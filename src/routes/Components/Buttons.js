@@ -10,22 +10,22 @@ export default class Buttons extends Component {
     this.elements = [
       `<div class="row">
         <div class="col col-sm-3 col-6">
-          <button role="button" class="btn btn-primary btn--large">Button</button>
+          <button role="button" class="btn btn--primary btn--large">Button</button>
           <div class="component_content__demo__description">Large Button</div>
         </div>
 
         <div class="col col-sm-3 col-6">
-          <button role="button" class="btn btn-primary btn--medium">Button</button>
+          <button role="button" class="btn btn--primary btn--medium">Button</button>
           <div class="component_content__demo__description">Medium Button</div>
         </div>
 
         <div class="col col-sm-3 col-6">
-          <button role="button" class="btn btn-primary btn--small">Button</button>
+          <button role="button" class="btn btn--primary btn--small">Button</button>
           <div class="component_content__demo__description">Small Button</div>
         </div>
 
         <div class="col col-sm-3 col-6">
-          <button role="button" class="btn btn-primary btn--small-extra">Button</button>
+          <button role="button" class="btn btn--primary btn--small-extra">Button</button>
           <div class="component_content__demo__description">Extra Small Button</div>
         </div>
 
@@ -34,22 +34,22 @@ export default class Buttons extends Component {
 
       `<div class="row">
         <div class="col col-sm-3 col-6">
-          <button role="button" class="btn btn-primary btn--medium">Button</button>
+          <button role="button" class="btn btn--primary btn--medium">Button</button>
           <div class="component_content__demo__description">Primary Button</div>
         </div>
 
         <div class="col col-sm-3 col-6">
-          <button role="button" class="btn btn-prominent btn--medium">Button</button>
+          <button role="button" class="btn btn--prominent btn--medium">Button</button>
           <div class="component_content__demo__description">Prominent Button</div>
         </div>
 
         <div class="col col-sm-3 col-6">
-          <button role="button" class="btn btn-ordinary btn--medium">Button</button>
+          <button role="button" class="btn btn--ordinary btn--medium">Button</button>
           <div class="component_content__demo__description">Ordinary Button</div>
         </div>
 
         <div class="col col-sm-3 col-6">
-          <button role="button" class="btn btn-shapeless btn--medium">Button</button>
+          <button role="button" class="btn btn--shapeless btn--medium">Button</button>
           <div class="component_content__demo__description">Shapeless Button</div>
         </div>
 
@@ -60,12 +60,12 @@ export default class Buttons extends Component {
 
       <div class="row">
         <div class="col col-sm-3 col-6">
-          <button role="button" class="btn btn-primary btn--medium" disabled>Button</button>
+          <button role="button" class="btn btn--primary btn--medium" disabled>Button</button>
           <div class="component_content__demo__description">Disabled Button</div>
         </div>
 
         <div class="col col--dark col-sm-3 col-6">
-          <button role="button" class="btn btn-search btn--medium" aria-label="Search"></button>
+          <button role="button" class="btn btn--search btn--medium" aria-label="Search"></button>
           <div class="component_content__demo__description">Search Button</div>
         </div>
 
@@ -74,19 +74,19 @@ export default class Buttons extends Component {
 
       `<div class="row">
         <div class="col col-sm-3 col-6">
-          <button role="button" class="btn btn-ordinary btn--medium btn--icon btn--icon--placeholder">Button</button>
+          <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--placeholder">Button</button>
           <div class="component_content__demo__description">Button with Icon</div>
         </div>
 
         <div class="col col-sm-3 col-6">
-          <button role="button" class="btn btn-ordinary btn--medium btn--icon btn--icon--lone btn--icon--placeholder" aria-label="Button"></button>
+          <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--placeholder" aria-label="Button"></button>
           <div class="component_content__demo__description">Button with Lone Icon</div>
         </div>
 
         <div class="col col-sm-3 col-6">
 
           <div class="dropdown">
-            <button class="btn btn-ordinary btn--medium dropdown-toggle" type="button" id="buttonWithOptions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button class="btn btn--ordinary btn--medium dropdown-toggle" type="button" id="buttonWithOptions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Button
             </button>
             <div class="dropdown-menu depth--standed_out" aria-labelledby="buttonWithOptions">
@@ -102,7 +102,7 @@ export default class Buttons extends Component {
         <div class="col col-sm-3 col-6">
 
           <div class="dropdown">
-            <button class="btn btn-ordinary btn--medium dropdown-toggle btn--icon btn--icon--lone btn--icon--placeholder" type="button" id="buttonWithIconAndOptions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button class="btn btn--ordinary btn--medium dropdown-toggle btn--icon btn--icon--lone btn--icon--placeholder" type="button" id="buttonWithIconAndOptions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Button
             </button>
             <div class="dropdown-menu depth depth--standed_out" aria-labelledby="buttonWithIconAndOptions">
@@ -122,27 +122,27 @@ export default class Buttons extends Component {
 
     this.codeSnippets = [
 
-`<button role="button" class="btn btn-primary btn--large">Button</button>
-<button role="button" class="btn btn-primary btn--medium">Button</button>
-<button role="button" class="btn btn-primary btn--small">Button</button>
-<button role="button" class="btn btn-primary btn--small-extra">Button</button>`,
+`<button role="button" class="btn btn--primary btn--large">Button</button>
+<button role="button" class="btn btn--primary btn--medium">Button</button>
+<button role="button" class="btn btn--primary btn--small">Button</button>
+<button role="button" class="btn btn--primary btn--small-extra">Button</button>`,
 
-`<button role="button" class="btn btn-primary btn--medium">Button</button>
-<button role="button" class="btn btn-prominent btn--medium">Button</button>
-<button role="button" class="btn btn-ordinary btn--medium">Button</button>
-<button role="button" class="btn btn-shapeless btn--medium">Button</button>
-<button role="button" class="btn btn-primary btn--medium" disabled>Button</button>
-<button role="button" class="btn btn-search btn--medium" aria-label="Search"></button>`,
+`<button role="button" class="btn btn--primary btn--medium">Button</button>
+<button role="button" class="btn btn--prominent btn--medium">Button</button>
+<button role="button" class="btn btn--ordinary btn--medium">Button</button>
+<button role="button" class="btn btn--shapeless btn--medium">Button</button>
+<button role="button" class="btn btn--primary btn--medium" disabled>Button</button>
+<button role="button" class="btn btn--search btn--medium" aria-label="Search"></button>`,
 
 `<!-- Button with Icon -->
-<button role="button" class="btn btn-ordinary btn--medium btn--icon btn--icon--placeholder">Button</button>
+<button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--placeholder">Button</button>
 
 <!-- Button with Lone Icon -->
-<button role="button" class="btn btn-ordinary btn--medium btn--icon btn--icon--lone btn--icon--placeholder" aria-label="Button"></button>
+<button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--placeholder" aria-label="Button"></button>
 
 <!-- Button with Options -->
 <div class="dropdown">
-  <button class="btn btn-ordinary btn--medium dropdown-toggle" type="button" id="buttonWithOptions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <button class="btn btn--ordinary btn--medium dropdown-toggle" type="button" id="buttonWithOptions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Button
   </button>
   <div class="dropdown-menu depth--standed_out" aria-labelledby="buttonWithOptions">
@@ -154,7 +154,7 @@ export default class Buttons extends Component {
 
 <!-- Button with Icon and Options -->
 <div class="dropdown">
-  <button class="btn btn-ordinary btn--medium dropdown-toggle btn--icon btn--icon--lone btn--icon--placeholder" type="button" id="buttonWithIconAndOptions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <button class="btn btn--ordinary btn--medium dropdown-toggle btn--icon btn--icon--lone btn--icon--placeholder" type="button" id="buttonWithIconAndOptions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Button
   </button>
   <div class="dropdown-menu depth depth--standed_out" aria-labelledby="buttonWithIconAndOptions">

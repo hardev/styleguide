@@ -51,17 +51,18 @@
 
 
   /* == STYLES == */
-  &-primary {
+  &--primary {
     background: $color-har-blue !important;
     border: 1px solid $color-har-blue-dark !important;
     height: 40px;
     line-height: 40px;
     font-size: $font-size-medium;
     padding: 0 24px;
+    color: #fff;
     box-shadow: 0 2px 0 $color-har-blue-dark !important;
   }
 
-  &-prominent {
+  &--prominent {
     background: $color-har-pink !important;
     border: 1px solid $color-har-pink-dark !important;
     height: 40px;
@@ -76,7 +77,7 @@
     }
   }
 
-  &-ordinary {
+  &--ordinary {
     background: $color-snow-white !important;
     border: 1px solid $color-auxiliary-light !important;
     height: 40px;
@@ -91,7 +92,7 @@
     }
   }
 
-  &-shapeless {
+  &--shapeless {
     background: $color-snow-white !important;
     border: 1px solid rgba(255,255,255,0) !important;
     height: 40px;
@@ -122,7 +123,7 @@
     }
   }
 
-  &-search {
+  &--search {
     width: 24px !important;
     height: 24px !important;
     background: #fff url(../images/icons/24x24/icon-search.svg) center no-repeat;

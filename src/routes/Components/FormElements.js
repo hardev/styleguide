@@ -8,7 +8,7 @@ export default class Forms extends Component {
     super(props);
 
     this.elements = [
-      `<div class="row  mt-4 pb-3">
+      `<div class="row">
       	<div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
 	      	<label for="city">City</label>
 	      	<input type="text" class="form-control" id="city" aria-describedby="city" placeholder="City">
@@ -16,7 +16,7 @@ export default class Forms extends Component {
         </div>
         <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
 	      	<label for="city">City</label>
-	      	<input type="text" class="form-control" id="city" aria-describedby="city" value="Houston">
+	      	<input type="text" class="form-control" id="city" aria-describedby="city" placeholder="City" value="Houston">
 	      	<div class="component_content__demo__description">Filled input</div>
         </div>
         <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
@@ -25,149 +25,236 @@ export default class Forms extends Component {
 	      	<div class="component_content__demo__description">Disabled input</div>
         </div>
        </div>`,
-      `<div class="row justify-content-center">
+
+      `<div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Map search input</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+          <div>{ under development }</div>
+          <div class="component_content__demo__description">Empty search input</div>
+        </div>
+        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+          <div>{ under development }</div>
+          <div class="component_content__demo__description">Filled search input</div>
+        </div>
+       </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Home search input</h4>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
       	<div class="col col-sm-9 col-12 mt-5">
-	      	<div class="input-group input-group--quicksearch">
-	          <input type="text" class="form-control" placeholder="Enter address, city or zip code" aria-label="Enter address, city or zip code" aria-describedby="basic-addon2">
+	      	<div class="input-group input-group--search_input_home">
+	          <input type="text" class="form-control" placeholder="Enter address, city or zip code" aria-label="Enter address, city or zip code">
 	          <div class="input-group-append">
-	            <button class="btn btn-prominent" type="button"><img class="pl-2 pr-2" src="https://content.harstatic.com/resource_2019/imgs/home/search_white_small.svg"></button>
-	          </div>	          
+	            <button class="btn btn--prominent" type="button"></button>
+	          </div>
 	        </div>
-	        <div class="component_content__demo__description">Home Search Input</div>
+	        <div class="component_content__demo__description">Home empty search input</div>
         </div>
         <div class="col col-sm-9 col-12">
-	      	<div class="input-group input-group--quicksearch">
-	          <input type="text" class="form-control" value="Houston" aria-label="Enter address, city or zip code" aria-describedby="basic-addon2">
+	      	<div class="input-group input-group--search_input_home">
+	          <input type="text" class="form-control" placeholder="Enter address, city or zip code" aria-label="Enter address, city or zip code" value="Houston">
 	          <div class="input-group-append">
-	            <button class="btn btn-prominent" type="button"><img class="pl-2 pr-2" src="https://content.harstatic.com/resource_2019/imgs/home/search_white_small.svg"></button>
-	          </div>	          
+	            <button class="btn btn--prominent" type="button"></button>
+	          </div>
 	        </div>
-	        <div class="component_content__demo__description">Home Search Input Filled</div>
+	        <div class="component_content__demo__description">Home filled search input</div>
         </div>
        </div>`,
-       `<div class="row  mt-4 pb-3">
-      	<div class="col col-sm-3 col-12 pr-sm-5 pl-sm-5">
-	      	<div class="custom-control custom-radio custom-control-inline">
-			  <input type="radio" id="customRadioInline1" name="CustomRadio" class="custom-control-input">
-			  <label class="custom-control-label" for="customRadioInline1">Yes</label>
-			</div>
-			<div class="component_content__demo__description">Radio button default state</div>
+
+       `<div class="row">
+         <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+           <h4 tabindex="0">Radio button medium</h4>
+         </div>
+       </div>
+
+       <div class="row mt-4 pb-3">
+         <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+          <div role="radio" class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="radio_button_medium_1" name="radio_button_medium" class="custom-control-input">
+            <label class="custom-control-label" for="radio_button_medium_1">Yes</label>
+          </div>
+          <div class="component_content__demo__description">Radio button default state</div>
         </div>
-        <div class="col col-sm-3 col-12 pr-sm-5 pl-sm-5">
-	      	<div class="custom-control custom-radio custom-control-inline">
-			  <input type="radio" id="customRadioInline2" name="CustomRadio" class="custom-control-input" checked="checked">
-			  <label class="custom-control-label" for="customRadioInline2">Yes</label>
-			</div>
-			<div class="component_content__demo__description">Radio button checked</div>
-        </div>
-        <div class="col col-sm-3 col-12 pr-sm-5 pl-sm-5">
-	      	<div class="custom-control custom-radio custom-control-inline">
-			  <input type="radio" id="customRadioInline3" name="CustomRadio" class="custom-control-input" disabled>
-			  <label class="custom-control-label" for="customRadioInline3">Yes</label>
-			</div>
-			<div class="component_content__demo__description">Radio button disabled</div>
-        </div>
-        <div class="col col-sm-3 col-12 pr-sm-5 pl-sm-5">
-	      	<div class="custom-control custom-radio custom-control-inline">
-			  <input type="radio" id="customRadioInline4" name="CustomRadio2" class="custom-control-input">
-			  <label class="custom-control-label" for="customRadioInline4">Yes</label>
-			</div>
-			<div class="custom-control custom-radio custom-control-inline">
-			  <input type="radio" id="customRadioInline5" name="CustomRadio2" class="custom-control-input">
-			  <label class="custom-control-label" for="customRadioInline5">No</label>
-			</div>
-			<div class="component_content__demo__description">Example of Radio button options</div>
-        </div>
-       </div>`,
-       `<div class="row  mt-4 pb-3">
-      	<div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
-	      	<div class="custom-control custom-radio custom-radio--large custom-control-inline">
-			  <input type="radio" id="CustomRadionLarge" name="CustomRadio3" class="custom-control-input">
-			  <label class="custom-control-label" for="CustomRadionLarge">Yes</label>
-			</div>
-			<div class="component_content__demo__description">Radio button default state</div>
-        </div>
+
         <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
-	      	<div class="custom-control custom-radio custom-radio--large custom-control-inline">
-			  <input type="radio" id="CustomRadionLarge2" name="CustomRadio3" class="custom-control-input" checked="checked">
-			  <label class="custom-control-label" for="CustomRadionLarge2">Yes</label>
-			</div>
-			<div class="component_content__demo__description">Radio button checked</div>
-        </div>        
-        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
-	      	<div class="custom-control custom-radio custom-radio--large custom-control-inline">
-			  <input type="radio" id="CustomRadionLarge4" name="CustomRadio4" class="custom-control-input">
-			  <label class="custom-control-label" for="CustomRadionLarge4">Yes</label>
-			</div>
-			<div class="custom-control custom-radio custom-radio--large custom-control-inline">
-			  <input type="radio" id="CustomRadionLarge6" name="CustomRadio4" class="custom-control-input">
-			  <label class="custom-control-label" for="CustomRadionLarge6">No</label>
-			</div>
-			<div class="component_content__demo__description">Example of Radio button options</div>
+          <div role="radio" class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="radio_button_medium_2" name="radio_button_medium" class="custom-control-input" disabled>
+            <label class="custom-control-label" for="radio_button_medium_2">Yes</label>
+          </div>
+          <div class="component_content__demo__description">Radio button disabled</div>
         </div>
-       </div>`,
-       `<div class="row  mt-4 pb-3">
-      	<div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
-	      	<div class="custom-control custom-radio custom-radio--large custom-radio--negative custom-control-inline">
-			  <input type="radio" id="CustomRadionLarge9" name="CustomRadio3" class="custom-control-input">
-			  <label class="custom-control-label" for="CustomRadionLarge9">Yes</label>
-			</div>
-			<div class="component_content__demo__description">Radio button default state</div>
-        </div>
+
         <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
-	      	<div class="custom-control custom-radio custom-radio--large custom-radio--negative custom-control-inline">
-			  <input type="radio" id="CustomRadionLarge10" name="CustomRadio3" class="custom-control-input" checked="checked">
-			  <label class="custom-control-label" for="CustomRadionLarge10">Yes</label>
-			</div>
-			<div class="component_content__demo__description">Radio button checked</div>
-        </div>        
-        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
-	      	<div class="custom-control custom-radio custom-radio--large custom-radio--negative custom-control-inline">
-			  <input type="radio" id="CustomRadionLarge7" name="CustomRadio6" class="custom-control-input">
-			  <label class="custom-control-label" for="CustomRadionLarge7">Yes</label>
-			</div>
-			<div class="custom-control custom-radio custom-radio--large custom-radio--negative custom-control-inline">
-			  <input type="radio" id="CustomRadionLarge8" name="CustomRadio6" class="custom-control-input" checked="checked">
-			  <label class="custom-control-label" for="CustomRadionLarge8">No</label>
-			</div>
-			<div class="component_content__demo__description">Example of Radio button options</div>
+          <div role="radiogroup">
+            <div role="radio" class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="radio_button_medium_example_1" name="radio_button_medium_example" class="custom-control-input">
+              <label class="custom-control-label" for="radio_button_medium_example_1">Yes</label>
+            </div>
+            <div role="radio" class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="radio_button_medium_example_2" name="radio_button_medium_example" class="custom-control-input">
+              <label class="custom-control-label" for="radio_button_medium_example_2">No</label>
+            </div>
+          </div>
+          <div class="component_content__demo__description">Example of radio button options</div>
         </div>
-       </div>`,
+      </div>
+
+       <hr />
+
+       <div class="row">
+         <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+           <h4 tabindex="0">Radio button large</h4>
+         </div>
+       </div>
+
+      <div class="row mt-4 pb-3">
+
+        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+          <div role="radio" class="custom-control custom-radio custom-radio--large custom-control-inline">
+            <input type="radio" id="radio_button_large_1" name="radio_button_large" class="custom-control-input">
+            <label class="custom-control-label" for="radio_button_large_1">Yes</label>
+          </div>
+          <div class="component_content__demo__description">Radio button default state</div>
+        </div>
+
+        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+          <div role="radio" class="custom-control custom-radio custom-radio--large custom-control-inline">
+            <input disabled type="radio" id="radio_button_large_2" name="radio_button_large" class="custom-control-input">
+            <label class="custom-control-label" for="radio_button_large_2">Yes</label>
+          </div>
+          <div class="component_content__demo__description">Radio button disabled</div>
+        </div>
+
+        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+          <div role="radiogroup">
+            <div role="radio" class="custom-control custom-radio custom-radio--large custom-control-inline">
+              <input type="radio" id="radio_button_large_example_1" name="radio_button_large_example" class="custom-control-input">
+              <label class="custom-control-label" for="radio_button_large_example_1">Yes</label>
+            </div>
+            <div role="radio" class="custom-control custom-radio custom-radio--large custom-control-inline">
+              <input type="radio" id="radio_button_large_example_2" name="radio_button_large_example" class="custom-control-input">
+              <label class="custom-control-label" for="radio_button_large_example_2">No</label>
+            </div>
+          </div>
+          <div class="component_content__demo__description">Example of Radio button options</div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="component_content__negative_content">
+        <div class="row">
+          <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+            <h4 tabindex="0">Radio button negative</h4>
+          </div>
+        </div>
+
+       <div class="row mt-4 pb-3">
+
+         <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+           <div role="radio" class="custom-control custom-radio custom-radio--negative custom-control-inline">
+             <input type="radio" id="radio_button_large_negative_1" name="radio_button_large_negative" class="custom-control-input">
+             <label class="custom-control-label" for="radio_button_large_negative_1">Yes</label>
+           </div>
+           <div class="component_content__demo__description">Radio button default state</div>
+         </div>
+
+         <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+           <div role="radio" class="custom-control custom-radio custom-radio--negative custom-control-inline">
+             <input disabled type="radio" id="radio_button_large_negative_2" name="radio_button_large_negative" class="custom-control-input">
+             <label class="custom-control-label" for="radio_button_large_negative_2">Yes</label>
+           </div>
+           <div class="component_content__demo__description">Radio button disabled</div>
+         </div>
+
+         <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+           <div role="radiogroup">
+             <div role="radio" class="custom-control custom-radio custom-radio--negative custom-control-inline">
+               <input type="radio" id="radio_button_large_negative_example_1" name="radio_button_large_negative_example" class="custom-control-input">
+               <label class="custom-control-label" for="radio_button_large_negative_example_1">Yes</label>
+             </div>
+             <div role="radio" class="custom-control custom-radio custom-radio--negative custom-control-inline">
+               <input type="radio" id="radio_button_large_negative_example_2" name="radio_button_large_negative_example" class="custom-control-input">
+               <label class="custom-control-label" for="radio_button_large_negative_example_2">No</label>
+             </div>
+           </div>
+           <div class="component_content__demo__description">Example of Radio button options</div>
+         </div>
+       </div>
+     </div>
+       `,
 
     ];
 
 
     this.codeSnippets = [
 
-`<label for="city">City</label>
-<input type="text" class="form-control" id="city" aria-describedby="city" placeholder="City">
+`<!-- Empty input -->
 <label for="city">City</label>
-<input type="text" class="form-control" id="city" aria-describedby="city" value="Houston">
+<input type="text" class="form-control" id="city" aria-describedby="city" placeholder="City">
+
+<!-- Disabled input -->
 <label for="city">City</label>
 <input disabled type="text" class="form-control" id="city" aria-describedby="city" placeholder="City">`,
 
-`<div class="input-group input-group--quicksearch">
-	<input type="text" class="form-control" placeholder="Enter address, city or zip code" aria-label="Enter address, city or zip code" aria-describedby="basic-addon2">
-	<div class="input-group-append">
-	    <button class="btn btn-prominent" type="button"><img class="pl-2 pr-2" src="https://content.harstatic.com/resource_2019/imgs/home/search_white_small.svg"></button>
-	</div>	          
+`<!-- Map search input -->
+{ under development }
+
+<!-- Home search input -->
+<div class="input-group input-group--search_input_home">
+  <input type="text" class="form-control" placeholder="Enter address, city or zip code" aria-label="Enter address, city or zip code">
+  <div class="input-group-append">
+    <button class="btn btn--prominent" type="button"></button>
+  </div>
 </div>`,
 
-`<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="customRadioInline1" name="CustomRadio" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline1">Yes</label>
+`<!-- Radio button medium -->
+<div role="radiogroup">
+  <div role="radio" class="custom-control custom-radio custom-control-inline">
+    <input type="radio" id="example_radio_button_1" name="example_radio_button" class="custom-control-input">
+    <label class="custom-control-label" for="example_radio_button_1">Yes</label>
+  </div>
+  <div role="radio" class="custom-control custom-radio custom-control-inline">
+    <input type="radio" id="example_radio_button_2" name="example_radio_button" class="custom-control-input">
+    <label class="custom-control-label" for="example_radio_button_2">No</label>
+  </div>
+</div>
+
+<!-- Radio button large -->
+<div role="radiogroup">
+  <div role="radio" class="custom-control custom-radio custom-radio--large custom-control-inline">
+    <input type="radio" id="example_radio_button_large_1" name="example_radio_button_large" class="custom-control-input">
+    <label class="custom-control-label" for="example_radio_button_large_1">Yes</label>
+  </div>
+  <div role="radio" class="custom-control custom-radio custom-radio--large custom-control-inline">
+    <input type="radio" id="example_radio_button_large_2" name="example_radio_button_large" class="custom-control-input">
+    <label class="custom-control-label" for="example_radio_button_large_2">No</label>
+  </div>
+</div>
+
+<!-- Radio button negative -->
+<div role="radiogroup">
+  <div role="radio" class="custom-control custom-radio custom-radio--negative custom-control-inline">
+    <input type="radio" id="example_radio_button_large_1" name="example_radio_button_large" class="custom-control-input">
+    <label class="custom-control-label" for="example_radio_button_large_1">Yes</label>
+  </div>
+  <div role="radio" class="custom-control custom-radio custom-control-inline">
+    <input type="radio" id="example_radio_button_large_2" name="example_radio_button_large" class="custom-control-input">
+    <label class="custom-control-label" for="example_radio_button_large_2">No</label>
+  </div>
 </div>`,
 
-`<div class="custom-control custom-radio custom-radio--large custom-control-inline">
-  <input type="radio" id="CustomRadionLarge10" name="CustomRadio3" class="custom-control-input" checked="checked">
-  <label class="custom-control-label" for="CustomRadionLarge10">Yes</label>
-</div>`,
-
-`<div class="custom-control custom-radio custom-radio--large custom-radio--negative custom-control-inline">
-  <input type="radio" id="CustomRadionLarge10" name="CustomRadio3" class="custom-control-input" checked="checked">
-  <label class="custom-control-label" for="CustomRadionLarge10">Yes</label>
-</div>`
-			
     ];
 
   }
@@ -175,15 +262,13 @@ export default class Forms extends Component {
   render(){
     return (
       <TemplateDefault
-        pageTitle="Forms"
+        pageTitle="Form Elements"
         activeParent="components"
-        activeChild="forms">
+        activeChild="form_elements">
 
         <TemplateComponentBlock blockTitle="Input" elements={this.elements[0]} codeSnippets={this.codeSnippets[0]} />
-        <TemplateComponentBlock blockTitle="Search Input" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
-        <TemplateComponentBlock blockTitle="Radio Button" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
-        <TemplateComponentBlock blockTitle="Radio Button Large" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
-        <TemplateComponentBlock blockTitle="Radio Button Large Negative" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
+        <TemplateComponentBlock blockTitle="Search input" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
+        <TemplateComponentBlock blockTitle="Radio button" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
 
       </TemplateDefault>
     )

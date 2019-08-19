@@ -1,11 +1,10 @@
-
 /* form label */
 label {
 	color: $color-auxiliary;
 	font-size: $font-size-small;
 	font-weight: $font-weight-bold;
-	text-align:left;
-	display:block;
+	text-align: left;
+	display: block;
 }
 
 /* form control */
@@ -15,13 +14,14 @@ label {
 	color: $color-har-blue !important;
 	height: 40px;
 	padding:12px;
-	
+
 	&::placeholder {
 		color: $color-slate-light;
 	}
-	
+
 	&:disabled,
 	&[readonly] {
+		cursor: not-allowed;
 		background-color: $color-cloudy-sky-light;
 		opacity: 0.75;
 	}
@@ -29,29 +29,38 @@ label {
 
 /* form input quick search */
 .input-group {
-	
-	&--quicksearch {
+
+	&--search_input_home {
 		margin-bottom: 20px;
-		
+
 		.form-control {
-			height: 73px;
-			font-size:18px;
-			padding:26px;
-			border-radius: 5px;
-			
+			height: 74px;
+			font-size: 18px;
+			padding: 0 24px;
+			border-radius: 4px;
+
 			&::placeholder {
 				color: $color-auxiliary-light;
 			}
-			
+
 			&:focus {
-		    	border-color: $color-har-blue;
-		    	box-shadow: 0 0 0 0 rgba(0,0,0, 0.0);
-		    }
+	    	border-color: $color-har-blue;
+	    	box-shadow: 0 0 0 0 rgba(0,0,0, 0.0);
+	    }
 		}
-		
+
 		.btn {
-			height: 71px;
-			border-radius: 5px;
+			height: 72px;
+			width: 72px;
+			background-image: url("https://content.harstatic.com/resource_2019/imgs/home/search_white_small.svg") !important;
+			background-repeat: no-repeat !important;
+			background-position: center !important;
+			background-size: 20px 20px !important;
+
+			&:active {
+				height: 74px;
+		    transform: translate(0, 0);
+		  }
 		}
 	}
 
@@ -59,7 +68,7 @@ label {
 
 /* input radio */
 .custom-radio {
-  .custom-control-label{
+  .custom-control-label {
 	  color: $color-carbon;
 	  font-size:12px;
 	  font-weight: $font-weight-regular;
@@ -84,12 +93,17 @@ label {
       background-image:url("https://content.harstatic.com/resource_2019/imgs/home/radiosimple_checked.svg");
     }
   }
-  
+
+	.custom-control-input:disabled ~ .custom-control-label {
+		cursor: not-allowed !important;
+	}
+
   .custom-control-input:disabled {
     &:checked ~ .custom-control-label::before {
-      
+
     }
   }
+
   &--large {
 	  .custom-control-label{
 		  font-size:18px;
@@ -98,14 +112,33 @@ label {
 		  line-height: normal;
 		  font-weight: $font-weight-regular;
 		  margin:0px 15px 10px 0px;
-	  }	  
-  }  
+	  }
+  }
+
   &--negative {
-	  .custom-control-label{
-		  font-weight: $font-weight-bold;
-		  color: $color-auxiliary-light;
-		  font-weight: $font-weight-semi-bold;
-		  margin:0px 15px 10px 0px;
-  		}
-  	}
+		.custom-control-label{
+			font-weight: $font-weight-bold;
+			color: $color-auxiliary-light;
+			font-weight: $font-weight-semi-bold;
+			margin:0px 15px 10px 0px;
+		}
+
+		.custom-control-input:checked ~ .custom-control-label {
+	    color: $color-snow-white !important
+	  }
+
+		.custom-control-input:disabled ~ .custom-control-label {
+			color: $color-auxiliary-light !important;
+			opacity: 0.45;
+		}
+
+		.custom-control-label::before {
+	    background-color: transparent;
+	    background-image: url("https://content.harstatic.com/resource_2019/imgs/home/radiosimple.svg");
+		}
+
+		.custom-control-input:disabled ~ .custom-control-label::before {
+			background-color: inherit !important;
+		}
+	}
 }
