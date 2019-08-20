@@ -7,7 +7,7 @@
 		overflow: hidden;
 		margin-bottom: 30px;
 		
-		.content {
+		&__content {
 			background-color: $color-snow-white;
 			height: 120px;
 			overflow: hidden;
@@ -16,7 +16,7 @@
 			color: $color-auxiliary;
 		}
 		
-		.text { 
+		&__text { 
 			color: $color-auxiliary;
 			font-size: $font-size-small;
 			line-height: 18px;
@@ -30,7 +30,7 @@
 		margin-bottom:22px;
 		margin-right:26px;
 		
-		.content {
+		&__content {
 			height:100px;
 			margin-top:190px;
 			padding:16px;

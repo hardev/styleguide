@@ -12,18 +12,18 @@ export default class ListingCards extends Component {
       `<div class="row text-left">
         <div class="col-6">
 			<a href="#" class="card card--badge_horizental depth depth--emboss text-decoration-none" style="background-image:url(https://content.harstatic.com/resource_2019/imgs/temprary/badges.jpg);">
-				<div class="content">
+				<div class="card--badge_horizental__content">
 					<div class="font_size--large font_weight--bold mb-2 color_black">Open House</div>
-					<span class="text">Pay a visit to several properties open for you</span>
+					<span class="card--badge_horizental__text">Pay a visit to several properties open for you</span>
 				</div>
 			</a>
 		</div>
 		
 		<div class="col-6">
 			<a href="#" class="card card--badge_horizental depth depth--emboss text-decoration-none" style="background-image:url(https://content.harstatic.com/resource_2019/imgs/temprary/badges.jpg);">
-				<div class="content">
+				<div class="card--badge_horizental__content">
 					<div class="font_size--large font_weight--bold mb-2 color_black">Open House</div>
-					<span class="text">Pay a visit to several properties open for you</span>
+					<span class="card--badge_horizental__text">Pay a visit to several properties open for you</span>
 				</div>
 			</a>
 		</div>
@@ -31,31 +31,31 @@ export default class ListingCards extends Component {
       
       `<div class="row text-left">
         <div class="col-3">
-			<a href="#" class="card card--badge_vertical depth depth--emboss border_radius--default" style="background-image:url(https://content.harstatic.com/resource_2019/imgs/temprary/city_badge2.jpg);">
-				<div class="content">
+			<a href="#" class="card card--badge_vertical depth depth--emboss border_radius--default text-decoration-none" style="background-image:url(https://content.harstatic.com/resource_2019/imgs/temprary/city_badge2.jpg);">
+				<div class="card--badge_vertical__content">
 					<div class="font_size--medium font_weight--bold mb-2 text-decoration-none color_black d-block" tabindex="0">Houston</div>
-					<div class="text mb-1"><span class="color_carbon font_weight--bold">5,803</span> Homes for Sale</div>
-					<div class="text"><span class="color_carbon font_weight--bold">$506K</span> Avg. price</div>
+					<div class="card--badge_vertical__text mb-1"><span class="color_carbon font_weight--bold">5,803</span> Homes for Sale</div>
+					<div class="card--badge_vertical__text"><span class="color_carbon font_weight--bold">$506K</span> Avg. price</div>
 				</div>
 			</a>
 		</div>
 		
 		<div class="col-3">
-			<a href="#" class="card card--badge_vertical depth depth--emboss border_radius--default" style="background-image:url(https://content.harstatic.com/resource_2019/imgs/temprary/city_badge2.jpg);">
-				<div class="content">
+			<a href="#" class="card card--badge_vertical depth depth--emboss border_radius--default text-decoration-none" style="background-image:url(https://content.harstatic.com/resource_2019/imgs/temprary/city_badge2.jpg);">
+				<div class="card--badge_vertical__content">
 					<div class="font_size--medium font_weight--bold mb-2 text-decoration-none color_black d-block" tabindex="0">Houston</div>
-					<div class="text mb-1"><span class="color_carbon font_weight--bold">5,803</span> Homes for Sale</div>
-					<div class="text"><span class="color_carbon font_weight--bold">$506K</span> Avg. price</div>
+					<div class="card--badge_vertical__text mb-1"><span class="color_carbon font_weight--bold">5,803</span> Homes for Sale</div>
+					<div class="card--badge_vertical__text"><span class="color_carbon font_weight--bold">$506K</span> Avg. price</div>
 				</div>
 			</a>
 		</div>
 		
 		<div class="col-3">
-			<a href="#" class="card card--badge_vertical depth depth--emboss border_radius--default" style="background-image:url(https://content.harstatic.com/resource_2019/imgs/temprary/city_badge2.jpg);">
-				<div class="content">
+			<a href="#" class="card card--badge_vertical depth depth--emboss border_radius--default text-decoration-none" style="background-image:url(https://content.harstatic.com/resource_2019/imgs/temprary/city_badge2.jpg);">
+				<div class="card--badge_vertical__content">
 					<div class="font_size--medium font_weight--bold mb-2 text-decoration-none color_black d-block" tabindex="0">Houston</div>
-					<div class="text mb-1"><span class="color_carbon font_weight--bold">5,803</span> Homes for Sale</div>
-					<div class="text"><span class="color_carbon font_weight--bold">$506K</span> Avg. price</div>
+					<div class="card--badge_vertical__text mb-1"><span class="color_carbon font_weight--bold">5,803</span> Homes for Sale</div>
+					<div class="card--badge_vertical__text"><span class="color_carbon font_weight--bold">$506K</span> Avg. price</div>
 				</div>
 			</a>
 		</div>
@@ -68,18 +68,18 @@ export default class ListingCards extends Component {
 
 `<!-- Card Badge Horizental -->
 <a href="#" class="card card--badge_horizental depth depth--emboss text-decoration-none" style="background-image:url(https://content.harstatic.com/resource_2019/imgs/temprary/badges.jpg);">
-	<div class="content">
+	<div class="card--badge_horizental__content">
 		<div class="font_size--large font_weight--bold mb-2 color_black">Open House</div>
-		<span class="text">Pay a visit to several properties open for you</span>
+		<span class="card--badge_horizental__text">Pay a visit to several properties open for you</span>
 	</div>
 </a>`,
 
 `<!-- Card Badge Vertical -->
-<a href="#" class="card card--badge_vertical depth depth--emboss border_radius--default" style="background-image:url(https://content.harstatic.com/resource_2019/imgs/temprary/city_badge2.jpg);">
-	<div class="content">
+<a href="#" class="card card--badge_vertical depth depth--emboss border_radius--default text-decoration-none" style="background-image:url(https://content.harstatic.com/resource_2019/imgs/temprary/city_badge2.jpg);">
+	<div class="card--badge_vertical__content">
 		<div class="font_size--medium font_weight--bold mb-2 text-decoration-none color_black d-block" tabindex="0">Houston</div>
-		<div class="text mb-1"><span class="color_carbon font_weight--bold">5,803</span> Homes for Sale</div>
-		<div class="text"><span class="color_carbon font_weight--bold">$506K</span> Avg. price</div>
+		<div class="card--badge_vertical__text mb-1"><span class="color_carbon font_weight--bold">5,803</span> Homes for Sale</div>
+		<div class="card--badge_vertical__text"><span class="color_carbon font_weight--bold">$506K</span> Avg. price</div>
 	</div>
 </a>`,
 
