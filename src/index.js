@@ -14,6 +14,7 @@ import AgentSignatures from './routes/Components/AgentSignatures';
 import Buttons from './routes/Components/Buttons';
 import FilterPills from './routes/Components/FilterPills';
 import FormElements from './routes/Components/FormElements';
+import Cards from './routes/Components/Cards';
 import ListingCards from './routes/Components/ListingCards';
 import ListingStatusTags from './routes/Components/ListingStatusTags';
 import Popovers from './routes/Components/Popovers';
@@ -39,6 +40,7 @@ ReactDOM.render(
       <Route path="/components/buttons" component={Buttons} />
       <Route path="/components/filter_pills" component={FilterPills} />
       <Route path="/components/form_elements" component={FormElements} />
+      <Route path="/components/cards" component={Cards} />
       <Route path="/components/listing_cards" component={ListingCards} />
       <Route path="/components/listing_status_tags" component={ListingStatusTags} />
       <Route path="/components/popovers" component={Popovers} />

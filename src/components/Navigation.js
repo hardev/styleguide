@@ -26,7 +26,7 @@ export default class Header extends Component {
 
 	toggleMenu() {
 		let auxState;
-		if (this.state.isMobileMenuOn == '') { 
+		if (this.state.isMobileMenuOn == '') {
 			auxState = 'menu_open';
 		} else {
 			auxState = '';
@@ -127,6 +127,9 @@ export default class Header extends Component {
                   </li>
                   <li className={`li ${this.props.activeChild == 'listing_cards' ? 'li--active' : ''} `}>
                     <Link to="/components/listing_cards">Listing Cards</Link>
+                  </li>
+                  <li className={`li ${this.props.activeChild == 'cards' ? 'li--active' : ''} `}>
+                    <Link to="/components/cards">Cards (Others)</Link>
                   </li>
                   <li className={`li ${this.props.activeChild == 'listing_status_tags' ? 'li--active' : ''} `}>
                     <Link to="/components/listing_status_tags">Listing Status Tags</Link>
