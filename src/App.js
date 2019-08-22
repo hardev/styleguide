@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import TemplateDefault from './components/TemplateDefault';
 
 import Bootstrap from 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
 import './assets/stylesheets/main.scss';
 import './assets/stylesheets/design_system_website.scss';
 

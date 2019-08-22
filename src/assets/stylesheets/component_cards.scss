@@ -1,5 +1,5 @@
 .card {
-	display: block;
+	display: block !important;
 	border-radius: 4px;
 	overflow: hidden;
 
@@ -16,8 +16,12 @@
 	margin-bottom: 30px;
 	background-color: $color-snow-white;
 
-	&:hover {
-		border: 1px solid $color-auxiliary-light;
+	// &--landscape_large,
+	&--landscape_medium,
+	&--portrait_medium {
+		&:hover {
+			border: 1px solid $color-auxiliary-light;
+		}
 	}
 
 	&--landscape_large,
@@ -31,7 +35,7 @@
 	}
 
 	&:hover & {
-		&--landscape_large,
+		// &--landscape_large,
 		&--landscape_medium,
 		&--portrait_medium {
 			&__image_content {
@@ -64,6 +68,12 @@
 				height: 88px;
 		  }
 
+			a {
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+
 			&__image {
 				width: 100%;
 				height: 100%;
@@ -92,6 +102,15 @@
 			margin-bottom: 4px;
 			color: $color-carbon;
 
+			a {
+				color: $color-carbon;
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+
 			@media screen and (max-width: 768px) {
 				font-size: $font-size-medium;
 		    line-height: 16px;
@@ -109,18 +128,25 @@
 	&--landscape_large {
 		position: relative;
 		min-height: 192px;
-		
+
 		&__image_content {
 			width: 264px;
-			height: 100%;			
+			height: 100%;
 			position:absolute;
 			top: 0px;
-			bottom: 0px;		
+			bottom: 0px;
+
 			@media screen and (max-width: 650px) {
 		    width: 100%;
 		    position: static;
-			height: 170px;
+				height: 170px;
 		  }
+
+			&__image {
+				&:hover {
+					transform: scale(1.05, 1.05);
+				}
+			}
 		}
 
 		&__content {
@@ -128,21 +154,21 @@
 			float: right;
 			padding: 24px;
 			@media screen and (max-width: 650px) {
-		    	width: 100%;
-		    	height: inherit;
-		    	float: none;
-		    	clear: both;			
+	    	width: 100%;
+	    	height: inherit;
+	    	float: none;
+	    	clear: both;
 		  }
 		}
-		
+
 		&__text {
 			color: $color-auxiliary;
 			font-size: $font-size-medium;
 			line-height: 20px;
 		}
-		
+
 	}
-	
+
 	&--portrait_medium {
 		&__image_content {
 			width: 100%;
