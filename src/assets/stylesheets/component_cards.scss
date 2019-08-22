@@ -20,6 +20,7 @@
 		border: 1px solid $color-auxiliary-light;
 	}
 
+	&--landscape_large,
 	&--landscape_medium,
 	&--portrait_medium {
 		&__image_content {
@@ -30,6 +31,7 @@
 	}
 
 	&:hover & {
+		&--landscape_large,
 		&--landscape_medium,
 		&--portrait_medium {
 			&__image_content {
@@ -45,6 +47,7 @@
 		box-shadow: none !important;
 	}
 
+	&--landscape_large,
 	&--landscape_medium {
 		&__image_content {
 			float: left;
@@ -58,7 +61,7 @@
 
 			@media screen and (max-width: 768px) {
 		    width: 40%;
-				height: 80px;
+				height: 88px;
 		  }
 
 			&__image {
@@ -78,7 +81,7 @@
 
 			@media screen and (max-width: 768px) {
 		    width: 60%;
-				padding: 16px 16px 0 16px;
+				padding: 16px;
 		  }
 		}
 
@@ -100,12 +103,46 @@
 			font-size: $font-size-small;
 			line-height: 18px;
 
-			@media screen and (max-width: 768px) {
-		    display: none;
-		  }
 		}
 	}
 
+	&--landscape_large {
+		position: relative;
+		min-height: 192px;
+		
+		&__image_content {
+			width: 264px;
+			height: 100%;			
+			position:absolute;
+			top: 0px;
+			bottom: 0px;		
+			@media screen and (max-width: 650px) {
+		    width: 100%;
+		    position: static;
+			height: 170px;
+		  }
+		}
+
+		&__content {
+			width: calc(100% - 264px);
+			float: right;
+			padding: 24px;
+			@media screen and (max-width: 650px) {
+		    	width: 100%;
+		    	height: inherit;
+		    	float: none;
+		    	clear: both;			
+		  }
+		}
+		
+		&__text {
+			color: $color-auxiliary;
+			font-size: $font-size-medium;
+			line-height: 20px;
+		}
+		
+	}
+	
 	&--portrait_medium {
 		&__image_content {
 			width: 100%;

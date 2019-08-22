@@ -27,7 +27,27 @@ export default class ListingCards extends Component {
             </div>
           </a>
         </div>
-      </div>`,
+      </div>
+      
+      <div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Landscape large</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-sm-12 col-12 mb-0 pb-0">
+          <div class="card card--landscape_large">
+            <div class="card--landscape_large__image_content">
+              <div class="card--landscape_large__image_content__image" style="background-image: url(https://content.harstatic.com/resource_2019/imgs/temprary/badges.jpg);"></div>
+            </div>
+            <div class="card--landscape_large__content">
+              <h5>Home prices are so high, pending sales have dropped for 7 months in a row</h5>
+              <div class="card--landscape_large__text pt-3">The National Association of Realtors blames years of inadequate housing supply and consistent home price growth in hot job markets. Pending home sales dropped 0.7 percent month-over-month and 2.3 percent year-over-year to 106.2. the seventh consecutive month of…<a href="#" class="font_weight--semi_bold">Read more</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      `,
 
       `<div class="row">
         <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
@@ -64,7 +84,18 @@ export default class ListingCards extends Component {
     <h5>Open House</h5>
     <div class="card--landscape_medium__text">Pay a visit to several properties open for you</div>
   </div>
-</a>`,
+</a>
+
+<div class="card card--landscape_large">
+	<div class="card--landscape_large__image_content">
+	  <div class="card--landscape_large__image_content__image" style="background-image: url(https://content.harstatic.com/resource_2019/imgs/temprary/badges.jpg);"></div>
+	</div>
+	<div class="card--landscape_large__content">
+	  <h5>Home prices are so high, pending sales have dropped for 7 months in a row</h5>
+	  <div class="card--landscape_large__text pt-3">The National Association of Realtors blames years of inadequate housing supply and consistent home price growth in hot job markets. Pending home sales dropped 0.7 percent month-over-month and 2.3 percent year-over-year to 106.2. the seventh consecutive month of…<a href="#" class="font_weight--semi_bold">Read more</a></div>
+	</div>
+</div>
+`,
 
 `<!--
 Noticed that there is a specific container that changes gutter size
