@@ -244,6 +244,78 @@ export default class Typography extends Component {
         </div>
         <div class="clear_both"></div>
       </div>`,
+
+      `<div class="component_content__negative_content">
+        <div class="row">
+          <div class="col col-12">
+
+            <h1 tabindex="0" class="h1--negative" style="margin-bottom: 0;">
+              Find your home in Texas
+            </h1>
+
+            <div class="component_content__demo__description">
+              H1 – Main page
+            </div>
+          </div>
+          <div class="clear_both"></div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col col-12">
+
+            <h1 tabindex="0" class="h1--inner_page h1--negative" style="margin-bottom: 0;">
+              Find real estate agents
+            </h1>
+
+            <div class="component_content__demo__description">
+              H1 – Inner page
+            </div>
+          </div>
+          <div class="clear_both"></div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col col-12">
+
+            <h2 tabindex="0" class="h2--negative" style="margin-bottom: 0;">
+              Latest real estate blog posts
+            </h2>
+
+            <div class="component_content__demo__description">
+              H2
+            </div>
+          </div>
+          <div class="clear_both"></div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col col-12">
+
+            <h3 tabindex="0" class="h3--negative" style="margin-bottom: 0;">
+              Resources links
+            </h3>
+
+            <div class="component_content__demo__description">
+              H3
+            </div>
+          </div>
+          <div class="clear_both"></div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col col-12">
+
+            <h4 tabindex="0" class="h4--negative" style="margin-bottom: 0;">
+              Sahar Mutammara
+            </h4>
+
+            <div class="component_content__demo__description">
+              H4
+            </div>
+          </div>
+          <div class="clear_both"></div>
+        </div>
+      </div>`,
     ];
 
 
@@ -289,6 +361,12 @@ export default class Typography extends Component {
 <h2 tabindex="0">Latest real estate blog posts</h2>
 <h3 tabindex="0">Resources links</h3>
 <h4 tabindex="0">Sahar Mutammara</h4>`,
+
+`<h1 tabindex="0" class="h1--negative">Find your home in Texas</h1>
+<h1 tabindex="0" class="h1--inner_page h1--negative">Find real estate agents</h1>
+<h2 tabindex="0" class="h2--negative">Latest real estate blog posts</h2>
+<h3 tabindex="0" class="h3--negative">Resources links</h3>
+<h4 tabindex="0" class="h4--negative">Sahar Mutammara</h4>`,
     ];
 
   }
@@ -305,6 +383,7 @@ export default class Typography extends Component {
         <TemplateComponentBlock blockTitle="Font sizes" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
         <TemplateComponentBlock blockTitle="Font weights" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
         <TemplateComponentBlock blockTitle="Headings" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
+        <TemplateComponentBlock blockTitle="Negative headings" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
 
       </TemplateDefault>
     )
