@@ -247,7 +247,7 @@ export default class Typography extends Component {
 
       `<div class="component_content__negative_content">
         <div class="row">
-          <div class="col col-12">
+          <div class="col col-12 text-left">
 
             <h1 tabindex="0" class="h1--negative" style="margin-bottom: 0;">
               Find your home in Texas
@@ -261,7 +261,7 @@ export default class Typography extends Component {
         </div>
         <hr />
         <div class="row">
-          <div class="col col-12">
+          <div class="col col-12 text-left">
 
             <h1 tabindex="0" class="h1--inner_page h1--negative" style="margin-bottom: 0;">
               Find real estate agents
