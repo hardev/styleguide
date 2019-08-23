@@ -175,7 +175,7 @@ export default class Typography extends Component {
         <div class="clear_both"></div>
       </div>`,
 
-      `<div class="row">
+      `<div class="row text-left">
         <div class="col col-12">
 
           <h1 tabindex="0" style="margin-bottom: 0;">
@@ -189,7 +189,7 @@ export default class Typography extends Component {
         <div class="clear_both"></div>
       </div>
       <hr />
-      <div class="row">
+      <div class="row text-left">
         <div class="col col-12">
 
           <h1 tabindex="0" class="h1--inner_page" style="margin-bottom: 0;">

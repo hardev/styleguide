@@ -56,7 +56,6 @@
 
 /* Headings */
 h1 {
-  text-align: left !important;
   cursor: default;
   font-weight: $font-weight-bold;
   color: $color-har-blue-dark;
@@ -67,12 +66,20 @@ h1 {
     letter-spacing: -1.4px;
     margin-bottom: 64px;
   // }
-
+  
+  @media screen and (max-width: 576px) {
+	  font-size: $font-size-large-extra-extra-extra;
+  }
+			
   &.h1--inner_page {
     font-size: $font-size-large-extra-extra-extra;
     line-height: 40px;
     letter-spacing: -0.8px;
     margin-bottom: 40px;
+    
+    @media screen and (max-width: 576px) {
+	  font-size: $font-size-large-extra-extra;
+    }
   }
 
   &.h1--negative {
@@ -90,6 +97,10 @@ h2 {
   line-height: 32px;
   letter-spacing: -0.4px;
   margin-bottom: 24px;
+  
+  @media screen and (max-width: 576px) {
+	  font-size: $font-size-large-extra;
+  }
 
   &:before {
     content: "";
