@@ -12,7 +12,7 @@ label {
 	border: 1px solid $color-auxiliary-light;
 	font-size: $font-size-medium;
 	color: $color-har-blue !important;
-	height: 40px;
+	height: 40px !important;
 	padding:12px;
 
 	&::placeholder {
@@ -34,7 +34,7 @@ label {
 		margin-bottom: 20px;
 
 		.form-control {
-			height: 74px;
+			height: 74px !important;
 			font-size: 18px;
 			padding: 0 24px;
 			border-radius: 4px;
@@ -68,6 +68,11 @@ label {
 
 /* input radio */
 .custom-radio {
+  .custom-control-input {
+  	left: -0px;
+  	top: 4px;
+  	z-index: 1;
+  }
   .custom-control-label {
 	  color: $color-carbon;
 	  font-size:12px;
@@ -142,3 +147,103 @@ label {
 		}
 	}
 }
+
+/* cusotm select */
+.custom-select {
+	border: 1px solid red;
+	background: url("https://content.harstatic.com/resource_2019/imgs/icons/select_arrow.svg")no-repeat right 0.75rem center/10px 9px !important;
+	color: $color-slate-light;
+	
+	&_large{ 
+		height: 40px !important;
+		font-size: $font-size-medium !important;
+	}
+	
+	&_medium{ 
+		height: 32px !important;
+		font-size: $font-size-small !important;
+	}
+}
+
+/* custom checkbox */
+.custom-checkbox {
+	padding-left: 0px !important;
+	
+	&--choosable_box{
+		position: relative;
+		
+		.custom-control-label{
+			border: 1px solid $color-cloudy-sky;
+			border-radius: 4px;
+			height: 48px;
+			overflow: hidden;
+			display: inline-block;
+			margin: 2px;
+			font-size: $font-size-small-extra;
+			text-align: center;
+			cursor:pointer;
+			min-width: 128px;
+			color: $color-carbon;
+			font-weight: $font-weight-semi-bold;
+			padding-bottom: 7px;
+			position: relative;
+			padding-top: 26px;
+			
+			&:before { 
+				background-color: transparent !important;
+				background: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Single_Family.svg) center center no-repeat;
+				display: block;
+				position: absolute;
+				content: "";
+				width: 32px;
+				height: 16px;
+				margin-top: 2px;
+				margin-bottom: 3px;
+				left:50%;
+				top: 5px;
+				margin-left: -16px;
+				border:none;
+			}
+		}
+	}
+
+	.custom-control-input:disabled ~ .custom-control-label,
+	.custom-control-input:checked ~ .custom-control-label {
+		border-color: $color-har-blue;
+		background: $color-har-blue-light-extra;
+		color: $color-har-blue;
+		&:before { 
+			background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Single_Family_On.svg);
+		}
+	}
+	
+	.custom-control-input:disabled ~ .custom-control-label {
+		opacity: 0.5;
+	}
+
+}
+
+#SingleFamily .custom-control-label:before{background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Single_Family.svg);}
+#MultiFamily .custom-control-label:before{background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Multi_Family.svg);}
+#Townhouse .custom-control-label:before{background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Townhouse.svg);}
+#Condominium .custom-control-label:before{background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Condominium.svg);}
+#LotsLands .custom-control-label:before{background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_LotsLands.svg);}
+#AcreageHomes .custom-control-label:before{background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_AcreageHomes.svg);}
+
+#SingleFamily .custom-control-input:disabled ~ .custom-control-label:before,
+#SingleFamily .custom-control-input:checked ~ .custom-control-label:before {background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Single_Family_On.svg);}
+#MultiFamily .custom-control-input:disabled ~ .custom-control-label:before,
+#MultiFamily .custom-control-input:checked ~ .custom-control-label:before {background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Multi_Family_On.svg);}
+#Townhouse .custom-control-input:disabled ~ .custom-control-label:before,
+#Townhouse .custom-control-input:checked ~ .custom-control-label:before {background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Townhouse_On.svg);}
+#Condominium .custom-control-input:disabled ~ .custom-control-label:before,
+#Condominium .custom-control-input:checked ~ .custom-control-label:before {background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Condominium_On.svg);}
+#LotsLands .custom-control-input:disabled ~ .custom-control-label:before,
+#LotsLands .custom-control-input:checked ~ .custom-control-label:before {background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_LotsLands_On.svg);}
+#AcreageHomes .custom-control-input:disabled ~ .custom-control-label:before,
+#AcreageHomes .custom-control-input:checked ~ .custom-control-label:before {background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_AcreageHomes_On.svg);}
+
+
+
+
+

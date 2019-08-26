@@ -194,6 +194,57 @@ export default class Forms extends Component {
        </div>
      </div>
        `,
+       `<div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Select Menu</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+          <select class="custom-select custom-select_large">
+		    <option selected>Sort By</option>
+		    <option value="1">One</option>
+		    <option value="2">Two</option>
+		    <option value="3">Three</option>
+		  </select>
+          <div class="component_content__demo__description">Large Select Menu</div>
+        </div>
+        <div class="col col-sm-3 col-12 pr-sm-5 pl-sm-5">
+          <select class="custom-select custom-select_medium">
+		    <option selected>Sort By</option>
+		    <option value="1">One</option>
+		    <option value="2">Two</option>
+		    <option value="3">Three</option>
+		  </select>
+          <div class="component_content__demo__description">Medium Select Menu</div>
+        </div>
+       </div>
+      `,
+       `<div class="row">
+        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+			<div id="SingleFamily" class="custom-control custom-checkbox custom-checkbox--choosable_box">
+			  <input type="checkbox" class="custom-control-input" id="customCheckDisabled">
+			  <label class="custom-control-label" for="customCheckDisabled">Multi Family</label>
+			</div>
+          <div class="component_content__demo__description">Choosable Checkbox</div>
+        </div>
+        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+          	<div id="MultiFamily" class="custom-control custom-checkbox custom-checkbox--choosable_box">
+			  <input type="checkbox" class="custom-control-input" id="customcheckbox" checked="checked">
+			  <label class="custom-control-label" for="customcheckbox">Multi Family</label>
+			</div>
+			<div class="component_content__demo__description">Choosable Checkbox Checked</div>
+        </div>
+        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+          	<div id="Townhouse" class="custom-control custom-checkbox custom-checkbox--choosable_box">
+			  <input type="checkbox" class="custom-control-input" id="customcheckbox2" disabled>
+			  <label class="custom-control-label" for="customcheckbox2">Multi Family</label>
+			</div>
+			<div class="component_content__demo__description">Choosable Checkbox Disabled</div>
+        </div>
+       </div>
+      `,
 
     ];
 
@@ -255,6 +306,43 @@ export default class Forms extends Component {
   </div>
 </div>`,
 
+`<!-- Select Mennu Large -->
+<div role="radiogroup">
+  <select class="custom-select custom-select_large">
+    <option selected>Sort By</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+  </select>
+
+<!-- Select Mennu Medium -->
+  <select class="custom-select custom-select_medium">
+    <option selected>Sort By</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+  </select>
+</div>
+`,
+`<!-- Shoosable Checkbox Normal -->
+<div id="SingleFamily" class="custom-control custom-checkbox custom-checkbox--choosable_box">
+  <input type="checkbox" class="custom-control-input" id="customCheckDisabled">
+  <label class="custom-control-label" for="customCheckDisabled">Multi Family</label>
+</div>
+
+<!-- Shoosable Checkbox Checked -->
+<div id="MultiFamily" class="custom-control custom-checkbox custom-checkbox--choosable_box">
+  <input type="checkbox" class="custom-control-input" id="customcheckbox" checked="checked">
+  <label class="custom-control-label" for="customcheckbox">Multi Family</label>
+</div>
+
+<!-- Shoosable Checkbox Checked -->
+<div id="Townhouse" class="custom-control custom-checkbox custom-checkbox--choosable_box">
+  <input type="checkbox" class="custom-control-input" id="customcheckbox2" disabled>
+  <label class="custom-control-label" for="customcheckbox2">Multi Family</label>
+</div>
+`,
+
     ];
 
   }
@@ -269,6 +357,8 @@ export default class Forms extends Component {
         <TemplateComponentBlock blockTitle="Input" elements={this.elements[0]} codeSnippets={this.codeSnippets[0]} />
         <TemplateComponentBlock blockTitle="Search input" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
         <TemplateComponentBlock blockTitle="Radio button" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
+        <TemplateComponentBlock blockTitle="Select Menu" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
+        <TemplateComponentBlock blockTitle="Choosable Box" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
 
       </TemplateDefault>
     )
