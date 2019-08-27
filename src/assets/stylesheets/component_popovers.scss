@@ -1,10 +1,10 @@
 .popover {
-	border: none;
+	max-width: 480px;
 	
 	&--standard {
 		
 		&_large {
-			max-width: 480px;
+			
 		}
 		
 		.popover-header {
