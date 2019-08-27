@@ -1,0 +1,59 @@
+.filterpill {
+	border-radius: 18px;
+	background-color: #dfe3f0;
+	height: 38px;
+	background-color: $color-cloudy-sky;
+	color: $color-har-blue-dark;
+	font-size: $font-size-small;
+	font-weight: $font-weight-semi-bold;
+	border: none;
+	display: inline-block;
+	padding: 9px 34px 9px 16px;
+	position: relative;
+	line-height: 1;
+	
+	&:after {
+		content: "";
+		position: absolute;
+		right: 11px; 
+		top: 11px;
+		width: 16px;
+		height: 16px;
+		background: url(https://content.harstatic.com/resource_2019/imgs/icons/pluse_wite_circle.svg) no-repeat center center;
+	}
+	
+	&--active {
+		background-color: $color-har-blue-dark;
+		color: $color-snow-white;
+		&:after {
+			background: url(https://content.harstatic.com/resource_2019/imgs/icons/pencile_edit.svg) no-repeat center center;
+		}		
+	}
+	
+	&--all {
+		background-color: $color-har-blue-dark;
+		color: $color-snow-white;
+		padding: 9px 16px 9px 16px;
+		
+		span {
+			display: inline-block;
+			border-radius: 50%;
+			background-color: $color-har-pink;
+			height: 16px;
+			width: 16px;
+			line-height: 16px;
+			text-align: center;
+			font-size: $font-size-small-extra;
+			margin-left: 6px;
+		}
+		
+		&:after {
+			content: none;
+			background: none;
+		}		
+	}
+	
+	&:disabled {
+		opacity: 0.5;
+	}
+}

@@ -1,16 +1,33 @@
+import jQuery from 'jquery'
+
 import React, {Component} from "react";
 import TemplateDefault from '../../components/TemplateDefault';
 import TemplateComponentBlock from '../../components/TemplateComponentBlock';
 
 export default class Popovers extends Component {
-
+  
+  componentDidMount() {
+		
+	jQuery('.filterpill').on('click.popover', function() {
+		jQuery('#SelectPrice').popover('show')
+	}) 
+		
+  }//componentDidMount() {
+  
+  componentWillUnmount() {
+	  
+	jQuery('.filterpill').off('.popover')
+  
+  }//componentWillUnmount() {
+  
   constructor(props) {
     super(props);
 
     this.elements = [`
     <div class="row">
       	<div class="col col-12 pr-sm-5 pl-sm-5">
-	      	<div class="popover popover--standard popover--standard_large depth depth--above_all" role="tooltip" style="position:static;">
+	      	<button class="filterpill" data-toggle="popover" data-placement="bottom" data-content="#SelectPrice" title="" aria-describedby="SelectPrice">Price</button>
+	      	<div id="SelectPrice" class="popover popover--standard popover--standard_large fade" role="tooltip">
 	      		<h3 class="popover-header text-uppercase text-center">Price</h3>
 	      		<div class="popover-body">
 			        Des Perdai

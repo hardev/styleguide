@@ -1,10 +1,12 @@
 .popover {
-	max-width: 480px;
-	
-	&--standard {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24);
+	border: solid 1px $color-cloudy-sky;
+	opacity: 1;
 		
-		&_large {
+	&--standard {
 			
+		&_large {
+			max-width: 480px;		
 		}
 		
 		.popover-header {
@@ -14,10 +16,18 @@
 			font-size: $font-size-medium;
 			font-weight: $font-weight-semi-bold;
 			position: relative;
-			padding: 0.3rem 0.75rem;
+			padding: 0.35rem 0.75rem;
 			
 			&:before {
 				content: "";
+				position: absolute;
+			    left: calc(50% - 13px);
+			    top: -10px;
+			    width: 0;
+			    height: 0;
+			    border-left: 13px solid transparent;
+			    border-right: 13px solid transparent;
+			    border-bottom: 13px solid $color-cement-light;
 			}
 		}
 	
