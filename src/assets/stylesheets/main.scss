@@ -1,27 +1,2 @@
-// @import '~bootstrap/scss/bootstrap.scss';
-
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif !important; }
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif !important; }
-}
-
-@import "_variables.scss";
-@import "general.scss";
-@import "colors.scss";
-@import "typography.scss";
-@import "iconography.scss";
-
-// It's been loaded directly on App.js
-// @import "design_system_website.scss";
-
-// COMPONENTS
-@import "component_buttons.scss";
-@import "component_filter_pills.scss";
-@import "component_popovers.scss";
-@import "component_tags.scss";
-@import "component_tables.scss";
-@import "component_form.scss";
-@import "component_signatures.scss";
-@import "component_cards.scss";
-@import "component_dropdown.scss";
+@import '~bootstrap/scss/bootstrap.scss';
+@import '_bundle.scss';
