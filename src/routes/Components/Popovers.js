@@ -9,7 +9,7 @@ export default class Popovers extends Component {
   componentDidMount() {
 		
 	jQuery('.filterpill').on('click.popover', function() {
-		jQuery('#SelectPrice').popover('show')
+		jQuery('#SelectPrice').fadeIn();
 	}) 
 		
   }//componentDidMount() {
