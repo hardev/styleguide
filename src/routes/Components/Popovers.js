@@ -1,25 +1,9 @@
-import jQuery from 'jquery'
-
 import React, {Component} from "react";
 import TemplateDefault from '../../components/TemplateDefault';
 import TemplateComponentBlock from '../../components/TemplateComponentBlock';
 
 export default class Popovers extends Component {
-  
-  componentDidMount() {
-		
-	jQuery('.filterpill').on('click.popover', function() {
-		jQuery('#SelectPrice').fadeIn();
-	}) 
-		
-  }//componentDidMount() {
-  
-  componentWillUnmount() {
-	  
-	jQuery('.filterpill').off('.popover')
-  
-  }//componentWillUnmount() {
-  
+
   constructor(props) {
     super(props);
 
@@ -36,11 +20,11 @@ export default class Popovers extends Component {
 		    <div class="clearfix"></div>
 		    <div class="component_content__demo__description">Popover Normal Large</div>
         </div>
-        
+
         <div class="col col-sm-6 col-12 pr-sm-5 pl-sm-5">
-	      	
+
         </div>
-        
+
     </div>`,
     ];
 
@@ -66,12 +50,9 @@ export default class Popovers extends Component {
         activeChild="popovers">
 
         <TemplateComponentBlock blockTitle="Input" elements={this.elements[0]} codeSnippets={this.codeSnippets[0]} />
-        
+
       </TemplateDefault>
     )
   }
 
 }
-
-
-

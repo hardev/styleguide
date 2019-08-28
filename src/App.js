@@ -3,8 +3,12 @@ import { Link } from 'react-router-dom';
 
 import Bootstrap from 'bootstrap';
 
+// SCSS
 import './assets/stylesheets/main.scss';
 import './assets/stylesheets/design_system_website.scss';
+
+// Javascript
+import './assets/js/component_functions.js';
 
 import TemplateDefault from './components/TemplateDefault';
 

@@ -1,7 +1,3 @@
+import $ from 'jquery'
 
-
-jQuery(function() {
-	jQuery('.filterpill').click(function(){
-		
-	});
-});
+// $('body').hide();
