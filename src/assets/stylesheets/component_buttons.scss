@@ -175,7 +175,13 @@
         background-image: url(../images/icons/16x16/placeholder.svg);
       }
     }
-
+	
+	&--heart {
+      &:before {
+        background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/heart_outline.svg);
+      }
+    }
+	
     &--lone {
       &:before {
         margin-right: 0;

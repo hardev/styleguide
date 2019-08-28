@@ -10,8 +10,8 @@ export default class Popovers extends Component {
     this.elements = [`
     <div class="row">
       	<div class="col col-12 pr-sm-5 pl-sm-5">
-	      	<button class="filterpill" data-toggle="popover" data-placement="bottom" data-content="#SelectPrice" title="" aria-describedby="SelectPrice">Price</button>
-	      	<div id="SelectPrice" class="popover popover--standard popover--standard_large fade" role="tooltip">
+	      	<button class="filterpill" data-toggle="SelectPrice" data-placement="bottom" data-content="SelectPrice" title="" aria-describedby="SelectPrice">Price</button>
+ 	      	<div id="SelectPrice" class="popover popover--standard popover--standard_large" role="tooltip" style="display:none;">
 	      		<h3 class="popover-header text-uppercase text-center">Price</h3>
 	      		<div class="popover-body">
 			        Des Perdai
