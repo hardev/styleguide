@@ -221,6 +221,35 @@ export default class Forms extends Component {
         </div>
        </div>
       `,
+      `<div class="row">
+        <div class="col col-sm-5 col-12 pr-sm-5 pl-sm-5">
+			<div class="dropdown dropdown--custom dropdown--custom_large">
+			  <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    Dropdown button
+			  </button>
+			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			    <a class="dropdown-item" href="#">Action</a>
+			    <a class="dropdown-item" href="#">Another action</a>
+			    <a class="dropdown-item" href="#">Something else here</a>
+			  </div>
+			</div>
+          <div class="component_content__demo__description">Dropdown Large</div>
+        </div>
+        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+			<div class="dropdown dropdown--custom dropdown--custom_medium">
+			  <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    Dropdown button
+			  </button>
+			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			    <a class="dropdown-item" href="#">Action</a>
+			    <a class="dropdown-item" href="#">Another action</a>
+			    <a class="dropdown-item" href="#">Something else here</a>
+			  </div>
+			</div>
+          <div class="component_content__demo__description">Dropdown Medium</div>
+        </div>        
+       </div>
+      `,
        `<div class="row">
         <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
 			<div id="SingleFamily" class="custom-control custom-checkbox custom-checkbox--choosable_box">
@@ -245,6 +274,21 @@ export default class Forms extends Component {
         </div>
        </div>
       `,
+       `<div class="row">
+        <div class="col col-sm-6 col-12 pr-sm-5 pl-sm-5">
+			<div class="btn-group btn-group-toggle" data-toggle="buttons">
+		      <label class="btn btn-secondary active">
+			    <input type="radio" name="options" id="option1" autocomplete="off" checked> For Sale
+			  </label>
+			  <label class="btn btn-secondary">
+			    <input type="radio" name="options" id="option2" autocomplete="off"> For Rent
+			  </label>
+		    </div>
+          <div class="component_content__demo__description">Toggle Buttons</div>
+        </div>        
+       </div>
+      `,
+       
 
     ];
 
@@ -307,7 +351,6 @@ export default class Forms extends Component {
 </div>`,
 
 `<!-- Select Mennu Large -->
-<div role="radiogroup">
   <select class="custom-select custom-select_large">
     <option selected>Sort By</option>
     <option value="1">One</option>
@@ -322,6 +365,30 @@ export default class Forms extends Component {
     <option value="2">Two</option>
     <option value="3">Three</option>
   </select>
+`,
+`
+<!-- Dropdown Large -->
+<div class="dropdown dropdown--custom dropdown--custom_large">
+  <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+
+<!-- Dropdown Medium -->
+<div class="dropdown dropdown--custom dropdown--custom_medium">
+  <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
 </div>
 `,
 `<!-- Shoosable Checkbox Normal -->
@@ -342,7 +409,31 @@ export default class Forms extends Component {
   <label class="custom-control-label" for="customcheckbox2">Multi Family</label>
 </div>
 `,
+`
+<!-- Toggle Button -->
+<div class="btn-group btn-group-toggle" data-toggle="buttons">
+  <label class="btn btn-secondary active">
+    <input type="radio" name="options" id="option1" autocomplete="off" checked> For Sale
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="option2" autocomplete="off"> For Rent
+  </label>
+</div>
 
+`,
+`
+<!-- Dropdown -->
+<div class="dropdown">
+  <button class="btn btn--ordinary btn--medium" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+`,
     ];
 
   }
@@ -358,7 +449,10 @@ export default class Forms extends Component {
         <TemplateComponentBlock blockTitle="Search input" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
         <TemplateComponentBlock blockTitle="Radio button" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
         <TemplateComponentBlock blockTitle="Select Menu" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
-        <TemplateComponentBlock blockTitle="Choosable Box" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
+        <TemplateComponentBlock blockTitle="Dropdown" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
+        <TemplateComponentBlock blockTitle="Choosable Box" elements={this.elements[5]} codeSnippets={this.codeSnippets[5]} />
+        <TemplateComponentBlock blockTitle="Toggle Buttons" elements={this.elements[6]} codeSnippets={this.codeSnippets[6]} />
+       
 
       </TemplateDefault>
     )
