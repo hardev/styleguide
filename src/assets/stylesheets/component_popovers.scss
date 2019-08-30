@@ -17,7 +17,8 @@
 		top: 50px;		
 
 		&_large {
-			max-width: 480px;		
+			min-width: 480px;
+			margin-left: -240px;	
 		}
 		
 		.popover-header {
