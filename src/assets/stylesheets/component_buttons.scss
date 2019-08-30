@@ -181,6 +181,18 @@
         background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/heart_outline.svg);
       }
     }
+    
+    &--filters {
+      &:before {
+        background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters.svg);
+      }
+    }
+    
+    &--share {
+      &:before {
+        background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/share_gray.svg);
+      }
+    }
 	
     &--lone {
       &:before {
