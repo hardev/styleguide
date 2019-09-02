@@ -175,25 +175,31 @@
         background-image: url(../images/icons/16x16/placeholder.svg);
       }
     }
-	
-	&--heart {
+
+    &--favorite {
       &:before {
         background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/heart_outline.svg);
       }
     }
-    
+
+    &--dot_dot_dot {
+      &:before {
+        background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/dot_dot_dot.svg);
+      }
+    }
+
     &--filters {
       &:before {
         background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters.svg);
       }
     }
-    
+
     &--share {
       &:before {
         background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/share_gray.svg);
       }
     }
-	
+
     &--lone {
       &:before {
         margin-right: 0;

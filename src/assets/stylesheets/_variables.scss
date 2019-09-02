@@ -49,3 +49,21 @@ $font-weight-light: 200;
 $font-weight-regular: 300;
 $font-weight-semi-bold: 500;
 $font-weight-bold: 700;
+
+
+/* ====== TRANSITIONS ====== */
+@mixin transition($duration) {
+
+  @if $duration == 'fast' {
+    transition-duration: 0.3s;
+  } @else if $duration == 'medium' {
+    transition-duration: 0.6s;
+  } @else if $duration == 'slow' {
+    transition-duration: 0.9s;
+  } @else {
+    transition-duration: 0.3s;
+  }
+
+  transition-property: all;
+  transition-timing-function: ease;
+}
