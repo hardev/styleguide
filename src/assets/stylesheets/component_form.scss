@@ -224,12 +224,12 @@ label {
 			font-size: $font-size-small-extra;
 			text-align: center;
 			cursor:pointer;
-			min-width: 128px;
 			color: $color-carbon;
 			font-weight: $font-weight-semi-bold;
 			padding-bottom: 7px;
 			position: relative;
 			padding-top: 26px;
+			width: 100%;
 			
 			&:before { 
 				background-color: transparent !important;

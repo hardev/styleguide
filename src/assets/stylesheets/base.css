@@ -532,7 +532,8 @@ h4 {
     margin-left: -150px;
     top: 50px; }
     .popover--standard_large {
-      max-width: 480px; }
+      min-width: 448px;
+      margin-left: -224px; }
     .popover--standard .popover-header {
       background-color: #F3F4F7;
       color: #515B7A;
@@ -551,6 +552,14 @@ h4 {
         border-left: 13px solid transparent;
         border-right: 13px solid transparent;
         border-bottom: 13px solid #F3F4F7; }
+    .popover--standard .popover-footer {
+      box-shadow: 0 4px 8px 0 rgba(61, 84, 153, 0.4);
+      background-color: #ffffff;
+      padding: 15px;
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      bottom: 0px; }
   .popover .popover-body {
     height: 100%;
     max-height: 50vh;
@@ -872,12 +881,12 @@ label {
       font-size: 11px;
       text-align: center;
       cursor: pointer;
-      min-width: 128px;
       color: #212529;
       font-weight: 500;
       padding-bottom: 7px;
       position: relative;
-      padding-top: 26px; }
+      padding-top: 26px;
+      width: 100%; }
       .custom-checkbox--choosable_box .custom-control-label:before {
         background-color: transparent !important;
         background: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Single_Family.svg) center center no-repeat;
