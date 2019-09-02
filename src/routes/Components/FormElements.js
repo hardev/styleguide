@@ -252,44 +252,44 @@ export default class Forms extends Component {
        </div>
       `,
 
-       `<div class="row">
+      `<div class="row">
         <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
-			<div id="SingleFamily" class="custom-control custom-checkbox custom-checkbox--choosable_box">
-			  <input type="checkbox" class="custom-control-input" id="customCheckDisabled">
-			  <label class="custom-control-label" for="customCheckDisabled">Multi Family</label>
-			</div>
+          <div class="choosable_box choosable_box--choosable_box choosable_box--choosable_box--multi_family">
+            <input type="checkbox" class="custom-control-input" id="customCheckDisabled">
+            <label class="custom-control-label" for="customCheckDisabled">Multi Family</label>
+          </div>
           <div class="component_content__demo__description">Choosable Checkbox</div>
         </div>
         <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
-          	<div id="MultiFamily" class="custom-control custom-checkbox custom-checkbox--choosable_box">
-			  <input type="checkbox" class="custom-control-input" id="customcheckbox" checked="checked">
-			  <label class="custom-control-label" for="customcheckbox">Multi Family</label>
-			</div>
-			<div class="component_content__demo__description">Choosable Checkbox Checked</div>
+          <div class="choosable_box choosable_box--choosable_box choosable_box--choosable_box--multi_family">
+            <input type="checkbox" class="custom-control-input" id="customcheckbox" checked="checked">
+            <label class="custom-control-label" for="customcheckbox">Multi Family</label>
+          </div>
+          <div class="component_content__demo__description">Choosable Checkbox checked</div>
         </div>
         <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
-          	<div id="Townhouse" class="custom-control custom-checkbox custom-checkbox--choosable_box">
-			  <input type="checkbox" class="custom-control-input" id="customcheckbox2" disabled>
-			  <label class="custom-control-label" for="customcheckbox2">Multi Family</label>
-			</div>
-			<div class="component_content__demo__description">Choosable Checkbox Disabled</div>
+          <div class="choosable_box choosable_box--choosable_box choosable_box--choosable_box--multi_family">
+            <input type="checkbox" class="custom-control-input" id="customcheckbox2" disabled>
+            <label class="custom-control-label" for="customcheckbox2">Multi Family</label>
+          </div>
+          <div class="component_content__demo__description">Choosable Checkbox disabled</div>
         </div>
-       </div>
+      </div>
       `,
 
-       `<div class="row">
-        <div class="col col-sm-6 col-12 pr-sm-5 pl-sm-5">
-			<div class="btn-group btn-group-toggle" data-toggle="buttons">
-		      <label class="btn btn-secondary active">
-			    <input type="radio" name="options" id="option1" autocomplete="off" checked> For Sale
-			  </label>
-			  <label class="btn btn-secondary">
-			    <input type="radio" name="options" id="option2" autocomplete="off"> For Rent
-			  </label>
-		    </div>
-          <div class="component_content__demo__description">Toggle Buttons</div>
+       `<div class="row justify-content-center">
+          <div class="col col-sm-6 col-12 pr-sm-5 pl-sm-5">
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary active">
+                <input type="radio" name="options" id="option1" autocomplete="off" checked> For Sale
+              </label>
+              <label class="btn btn-secondary">
+                <input type="radio" name="options" id="option2" autocomplete="off"> For Rent
+              </label>
+            </div>
+            <div class="component_content__demo__description">Toggle Buttons</div>
+          </div>
         </div>
-       </div>
       `,
 
     ];
@@ -393,20 +393,21 @@ export default class Forms extends Component {
   </div>
 </div>
 `,
-`<!-- Shoosable Checkbox Normal -->
-<div id="SingleFamily" class="custom-control custom-checkbox custom-checkbox--choosable_box">
+
+`<!-- Choosable Checkbox -->
+<div class="choosable_box choosable_box--choosable_box choosable_box--choosable_box--multi_family">
   <input type="checkbox" class="custom-control-input" id="customCheckDisabled">
   <label class="custom-control-label" for="customCheckDisabled">Multi Family</label>
 </div>
 
-<!-- Shoosable Checkbox Checked -->
-<div id="MultiFamily" class="custom-control custom-checkbox custom-checkbox--choosable_box">
+<!-- Choosable Checkbox checked -->
+<div class="choosable_box choosable_box--choosable_box choosable_box--choosable_box--multi_family">
   <input type="checkbox" class="custom-control-input" id="customcheckbox" checked="checked">
   <label class="custom-control-label" for="customcheckbox">Multi Family</label>
 </div>
 
-<!-- Shoosable Checkbox Checked -->
-<div id="Townhouse" class="custom-control custom-checkbox custom-checkbox--choosable_box">
+<!-- Choosable Checkbox disabled -->
+<div class="choosable_box choosable_box--choosable_box choosable_box--choosable_box--multi_family">
   <input type="checkbox" class="custom-control-input" id="customcheckbox2" disabled>
   <label class="custom-control-label" for="customcheckbox2">Multi Family</label>
 </div>
