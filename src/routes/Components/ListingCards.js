@@ -149,8 +149,8 @@ export default class ListingCards extends Component {
 					</div>
 				</div>
 				<div class="col-4 text-right">
-					<button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--favorite btn--small-extra">Save</button>
-					<button role="button" class="btn btn--ordinary btn--medium btn--small-extra">...</button>
+          <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--favorite btn--small-extra" aria-label="Save Bartlett Street #4 Houston TX 77098 as favorite">Save</button>
+          <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--dot_dot_dot btn--small-extra" aria-label="More options for Bartlett Street #4 Houston TX 77098"></button>
 				</div>
 			</div> <!-- / card--listing_vertical__header -->
 
