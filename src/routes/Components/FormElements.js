@@ -203,53 +203,55 @@ export default class Forms extends Component {
       <div class="row">
         <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
           <select class="custom-select custom-select_large">
-		    <option selected>Sort By</option>
-		    <option value="1">One</option>
-		    <option value="2">Two</option>
-		    <option value="3">Three</option>
-		  </select>
+    		    <option selected>Select</option>
+    		    <option value="1">Option one</option>
+    		    <option value="2">Option two</option>
+    		    <option value="3">Option three</option>
+    		  </select>
           <div class="component_content__demo__description">Large Select Menu</div>
         </div>
         <div class="col col-sm-3 col-12 pr-sm-5 pl-sm-5">
           <select class="custom-select custom-select_medium">
-		    <option selected>Sort By</option>
-		    <option value="1">One</option>
-		    <option value="2">Two</option>
-		    <option value="3">Three</option>
-		  </select>
+    		    <option selected>Select</option>
+    		    <option value="1">Option one</option>
+    		    <option value="2">Option two</option>
+    		    <option value="3">Option three</option>
+    		  </select>
           <div class="component_content__demo__description">Medium Select Menu</div>
         </div>
        </div>
       `,
+
       `<div class="row">
         <div class="col col-sm-5 col-12 pr-sm-5 pl-sm-5">
-			<div class="dropdown dropdown--custom dropdown--custom_large">
-			  <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			    Dropdown button
-			  </button>
-			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-			    <a class="dropdown-item" href="#">Action</a>
-			    <a class="dropdown-item" href="#">Another action</a>
-			    <a class="dropdown-item" href="#">Something else here</a>
-			  </div>
-			</div>
-          <div class="component_content__demo__description">Dropdown Large</div>
+    			<div class="dropdown dropdown--custom dropdown--custom_large">
+    			  <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    			    Dropdown button
+    			  </button>
+    			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    			    <a class="dropdown-item" href="#">Action one</a>
+    			    <a class="dropdown-item" href="#">Action two</a>
+    			    <a class="dropdown-item" href="#">Action three</a>
+    			  </div>
+    			</div>
+          <div class="component_content__demo__description">Large Dropdown Menu</div>
         </div>
         <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
-			<div class="dropdown dropdown--custom dropdown--custom_medium">
-			  <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			    Dropdown button
-			  </button>
-			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-			    <a class="dropdown-item" href="#">Action</a>
-			    <a class="dropdown-item" href="#">Another action</a>
-			    <a class="dropdown-item" href="#">Something else here</a>
-			  </div>
-			</div>
-          <div class="component_content__demo__description">Dropdown Medium</div>
-        </div>        
+    			<div class="dropdown dropdown--custom dropdown--custom_medium">
+    			  <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    			    Dropdown button
+    			  </button>
+    			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    			    <a class="dropdown-item" href="#">Action one</a>
+    			    <a class="dropdown-item" href="#">Action two</a>
+    			    <a class="dropdown-item" href="#">Action three</a>
+    			  </div>
+    			</div>
+          <div class="component_content__demo__description">Medium Dropdown Menu</div>
+        </div>
        </div>
       `,
+
        `<div class="row">
         <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
 			<div id="SingleFamily" class="custom-control custom-checkbox custom-checkbox--choosable_box">
@@ -274,6 +276,7 @@ export default class Forms extends Component {
         </div>
        </div>
       `,
+
        `<div class="row">
         <div class="col col-sm-6 col-12 pr-sm-5 pl-sm-5">
 			<div class="btn-group btn-group-toggle" data-toggle="buttons">
@@ -285,10 +288,9 @@ export default class Forms extends Component {
 			  </label>
 		    </div>
           <div class="component_content__demo__description">Toggle Buttons</div>
-        </div>        
+        </div>
        </div>
       `,
-       
 
     ];
 
@@ -350,24 +352,24 @@ export default class Forms extends Component {
   </div>
 </div>`,
 
-`<!-- Select Mennu Large -->
-  <select class="custom-select custom-select_large">
-    <option selected>Sort By</option>
-    <option value="1">One</option>
-    <option value="2">Two</option>
-    <option value="3">Three</option>
-  </select>
+`<!-- Large Select Menu -->
+<select class="custom-select custom-select_large">
+  <option selected>Select</option>
+  <option value="1">Option one</option>
+  <option value="2">Option two</option>
+  <option value="3">Option three</option>
+</select>
 
-<!-- Select Mennu Medium -->
-  <select class="custom-select custom-select_medium">
-    <option selected>Sort By</option>
-    <option value="1">One</option>
-    <option value="2">Two</option>
-    <option value="3">Three</option>
-  </select>
+<!-- Medium Select Menu -->
+<select class="custom-select custom-select_medium">
+  <option selected>Select</option>
+  <option value="1">Option one</option>
+  <option value="2">Option two</option>
+  <option value="3">Option three</option>
+</select>
 `,
 `
-<!-- Dropdown Large -->
+<!-- Large Dropdown Menu -->
 <div class="dropdown dropdown--custom dropdown--custom_large">
   <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Dropdown button
@@ -379,7 +381,7 @@ export default class Forms extends Component {
   </div>
 </div>
 
-<!-- Dropdown Medium -->
+<!-- Medium Dropdown Menu -->
 <div class="dropdown dropdown--custom dropdown--custom_medium">
   <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Dropdown button
@@ -449,10 +451,10 @@ export default class Forms extends Component {
         <TemplateComponentBlock blockTitle="Search input" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
         <TemplateComponentBlock blockTitle="Radio button" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
         <TemplateComponentBlock blockTitle="Select Menu" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
-        <TemplateComponentBlock blockTitle="Dropdown" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
+        <TemplateComponentBlock blockTitle="Dropdown Menu" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
         <TemplateComponentBlock blockTitle="Choosable Box" elements={this.elements[5]} codeSnippets={this.codeSnippets[5]} />
         <TemplateComponentBlock blockTitle="Toggle Buttons" elements={this.elements[6]} codeSnippets={this.codeSnippets[6]} />
-       
+
 
       </TemplateDefault>
     )

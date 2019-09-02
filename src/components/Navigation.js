@@ -114,7 +114,7 @@ export default class Header extends Component {
 									data-parent="#aside_main_nav">
 
                   <li className={`li ${this.props.activeChild == 'agent_signatures' ? 'li--active' : ''} `}>
-                    <Link to="/components/agent_signatures">Agent Singnatures</Link>
+                    <Link to="/components/agent_signatures">Agent Signatures</Link>
                   </li>
                   <li className={`li ${this.props.activeChild == 'buttons' ? 'li--active' : ''} `}>
                     <Link to="/components/buttons">Buttons</Link>

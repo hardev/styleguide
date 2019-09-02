@@ -35,7 +35,7 @@
 
 	&:hover & {
 		&--landscape_medium,
-		&--listing_landscape_medium,
+		&--listing_large,
 		&--portrait_medium {
 			&__image_content {
 				&__image {
@@ -220,13 +220,28 @@
 		}
 	}
 
-	&--listing_landscape_medium {
+	&--listing_large {
 		border: none !important;
 		box-shadow: 0 0px 0px rgba(0,0,0,0.0);
 
-		// a:hover .card--listing_landscape_medium__body__image_content_image {
+		// a:hover .card--listing_large__body__image_content_image {
 		// 	transform: scale(1.05, 1.05);
 		// }
+
+		&--portrait & {
+			&__body {
+				a {
+					grid-template-columns: 100%;
+					grid-template-rows: 200px auto;
+				}
+
+				&__content {
+					grid-column-start: 1;
+					grid-row-start: 2;
+					padding: 16px;
+				}
+			}
+		}
 
 		&__body {
 			position: relative;
@@ -240,9 +255,14 @@
 				border-radius: 4px;
 				display: grid;
 				grid-gap: 0;
-				grid-template-columns: 40% 60%;;
+				grid-template-columns: 40% 60%;
 				grid-template-rows: 100% auto;
 				grid-template-areas: 'a b';
+
+				@media screen and (max-width: 600px) {
+					grid-template-columns: 100%;
+					grid-template-rows: 200px auto;
+				}
 
 				&:hover,
 				&:active {
@@ -314,6 +334,12 @@
 				width: 100%;
 				padding: 10px 10px 16px 24px;
 
+				@media screen and (max-width: 600px) {
+					grid-column-start: 1;
+					grid-row-start: 2;
+					padding: 16px;
+				}
+
 				h4 {
 					margin-bottom: 0;
 				}
@@ -326,15 +352,15 @@
 					color: $color-slate;
 				}
 
-				@media screen and (max-width: 680px) {
-					left: 40%;
-				}
-
-				@media screen and (max-width: 600px) {
-					left: 0%;
-					position: static;
-					padding: 10px;
-				}
+				// @media screen and (max-width: 680px) {
+				// 	left: 40%;
+				// }
+				//
+				// @media screen and (max-width: 600px) {
+				// 	left: 0%;
+				// 	position: static;
+				// 	padding: 10px;
+				// }
 			}
 
 		}
@@ -344,64 +370,65 @@
 		}
 	}
 
-	&--listing_vertical {
-		border: none !important;
-		box-shadow: 0 0px 0px rgba(0,0,0,0.0);
+	// &--listing_vertical {
+	// 	border: none !important;
+	// 	box-shadow: 0 0px 0px rgba(0,0,0,0.0);
+	//
+	// 	&__body {
+	// 		position: relative;
+	// 		border: 1px solid $color-cloudy-sky;
+	// 		box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	// 		border-radius: 4px;
+	// 		&:hover,
+	// 		&:active {
+	// 			border: 1px solid $color-auxiliary-light;
+	// 		}
+	//
+	// 		&__image_content {
+	// 			width: 100%;
+	// 			height: 190px;
+	// 			background-color: $color-cloudy-sky-light;
+	//
+	// 			&_image {
+	// 				@include transition('medium');
+	// 				width: 100%;
+	// 				height: 100%;
+	// 				background-repeat: no-repeat;
+	// 				background-size: cover;
+	// 				background-position: center center;
+	// 				overflow: hidden;
+	// 				z-index: 1;
+	//
+	// 				&:hover {
+	// 			    transform: scale(1.05, 1.05);
+	// 				}
+	//
+	// 				a {
+	// 					display: block;
+	// 					width: 100%;
+	// 					height: 100%;
+	// 				}
+	// 			}
+	// 		}
+	//
+	// 		&__content {
+	// 			padding: 10px;
+	//
+	// 			.description_row {
+	// 				border-top: 1px solid $color-cloudy-sky !important;
+	// 				padding: 3px;
+	// 				width: 50%;
+	// 				float: left;
+	// 			}
+	// 		}
+	//
+	// 	}
+	//
+	// 	&__header {
+	// 		margin-bottom: 10px;
+	// 	}
+	// }
 
-		&__body {
-			position: relative;
-			border: 1px solid $color-cloudy-sky;
-			box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-			border-radius: 4px;
-			&:hover,
-			&:active {
-				border: 1px solid $color-auxiliary-light;
-			}
-
-			&__image_content {
-				width: 100%;
-				height: 190px;
-				background-color: $color-cloudy-sky-light;
-
-				&_image {
-					@include transition('medium');
-					width: 100%;
-					height: 100%;
-					background-repeat: no-repeat;
-					background-size: cover;
-					background-position: center center;
-					overflow: hidden;
-					z-index: 1;
-
-					&:hover {
-				    transform: scale(1.05, 1.05);
-					}
-
-					a {
-						display: block;
-						width: 100%;
-						height: 100%;
-					}
-				}
-			}
-
-			&__content {
-				padding: 10px;
-
-				.description_row {
-					border-top: 1px solid $color-cloudy-sky !important;
-					padding: 3px;
-					width: 50%;
-					float: left;
-				}
-			}
-
-		}
-
-		&__header {
-			margin-bottom: 10px;
-		}
-	}
 }
 
 .card_portrait_medium_container {

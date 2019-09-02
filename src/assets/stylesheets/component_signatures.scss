@@ -22,6 +22,11 @@
   }
 
   &__info {
+    width: calc(100% - 40px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
     line-height: 16px;
 
     &__agent_name {
