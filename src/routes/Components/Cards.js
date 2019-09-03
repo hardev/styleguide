@@ -2,7 +2,6 @@ import React, {Component} from "react";
 import TemplateDefault from '../../components/TemplateDefault';
 import TemplateComponentBlock from '../../components/TemplateComponentBlock';
 
-
 export default class ListingCards extends Component {
 
   constructor(props) {

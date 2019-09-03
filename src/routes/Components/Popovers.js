@@ -22,11 +22,6 @@ export default class Popovers extends Component {
 		    <div class="clearfix"></div>
 		    <div class="component_content__demo__description">Popover Normal Large</div>
         </div>
-
-        <div class="col col-sm-6 col-12 pr-sm-5 pl-sm-5">
-
-        </div>
-
     </div>`
     ,
     `
@@ -47,10 +42,6 @@ export default class Popovers extends Component {
 			</div>
 		    <div class="clearfix"></div>
 		    <div class="component_content__demo__description">Popover Normal Large (with footer)</div>
-        </div>
-
-        <div class="col col-sm-6 col-12 pr-sm-5 pl-sm-5">
-
         </div>
     </div>
 	`,

@@ -52,20 +52,39 @@
 
 	&--landscape_large,
 	&--landscape_medium {
+
+		display: grid !important;
+		grid-gap: 0;
+		grid-template-columns: 35% 65%;
+		grid-template-rows: 100% auto;
+		grid-template-areas: 'a b';
+
+		@media screen and (max-width: 600px) {
+			grid-template-columns: 100%;
+			grid-template-rows: 120px auto;
+		}
+
 		&__image_content {
-			float: left;
-			width: 112px;
-			height: 120px;
+			// float: left;
+			// width: 112px;
+			// height: 120px;
+			grid-area: a;
+			width: 100%;
+			height: 100%;
 			background-color: $color-cloudy-sky-light;
 			background-repeat: no-repeat;
 			background-size: cover;
 			border-radius: 4px 0 0 4px;
 			overflow: hidden;
 
-			@media screen and (max-width: 768px) {
-		    width: 40%;
-				height: 88px;
-		  }
+			// @media screen and (max-width: 768px) {
+		  //   width: 40%;
+			// 	height: 88px;
+		  // }
+
+			@media screen and (max-width: 600px) {
+				border-radius: 4px 4px 0 0;
+			}
 
 			a {
 				display: block;
@@ -77,21 +96,30 @@
 				width: 100%;
 				height: 100%;
 				background-size: cover;
+				background-position: center;
 			}
 		}
 
 		&__content {
-			float: left;
-			width: calc(100% - 112px);
+			// float: left;
+			grid-area: b;
+			// width: calc(100% - 112px);
+			width: 100%;
 			overflow: hidden;
 			margin-left: 0;
-			padding: 24px 24px 0 24px;
+			padding: 24px;
 			color: $color-auxiliary;
 
-			@media screen and (max-width: 768px) {
-		    width: 60%;
+			// @media screen and (max-width: 768px) {
+		  //   width: 60%;
+			// 	padding: 16px;
+		  // }
+
+			@media screen and (max-width: 600px) {
+				grid-column-start: 1;
+				grid-row-start: 2;
 				padding: 16px;
-		  }
+			}
 		}
 
 		h5 {
@@ -123,23 +151,9 @@
 
 		}
 	}
+
 	&--landscape_large {
-		position: relative;
-		min-height: 192px;
-
 		&__image_content {
-			width: 264px;
-			height: 100%;
-			position:absolute;
-			top: 0px;
-			bottom: 0px;
-
-			@media screen and (max-width: 650px) {
-		    width: 100%;
-		    position: static;
-				height: 170px;
-		  }
-
 			&__image {
 				&:hover {
 					transform: scale(1.05, 1.05);
@@ -148,15 +162,7 @@
 		}
 
 		&__content {
-			width: calc(100% - 264px);
-			float: right;
 			padding: 24px;
-			@media screen and (max-width: 650px) {
-	    	width: 100%;
-	    	height: inherit;
-	    	float: none;
-	    	clear: both;
-		  }
 		}
 
 		&__text {
@@ -164,7 +170,6 @@
 			font-size: $font-size-medium;
 			line-height: 20px;
 		}
-
 	}
 
 	&--portrait_medium {
