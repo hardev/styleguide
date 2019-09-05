@@ -15,7 +15,9 @@
 	overflow: hidden;
 	margin-bottom: 30px;
 	background-color: $color-snow-white;
-
+	
+	&--landscape_with_icon,
+	&--landscape_small,
 	&--landscape_medium,
 	&--portrait_medium {
 		&:hover {
@@ -374,7 +376,105 @@
 			margin-bottom: 10px;
 		}
 	}
-
+	
+	&--landscape_small {
+		margin-bottom: 15px;
+		
+		&__text {
+			font-size: $font-size-medium;
+			color: $color-black;
+			font-weight: $font-weight-bold;
+			padding: 18px 10px;
+			text-align: center;
+			display: block;
+			&:hover {
+				text-decoration: none;
+				color: $color-black;
+			}
+		}
+	}
+	
+	&--landscape_with_icon {
+		
+		margin-bottom: 15px;
+		position: relative;
+		
+		&__text {
+			font-size: $font-size-small;
+			color: $color-black;
+			font-weight: $font-weight-bold;
+			padding: 14px 14px 16px 50px;
+			text-align: left;
+			display: block;
+			&:hover {
+				text-decoration: none;
+				color: $color-black;
+			}
+		}
+		
+		
+		&:before {
+			background-position: center center;
+			background-repeat: no-repeat;
+			content: "";
+			width: 36px;
+			height: 36px;
+			display: block;
+			position: absolute;
+			top: 6px;
+			left: 6px;
+			bottom: 6x;
+		}		
+		&--email {
+			&:before {
+				background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_email.svg");
+			}
+		}
+		&--facebook {
+			&:before {
+				background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_facebook.svg");
+			}
+		}
+		&--twitter {
+			&:before {
+				background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_twitter.svg");
+			}
+		}
+		&--tumblr {
+			&:before {
+				background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_tumblr.svg");
+			}
+		}
+		&--microsoft {
+			&:before {
+				background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_microsoft.svg");
+			}
+		}
+		&--linkedin {
+			&:before {
+				background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_linkedin.svg");
+			}
+		}
+		&--digg {
+			&:before {
+				background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_digg.svg");
+			}
+		}
+		&--reddit {
+			&:before {
+				background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_reddit.svg");
+			}
+		}
+		&--delicious {
+			&:before {
+				background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_delicious.svg");
+			}
+		}
+	}
+	
+	
+	
+	
 	// &--listing_vertical {
 	// 	border: none !important;
 	// 	box-shadow: 0 0px 0px rgba(0,0,0,0.0);

@@ -48,6 +48,93 @@ export default class ListingCards extends Component {
           </div>
         </div>
       </div>
+      
+      <br>
+      <div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Landscape Small</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 col-12">
+          <div class="card card--landscape_small">
+              <a href="#" class="card--landscape_small__text" tabindex="0">Drive Time</a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-12">
+          <div class="card card--landscape_small">
+              <a href="#" class="card--landscape_small__text" tabindex="0">Neighborhoods</a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-12">
+          <div class="card card--landscape_small">
+              <a href="#" class="card--landscape_small__text" tabindex="0">Foreclosures</a>
+          </div>
+        </div>
+      </div>
+      
+      <br>
+      <div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Landscape Small</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 col-12">
+          <div class="card card--landscape_with_icon card--landscape_with_icon--email">
+              <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share via Email</a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-12">
+          <div class="card card--landscape_with_icon card--landscape_with_icon--facebook">
+              <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on Facebook</a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-12">
+          <div class="card card--landscape_with_icon card--landscape_with_icon--twitter">
+              <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on Twitter</a>
+          </div>
+        </div>
+      </div>
+
+	  <div class="row">
+        <div class="col-sm-4 col-12">
+          <div class="card card--landscape_with_icon card--landscape_with_icon--tumblr">
+              <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on Tumblr</a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-12">
+          <div class="card card--landscape_with_icon card--landscape_with_icon--microsoft">
+              <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on Microsoft Live</a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-12">
+          <div class="card card--landscape_with_icon card--landscape_with_icon--linkedin">
+              <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-sm-4 col-12">
+          <div class="card card--landscape_with_icon card--landscape_with_icon--digg">
+              <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on Digg</a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-12">
+          <div class="card card--landscape_with_icon card--landscape_with_icon--reddit">
+              <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on Reddit</a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-12">
+          <div class="card card--landscape_with_icon card--landscape_with_icon--delicious">
+              <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on Delicious</a>
+          </div>
+        </div>
+      </div>
+
+      
+      
       `,
 
       `<div class="row">
@@ -99,6 +186,16 @@ export default class ListingCards extends Component {
     <h5><a tabindex="0" href="#">Home prices are so high, pending sales have dropped for 7 months in a row</a></h5>
     <div class="card--landscape_large__text pt-3">The National Association of Realtors blames years of inadequate housing supply and consistent home price growth in hot job markets. Pending home sales dropped 0.7 percent month-over-month and 2.3 percent year-over-year to 106.2. the seventh consecutive month of... <a href="#"  tabindex="-1" class="font_weight--semi_bold">Read more</a></div>
   </div>
+</div>
+
+<!-- Landscape-oriented card Small -->
+<div class="card card--landscape_small_with">
+  <a href="#" class="card--landscape_mini__text" tabindex="0">Drive Time</a>
+</div>
+
+<!-- Landscape-oriented card with icon -->
+<div class="card card--landscape_with_icon card--landscape_with_icon--email">
+  <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share via Email</a>
 </div>
 `,
 
