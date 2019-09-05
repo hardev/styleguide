@@ -76,63 +76,56 @@ export default class ListingCards extends Component {
       <br>
       <div class="row">
         <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
-          <h4 tabindex="0">Landscape Small</h4>
+          <h4 tabindex="0">Landscape With Icons</h4>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-4 col-12">
+        <div class="col-sm-4 col-12 mb-3">
           <div class="card card--landscape_with_icon card--landscape_with_icon--email">
               <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share via Email</a>
           </div>
         </div>
-        <div class="col-sm-4 col-12">
+        <div class="col-sm-4 col-12 mb-3">
           <div class="card card--landscape_with_icon card--landscape_with_icon--facebook">
               <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on Facebook</a>
           </div>
         </div>
-        <div class="col-sm-4 col-12">
+        <div class="col-sm-4 col-12 mb-3">
           <div class="card card--landscape_with_icon card--landscape_with_icon--twitter">
               <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on Twitter</a>
           </div>
         </div>
-      </div>
-
-	  <div class="row">
-        <div class="col-sm-4 col-12">
+        <div class="col-sm-4 col-12 mb-3">
           <div class="card card--landscape_with_icon card--landscape_with_icon--tumblr">
               <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on Tumblr</a>
           </div>
         </div>
-        <div class="col-sm-4 col-12">
+        <div class="col-sm-4 col-12 mb-3">
           <div class="card card--landscape_with_icon card--landscape_with_icon--microsoft">
               <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on Microsoft Live</a>
           </div>
         </div>
-        <div class="col-sm-4 col-12">
+        <div class="col-sm-4 col-12 mb-3">
           <div class="card card--landscape_with_icon card--landscape_with_icon--linkedin">
               <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on LinkedIn</a>
           </div>
-        </div>
-      </div>
-      
-      <div class="row">
-        <div class="col-sm-4 col-12">
+        </div>      
+        <div class="col-sm-4 col-12 mb-3">
           <div class="card card--landscape_with_icon card--landscape_with_icon--digg">
               <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on Digg</a>
           </div>
         </div>
-        <div class="col-sm-4 col-12">
+        <div class="col-sm-4 col-12 mb-3">
           <div class="card card--landscape_with_icon card--landscape_with_icon--reddit">
               <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on Reddit</a>
           </div>
         </div>
-        <div class="col-sm-4 col-12">
+        <div class="col-sm-4 col-12 mb-3">
           <div class="card card--landscape_with_icon card--landscape_with_icon--delicious">
               <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on Delicious</a>
           </div>
         </div>
-      </div>
-
+	  </div>
       
       
       `,
