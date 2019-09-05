@@ -15,7 +15,7 @@
 	overflow: hidden;
 	margin-bottom: 30px;
 	background-color: $color-snow-white;
-	
+
 	&--landscape_with_icon,
 	&--landscape_small,
 	&--landscape_medium,
@@ -376,29 +376,70 @@
 			margin-bottom: 10px;
 		}
 	}
-	
+
 	&--landscape_small {
 		margin-bottom: 0px;
-		
-		&__text {
+
+		a {
 			font-size: $font-size-medium;
 			color: $color-black;
 			font-weight: $font-weight-bold;
 			padding: 18px 10px;
 			text-align: center;
 			display: block;
+
 			&:hover {
 				text-decoration: none;
 				color: $color-black;
 			}
 		}
+
+		&--with_icon {
+			a {
+				padding: 10px;
+				text-align: left;
+
+				&:before {
+					content: "";
+					width: 36px;
+					height: 36px;
+					background-position: center center;
+					background-repeat: no-repeat;
+					background-size: contain;
+					display: inline-block;
+					vertical-align: middle;
+					margin-right: 10px;
+				}
+
+				&--email { &:before { background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_email.svg"); } }
+				&--facebook { &:before { background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_facebook.svg"); } }
+				&--twitter { &:before { background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_twitter.svg"); } }
+				&--tumblr { &:before { background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_tumblr.svg"); } }
+				&--microsoft { &:before { background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_microsoft.svg"); } }
+				&--linkedin { &:before { background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_linkedin.svg"); } }
+				&--digg { &:before { background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_digg.svg"); } }
+				&--reddit { &:before { background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_reddit.svg"); } }
+				&--delicious { &:before { background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_delicious.svg"); } }
+			}
+		}
+
+		&--with_icon {
+			&--facebook {
+				a {
+					&:before {
+						background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_facebook.svg");
+					}
+				}
+			}
+		}
+
 	}
-	
+
 	&--landscape_with_icon {
-		
+
 		margin-bottom: 0px;
 		position: relative;
-		
+
 		&__text {
 			font-size: $font-size-small;
 			color: $color-black;
@@ -411,8 +452,8 @@
 				color: $color-black;
 			}
 		}
-		
-		
+
+
 		&:before {
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -424,7 +465,7 @@
 			top: 6px;
 			left: 6px;
 			bottom: 6x;
-		}		
+		}
 		&--email {
 			&:before {
 				background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_email.svg");
@@ -471,10 +512,10 @@
 			}
 		}
 	}
-	
-	
-	
-	
+
+
+
+
 	// &--listing_vertical {
 	// 	border: none !important;
 	// 	box-shadow: 0 0px 0px rgba(0,0,0,0.0);

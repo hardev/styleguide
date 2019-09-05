@@ -10,6 +10,37 @@ export default class ListingCards extends Component {
     this.elements = [
       `<div class="row">
         <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Landscape Small</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-sm-4 col-12 mb-0">
+          <div class="card card--landscape_small">
+            <a href="#">Drive Time</a>
+          </div>
+        </div>
+        <div class="clear_both"></div>
+      </div>
+
+      <hr />
+
+      <div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Landscape Small with Icon</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-sm-4 col-12 mb-0">
+          <div class="card card--landscape_small card--landscape_small--with_icon card--landscape_small--with_icon--facebook">
+            <a href="#">Share on Facebook</a>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
           <h4 tabindex="0">Landscape medium</h4>
         </div>
       </div>
@@ -27,6 +58,8 @@ export default class ListingCards extends Component {
           </a>
         </div>
       </div>
+
+      <hr />
 
       <div class="row">
         <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
@@ -48,86 +81,10 @@ export default class ListingCards extends Component {
           </div>
         </div>
       </div>
-      
-      <br>
-      <div class="row">
-        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
-          <h4 tabindex="0">Landscape Small</h4>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4 col-12">
-          <div class="card card--landscape_small">
-              <a href="#" class="card--landscape_small__text" tabindex="0">Drive Time</a>
-          </div>
-        </div>
-        <div class="col-sm-4 col-12">
-          <div class="card card--landscape_small">
-              <a href="#" class="card--landscape_small__text" tabindex="0">Neighborhoods</a>
-          </div>
-        </div>
-        <div class="col-sm-4 col-12">
-          <div class="card card--landscape_small">
-              <a href="#" class="card--landscape_small__text" tabindex="0">Foreclosures</a>
-          </div>
-        </div>
-      </div>
-      
-      <br>
-      <div class="row">
-        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
-          <h4 tabindex="0">Landscape With Icons</h4>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4 col-12 mb-3">
-          <div class="card card--landscape_with_icon card--landscape_with_icon--email">
-              <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share via Email</a>
-          </div>
-        </div>
-        <div class="col-sm-4 col-12 mb-3">
-          <div class="card card--landscape_with_icon card--landscape_with_icon--facebook">
-              <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on Facebook</a>
-          </div>
-        </div>
-        <div class="col-sm-4 col-12 mb-3">
-          <div class="card card--landscape_with_icon card--landscape_with_icon--twitter">
-              <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on Twitter</a>
-          </div>
-        </div>
-        <div class="col-sm-4 col-12 mb-3">
-          <div class="card card--landscape_with_icon card--landscape_with_icon--tumblr">
-              <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on Tumblr</a>
-          </div>
-        </div>
-        <div class="col-sm-4 col-12 mb-3">
-          <div class="card card--landscape_with_icon card--landscape_with_icon--microsoft">
-              <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on Microsoft Live</a>
-          </div>
-        </div>
-        <div class="col-sm-4 col-12 mb-3">
-          <div class="card card--landscape_with_icon card--landscape_with_icon--linkedin">
-              <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on LinkedIn</a>
-          </div>
-        </div>      
-        <div class="col-sm-4 col-12 mb-3">
-          <div class="card card--landscape_with_icon card--landscape_with_icon--digg">
-              <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on Digg</a>
-          </div>
-        </div>
-        <div class="col-sm-4 col-12 mb-3">
-          <div class="card card--landscape_with_icon card--landscape_with_icon--reddit">
-              <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on Reddit</a>
-          </div>
-        </div>
-        <div class="col-sm-4 col-12 mb-3">
-          <div class="card card--landscape_with_icon card--landscape_with_icon--delicious">
-              <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share on Delicious</a>
-          </div>
-        </div>
+
 	  </div>
-      
-      
+
+
       `,
 
       `<div class="row">
@@ -181,19 +138,23 @@ export default class ListingCards extends Component {
   </div>
 </div>
 
-<!-- Landscape-oriented card Small -->
-<div class="card card--landscape_small_with">
-  <a href="#" class="card--landscape_mini__text" tabindex="0">Drive Time</a>
+<!-- Landscape-oriented card small -->
+<div class="col col-sm-4 col-12 mb-0">
+  <div class="card card--landscape_small">
+    <a href="#">Drive Time</a>
+  </div>
 </div>
 
-<!-- Landscape-oriented card with icon -->
-<div class="card card--landscape_with_icon card--landscape_with_icon--email">
-  <a href="#" class="card--landscape_with_icon__text" tabindex="0">Share via Email</a>
+<!-- Landscape-oriented card small with icon -->
+<div class="col col-sm-4 col-12 mb-0">
+  <div class="card card--landscape_small card--landscape_small--with_icon card--landscape_small--with_icon--facebook">
+    <a href="#">Share on Facebook</a>
+  </div>
 </div>
 `,
 
 `<!--
-Noticed that there is a specific container that changes gutter size
+Notice that there is a specific container that changes gutter size
 "card_portrait_medium_container"
 -->
 <div class="row card_portrait_medium_container">
