@@ -411,19 +411,17 @@
 					margin-right: 10px;
 				}
 
-				&--email { &:before { background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_email.svg"); } }
-				&--facebook { &:before { background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_facebook.svg"); } }
-				&--twitter { &:before { background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_twitter.svg"); } }
-				&--tumblr { &:before { background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_tumblr.svg"); } }
-				&--microsoft { &:before { background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_microsoft.svg"); } }
-				&--linkedin { &:before { background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_linkedin.svg"); } }
-				&--digg { &:before { background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_digg.svg"); } }
-				&--reddit { &:before { background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_reddit.svg"); } }
-				&--delicious { &:before { background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_delicious.svg"); } }
 			}
 		}
 
 		&--with_icon {
+			&--email {
+				a {
+					&:before {
+						background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_email.svg");
+					}
+				}
+			}
 			&--facebook {
 				a {
 					&:before {
@@ -431,88 +429,60 @@
 					}
 				}
 			}
+			&--twitter {
+				a {
+					&:before {
+						background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_twitter.svg");
+					}
+				}
+			}
+			&--tumblr {
+				a {
+					&:before {
+						background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_tumblr.svg");
+					}
+				}
+			}
+			&--microsoft {
+				a {
+					&:before {
+						background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_microsoft.svg");
+					}
+				}
+			}
+			&--linkedin {
+				a {
+					&:before {
+						background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_linkedin.svg");
+					}
+				}
+			}
+			&--digg {
+				a {
+					&:before {
+						background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_digg.svg");
+					}
+				}
+			}
+			&--reddit {
+				a {
+					&:before {
+						background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_reddit.svg");
+					}
+				}
+			}
+			&--delicious {
+				a {
+					&:before {
+						background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_delicious.svg");
+					}
+				}
+			}
 		}
 
 	}
 
-	&--landscape_with_icon {
-
-		margin-bottom: 0px;
-		position: relative;
-
-		&__text {
-			font-size: $font-size-small;
-			color: $color-black;
-			font-weight: $font-weight-bold;
-			padding: 14px 14px 16px 50px;
-			text-align: left;
-			display: block;
-			&:hover {
-				text-decoration: none;
-				color: $color-black;
-			}
-		}
-
-
-		&:before {
-			background-position: center center;
-			background-repeat: no-repeat;
-			content: "";
-			width: 36px;
-			height: 36px;
-			display: block;
-			position: absolute;
-			top: 6px;
-			left: 6px;
-			bottom: 6x;
-		}
-		&--email {
-			&:before {
-				background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_email.svg");
-			}
-		}
-		&--facebook {
-			&:before {
-				background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_facebook.svg");
-			}
-		}
-		&--twitter {
-			&:before {
-				background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_twitter.svg");
-			}
-		}
-		&--tumblr {
-			&:before {
-				background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_tumblr.svg");
-			}
-		}
-		&--microsoft {
-			&:before {
-				background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_microsoft.svg");
-			}
-		}
-		&--linkedin {
-			&:before {
-				background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_linkedin.svg");
-			}
-		}
-		&--digg {
-			&:before {
-				background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_digg.svg");
-			}
-		}
-		&--reddit {
-			&:before {
-				background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_reddit.svg");
-			}
-		}
-		&--delicious {
-			&:before {
-				background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_delicious.svg");
-			}
-		}
-	}
-
+	
 
 
 

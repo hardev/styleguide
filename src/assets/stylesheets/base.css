@@ -8,6 +8,7 @@ html {
 /* ====== COLORS ====== */
 /* ====== FONT SIZES ====== */
 /* ====== FONT WEIGHTS ====== */
+/* ====== TRANSITIONS ====== */
 html, body {
   color: #212529;
   font-size: 12px;
@@ -23,9 +24,11 @@ strong {
   font-weight: 700; }
 
 a {
+  transition-duration: 0.6s;
+  transition-property: all;
+  transition-timing-function: ease;
   color: #0738CD;
-  text-decoration: none;
-  transition: all 0.3s ease; }
+  text-decoration: none; }
   a:hover {
     color: #0738CD;
     text-decoration: underline; }
@@ -265,6 +268,9 @@ hr {
   font-weight: 700; }
 
 /* Headings */
+a h1, a h2, a h3, a h4, a h5, a h6 {
+  cursor: pointer !important; }
+
 h1 {
   cursor: default;
   font-weight: 700;
@@ -453,8 +459,10 @@ h4 {
     margin-right: 4px; }
   .btn--icon--placeholder:before {
     background-image: url(../images/icons/16x16/placeholder.svg); }
-  .btn--icon--heart:before {
+  .btn--icon--favorite:before {
     background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/heart_outline.svg); }
+  .btn--icon--dot_dot_dot:before {
+    background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/dot_dot_dot.svg); }
   .btn--icon--filters:before {
     background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters.svg); }
   .btn--icon--share:before {
@@ -867,11 +875,11 @@ label {
     background-position: right 6px; }
 
 /* custom checkbox */
-.custom-checkbox {
+.choosable_box {
   padding-left: 0px !important; }
-  .custom-checkbox--choosable_box {
+  .choosable_box--choosable_box {
     position: relative; }
-    .custom-checkbox--choosable_box .custom-control-label {
+    .choosable_box--choosable_box .custom-control-label {
       border: 1px solid #DFE3F0;
       border-radius: 4px;
       height: 48px;
@@ -887,9 +895,12 @@ label {
       position: relative;
       padding-top: 26px;
       width: 100%; }
-      .custom-checkbox--choosable_box .custom-control-label:before {
+      .choosable_box--choosable_box .custom-control-label:hover {
+        border: 1px solid #AFB8D9; }
+      .choosable_box--choosable_box .custom-control-label:before {
+        box-shadow: none !important;
         background-color: transparent !important;
-        background: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Single_Family.svg) center center no-repeat;
+        background: url(../images/icons/16x16/placeholder.svg) center center no-repeat;
         display: block;
         position: absolute;
         content: "";
@@ -901,75 +912,65 @@ label {
         top: 5px;
         margin-left: -16px;
         border: none; }
-  .custom-checkbox .custom-control-input:disabled ~ .custom-control-label,
-  .custom-checkbox .custom-control-input:checked ~ .custom-control-label {
+    .choosable_box--choosable_box--single_family .custom-control-label:before {
+      background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Single_Family.svg); }
+    .choosable_box--choosable_box--multi_family .custom-control-label:before {
+      background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Multi_Family.svg); }
+    .choosable_box--choosable_box--townhouse .custom-control-label:before {
+      background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Townhouse.svg); }
+    .choosable_box--choosable_box--condominium .custom-control-label:before {
+      background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Condominium.svg); }
+    .choosable_box--choosable_box--lots_lands .custom-control-label:before {
+      background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_LotsLands.svg); }
+    .choosable_box--choosable_box--acreage_homes .custom-control-label:before {
+      background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_AcreageHomes.svg); }
+    .choosable_box--choosable_box--single_family .custom-control-input:disabled ~ .custom-control-label:before, .choosable_box--choosable_box--single_family .custom-control-input:checked ~ .custom-control-label:before {
+      background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Single_Family_On.svg); }
+    .choosable_box--choosable_box--multi_family .custom-control-input:disabled ~ .custom-control-label:before, .choosable_box--choosable_box--multi_family .custom-control-input:checked ~ .custom-control-label:before {
+      background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Multi_Family_On.svg); }
+    .choosable_box--choosable_box--townhouse .custom-control-input:disabled ~ .custom-control-label:before, .choosable_box--choosable_box--townhouse .custom-control-input:checked ~ .custom-control-label:before {
+      background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Townhouse_On.svg); }
+    .choosable_box--choosable_box--condominium .custom-control-input:disabled ~ .custom-control-label:before, .choosable_box--choosable_box--condominium .custom-control-input:checked ~ .custom-control-label:before {
+      background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Condominium_On.svg); }
+    .choosable_box--choosable_box--lots_lands .custom-control-input:disabled ~ .custom-control-label:before, .choosable_box--choosable_box--lots_lands .custom-control-input:checked ~ .custom-control-label:before {
+      background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_LotsLands_On.svg); }
+    .choosable_box--choosable_box--acreage_homes .custom-control-input:disabled ~ .custom-control-label:before, .choosable_box--choosable_box--acreage_homes .custom-control-input:checked ~ .custom-control-label:before {
+      background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_AcreageHomes_On.svg); }
+  .choosable_box .custom-control-input:disabled ~ .custom-control-label {
+    cursor: not-allowed; }
+  .choosable_box .custom-control-input:disabled ~ .custom-control-label,
+  .choosable_box .custom-control-input:checked ~ .custom-control-label {
     border-color: #0738CD;
     background: #DAE1F8;
     color: #0738CD; }
-    .custom-checkbox .custom-control-input:disabled ~ .custom-control-label:before,
-    .custom-checkbox .custom-control-input:checked ~ .custom-control-label:before {
-      background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Single_Family_On.svg); }
-  .custom-checkbox .custom-control-input:disabled ~ .custom-control-label {
+  .choosable_box .custom-control-input:disabled ~ .custom-control-label {
     opacity: 0.5; }
 
 .btn-group-toggle {
   width: 100%; }
 .btn-group .btn {
   width: 50%;
-  border: 1px solid #dfe3f0;
+  border: 1px solid #DFE3F0;
   background-color: #fff;
   font-size: 16px;
   color: #000;
   font-size: 12px;
   font-weight: bold;
   padding: 9px 30px;
-  line-height: 1; }
+  line-height: 1;
+  cursor: pointer;
+  color: #212529 !important;
+  transform: translate(0, 0); }
+  .btn-group .btn:active {
+    background: #EDF0FA !important;
+    color: #212529 !important; }
+  .btn-group .btn:hover {
+    opacity: 1 !important;
+    border-color: #AFB8D9 !important; }
   .btn-group .btn.active {
-    background-color: #0b277a !important;
-    color: #fff;
-    border-color: #0b277a !important; }
-
-#SingleFamily .custom-control-label:before {
-  background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Single_Family.svg); }
-
-#MultiFamily .custom-control-label:before {
-  background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Multi_Family.svg); }
-
-#Townhouse .custom-control-label:before {
-  background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Townhouse.svg); }
-
-#Condominium .custom-control-label:before {
-  background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Condominium.svg); }
-
-#LotsLands .custom-control-label:before {
-  background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_LotsLands.svg); }
-
-#AcreageHomes .custom-control-label:before {
-  background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_AcreageHomes.svg); }
-
-#SingleFamily .custom-control-input:disabled ~ .custom-control-label:before,
-#SingleFamily .custom-control-input:checked ~ .custom-control-label:before {
-  background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Single_Family_On.svg); }
-
-#MultiFamily .custom-control-input:disabled ~ .custom-control-label:before,
-#MultiFamily .custom-control-input:checked ~ .custom-control-label:before {
-  background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Multi_Family_On.svg); }
-
-#Townhouse .custom-control-input:disabled ~ .custom-control-label:before,
-#Townhouse .custom-control-input:checked ~ .custom-control-label:before {
-  background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Townhouse_On.svg); }
-
-#Condominium .custom-control-input:disabled ~ .custom-control-label:before,
-#Condominium .custom-control-input:checked ~ .custom-control-label:before {
-  background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Condominium_On.svg); }
-
-#LotsLands .custom-control-input:disabled ~ .custom-control-label:before,
-#LotsLands .custom-control-input:checked ~ .custom-control-label:before {
-  background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_LotsLands_On.svg); }
-
-#AcreageHomes .custom-control-input:disabled ~ .custom-control-label:before,
-#AcreageHomes .custom-control-input:checked ~ .custom-control-label:before {
-  background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_AcreageHomes_On.svg); }
+    background-color: #042280 !important;
+    color: #FFF !important;
+    border-color: #042280 !important; }
 
 .agent_signature {
   text-align: left; }
@@ -984,6 +985,10 @@ label {
       object-fit: cover;
       border-radius: 50%; }
   .agent_signature__info {
+    width: calc(100% - 40px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     line-height: 16px; }
     .agent_signature__info__agent_name {
       font-size: 12px;
@@ -1008,96 +1013,87 @@ label {
   overflow: hidden;
   margin-bottom: 30px;
   background-color: #FFF; }
-  .card--landscape_medium:hover, .card--portrait_medium:hover {
+  .card--landscape_with_icon:hover, .card--landscape_small:hover, .card--landscape_medium:hover, .card--portrait_medium:hover {
     border: 1px solid #AFB8D9; }
   .card--landscape_large__image_content__image, .card--landscape_medium__image_content__image, .card--portrait_medium__image_content__image {
-    transition: transform 0.2s ease; }
-  .card:hover .card--landscape_medium__image_content__image, .card:hover .card--portrait_medium__image_content__image {
-    transform: scale(1.05, 1.05); }
+    transition-duration: 0.6s;
+    transition-property: all;
+    transition-timing-function: ease; }
+  .card:hover .card--landscape_medium__image_content__image, .card:hover .card--listing_large__image_content__image, .card:hover .card--portrait_medium__image_content__image {
+    transform: scale(1.05, 1.05) !important; }
   .card:active {
     border: 1px solid #AFB8D9;
     box-shadow: none !important; }
-  .card--landscape_large__image_content, .card--landscape_medium__image_content {
-    float: left;
-    width: 112px;
-    height: 120px;
-    background-color: #EDF0FA;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 4px 0 0 4px;
-    overflow: hidden; }
-    @media screen and (max-width: 768px) {
-      .card--landscape_large__image_content, .card--landscape_medium__image_content {
-        width: 40%;
-        height: 88px; } }
-    .card--landscape_large__image_content a, .card--landscape_medium__image_content a {
-      display: block;
-      width: 100%;
-      height: 100%; }
-    .card--landscape_large__image_content__image, .card--landscape_medium__image_content__image {
+  .card--landscape_large, .card--landscape_medium {
+    display: grid !important;
+    grid-gap: 0;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 100% auto;
+    grid-template-areas: 'a b'; }
+    @media screen and (max-width: 600px) {
+      .card--landscape_large, .card--landscape_medium {
+        grid-template-columns: 100%;
+        grid-template-rows: 120px auto; } }
+    .card--landscape_large__image_content, .card--landscape_medium__image_content {
+      grid-area: a;
       width: 100%;
       height: 100%;
-      background-size: cover; }
-  .card--landscape_large__content, .card--landscape_medium__content {
-    float: left;
-    width: calc(100% - 112px);
-    overflow: hidden;
-    margin-left: 0;
-    padding: 24px 24px 0 24px;
-    color: #515B7A; }
-    @media screen and (max-width: 768px) {
-      .card--landscape_large__content, .card--landscape_medium__content {
-        width: 60%;
-        padding: 16px; } }
-  .card--landscape_large h5, .card--landscape_medium h5 {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 700;
-    margin-bottom: 4px;
-    color: #212529; }
-    .card--landscape_large h5 a, .card--landscape_medium h5 a {
-      color: #212529;
-      text-decoration: none; }
-      .card--landscape_large h5 a:hover, .card--landscape_medium h5 a:hover {
-        text-decoration: underline; }
-    @media screen and (max-width: 768px) {
-      .card--landscape_large h5, .card--landscape_medium h5 {
-        font-size: 14px;
-        line-height: 16px; } }
-  .card--landscape_large__text, .card--landscape_medium__text {
-    color: #515B7A;
-    font-size: 12px;
-    line-height: 18px; }
-  .card--landscape_large {
-    position: relative;
-    min-height: 192px; }
-    .card--landscape_large__image_content {
-      width: 264px;
-      height: 100%;
-      position: absolute;
-      top: 0px;
-      bottom: 0px; }
-      @media screen and (max-width: 650px) {
-        .card--landscape_large__image_content {
-          width: 100%;
-          position: static;
-          height: 170px; } }
-      .card--landscape_large__image_content__image:hover {
-        transform: scale(1.05, 1.05); }
-    .card--landscape_large__content {
-      width: calc(100% - 264px);
-      float: right;
-      padding: 24px; }
-      @media screen and (max-width: 650px) {
-        .card--landscape_large__content {
-          width: 100%;
-          height: inherit;
-          float: none;
-          clear: both; } }
-    .card--landscape_large__text {
+      background-color: #EDF0FA;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 4px 0 0 4px;
+      overflow: hidden; }
+      @media screen and (max-width: 600px) {
+        .card--landscape_large__image_content, .card--landscape_medium__image_content {
+          border-radius: 4px 4px 0 0; } }
+      .card--landscape_large__image_content a, .card--landscape_medium__image_content a {
+        display: block;
+        width: 100%;
+        height: 100%; }
+      .card--landscape_large__image_content__image, .card--landscape_medium__image_content__image {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center; }
+    .card--landscape_large__content, .card--landscape_medium__content {
+      grid-area: b;
+      width: 100%;
+      overflow: hidden;
+      margin-left: 0;
+      padding: 24px;
+      color: #515B7A; }
+      @media screen and (max-width: 600px) {
+        .card--landscape_large__content, .card--landscape_medium__content {
+          grid-column-start: 1;
+          grid-row-start: 2;
+          padding: 16px; } }
+    .card--landscape_large h5, .card--landscape_medium h5 {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 700;
+      margin-bottom: 4px;
+      color: #212529; }
+      .card--landscape_large h5 a, .card--landscape_medium h5 a {
+        color: #212529;
+        text-decoration: none; }
+        .card--landscape_large h5 a:hover, .card--landscape_medium h5 a:hover {
+          text-decoration: underline; }
+      @media screen and (max-width: 768px) {
+        .card--landscape_large h5, .card--landscape_medium h5 {
+          font-size: 14px;
+          line-height: 16px; } }
+    .card--landscape_large__text, .card--landscape_medium__text {
       color: #515B7A;
-      font-size: 14px;
-      line-height: 20px; }
+      font-size: 12px;
+      line-height: 18px; }
+  .card--landscape_large__image_content__image:hover {
+    transform: scale(1.05, 1.05); }
+  .card--landscape_large__content {
+    padding: 24px; }
+  .card--landscape_large__text {
+    color: #515B7A;
+    font-size: 14px;
+    line-height: 20px; }
   .card--portrait_medium__image_content {
     width: 100%;
     height: 190px;
@@ -1137,76 +1133,117 @@ label {
       .card--portrait_medium h5 {
         font-size: 14px;
         line-height: 16px; } }
-  .card--listing_horizental {
+  .card--listing_large {
     border: none !important;
     box-shadow: 0 0px 0px rgba(0, 0, 0, 0); }
-    .card--listing_horizental__body {
+    .card--listing_large--portrait .card--listing_large__body a {
+      grid-template-columns: 100%;
+      grid-template-rows: 200px auto; }
+    .card--listing_large--portrait .card--listing_large__body__content {
+      grid-column-start: 1;
+      grid-row-start: 2;
+      padding: 16px; }
+    .card--listing_large__body {
       position: relative;
-      border: 1px solid #DFE3F0;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-      min-height: 240px;
-      border-radius: 4px;
-      overflow: hidden; }
-      .card--listing_horizental__body:hover, .card--listing_horizental__body:active {
-        border: 1px solid #AFB8D9; }
-      .card--listing_horizental__body__image_content {
-        width: 294px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
+      .card--listing_large__body a {
+        transition-duration: 0.6s;
+        transition-property: all;
+        transition-timing-function: ease;
+        border: 1px solid #DFE3F0;
+        overflow: hidden;
+        border-radius: 4px;
+        display: grid;
+        grid-gap: 0;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 100% auto;
+        grid-template-areas: 'a b'; }
+        @media screen and (max-width: 600px) {
+          .card--listing_large__body a {
+            grid-template-columns: 100%;
+            grid-template-rows: 200px auto; } }
+        .card--listing_large__body a:hover, .card--listing_large__body a:active {
+          text-decoration: none;
+          border: 1px solid #AFB8D9; }
+      a:hover .card--listing_large__body__image_content_image {
+        transform: scale(1.05, 1.05); }
+      .card--listing_large__body__image_content {
+        grid-area: a;
+        width: 100%;
         height: 100%;
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        bottom: 0px;
         background-color: #EDF0FA;
         overflow: hidden; }
-        .card--listing_horizental__body__image_content_image {
+        .card--listing_large__body__image_content_image {
+          transition-duration: 0.6s;
+          transition-property: all;
+          transition-timing-function: ease;
           width: 100%;
           height: 100%;
           background-repeat: no-repeat;
           background-size: cover;
-          background-position: center center;
-          overflow: hidden;
-          z-index: 1;
-          transition: transform 0.2s ease; }
-          .card--listing_horizental__body__image_content_image:hover {
-            transform: scale(1.05, 1.05); }
-          .card--listing_horizental__body__image_content_image a {
-            display: block;
-            width: 100%;
-            height: 100%; }
-          @media screen and (max-width: 600px) {
-            .card--listing_horizental__body__image_content_image {
-              min-height: 190px; } }
-        @media screen and (max-width: 680px) {
-          .card--listing_horizental__body__image_content {
-            width: 40%; } }
+          background-position: center center; }
+      .card--listing_large__body__content {
+        grid-area: b;
+        width: 100%;
+        padding: 10px 10px 16px 24px; }
         @media screen and (max-width: 600px) {
-          .card--listing_horizental__body__image_content {
-            width: 100%;
-            position: static;
-            min-height: 190px; } }
-      .card--listing_horizental__body__content {
-        position: absolute;
-        left: 294px;
-        top: 0px;
-        bottom: 0px;
-        right: 0px;
-        height: 100%;
-        padding: 10px 10px 10px 25px; }
-        .card--listing_horizental__body__content .description_row {
+          .card--listing_large__body__content {
+            grid-column-start: 1;
+            grid-row-start: 2;
+            padding: 16px; } }
+        .card--listing_large__body__content h4 {
+          margin-bottom: 0; }
+        .card--listing_large__body__content__description_row {
           border-top: 1px solid #DFE3F0 !important;
           padding: 3px;
           width: 50%;
-          float: left; }
-        @media screen and (max-width: 680px) {
-          .card--listing_horizental__body__content {
-            left: 40%; } }
-        @media screen and (max-width: 600px) {
-          .card--listing_horizental__body__content {
-            left: 0%;
-            position: static;
-            padding: 10px; } }
-    .card--listing_horizental__header {
+          float: left;
+          color: #3B5363; }
+    .card--listing_large__header {
       margin-bottom: 10px; }
+  .card--landscape_small {
+    margin-bottom: 0px; }
+    .card--landscape_small a {
+      font-size: 14px;
+      color: #000;
+      font-weight: 700;
+      padding: 18px 10px;
+      text-align: center;
+      display: block; }
+      .card--landscape_small a:hover {
+        text-decoration: none;
+        color: #000; }
+    .card--landscape_small--with_icon a {
+      padding: 10px;
+      text-align: left; }
+      .card--landscape_small--with_icon a:before {
+        content: "";
+        width: 36px;
+        height: 36px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px; }
+    .card--landscape_small--with_icon--email a:before {
+      background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_email.svg"); }
+    .card--landscape_small--with_icon--facebook a:before {
+      background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_facebook.svg"); }
+    .card--landscape_small--with_icon--twitter a:before {
+      background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_twitter.svg"); }
+    .card--landscape_small--with_icon--tumblr a:before {
+      background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_tumblr.svg"); }
+    .card--landscape_small--with_icon--microsoft a:before {
+      background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_microsoft.svg"); }
+    .card--landscape_small--with_icon--linkedin a:before {
+      background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_linkedin.svg"); }
+    .card--landscape_small--with_icon--digg a:before {
+      background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_digg.svg"); }
+    .card--landscape_small--with_icon--reddit a:before {
+      background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_reddit.svg"); }
+    .card--landscape_small--with_icon--delicious a:before {
+      background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_delicious.svg"); }
 
 .card_portrait_medium_container .col {
   padding-left: 10px !important;

@@ -114,7 +114,18 @@ export default class ListingCards extends Component {
 
     this.codeSnippets = [
 
-`<!-- Landscape-oriented card medium -->
+`
+<!-- Landscape-oriented card small -->
+<div class="card card--landscape_small">
+	<a href="#">Drive Time</a>
+</div>
+
+<!-- Landscape-oriented card small with icon -->
+<div class="card card--landscape_small card--landscape_small--with_icon card--landscape_small--with_icon--facebook">
+	<a href="#">Share on Facebook</a>
+</div>
+
+<!-- Landscape-oriented card medium -->
 <a href="#" class="card card--landscape_medium">
   <div class="card--landscape_medium__image_content">
     <div class="card--landscape_medium__image_content__image" style="background-image: url(https://content.harstatic.com/resource_2019/imgs/temprary/badges.jpg);"></div>
@@ -135,20 +146,6 @@ export default class ListingCards extends Component {
   <div class="card--landscape_large__content">
     <h5><a tabindex="0" href="#">Home prices are so high, pending sales have dropped for 7 months in a row</a></h5>
     <div class="card--landscape_large__text pt-3">The National Association of Realtors blames years of inadequate housing supply and consistent home price growth in hot job markets. Pending home sales dropped 0.7 percent month-over-month and 2.3 percent year-over-year to 106.2. the seventh consecutive month of... <a href="#"  tabindex="-1" class="font_weight--semi_bold">Read more</a></div>
-  </div>
-</div>
-
-<!-- Landscape-oriented card small -->
-<div class="col col-sm-4 col-12 mb-0">
-  <div class="card card--landscape_small">
-    <a href="#">Drive Time</a>
-  </div>
-</div>
-
-<!-- Landscape-oriented card small with icon -->
-<div class="col col-sm-4 col-12 mb-0">
-  <div class="card card--landscape_small card--landscape_small--with_icon card--landscape_small--with_icon--facebook">
-    <a href="#">Share on Facebook</a>
   </div>
 </div>
 `,
