@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Icons/16x16/Price Reduced</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/16x16/Price-Reduced" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" opacity="0.01" x="0" y="0" width="16" height="16"></rect>
+        <g id="icon/arrow-down-white-copy" transform="translate(4.000000, 3.000000)" stroke="#018361" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2">
+            <g id="Group" transform="translate(4.000000, 5.000000) scale(-1, -1) rotate(90.000000) translate(-4.000000, -5.000000) translate(-1.000000, 1.000000)">
+                <g id="Group-2" transform="translate(0.000000, 0.500000)">
+                    <polyline id="Line" points="3.66666667 0 0.333333333 3.33333333 3.66666667 6.66666667"></polyline>
+                    <path d="M0.333333333,3.33333333 L9.66666667,3.33333333" id="Line"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

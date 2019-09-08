@@ -65,22 +65,3 @@ hr {
     box-shadow: 0 10px 16px rgba(0,0,0,0.24);
   }
 }
-
-
-.icon {
-  display: inline-block;
-  vertical-align: middle;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  &--16x16 {
-    width: 16px;
-    height: 16px;
-    margin-right: 4px;
-  }
-
-  &--github {
-    background-image: url(../images/icon-github.svg);
-  }
-}
