@@ -263,6 +263,27 @@ label {
 		&--lots_lands { .custom-control-label { &:before { background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_LotsLands.svg); } } }
 		&--acreage_homes { .custom-control-label { &:before { background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_AcreageHomes.svg); } } }
 
+		&--yard { .custom-control-label { &:before { background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/icons_yard.svg); } } }
+		&--wheelchair_access { .custom-control-label { &:before { background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/icons_wheelchair-access.svg); } } }
+		&--waterfront { .custom-control-label { &:before { background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/icons_waterfront.svg); } } }
+		&--tennis_area { .custom-control-label { &:before { background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/icons_tennis-area.svg); } } }
+		&--study_room { .custom-control-label { &:before { background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/icons_study-room.svg); } } }
+		&--sprinkler { .custom-control-label { &:before { background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/icons_sprinkler.svg); } } }
+		&--spa_hot_tub { .custom-control-label { &:before { background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/icons_spa-hot-tub.svg); } } }
+		&--private_pool { .custom-control-label { &:before { background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/icons_private-pool.svg); } } }
+		&--patio { .custom-control-label { &:before { background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/icons_patio.svg); } } }
+		&--media_room { .custom-control-label { &:before { background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/icons_media-room.svg); } } }
+		&--garage { .custom-control-label { &:before { background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/icons_garage.svg); } } }
+		&--energy_features { .custom-control-label { &:before { background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/icons_energy-features.svg); } } }
+		&--elevator { .custom-control-label { &:before { background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/icons_elevator.svg); } } }
+		&--controlled_access { .custom-control-label { &:before { background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/icons_controlled-access.svg); } } }
+		&--price_reduced { .custom-control-label { &:before { background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/icons_price-reduced.svg); } } }
+		&--open_house { .custom-control-label { &:before { background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/icons_open-house.svg); } } }
+		&--new_listing { .custom-control-label { &:before { background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/icons_new-listing.svg); } } }
+		&--new_constructions { .custom-control-label { &:before { background-image:url(https://content.harstatic.com/resource_2019/imgs/icons/filters/icons_new-constructions.svg); } } }
+
+		
+
 		&--single_family { .custom-control-input:disabled ~ .custom-control-label, .custom-control-input:checked ~ .custom-control-label { &:before { background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Single_Family_On.svg); } } }
 		&--multi_family { .custom-control-input:disabled ~ .custom-control-label, .custom-control-input:checked ~ .custom-control-label { &:before { background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Multi_Family_On.svg); } } }
 		&--townhouse { .custom-control-input:disabled ~ .custom-control-label, .custom-control-input:checked ~ .custom-control-label { &:before { background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters/Icons_Townhouse_On.svg); } } }
