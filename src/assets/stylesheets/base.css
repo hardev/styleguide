@@ -419,7 +419,7 @@ h4 {
     .btn--ordinary:hover {
       color: #515B7A; }
   .btn--shapeless {
-    background: #FFF !important;
+    background: transparent !important;
     border: 1px solid rgba(255, 255, 255, 0) !important;
     height: 40px;
     line-height: 40px;
@@ -469,6 +469,14 @@ h4 {
     background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/filters.svg); }
   .btn--icon--share:before {
     background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/share_gray.svg); }
+  .btn--icon--map_view:before {
+    background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/map-view.svg); }
+  .btn--icon--gallery:before {
+    background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/photo-gallery.svg); }
+  .btn--icon--street_view:before {
+    background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/street-view.svg); }
+  .btn--icon--close:before {
+    background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/close_medium_gra.svg); }
   .btn--icon--lone:before {
     margin-right: 0; }
   .btn--icon--lone.btn--large {
@@ -765,6 +773,8 @@ label {
     cursor: not-allowed;
     background-color: #EDF0FA;
     opacity: 0.75; }
+  .form-control--textarea {
+    height: auto !important; }
 
 /* form input quick search */
 .input-group--search_input_home {

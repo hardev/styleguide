@@ -93,7 +93,7 @@
   }
 
   &--shapeless {
-    background: $color-snow-white !important;
+    background: transparent !important;
     border: 1px solid rgba(255,255,255,0) !important;
     height: 40px;
     line-height: 40px;
@@ -199,7 +199,34 @@
         background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/share_gray.svg);
       }
     }
-
+    
+    &--map_view {
+      &:before {
+        background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/map-view.svg);
+      }
+    }
+    
+    &--gallery {
+      &:before {
+        background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/photo-gallery.svg);
+      }
+    }
+    
+    &--street_view {
+      &:before {
+        background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/street-view.svg);
+      }
+    }
+    
+    &--close {
+      &:before {
+        background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/close_medium_gra.svg);
+      }
+    }
+	
+	
+	
+	
     &--lone {
       &:before {
         margin-right: 0;

@@ -25,6 +25,10 @@ label {
 		background-color: $color-cloudy-sky-light;
 		opacity: 0.75;
 	}
+	
+	&--textarea {
+		height: auto !important;
+	}
 }
 
 /* form input quick search */
