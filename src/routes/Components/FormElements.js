@@ -71,6 +71,40 @@ export default class Forms extends Component {
 	        <div class="component_content__demo__description">Home filled search input</div>
         </div>
        </div>`,
+       `
+       <div class="row">
+         <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+           <h4 tabindex="0">Default Checkbox</h4>
+         </div>
+       </div>
+
+       <div class="row mt-4 pb-3">
+         <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+          <div role="checkbox" class="custom-control custom-checkbox custom-control-inline">
+            <input type="checkbox" id="checkbox_button_medium_1" name="checkbox_button_medium" class="custom-control-input">
+            <label class="custom-control-label" for="checkbox_button_medium_1">Yes</label>
+          </div>
+          <div class="component_content__demo__description">checkbox default state</div>
+        </div>
+
+        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+          <div role="checkbox" class="custom-control custom-checkbox custom-control-inline">
+            <input type="checkbox" id="checkbox_button_medium_2" name="checkbox_button_medium" class="custom-control-input" checked="checked">
+            <label class="custom-control-label" for="checkbox_button_medium_2">Yes</label>
+          </div>
+          <div class="component_content__demo__description">checkbox checked</div>
+        </div>
+
+        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+          <div role="checkbox" class="custom-control custom-checkbox custom-control-inline">
+            <input type="checkbox" id="checkbox_button_medium_3" name="checkbox_button_medium" class="custom-control-input" disabled="disabled">
+            <label class="custom-control-label" for="checkbox_button_medium_3">Disabled Checkbox</label>
+          </div>
+          <div class="component_content__demo__description">checkbox disabled</div>
+        </div>
+        
+      </div>
+       `,
 
        `<div class="row">
          <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
@@ -315,7 +349,26 @@ export default class Forms extends Component {
     <button class="btn btn--prominent" type="button"></button>
   </div>
 </div>`,
+`
+<!-- Checbox Default state -->
+<div role="checkbox" class="custom-control custom-checkbox custom-control-inline">
+<input type="checkbox" id="checkbox_button_medium_1" name="checkbox_button_medium" class="custom-control-input">
+<label class="custom-control-label" for="checkbox_button_medium_1">Yes</label>
+</div>
 
+<!-- Checbox checked -->
+<div role="checkbox" class="custom-control custom-checkbox custom-control-inline">
+<input type="checkbox" id="checkbox_button_medium_2" name="checkbox_button_medium" class="custom-control-input" checked="checked">
+<label class="custom-control-label" for="checkbox_button_medium_2">Yes</label>
+</div>
+
+<!-- Checbox Disabled -->
+<div role="checkbox" class="custom-control custom-checkbox custom-control-inline">
+<input type="checkbox" id="checkbox_button_medium_3" name="checkbox_button_medium" class="custom-control-input" disabled="disabled">
+<label class="custom-control-label" for="checkbox_button_medium_3">Disabled Checkbox</label>
+</div>
+`
+,
 `<!-- Radio button medium -->
 <div role="radiogroup">
   <div role="radio" class="custom-control custom-radio custom-control-inline">
@@ -450,11 +503,12 @@ export default class Forms extends Component {
 
         <TemplateComponentBlock blockTitle="Input" elements={this.elements[0]} codeSnippets={this.codeSnippets[0]} />
         <TemplateComponentBlock blockTitle="Search input" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
-        <TemplateComponentBlock blockTitle="Radio button" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
-        <TemplateComponentBlock blockTitle="Select Menu" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
-        <TemplateComponentBlock blockTitle="Dropdown Menu" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
-        <TemplateComponentBlock blockTitle="Choosable Box" elements={this.elements[5]} codeSnippets={this.codeSnippets[5]} />
-        <TemplateComponentBlock blockTitle="Toggle Buttons" elements={this.elements[6]} codeSnippets={this.codeSnippets[6]} />
+        <TemplateComponentBlock blockTitle="Checkbox" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
+        <TemplateComponentBlock blockTitle="Radio button" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
+        <TemplateComponentBlock blockTitle="Select Menu" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
+        <TemplateComponentBlock blockTitle="Dropdown Menu" elements={this.elements[5]} codeSnippets={this.codeSnippets[5]} />
+        <TemplateComponentBlock blockTitle="Choosable Box" elements={this.elements[6]} codeSnippets={this.codeSnippets[6]} />
+        <TemplateComponentBlock blockTitle="Toggle Buttons" elements={this.elements[7]} codeSnippets={this.codeSnippets[7]} />
 
 
       </TemplateDefault>

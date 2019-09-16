@@ -70,6 +70,46 @@ label {
 
 }
 
+/* input checkbox */
+.custom-checkbox {
+  .custom-control-input {
+  	left: -0px;
+  	top: 4px;
+  	z-index: 1;
+  }
+  .custom-control-label {
+	  color: $color-carbon;
+	  font-size:12px;
+	  font-weight: $font-weight-regular;
+	  padding:2px 0px 0px 3px;
+	  cursor: pointer;
+	  margin:0px 15px 10px 0px;
+  }
+  .custom-control-label::before {
+    background-color: transparent;
+    background-image:url("https://content.harstatic.com/resource_2019/imgs/icons/checkbox-box-empty.svg");
+    width: 16px;
+    height: 16px;
+    border: none;
+  }
+  .custom-control-label::after {
+    display: none;
+  }
+
+  .custom-control-input:checked ~ .custom-control-label {
+    &::before {
+	  background-color: transparent;
+      background-image:url("https://content.harstatic.com/resource_2019/imgs/icons/checkbox-box-checked.svg");
+    }
+  }
+
+	.custom-control-input:disabled ~ .custom-control-label {
+		cursor: not-allowed !important;
+		color: $color-auxiliary;
+	}
+
+}
+
 /* input radio */
 .custom-radio {
   .custom-control-input {
