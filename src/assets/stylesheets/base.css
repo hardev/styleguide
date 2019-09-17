@@ -477,6 +477,12 @@ h4 {
     background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/street-view.svg); }
   .btn--icon--close:before {
     background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/close_medium_gra.svg); }
+  .btn--icon--add:before {
+    background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/add.svg); }
+  .btn--icon--edit:before {
+    background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/edit.svg); }
+  .btn--icon--external-link:before {
+    background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/external-link.svg); }
   .btn--icon--lone:before {
     margin-right: 0; }
   .btn--icon--lone.btn--large {
@@ -799,6 +805,47 @@ label {
     .input-group--search_input_home .btn:active {
       height: 74px;
       transform: translate(0, 0); }
+
+/* input checkbox */
+.custom-checkbox .custom-control-input {
+  left: -0px;
+  top: 4px;
+  z-index: 1; }
+.custom-checkbox .custom-control-label {
+  color: #212529;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 2px 0px 0px 3px;
+  cursor: pointer;
+  margin: 0px 15px 10px 0px; }
+.custom-checkbox .custom-control-label::before {
+  background-color: transparent;
+  background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/checkbox-box-empty.svg");
+  width: 16px;
+  height: 16px;
+  border: none; }
+.custom-checkbox .custom-control-label::after {
+  display: none; }
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: transparent;
+  background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/checkbox-box-checked.svg"); }
+.custom-checkbox .custom-control-input:disabled ~ .custom-control-label {
+  cursor: not-allowed !important;
+  opacity: 50%;
+  color: #212529; }
+.custom-checkbox_with-description .custom-control-label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  padding-top: 0px; }
+.custom-checkbox_with-description span {
+  font-weight: 300;
+  color: #515B7A;
+  font-size: 12px;
+  text-align: left;
+  padding-left: 2px;
+  display: block;
+  line-height: 16px; }
 
 /* input radio */
 .custom-radio .custom-control-input {

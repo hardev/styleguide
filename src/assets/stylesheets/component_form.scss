@@ -103,10 +103,31 @@ label {
     }
   }
 
-	.custom-control-input:disabled ~ .custom-control-label {
-		cursor: not-allowed !important;
-		color: $color-auxiliary;
-	}
+  .custom-control-input:disabled ~ .custom-control-label {
+	cursor: not-allowed !important;
+	opacity: 50%;
+	color: $color-carbon;
+	&::before {
+    }
+  }
+  
+  &_with-description{
+	  .custom-control-label {
+		  font-size: $font-size-medium;
+		  font-weight: $font-weight-semi-bold;
+		  margin-bottom: 4px;
+		  padding-top: 0px;
+	  }
+	  span {
+		  font-weight: $font-weight-regular;
+		  color: $color-auxiliary;
+		  font-size: $font-size-small;
+		  text-align: left;
+		  padding-left: 2px;
+		  display: block;
+		  line-height: 16px;
+	  }  
+  }
 
 }
 

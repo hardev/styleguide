@@ -104,6 +104,25 @@ export default class Forms extends Component {
         </div>
         
       </div>
+      
+      <div class="row">
+         <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+           <h4 tabindex="0">Checkbox With Description</h4>
+         </div>
+       </div>
+
+       <div class="row mt-4 pb-3">
+         <div class="col col-sm-6 col-12 pr-sm-6 pl-sm-6">
+          <div role="checkbox" class="custom-control custom-checkbox custom-checkbox_with-description">
+            <input type="checkbox" id="checkbox_button_medium_1" name="checkbox_button_medium" class="custom-control-input">
+            <label class="custom-control-label" for="checkbox_button_medium_1">Auto Refresh Results</label>
+            <span>Search results will be refreshed automatically when moving/zooming to match the visible area of the map.</span>
+          </div>
+          <div class="component_content__demo__description">checkbox default state</div>
+        </div>
+
+        
+      </div>
        `,
 
        `<div class="row">
@@ -366,6 +385,13 @@ export default class Forms extends Component {
 <div role="checkbox" class="custom-control custom-checkbox custom-control-inline">
 <input type="checkbox" id="checkbox_button_medium_3" name="checkbox_button_medium" class="custom-control-input" disabled="disabled">
 <label class="custom-control-label" for="checkbox_button_medium_3">Disabled Checkbox</label>
+</div>
+
+<!-- Checbox with description -->
+<div role="checkbox" class="custom-control custom-checkbox custom-checkbox_with-description">
+<input type="checkbox" id="checkbox_button_medium_1" name="checkbox_button_medium" class="custom-control-input">
+<label class="custom-control-label" for="checkbox_button_medium_1">Auto Refresh Results</label>
+<span>Search results will be refreshed automatically when moving/zooming to match the visible area of the map.</span>
 </div>
 `
 ,

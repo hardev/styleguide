@@ -223,8 +223,24 @@
         background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/close_medium_gra.svg);
       }
     }
-	
-	
+    
+    &--add {
+      &:before {
+        background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/add.svg);
+      }
+    }
+    
+    &--edit {
+      &:before {
+        background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/edit.svg);
+      }
+    }
+    
+    &--external-link {
+      &:before {
+        background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/external-link.svg);
+      }
+    }
 	
 	
     &--lone {
