@@ -479,8 +479,12 @@ h4 {
     background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/close_medium_gra.svg); }
   .btn--icon--add:before {
     background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/add.svg); }
+  .btn--icon--add-white:before {
+    background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/add-negative.svg); }
   .btn--icon--edit:before {
     background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/edit.svg); }
+  .btn--icon--delete-white:before {
+    background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/delete-white.svg); }
   .btn--icon--external-link:before {
     background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/external-link.svg); }
   .btn--icon--lone:before {

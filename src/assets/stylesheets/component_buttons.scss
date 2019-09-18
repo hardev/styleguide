@@ -230,9 +230,21 @@
       }
     }
     
+    &--add-white {
+      &:before {
+        background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/add-negative.svg);
+      }
+    }
+    
     &--edit {
       &:before {
         background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/edit.svg);
+      }
+    }
+    
+    &--delete-white {
+      &:before {
+        background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/delete-white.svg);
       }
     }
     
