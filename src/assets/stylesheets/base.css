@@ -387,6 +387,9 @@ h4 {
     line-height: 24px !important;
     font-size: 11px !important;
     padding: 0 8px !important; }
+    .btn--small-extra:before {
+      width: 11px !important;
+      height: 11px !important; }
   .btn--primary {
     background: #0738CD !important;
     border: 1px solid #042280 !important;

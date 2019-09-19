@@ -47,6 +47,10 @@
     line-height: 24px !important;
     font-size: $font-size-small-extra !important;
     padding: 0 8px !important;
+    &:before {
+      width: 11px !important;
+      height: 11px !important;
+    }
   }
 
 
