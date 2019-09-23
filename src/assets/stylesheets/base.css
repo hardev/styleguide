@@ -364,7 +364,9 @@ h4 {
   /* == STYLES == */
   /* == VARIATIONS == */ }
   .btn:hover, .btn:focus {
-    opacity: 0.8 !important; }
+    opacity: 0.8 !important;
+    -webkit-opacity: 0.8 !important;
+    -moz-opacity: 0.8 !important; }
   .btn:active {
     transform: translate(0, 2px); }
   .btn--large {
@@ -778,14 +780,16 @@ label {
   border: 1px solid #AFB8D9;
   font-size: 14px;
   color: #0738CD !important;
-  height: 40px !important;
+  height: 40px;
   padding: 12px; }
   .form-control::placeholder {
     color: #52738A; }
   .form-control:disabled, .form-control[readonly] {
     cursor: not-allowed;
     background-color: #EDF0FA;
-    opacity: 0.75; }
+    opacity: 0.75;
+    -webkit-opacity: 0.75 !important;
+    -moz-opacity: 0.75 !important; }
   .form-control--textarea {
     height: auto !important; }
 
@@ -793,7 +797,7 @@ label {
 .input-group--search_input_home {
   margin-bottom: 20px; }
   .input-group--search_input_home .form-control {
-    height: 74px !important;
+    height: 74px;
     font-size: 18px;
     padding: 0 24px;
     border-radius: 4px; }
@@ -839,7 +843,8 @@ label {
 .custom-checkbox .custom-control-input:disabled ~ .custom-control-label {
   cursor: not-allowed !important;
   opacity: 50%;
-  color: #212529; }
+  -webkit-opacity: 0.5 !important;
+  -moz-opacity: 0.5 !important; }
 .custom-checkbox_with-description .custom-control-label {
   font-size: 14px;
   font-weight: 500;
@@ -895,7 +900,9 @@ label {
   color: #FFF !important; }
 .custom-radio--negative .custom-control-input:disabled ~ .custom-control-label {
   color: #AFB8D9 !important;
-  opacity: 0.45; }
+  opacity: 0.45;
+  -webkit-opacity: 0.45 !important;
+  -moz-opacity: 0.45 !important; }
 .custom-radio--negative .custom-control-label::before {
   background-color: transparent;
   background-image: url("https://content.harstatic.com/resource_2019/imgs/home/radiosimple.svg"); }
@@ -1046,7 +1053,9 @@ label {
     background: #DAE1F8;
     color: #0738CD; }
   .choosable_box .custom-control-input:disabled ~ .custom-control-label {
-    opacity: 0.5; }
+    opacity: 0.5;
+    -webkit-opacity: 0.5 !important;
+    -moz-opacity: 0.5 !important; }
 
 .btn-group-toggle {
   width: 100%; }
@@ -1191,7 +1200,8 @@ label {
   .card--landscape_large__image_content__image:hover {
     transform: scale(1.05, 1.05); }
   .card--landscape_large__content {
-    padding: 24px; }
+    padding: 24px;
+    min-height: 150px; }
   .card--landscape_large__text {
     color: #515B7A;
     font-size: 14px;

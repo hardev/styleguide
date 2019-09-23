@@ -14,6 +14,8 @@
   &:hover,
   &:focus {
     opacity: 0.8 !important;
+	-webkit-opacity: 0.8 !important;
+	-moz-opacity: 0.8 !important;
   }
 
   &:active {
