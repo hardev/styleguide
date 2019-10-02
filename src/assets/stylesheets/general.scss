@@ -65,3 +65,8 @@ hr {
     box-shadow: 0 10px 16px rgba(0,0,0,0.24);
   }
 }
+
+.horizontal_scrollable_items_container {
+  white-space: nowrap;
+  overflow-x: auto;
+}

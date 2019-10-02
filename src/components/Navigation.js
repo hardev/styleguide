@@ -16,9 +16,9 @@ export default class Header extends Component {
 		super(props);
 
 		this.state = {
-			isMobileMenuOn: '',
+			isFloatingMenuOn: '',
 			asideMainClass: '',
-			HeaderMobileMenuBtnClass: ''
+			FloatingMenuBtnClass: ''
 		};
 
 		this.toggleMenu = this.toggleMenu.bind(this);
@@ -26,33 +26,47 @@ export default class Header extends Component {
 
 	toggleMenu() {
 		let auxState;
-		if (this.state.isMobileMenuOn == '') {
+		if (this.state.isFloatingMenuOn == '') {
 			auxState = 'menu_open';
 		} else {
 			auxState = '';
 		}
 
     this.setState(state => ({
-			isMobileMenuOn: auxState,
+			isFloatingMenuOn: auxState,
 			asideMainClass: `aside_main--` + auxState,
-			HeaderMobileMenuBtnClass: `header_mobile__mobile_menu_btn--` + auxState
-      // isMobileMenuOn: !state.isMobileMenuOn
+			FloatingMenuBtnClass: `floating_menu_btn--` + auxState
+      // isFloatingMenuOn: !state.isFloatingMenuOn
     }));
   }
 
-	render(){
+	render() {
 		return (
 			<div>
+
         <header className="header_mobile">
-          <div onClick={this.toggleMenu} aria-label="Show/hide menu" className={`header_mobile__mobile_menu_btn ${this.state.HeaderMobileMenuBtnClass}`}></div>
+          <div onClick={this.toggleMenu} aria-label="Show/hide menu" className={`floating_menu_btn ${this.state.FloatingMenuBtnClass}`}></div>
 
           <div className="header_mobile__logo">
             <Link to="/"><img src={logo} alt="HAR Styleguide" /></Link>
           </div>
         </header>
 
+				<div
+					onClick={this.toggleMenu}
+					aria-label="Show/hide menu"
+					className={`
+						floating_menu_btn
+						${this.state.FloatingMenuBtnClass}
+						${this.props.isFloatingNavigation ? "true" : "d-none"}
+					`}></div>
 
-        <aside className={`aside_main ${this.state.asideMainClass}`}>
+        <aside
+					className={`
+						aside_main
+						${this.state.asideMainClass}
+						${this.props.isFloatingNavigation ? "aside_main--floating" : ""}
+					`}>
 
           <div className="aside_main__logo">
             <Link to="/"><img src={logo} alt="HAR Styleguide" /></Link><br />Styleguide
@@ -142,6 +156,27 @@ export default class Header extends Component {
                   </li>
                   <li className={`li ${this.props.activeChild == 'tables' ? 'li--active' : ''} `}>
                     <Link to="/components/tables">Tables</Link>
+                  </li>
+                </ul>
+              </li>
+
+							<li className="li li--has-children">
+
+                <a data-toggle="collapse"
+									 href="#menu_template_blocks"
+									 role="button"
+									 aria-expanded={ this.props.activeParent == 'template_blocks' ? 'true' : 'false' }
+									 aria-controls="menu_template_blocks">
+                  Template Blocks
+                </a>
+
+                <ul
+									className={`collapse ${this.props.activeParent == 'template_blocks' ? 'show' : ''} `}
+									id="menu_template_blocks"
+									data-parent="#aside_main_nav">
+
+                  <li className={`li ${this.props.activeChild == 'heros' ? 'li--active' : ''} `}>
+                    <Link to="/template_blocks/heros">Heros</Link>
                   </li>
                 </ul>
               </li>

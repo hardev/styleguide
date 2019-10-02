@@ -2,9 +2,15 @@ import React, { Component } from "react";
 
 export default class Content extends Component {
 
-	render(){
+	constructor(props) {
+    super(props);
+  }
+
+	render() {
+
 		return (
-      <main className="wrapper">
+      <main className={this.props.wrapperClass ? this.props.wrapperClass : "wrapper"}>
+
         <div className="container">
           <div className="row">
             <div className="col-12">

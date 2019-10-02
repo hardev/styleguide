@@ -44,27 +44,51 @@ body {
   width: calc(100% - 280px);
   margin: 0 !important;
   float: left;
-  // min-height: 100%;
 
   @media screen and (max-width: 768px) {
     width: auto;
     float: none;
     padding-top: 24px;
   }
+
+  &--full_width {
+    width: 100%;
+
+    .container {
+      @media (min-width: 1200px) {
+        max-width: 1140px !important;
+      }
+    }
+  }
+
+  .container {
+    @media (min-width: 1200px) {
+      max-width: 800px;
+    }
+
+    .component_content:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  footer {
+    background: $color-cloudy-sky-light;
+    text-align: left;
+    margin-top: 80px;
+    padding: 0 16px;
+    height: 70px;
+    line-height: 70px;
+    color: $color-auxiliary;
+    cursor: default;
+  }
 }
 
 
-.wrapper footer {
-  background: $color-cloudy-sky-light;
-  text-align: left;
-  margin-top: 80px;
-  padding: 0 16px;
-  height: 70px;
-  line-height: 70px;
-  color: $color-auxiliary;
-  cursor: default;
-}
-
+// .floating_navigation {
+//   position: absolute;
+//   z-index: 999;
+//   height: 100%;
+// }
 
 .header_mobile {
   display: none;
@@ -86,22 +110,24 @@ body {
         height: 56px;
       }
     }
+  }
+}
 
-    &__mobile_menu_btn {
-      width: 32px;
-      height: 32px;
-      background: #fff url(../images/icon-menu.svg) center no-repeat;
-      background-size: 24px 24px;
-      position: absolute;
-      top: 18px;
-      left: 11px;
-      border-radius: 4px;
+.floating_menu_btn {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  background: #fff url(../images/icon-menu.svg) center no-repeat;
+  background-size: 24px 24px;
+  position: absolute;
+  top: 18px;
+  left: 11px;
+  border-radius: 4px;
+  z-index: 999999;
 
-      &--menu_open {
-        left: 290px;
-        background: #fff url(../images/icon-menu-close.svg) center no-repeat;
-      }
-    }
+  &--menu_open {
+    left: 290px;
+    background: #fff url(../images/icon-menu-close.svg) center no-repeat;
   }
 }
 
@@ -116,6 +142,16 @@ body {
   border-right: 1px solid $color-har-blue-light-extra;
   float: left;
 
+  // The same as @media screen and (max-width: 768px) {
+  &--floating {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0 10px 16px rgba(0,0,0,0.24);
+  }
+
   @media screen and (max-width: 768px) {
     display: none;
     position: fixed;
@@ -123,10 +159,10 @@ body {
     left: 0;
     z-index: 999;
     box-shadow: 0 10px 16px rgba(0,0,0,0.24);
+  }
 
-    &--menu_open {
-      display: block;
-    }
+  &--menu_open {
+    display: block !important;
   }
 
   &__logo {
@@ -277,18 +313,6 @@ body {
 }
 
 
-
-.wrapper .container {
-  @media (min-width: 1200px) {
-    max-width: 800px;
-  }
-
-  .component_content:last-child {
-    margin-bottom: 0;
-  }
-}
-
-
 .component_content {
   margin-bottom: 56px;
 
@@ -361,6 +385,14 @@ body {
       border-radius: 0 0 4px 4px;
       background: $color-carbon !important;
       line-height: 22px !important;
+    }
+
+    &--has_no_container {
+      margin-top: 32px;
+      
+      pre {
+        border-radius: 4px;
+      }
     }
   }
 }

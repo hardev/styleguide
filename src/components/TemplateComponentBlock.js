@@ -27,9 +27,9 @@ export default class Content extends Component {
         <h2 tabIndex="0" style={{display: isTitleVisible}}>{this.props.blockTitle}</h2>
 
         <div>
-          <div className="component_content__demo" dangerouslySetInnerHTML={{__html: this.props.elements}}></div>
+          <div className={this.props.hasContainer == false ? "" : "component_content__demo" } dangerouslySetInnerHTML={{__html: this.props.elements}}></div>
 
-          <div className="component_content__code">
+          <div className={`component_content__code ${this.props.hasContainer == false ? "component_content__code--has_no_container" : ""}`}>
             <pre>
               <code className="language-html">
 {this.props.codeSnippets}
