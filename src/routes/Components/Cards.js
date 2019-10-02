@@ -256,6 +256,7 @@ export default class ListingCards extends Component {
     <div class="card--landscape_large__text pt-3">The National Association of Realtors blames years of inadequate housing supply and consistent home price growth in hot job markets. Pending home sales dropped 0.7 percent month-over-month and 2.3 percent year-over-year to 106.2. the seventh consecutive month of... <a href="#"  tabindex="-1" class="font_weight--semi_bold">Read more</a></div>
   </div>
 </div>
+
 `,
 
 `<!--
