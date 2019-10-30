@@ -496,6 +496,8 @@ h4 {
     background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/delete-white.svg); }
   .btn--icon--external-link:before {
     background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/external-link.svg); }
+  .btn--icon--download:before {
+    background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/import.svg); }
   .btn--icon--lone:before {
     margin-right: 0; }
   .btn--icon--lone.btn--large {
@@ -533,6 +535,11 @@ h4 {
     color: #FFF; }
     .filterpill--active:after {
       background: url(https://content.harstatic.com/resource_2019/imgs/icons/pencile_edit.svg) no-repeat center center; }
+  .filterpill--closeable {
+    background-color: #042280;
+    color: #FFF; }
+    .filterpill--closeable:after {
+      background: url(https://content.harstatic.com/resource_2019/imgs/icons/cross_with_whitebg.svg) no-repeat center center; }
   .filterpill--all {
     background-color: #042280;
     color: #FFF;
@@ -1445,8 +1452,12 @@ label {
       background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/mailchimp_icon.svg"); }
     .card--landscape_small--with_icon--slack a:before {
       background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/slacl_icon.svg"); }
-    .card--landscape_small--with_icon--yahoo_icon a:before {
+    .card--landscape_small--with_icon--yahoo a:before {
       background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/yahoo_icon.svg"); }
+    .card--landscape_small--with_icon--google a:before {
+      background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/google_from.svg"); }
+    .card--landscape_small--with_icon--outlook a:before {
+      background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/outlook_icon.svg"); }
 
 .card_portrait_medium_container .col {
   padding-left: 10px !important;

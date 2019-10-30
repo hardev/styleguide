@@ -528,13 +528,28 @@
 					}
 				}
 			}
-			&--yahoo_icon {
+			&--yahoo {
 				a {
 					&:before {
 						background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/yahoo_icon.svg");
 					}
 				}
 			}
+			&--google {
+				a {
+					&:before {
+						background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/google_from.svg");
+					}
+				}
+			}
+			&--outlook {
+				a {
+					&:before {
+						background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/outlook_icon.svg");
+					}
+				}
+			}
+			
 			
 		}
 

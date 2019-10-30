@@ -30,6 +30,14 @@
 		}		
 	}
 	
+	&--closeable {
+		background-color: $color-har-blue-dark;
+		color: $color-snow-white;
+		&:after {
+			background: url(https://content.harstatic.com/resource_2019/imgs/icons/cross_with_whitebg.svg) no-repeat center center;
+		}		
+	}
+	
 	&--all {
 		background-color: $color-har-blue-dark;
 		color: $color-snow-white;

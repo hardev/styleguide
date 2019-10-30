@@ -259,7 +259,12 @@
         background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/external-link.svg);
       }
     }
-	
+    	
+	&--download {
+      &:before {
+        background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/import.svg);
+      }
+    }
 	
     &--lone {
       &:before {
