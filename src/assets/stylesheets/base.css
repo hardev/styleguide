@@ -1437,6 +1437,16 @@ label {
       background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_reddit.svg"); }
     .card--landscape_small--with_icon--delicious a:before {
       background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/social/social_icon_delicious.svg"); }
+    .card--landscape_small--with_icon--box a:before {
+      background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/box_icon.svg"); }
+    .card--landscape_small--with_icon--csv a:before {
+      background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/csv_icon.svg"); }
+    .card--landscape_small--with_icon--mailchimp a:before {
+      background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/mailchimp_icon.svg"); }
+    .card--landscape_small--with_icon--slack a:before {
+      background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/slacl_icon.svg"); }
+    .card--landscape_small--with_icon--yahoo_icon a:before {
+      background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/yahoo_icon.svg"); }
 
 .card_portrait_medium_container .col {
   padding-left: 10px !important;

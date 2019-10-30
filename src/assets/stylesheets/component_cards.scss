@@ -500,6 +500,42 @@
 					}
 				}
 			}
+			&--box {
+				a {
+					&:before {
+						background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/box_icon.svg");
+					}
+				}
+			}
+			&--csv {
+				a {
+					&:before {
+						background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/csv_icon.svg");
+					}
+				}
+			}
+			&--mailchimp {
+				a {
+					&:before {
+						background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/mailchimp_icon.svg");
+					}
+				}
+			}
+			&--slack {
+				a {
+					&:before {
+						background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/slacl_icon.svg");
+					}
+				}
+			}
+			&--yahoo_icon {
+				a {
+					&:before {
+						background-image: url("https://content.harstatic.com/resource_2019/imgs/icons/yahoo_icon.svg");
+					}
+				}
+			}
+			
 		}
 
 	}
