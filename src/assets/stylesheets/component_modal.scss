@@ -1,4 +1,5 @@
 .modal {
+	z-index: 105000;
 	&--full-width{
 		.modal-xl {
 			max-width:100%;
