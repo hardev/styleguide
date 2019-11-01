@@ -32,6 +32,16 @@ export default class FilterPill extends Component {
         <div class="clearfix"></div>
         <div class="component_content__demo__description">Disabled</div>
       </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col col-3">
+        <div class="filterpill filterpill--closeable">
+        	Kip Collison
+        	<a href="#"></a>
+        </div>
+        <div class="clearfix"></div>
+        <div class="component_content__demo__description">Closable Pill</div>
+      </div>
     </div>`,
     ];
 
@@ -49,6 +59,12 @@ export default class FilterPill extends Component {
 
 <!-- Filter Pill disabled -->
 <button class="filterpill" title="" disabled aria-label="Filter by price disabled">Price</button>
+
+<!-- Filter Pill closeable -->
+<div class="filterpill filterpill--closeable">
+    Kip Collison
+    <a href="#"></a>
+</div>
 `,
     ];
 

@@ -33,7 +33,19 @@
 	&--closeable {
 		background-color: $color-har-blue-dark;
 		color: $color-snow-white;
+		line-height: 20px;
+		display: inline-block;
 		&:after {
+			background: none;
+			content: none;
+		}		
+		a {
+			display:block;
+			position: absolute;
+			right: 11px; 
+			top: 11px;
+			width: 16px;
+			height: 16px;
 			background: url(https://content.harstatic.com/resource_2019/imgs/icons/cross_with_whitebg.svg) no-repeat center center;
 		}		
 	}

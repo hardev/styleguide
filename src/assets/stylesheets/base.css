@@ -537,8 +537,19 @@ h4 {
       background: url(https://content.harstatic.com/resource_2019/imgs/icons/pencile_edit.svg) no-repeat center center; }
   .filterpill--closeable {
     background-color: #042280;
-    color: #FFF; }
+    color: #FFF;
+    line-height: 20px;
+    display: inline-block; }
     .filterpill--closeable:after {
+      background: none;
+      content: none; }
+    .filterpill--closeable a {
+      display: block;
+      position: absolute;
+      right: 11px;
+      top: 11px;
+      width: 16px;
+      height: 16px;
       background: url(https://content.harstatic.com/resource_2019/imgs/icons/cross_with_whitebg.svg) no-repeat center center; }
   .filterpill--all {
     background-color: #042280;
