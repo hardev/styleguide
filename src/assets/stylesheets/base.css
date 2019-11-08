@@ -492,6 +492,8 @@ h4 {
     background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/add-negative.svg); }
   .btn--icon--edit:before {
     background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/edit.svg); }
+  .btn--icon--delete-red:before {
+    background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/delete_mini.svg); }
   .btn--icon--delete-white:before {
     background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/delete-white.svg); }
   .btn--icon--external-link:before {
@@ -538,7 +540,7 @@ h4 {
   .filterpill--closeable {
     background-color: #042280;
     color: #FFF;
-    line-height: 20px;
+    line-height: 18px;
     display: inline-block; }
     .filterpill--closeable:after {
       background: none;

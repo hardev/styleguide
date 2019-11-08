@@ -248,6 +248,12 @@
       }
     }
     
+    &--delete-red {
+      &:before {
+        background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/delete_mini.svg);
+      }
+    }
+    
     &--delete-white {
       &:before {
         background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/delete-white.svg);
