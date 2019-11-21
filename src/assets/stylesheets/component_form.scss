@@ -243,7 +243,7 @@ label {
 /* cusotm select */
 .custom-select {
 	border: 1px solid $color-auxiliary-light;
-	background: url("https://content.harstatic.com/resource_2019/imgs/icons/select_arrow.svg")no-repeat right 0.75rem center/10px 9px !important;
+	background:$color-snow-white url("https://content.harstatic.com/resource_2019/imgs/icons/select_arrow.svg")no-repeat right 0.75rem center/10px 9px !important;
 	color: $color-slate-light;
 	text-align: left;
 
