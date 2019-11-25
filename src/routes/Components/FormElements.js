@@ -70,6 +70,26 @@ export default class Forms extends Component {
 	        </div>
 	        <div class="component_content__demo__description">Home filled search input</div>
         </div>
+       </div>
+       
+       <hr>
+
+      <div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Serach Input Medium</h4>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+      	<div class="col col-sm-9 col-12 mt-5">
+	      	<div class="input-group input-group--search_input_medium">
+	          <input type="text" class="form-control" placeholder="Enter address, city or zip code" aria-label="Enter address, city or zip code">
+	          <div class="input-group-append">
+	            <button class="btn btn--prominent" type="button"></button>
+	          </div>
+	        </div>
+	        <div class="component_content__demo__description">Medium Search Box</div>
+        </div>        
        </div>`,
        `
        <div class="row">
@@ -367,7 +387,16 @@ export default class Forms extends Component {
   <div class="input-group-append">
     <button class="btn btn--prominent" type="button"></button>
   </div>
-</div>`,
+</div>
+
+<!-- Search Box Medium -->
+<div class="input-group input-group--search_input_medium">
+  <input type="text" class="form-control" placeholder="Enter address, city or zip code" aria-label="Enter address, city or zip code">
+  <div class="input-group-append">
+    <button class="btn btn--prominent" type="button"></button>
+  </div>
+</div>
+`,
 `
 <!-- Checbox Default state -->
 <div role="checkbox" class="custom-control custom-checkbox custom-control-inline">
