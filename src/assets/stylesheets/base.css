@@ -832,7 +832,7 @@ label {
 .form-control {
   border: 1px solid #AFB8D9;
   font-size: 14px;
-  color: #0738CD !important;
+  color: #212529 !important;
   height: 40px;
   padding: 12px; }
   .form-control::placeholder {
