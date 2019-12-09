@@ -66,6 +66,37 @@ hr {
   }
 }
 
+.border_bottom {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	
+	&--cement_light {
+		border-bottom-color: $color-cement-light;
+	}
+	&--cement-dark {
+		border-bottom-color: $color-cement-dark;
+	}
+
+	&--carbon {
+		border-bottom-color: $color-carbon;
+	}
+	&--slate {
+		border-bottom-color: $color-slate;
+	}
+	&--slate-light {
+		border-bottom-color: $color-slate-light;
+	}
+	&--cloudy-sky {
+		border-bottom-color: $color-cloudy-sky;
+	}
+	&--cloudy-sky-light {
+		border-bottom-color: $color-cloudy-sky-light;
+	}
+	&--snow-white {
+		border-bottom-color: $color-snow-white;
+	}
+}
+
 .horizontal_scrollable_items_container {
   white-space: nowrap;
   overflow-x: auto;

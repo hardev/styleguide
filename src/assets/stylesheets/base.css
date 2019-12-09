@@ -58,6 +58,26 @@ hr {
   .depth--above_all {
     box-shadow: 0 10px 16px rgba(0, 0, 0, 0.24); }
 
+.border_bottom {
+  border-bottom-width: 1px;
+  border-bottom-style: solid; }
+  .border_bottom--cement_light {
+    border-bottom-color: #F3F4F7; }
+  .border_bottom--cement-dark {
+    border-bottom-color: #5D5E5E; }
+  .border_bottom--carbon {
+    border-bottom-color: #212529; }
+  .border_bottom--slate {
+    border-bottom-color: #3B5363; }
+  .border_bottom--slate-light {
+    border-bottom-color: #52738A; }
+  .border_bottom--cloudy-sky {
+    border-bottom-color: #DFE3F0; }
+  .border_bottom--cloudy-sky-light {
+    border-bottom-color: #EDF0FA; }
+  .border_bottom--snow-white {
+    border-bottom-color: #FFF; }
+
 .horizontal_scrollable_items_container {
   white-space: nowrap;
   overflow-x: auto; }
