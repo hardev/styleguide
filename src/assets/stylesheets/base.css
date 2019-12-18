@@ -454,7 +454,7 @@ h4 {
     line-height: 40px;
     font-size: 14px;
     padding: 0 24px;
-    color: #0738CD;
+    color: #042280;
     box-shadow: none !important; }
     .btn--shapeless:hover {
       color: #0738CD; }
@@ -519,7 +519,11 @@ h4 {
   .btn--icon--external-link:before {
     background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/external-link.svg); }
   .btn--icon--download:before {
-    background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/import.svg); }
+    background-image: url(https://content.harstatic.com/media/icons/import.svg); }
+  .btn--icon--email-white:before {
+    background-image: url(https://content.harstatic.com/media/icons/email_small_white.svg); }
+  .btn--icon--comment:before {
+    background-image: url(https://content.harstatic.com/media/icons/comment_.svg); }
   .btn--icon--lone:before {
     margin-right: 0; }
   .btn--icon--lone.btn--large {
