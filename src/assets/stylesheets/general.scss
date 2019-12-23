@@ -43,6 +43,12 @@ hr {
   &--pudgy {
     border-radius: 8px;
   }
+  &--small {
+    border-radius: 2px;
+  }
+  &--mini {
+    border-radius: 1px;
+  }
 }
 
 .border_thin_light {
@@ -100,4 +106,27 @@ hr {
 .horizontal_scrollable_items_container {
   white-space: nowrap;
   overflow-x: auto;
+}
+
+//Tooltip customization
+.tooltip-inner {
+	background-color: $color-carbon;
+	padding: 6px 10px;
+	font-size:12px;
+}
+.tooltip.bs-tooltip-right .arrow:before {
+    border-right-color: $color-carbon !important;
+     border-width: 5px 5px 5px 0;
+}
+.tooltip.bs-tooltip-left .arrow:before {
+    border-left-color: $color-carbon !important;
+    border-width: 5px 0 5px 5px;
+}
+.tooltip.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: $color-carbon !important;
+    border-width: 0 5px 5px;
+}
+.tooltip.bs-tooltip-top .arrow:before {
+    border-top-color: $color-carbon !important;
+    border-width: 5px 5px 0;
 }

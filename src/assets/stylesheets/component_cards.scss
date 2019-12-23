@@ -15,7 +15,8 @@
 	overflow: hidden;
 	margin-bottom: 30px;
 	background-color: $color-snow-white;
-
+	
+	&--blog_post,
 	&--landscape_with_icon,
 	&--landscape_small,
 	&--landscape_medium,
@@ -24,7 +25,8 @@
 			border: 1px solid $color-auxiliary-light;
 		}
 	}
-
+	
+	&--blog_post,
 	&--landscape_large,
 	&--landscape_medium,
 	&--portrait_medium {
@@ -36,6 +38,7 @@
 	}
 
 	&:hover & {
+		&--blog_post,
 		&--landscape_medium,
 		&--listing,
 		&--portrait_medium {
@@ -51,7 +54,6 @@
 		border: 1px solid $color-auxiliary-light;
 		box-shadow: none !important;
 	}
-
 	&--landscape_large,
 	&--landscape_medium {
 
@@ -550,11 +552,66 @@
 				}
 			}
 			
+		}
+		
+	}
+	
+	&--blog_post {
+	
+			display: grid !important;
+			grid-gap: 0;
+			grid-template-columns: calc(100% - 132px) 132px;
+			grid-template-areas: 'a b';
+				
+		&__image_content {
+			grid-area: b;
+			background-color: $color-cloudy-sky-light;
+			background-repeat: no-repeat;
+			width: 100%;
+			height: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			border-radius: 4px 0 0 4px;
+			overflow: hidden;
+			
+			&__image {
+				width: 100%;
+				height: 100%;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center center;
+				
+				a {
+					display: block;
+					width: 100%;
+					height: 100%;
+				}
+			}			
+		}
+		
+		&__content {
+			grid-area: a;
+			color: $color-auxiliary;
+			padding: 16px;
+			color: $color-slate-light;
+			
+			h5 {
+				
+				a {	
+					font-size: $font-size-medium;
+					color: $color-carbon;
+					font-weight: bold;
+					text-decoration: none;
+				}
+			}
+			
+			a {
+				color: $color-slate-light;
+			}
 			
 		}
-
+		
 	}
-
 
 
 

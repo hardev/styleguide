@@ -1,0 +1,33 @@
+.nav-tabs {
+	padding-bottom:20px;
+  
+  &--underline {
+	overflow-x:scroll;
+	-webkit-overflow-scrolling: touch;
+	-moz-overflow-scrolling: touch;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+	border-bottom: none;
+	white-space: nowrap;
+	flex-wrap: nowrap;
+
+	.nav-link {
+		border: none;
+		border-bottom: 2px solid $color-har-blue-light-extra;
+		color: $color-auxiliary;
+		font-weight: 500;
+		font-size: 14px;
+		text-transform: uppercase;
+		padding: 8px 20px;
+		border-radius: 0px;
+		white-space: nowrap;
+		
+		&.active {
+			border-bottom: 2px solid $color-har-blue;
+			color: $color-har-blue;
+			font-weight: 500;
+			background-color: transparent;
+		}
+	}
+
+  }  
+}

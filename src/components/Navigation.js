@@ -157,6 +157,9 @@ export default class Header extends Component {
                   <li className={`li ${this.props.activeChild == 'tables' ? 'li--active' : ''} `}>
                     <Link to="/components/tables">Tables</Link>
                   </li>
+                  <li className={`li ${this.props.activeChild == 'tabs' ? 'li--active' : ''} `}>
+                    <Link to="/components/tabs">Tabs</Link>
+                  </li>
                   <li className={`li ${this.props.activeChild == 'modal' ? 'li--active' : ''} `}>
                     <Link to="/components/modal">Modal</Link>
                   </li>

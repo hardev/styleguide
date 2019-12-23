@@ -276,6 +276,13 @@ label {
 				height: 24px;
 			}
 		}
+		
+		.dropdown-menu {
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24);
+			border: solid 1px #dfe3f0;
+			background-color: #ffffff;
+			min-width: 200px;
+		}
 
 		&_large {
 			.dropdown-toggle {
@@ -293,6 +300,20 @@ label {
 				padding:6px 13px;
 				&:after {
 					background-position: right 6px;
+				}
+			}
+		}
+		
+		&_bold {
+			.dropdown-toggle {
+				height: 32px;
+				font-size: $font-size-medium !important;
+				color: $color-har-blue !important;
+				font-weight: $font-weight-bold;
+				padding:4px 8px;
+				&:after {
+					background-position: right 8px;
+					width: 18px;
 				}
 			}
 		}

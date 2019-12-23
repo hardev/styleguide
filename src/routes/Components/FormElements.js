@@ -296,7 +296,7 @@ export default class Forms extends Component {
       `,
 
       `<div class="row">
-        <div class="col col-sm-5 col-12 pr-sm-5 pl-sm-5">
+        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
     			<div class="dropdown dropdown--custom dropdown--custom_large">
     			  <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     			    Dropdown button
@@ -321,6 +321,19 @@ export default class Forms extends Component {
     			  </div>
     			</div>
           <div class="component_content__demo__description">Medium Dropdown Menu</div>
+        </div>
+        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+    			<div class="dropdown dropdown--custom dropdown--custom_medium dropdown--custom_bold">
+    			  <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    			    Dropdown button
+    			  </button>
+    			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    			    <a class="dropdown-item" href="#">Action one</a>
+    			    <a class="dropdown-item" href="#">Action two</a>
+    			    <a class="dropdown-item" href="#">Action three</a>
+    			  </div>
+    			</div>
+          <div class="component_content__demo__description">Bold Dropdown Menu</div>
         </div>
        </div>
       `,
@@ -500,6 +513,19 @@ export default class Forms extends Component {
     <a class="dropdown-item" href="#">Something else here</a>
   </div>
 </div>
+
+<!-- Bold Dropdown Menu -->
+<div class="dropdown dropdown--custom dropdown--custom_medium dropdown--custom_bold">
+  <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action one</a>
+    <a class="dropdown-item" href="#">Action two</a>
+    <a class="dropdown-item" href="#">Action three</a>
+  </div>
+</div>
+
 `,
 
 `<!-- Choosable Checkbox -->

@@ -20,6 +20,7 @@ import ListingStatusTags from './routes/Components/ListingStatusTags';
 import Popovers from './routes/Components/Popovers';
 import SearchMap from './routes/Components/SearchMap';
 import Tables from './routes/Components/Tables';
+import Tabs from './routes/Components/Tabs';
 import Modal from './routes/Components/Modal';
 
 import Heros from './routes/TemplateBlocks/Heros';
@@ -49,6 +50,7 @@ ReactDOM.render(
       <Route path="/components/popovers" component={Popovers} />
       <Route path="/components/search_map" component={SearchMap} />
       <Route path="/components/tables" component={Tables} />
+      <Route path="/components/tabs" component={Tabs} />
       <Route path="/components/modal" component={Modal} />
 
       <Route path="/template_blocks/heros" component={Heros} />

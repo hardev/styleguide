@@ -3,24 +3,25 @@
 
   a {
     &:hover {
-      img {
-        opacity: 0.85;
-      }
+	   opacity: 0.85;
     }
   }
 
   &__photo {
     float: left;
     margin-right: 8px;
-
-    img {
-      width: 32px;
-      height: 32px;
-      object-fit: cover;
-      border-radius: 50%;
-    }
+	
+	a {
+		display: block;
+		width: 32px;
+		height: 32px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		border-radius: 50%;
+	}
   }
-
+  
   &__info {
     width: calc(100% - 40px);
     white-space: nowrap;
@@ -31,6 +32,51 @@
 
     &__agent_name {
       font-size: $font-size-small;
+      color: $color-slate !important;
+      font-weight: $font-weight-semi-bold;
+    }
+    &__broker_name {
+      font-size: $font-size-small;
+      color: $color-slate !important;
+      opacity: 0.75;
+    }
+  }
+}
+
+.agent_signature--large {
+  text-align: left;
+
+  a {
+    &:hover {
+	   opacity: 0.85;
+    }
+  }
+
+  &__photo {
+    float: left;
+    margin-right: 8px;
+	
+	a {
+		display: block ;
+		width: 52px;
+		height: 52px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		border-radius: 50%;
+	}
+  }
+  
+  &__info {
+    width: calc(100% - 60px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	padding-top: 5px;
+    line-height: 20px;
+
+    &__agent_name {
+      font-size: $font-size-large;
       color: $color-slate !important;
       font-weight: $font-weight-semi-bold;
     }

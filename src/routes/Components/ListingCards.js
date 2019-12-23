@@ -93,9 +93,7 @@ export default class ListingCards extends Component {
               <div class="col-7">
                 <div class="agent_signature">
                   <div class="agent_signature agent_signature__photo">
-                    <a tabindex="-1" href="https://www.har.com/shadrick-bogany/agent_BOGANYS" title="View Shadrick Bogany's profile">
-                      <img src="https://pics.harstatic.com/agent/312961.jpg" alt="Shadrick Bogany">
-                    </a>
+                    <a tabindex="-1" href="https://www.har.com/shadrick-bogany/agent_BOGANYS" title="View Shadrick Bogany's profile" style="background-image:url('https://pics.harstatic.com/agent/312961.jpg');"></a>
                   </div>
                   <div class="agent_signature agent_signature__info">
                     <a class="agent_signature agent_signature__info agent_signature__info__agent_name" href="https://www.har.com/shadrick-bogany/agent_BOGANYS" title="View Shadrick Bogany's profile" aria-label="View Shadrick Bogany's profile">
