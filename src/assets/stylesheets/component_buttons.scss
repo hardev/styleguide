@@ -175,7 +175,7 @@
       vertical-align: middle;
       margin-right: 4px;
     }
-
+	
     &--placeholder {
       &:before {
         background-image: url(../images/icons/16x16/placeholder.svg);
@@ -302,6 +302,17 @@
         padding: 0 4px !important;
       }
     }
+    
+    &--sm-none {
+     
+     &:before {     
+	 
+	 		@media screen and (max-width: 576px)
+	 		{	
+	      		content:none;
+      		}
+		}
+	}
   }
 
 

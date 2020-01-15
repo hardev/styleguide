@@ -562,6 +562,8 @@
 			grid-gap: 0;
 			grid-template-columns: calc(100% - 132px) 132px;
 			grid-template-areas: 'a b';
+			text-decoration: none !important;
+			color: $color-slate-light !important;
 				
 		&__image_content {
 			grid-area: b;
@@ -571,7 +573,7 @@
 			height: 100%;
 			background-repeat: no-repeat;
 			background-size: cover;
-			border-radius: 4px 0 0 4px;
+			border-radius: 0px 4px 4px 0px;
 			overflow: hidden;
 			
 			&__image {
@@ -581,7 +583,7 @@
 				background-size: cover;
 				background-position: center center;
 				
-				a {
+				div {
 					display: block;
 					width: 100%;
 					height: 100%;
@@ -591,24 +593,15 @@
 		
 		&__content {
 			grid-area: a;
-			color: $color-auxiliary;
 			padding: 16px;
-			color: $color-slate-light;
+			color: $color-slate-light !important;
 			
 			h5 {
-				
-				a {	
-					font-size: $font-size-medium;
-					color: $color-carbon;
-					font-weight: bold;
-					text-decoration: none;
-				}
+				font-size: $font-size-medium;
+				color: $color-carbon !important;
+				font-weight: bold;
+				text-decoration: none;
 			}
-			
-			a {
-				color: $color-slate-light;
-			}
-			
 		}
 		
 	}

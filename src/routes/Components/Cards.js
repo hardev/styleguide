@@ -91,18 +91,20 @@ export default class ListingCards extends Component {
       </div>
       <div class="row">
         <div class="col col-md-9 col-12 mb-0 pb-0">
+          <a href="#" class="text-decoration-none hover--color-slate-light color-slate-light">
           <div class="card card--blog_post">
           	<div class="card--blog_post__content">
-              <h5><a tabindex="0" href="#">What's new in Legislation for Homeowners?</a></h5>
+              <h5>What's new in Legislation for Homeowners?</h5>
               <div class="card--blog_post__date pt-1">Nov 04, 2019</div>
-              <div class="card--blog_post__text pt-2">This home creates a great entertaining atmosphere with Open spaces. Your new home is a Smart Home. The Thermostat and Front door are programmable and… <a href="#"  tabindex="-1" class="font_weight--semi_bold">read more</a></div>
+              <div class="card--blog_post__text pt-2">This home creates a great entertaining atmosphere with Open spaces. Your new home is a Smart Home. The Thermostat and Front door are programmable and… <span class="font_weight--bold">read more</span></div>
             </div>
             <div class="card--blog_post__image_content">
               <div class="card--blog_post__image_content__image" style="background-image: url(https://content.harstatic.com/resource_2019/imgs/temprary/badges.jpg);">
-                <a tabindex="-1" href="#" title="Home prices are so high, pending sales have dropped for 7 months in a row"></a>
+                <div title="Home prices are so high, pending sales have dropped for 7 months in a row"></div>
               </div>
             </div>            
           </div>
+          </a>
         </div>
       </div>
       
@@ -282,19 +284,20 @@ export default class ListingCards extends Component {
 </div>
 
 <!-- Landscape-oriented post blog -->
+<a href="#" class="text-decoration-none hover--color-slate-light color-slate-light">
 <div class="card card--blog_post">
 	<div class="card--blog_post__content">
-  <h5><a tabindex="0" href="#">What's new in Legislation for Homeowners?</a></h5>
-  <div class="card--blog_post__date pt-1">Nov 04, 2019</div>
-  <div class="card--blog_post__text pt-2">This home creates a great entertaining atmosphere with Open spaces. Your new home is a Smart Home. The Thermostat and Front door are programmable and… <a href="#"  tabindex="-1" class="font_weight--semi_bold">read more</a></div>
+	  <h5>What's new in Legislation for Homeowners?</h5>
+	  <div class="card--blog_post__date pt-1">Nov 04, 2019</div>
+	  <div class="card--blog_post__text pt-2">This home creates a great entertaining atmosphere with Open spaces. Your new home is a Smart Home. The Thermostat and Front door are programmable and… <span class="font_weight--bold">read more</span></div>
+	</div>
+	<div class="card--blog_post__image_content">
+	  <div class="card--blog_post__image_content__image" style="background-image: url(https://content.harstatic.com/resource_2019/imgs/temprary/badges.jpg);">
+	    <div title="Home prices are so high, pending sales have dropped for 7 months in a row"></div>
+	  </div>
+	</div>            
 </div>
-<div class="card--blog_post__image_content">
-  <div class="card--blog_post__image_content__image" style="background-image: url(https://content.harstatic.com/resource_2019/imgs/temprary/badges.jpg);">
-    <a tabindex="-1" href="#" title="Home prices are so high, pending sales have dropped for 7 months in a row"></a>
-  </div>
-</div>            
-</div>
-        
+</a>      
 `,
 
 `<!--

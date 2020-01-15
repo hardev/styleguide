@@ -316,6 +316,20 @@ export default class Typography extends Component {
           <div class="clear_both"></div>
         </div>
       </div>`,
+
+      `<div class="row text-left">
+        <div class="col col-sm-6 col-12">
+          <ul class="list list--inside">
+			<li>List Item</li>
+			<li>Item can be any text</li>
+		  </ul>
+          
+          <div class="component_content__demo__description">
+            List Inside style
+          </div>
+        </div>
+        <div class="clear_both"></div>
+      </div>`,
     ];
 
 
@@ -367,6 +381,11 @@ export default class Typography extends Component {
 <h2 tabindex="0" class="h2--negative">Latest real estate blog posts</h2>
 <h3 tabindex="0" class="h3--negative">Resources links</h3>
 <h4 tabindex="0" class="h4--negative">Sahar Mutammara</h4>`,
+
+`<ul class="list list--inside">
+	<li>List Item</li>
+	<li>List item can be any thing</li>
+</ul>`,
     ];
 
   }
@@ -384,6 +403,7 @@ export default class Typography extends Component {
         <TemplateComponentBlock blockTitle="Font weights" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
         <TemplateComponentBlock blockTitle="Headings" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
         <TemplateComponentBlock blockTitle="Negative headings" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
+        <TemplateComponentBlock blockTitle="List Style" elements={this.elements[5]} codeSnippets={this.codeSnippets[5]} />
 
       </TemplateDefault>
     )

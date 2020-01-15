@@ -1,5 +1,9 @@
 /* Font sizes */
 .font_size {
+  &--small_extra_extra {
+    font-size: $font-size-small-extra-extra;
+    line-height: 12px;
+  }
   &--small_extra {
     font-size: $font-size-small-extra;
     line-height: 16px;
@@ -80,9 +84,21 @@
 
 @media screen and (max-width: 576px) { // -- sm
 	.font_size {
+	  &--small_extra_extra_sm {
+	    font-size: $font-size-small-extra-extra !important;
+	    line-height: 12px !important;
+	  }
+	  &--small_extra_sm {
+	    font-size: $font-size-small-extra !important;
+	    line-height: 16px !important;
+	  }
+	  &--small_sm {
+	    font-size: $font-size-small !important;
+	    line-height: 18px !important;
+	  }
 	  &--large_sm {
-	    font-size: $font-size-large;
-	    line-height: 24px;
+	    font-size: $font-size-large !important;
+	    line-height: 24px !important;
 	  }
 	  &--large_extra_sm {
 	    font-size: $font-size-large-extra !important;
@@ -203,6 +219,12 @@ h4 {
   }
 }
 
+.overflow-ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
 /* Alignments */
 .text_align_left {
   text-align: left;
@@ -212,4 +234,14 @@ h4 {
 }
 .text_align_justify {
   text-align: justify;
+}
+
+.list {
+	&--inside {		
+		li {
+			list-style: inside !important;
+			list-style-position: inside !important;
+			
+		}
+	}
 }

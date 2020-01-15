@@ -15,7 +15,7 @@ label {
 	padding:12px;
 
 	&::placeholder {
-		color: $color-slate-light;
+		color: $color-auxiliary-light !important;
 	}
 
 	&:disabled,
