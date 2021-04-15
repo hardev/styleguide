@@ -78,6 +78,41 @@ export default class Tables extends Component {
     				</table>
           </div>
           <div class="component_content__demo__description">Use it for not very important tabular data – <strong>never</strong> for listing card feature table</div>
+        </div>`,
+        `<div class="row justify-content-center">
+        <div class="col col-10 pt-4">          
+    		<div class="table--border_wrapper">
+    		<table tabindex="0" class="table table--medium table--border">
+              <caption>Listing traffic report table</caption>
+			  <tbody>
+			    <tr>
+			      <td scope="row">Table Row</td>
+			      <td>Table Row</td>
+			      <td>Table Row</td>
+			      <td>Table Row</td>
+			    </tr>
+			    <tr>
+			      <td scope="row">Table Row</td>
+			      <td>Table Row</td>
+			      <td>Table Row</td>
+			      <td>Table Row</td>
+			    </tr>
+			    <tr>
+			      <td scope="row">Table Row</td>
+			      <td>Table Row</td>
+			      <td>Table Row</td>
+			      <td>Table Row</td>
+			    </tr>
+			    <tr>
+			      <td scope="row">Table Row</td>
+			      <td>Table Row</td>
+			      <td>Table Row</td>
+			      <td>Table Row</td>
+			    </tr>
+			  </tbody>
+			</table>
+			</div>        
+          <div class="component_content__demo__description">e.g., Table with Borders</div>
         </div>`
     ];
 
@@ -151,7 +186,40 @@ export default class Tables extends Component {
       </tr>
     </tbody>
   </table>
-</div>`
+</div>`,
+
+`<div class="table--border_wrapper">
+<table tabindex="0" class="table table--medium table--border">
+  <caption>Listing traffic report table</caption>
+  <tbody>
+    <tr>
+      <td scope="row">Table Row</td>
+      <td>Table Row</td>
+      <td>Table Row</td>
+      <td>Table Row</td>
+    </tr>
+    <tr>
+      <td scope="row">Table Row</td>
+      <td>Table Row</td>
+      <td>Table Row</td>
+      <td>Table Row</td>
+    </tr>
+    <tr>
+      <td scope="row">Table Row</td>
+      <td>Table Row</td>
+      <td>Table Row</td>
+      <td>Table Row</td>
+    </tr>
+    <tr>
+      <td scope="row">Table Row</td>
+      <td>Table Row</td>
+      <td>Table Row</td>
+      <td>Table Row</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+`
   ];
 
   }
@@ -165,6 +233,7 @@ export default class Tables extends Component {
 
         <TemplateComponentBlock blockTitle="Medium Table" elements={this.elements[0]} codeSnippets={this.codeSnippets[0]} />
         <TemplateComponentBlock blockTitle="Small Table" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
+        <TemplateComponentBlock blockTitle="Border Table" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
 
       </TemplateDefault>
     )

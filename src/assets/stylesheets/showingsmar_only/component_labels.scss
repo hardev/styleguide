@@ -1,0 +1,282 @@
+.label {
+	font-size: $font-size-small;
+	height: 22px;
+	text-align: center;
+	padding: 2px 5px;
+	display: inline-block;
+	border-radius: 2px;
+	margin-right: 3px;
+	
+	&--grade {
+		height: 24px;
+		width: 24px;
+		text-align: center;
+		color: $color-snow-white;
+		font-size: $font-size-medium;
+		font-weight: $font-weight-bold;
+		display: inline-block;
+		margin-right:8px;
+		
+		&_d {
+			background-color: #ff9200;
+		}
+		
+		&_a {
+			background-color: #43cc01;
+		}
+		
+		&_b {
+			background-color: #d2d92e;
+		}
+		
+		&_c {
+			background-color: #f0c22c;
+		}
+		
+		&_f {
+			background-color: #fc291c;
+		}
+	}
+	
+	&--forsale {
+		background-color: $color-available;
+		color: $color-snow-white;		
+	}
+	
+	&--forrent {
+		background-color: #8269bc;
+		color: $color-snow-white;
+	}
+	
+	&--sold {
+		background-color: $color-sold;
+		color: $color-snow-white;
+	}
+	
+	&--terminated {
+		background-color: $color-cement-dark;
+		color: $color-snow-white;
+	}
+	
+	&--newconstruction {		
+		font-weight: $font-weight-semi-bold;
+		background-color: $color-har-pink;
+		color: $color-snow-white;
+		font-weight: $font-weight-semi-bold;
+		border-radius: 4px;
+		padding: 0px 5px;
+		height: 24px;
+		line-height:24px;
+	}
+	
+	&--justlisted {		
+		color: $color-snow-white;
+		background-color: #14a47e;
+		font-weight: $font-weight-semi-bold;
+		border-radius: 4px;
+		padding: 0px 5px;
+		height: 24px;
+		line-height:24px;
+	}
+	
+	&--pricereduction {		
+		color: $color-snow-white;
+		background-color: $color-pending;
+		font-weight: $font-weight-semi-bold;
+		border-radius: 4px;
+		padding: 0px 5px;
+		height: 24px;
+		line-height:24px;
+	}
+	
+	&--foreclosure {		
+		color: $color-auxiliary;
+		background-color: #d8d8d8;
+		font-weight: $font-weight-semi-bold;
+		border-radius: 4px;
+		padding: 0px 5px;
+		height: 24px;
+		line-height:24px;
+	}
+	
+	&--openhouse_simple {		
+		color: $color-snow-white;
+		background-color: $color-har-blue;
+		font-weight: $font-weight-semi-bold;
+		border-radius: 4px;
+		padding:0px 5px;
+		height: 24px;
+		line-height:24px;
+	}
+	
+	&--virtualopenhouse {		
+		color: $color-snow-white;
+		background-color: $color-har-blue;
+		font-weight: $font-weight-semi-bold;
+		border-radius: 4px;
+		padding: 0px 5px;
+		height: 24px;
+		line-height:24px;
+	}
+	
+	&--openhouse {
+		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+		background-color: $color-har-pink;
+		border-top: 4px solid #b03453;
+		height: 32px;
+		color: $color-snow-white;
+		text-transform: uppercase;
+		font-weight: $font-weight-bold;
+		padding:4px 16px;
+	}
+	
+	&--pending {
+		background-color: $color-snow-white;
+		border: 1px solid rgba(251, 160, 0, 0.32);
+		color: $color-pending;
+		font-size: $font-size-small-extra;
+		padding:2px 4px;
+		line-height: 18px;
+		
+		&__continue {
+			color: #ffa300;
+			border: 1px solid rgba(255, 163, 0, 0.52);
+		}
+	}
+	
+	&--pending__continue {
+		background-color: $color-snow-white;
+		border: 1px solid #f2b100;
+		color: #f2b100;
+		font-size: $font-size-small-extra;
+		padding:2px 4px;
+		line-height: 18px;
+	}
+	
+	&--pending__continue_show {
+		background-color: $color-snow-white;
+		border: 1px solid #ffa300;
+		color: #ffa300;
+		font-size: $font-size-small-extra;
+		padding:2px 4px;
+		line-height: 18px;
+	}
+	
+	img {
+			margin-right: 3px;
+		}
+	
+	&--typeahead {
+		height: 16px;
+		padding: 0px 6px;
+		color: $color-snow-white;
+		font-size: $font-size-small-extra;
+		font-weight: $font-weight-semi-bold;
+		line-height: 16px;
+		text-transform:uppercase;
+		background-color: $color-slate-light;
+		
+		&_street {
+			background-color: #00c554;
+		}
+		
+		&_city {
+			background-color: #dc0086;
+		}
+		
+		&_zipcode {
+			background-color: #e19000;
+		}
+		
+		&_mls {
+			background-color: #042280;
+		}
+		
+		&_district {
+			background-color: #336600;
+		}
+		
+		&_school {
+			background-color: #dfb200;
+		}
+		
+		&_broker {
+			background-color: #d83bb0;
+		}
+		
+		&_lead {
+			background-color: #fd4b78;
+		}
+		
+		&_community {
+			background-color: #00c554;
+		}
+		
+		&_highrise {
+			background-color: #9b51bd;
+		}
+		
+		&_course {
+			background-color: #7006a0;
+		}
+		
+		&_apartment_name {
+			background-color: #7006a0;
+		}
+		
+		&_address {
+			background-color: #22c2dd;
+		}
+		
+		&_streetaddress {
+			background-color: #00c554;
+		}
+		
+		&_neighborhood {
+			background-color: #69c200;
+		}
+		
+		&_marketarea {
+			background-color: #d6353d;
+		}
+		
+		&_subdivision {
+			background-color: #dfb200;
+		}
+		
+		&_county {
+			background-color: #0b50d2;
+		}
+		
+		&_office {
+			background-color: #566c2f;
+		}
+		
+		&_keyword {
+			background-color: #7006a0;
+		}
+		
+		&_category {
+			background-color: #5608c8;
+		}
+		
+		&_management_name {
+			background-color: #dbb400;
+		}
+		
+		&_charterschool {
+			background-color: #f9c700;
+			color: #424242;
+		}
+		
+	}
+	
+	&--private_school {
+		background-color: #f9c700;
+		height: 32px;
+		padding: 5px 12px 7px;
+		border-radius: 2px;
+		font-size: $font-size-medium;
+		font-weight: $font-weight-semi-bold;
+	}
+}

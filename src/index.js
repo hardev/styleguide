@@ -22,6 +22,7 @@ import SearchMap from './routes/Components/SearchMap';
 import Tables from './routes/Components/Tables';
 import Tabs from './routes/Components/Tabs';
 import Modal from './routes/Components/Modal';
+import Labels from './routes/Components/Labels';
 
 import Heros from './routes/TemplateBlocks/Heros';
 
@@ -52,6 +53,7 @@ ReactDOM.render(
       <Route path="/components/tables" component={Tables} />
       <Route path="/components/tabs" component={Tabs} />
       <Route path="/components/modal" component={Modal} />
+      <Route path="/components/labels" component={Labels} />
 
       <Route path="/template_blocks/heros" component={Heros} />
 
