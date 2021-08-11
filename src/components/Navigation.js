@@ -145,6 +145,9 @@ export default class Header extends Component {
                   <li className={`li ${this.props.activeChild == 'cards' ? 'li--active' : ''} `}>
                     <Link to="/components/cards">Cards (Others)</Link>
                   </li>
+                  <li className={`li ${this.props.activeChild == 'cardsv2' ? 'li--active' : ''} `}>
+                    <Link to="/components/cardsv2">Cards V2</Link>
+                  </li>
                   <li className={`li ${this.props.activeChild == 'listing_status_tags' ? 'li--active' : ''} `}>
                     <Link to="/components/listing_status_tags">Listing Status Tags</Link>
                   </li>
@@ -166,6 +169,15 @@ export default class Header extends Component {
                   <li className={`li ${this.props.activeChild == 'labels' ? 'li--active' : ''} `}>
                     <Link to="/components/labels">Labels</Link>
                   </li>
+                  <li className={`li ${this.props.activeChild == 'messages' ? 'li--active' : ''} `}>
+                    <Link to="/components/messages">Messages</Link>
+                  </li>
+                  <li className={`li ${this.props.activeChild == 'favorites' ? 'li--active' : ''} `}>
+                    <Link to="/components/Favorites">Favorites</Link>
+                  </li>
+                  <li className={`li ${this.props.activeChild == 'sitewide' ? 'li--active' : ''} `}>
+                    <Link to="/components/Sitewide">Sitewide</Link>
+                  </li>                  
                 </ul>
               </li>
 

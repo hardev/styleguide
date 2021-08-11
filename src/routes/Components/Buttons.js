@@ -83,18 +83,40 @@ export default class Buttons extends Component {
        <hr>
 
       <div class="row">
-        <div class="col col-sm-3 col-6">
+        <div class="col col-sm-4 col-12">
           <button role="button" class="btn btn--filters btn--large" aria-label="Flate"><img src="https://content.harstatic.com/media/icons/icon-landing-page-filter.svg">FILTERS <span>2</span></button>
           <div class="component_content__demo__description">Button Flate</div>
         </div>
         
-        <div class="col col-sm-3 col-6">
+        <div class="col col-sm-4 col-12">
           <button role="button" class="btn btn--filters btn--filters-active btn--large" aria-label="Flate"><img src="https://content.harstatic.com/media/icons/icon-landing-page-filter.svg">FILTERS <span>2</span></button>
           <div class="component_content__demo__description">Button Filters Active state</div>
         </div>
-        
+                
         <div class="clear_both"></div>
       </div>
+      
+      <hr>
+      
+      <div class="row">
+        <div class="col col-sm-4 col-12">
+          <button role="button" class="btn btn--claimprofile" aria-label="Flate">Claim your profile <img class="ml-2" src="https://content.harstatic.com/media/icons/arrow_right_white_simple.svg"></button>
+          <div class="component_content__demo__description">Button claim profile</div>
+        </div>
+        
+        <div class="col col-sm-4 col-12">
+          <button role="button" class="btn btn--claimprofile btn--claimprofile__large" aria-label="Flate">
+          	<span class="btn--claimprofile__large__title">Are you Abel?</span>
+          	<span class="btn--claimprofile__large__text">Claim you profile for free -></span>
+          	<img src="https://content.harstatic.com/media/icons/claimprofile_arrow.svg">
+          </button>
+          <div class="component_content__demo__description">Button claim profile</div>
+        </div>
+        
+                
+        <div class="clear_both"></div>
+      </div>
+      
       
       <hr>
       
@@ -131,6 +153,28 @@ export default class Buttons extends Component {
         </div>
 
         <div class="clear_both"></div>
+      </div>
+       <hr>
+      
+      <div class="row">
+        <div class="col col-6 text-left">
+	        <a class="category_link" href="#">Active Adults (Age 55+)</a>
+        </div>
+
+        <div class="col col-sm-3 col-6">
+        	<a class="btn btn--outline" href="#"><img src="https://content.harstatic.com/media/icons/icons-12-12-edit.svg"> Edit Folders</a>
+        </div>
+		
+        <div class="col col-3">
+	        <button class="btn btn--remove" title="" aria-label="remove"><span><img src="https://content.harstatic.com/media/icons/cross_white_small_2.svg"></span> remove</button>
+	        <div class="clearfix"></div>
+	        <div class="component_content__demo__description">btn remove</div>
+	    </div>
+
+        <div class="col col-sm-3 col-6">
+        </div>
+
+        <div class="clear_both"></div>
       </div>`,
 
       `<div class="row">
@@ -141,6 +185,8 @@ export default class Buttons extends Component {
 
         <div class="col col-sm-3 col-6">
           <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--placeholder" aria-label="Button"></button>
+          <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--placeholder" aria-label="Button"></button>
+          <button role="button" class="btn btn--ordinary btn--medium btn--iconbg" aria-label="Button"><span style="background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/heart_outline.svg);"></span></button>
           <div class="component_content__demo__description">Button with Lone Icon</div>
         </div>
 

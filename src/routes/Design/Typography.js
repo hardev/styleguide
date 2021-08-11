@@ -175,7 +175,9 @@ export default class Typography extends Component {
         <div class="clear_both"></div>
       </div>`,
 
-      `<div class="row text-left">
+      `
+      
+      <div class="row text-left">
         <div class="col col-12">
 
           <h1 tabindex="0" style="margin-bottom: 0;">
@@ -188,6 +190,34 @@ export default class Typography extends Component {
         </div>
         <div class="clear_both"></div>
       </div>
+      <hr />
+      <div class="row text-left">
+        <div class="col col-12">
+
+          <h2 tabindex="0" class="h2 h2--strong" style="margin-bottom: 0;">
+            Find your home in Texas
+          </h2>
+
+          <div class="component_content__demo__description">
+            H2 – Strong
+          </div>
+        </div>
+        <div class="clear_both"></div>
+      </div>
+      
+      <hr />
+      <div class="row text-left">
+        <div class="col col-12">
+
+          <h2 tabindex="0" class="h2 h2--strong h2--centerline"><span>Stay closer to HAR</span></h2>
+
+          <div class="component_content__demo__description">
+            H2 – Strong
+          </div>
+        </div>
+        <div class="clear_both"></div>
+      </div>      
+      
       <hr />
       <div class="row text-left">
         <div class="col col-12">
@@ -216,6 +246,54 @@ export default class Typography extends Component {
         </div>
         <div class="clear_both"></div>
       </div>
+	  
+	  <hr />
+      <div class="row">
+        <div class="col col-12">
+
+          <h2 tabindex="0" class="h2--simple">
+            Latest real estate blog posts
+          </h2>
+
+          <div class="component_content__demo__description">
+            H2 without line
+          </div>
+        </div>
+        <div class="clear_both"></div>
+      </div>
+
+	  <hr />
+      <div class="row">
+        <div class="col col-12">
+
+          <h2 tabindex="0" class="h2--simple h2--simple__black">
+            Latest real estate blog posts
+          </h2>
+
+          <div class="component_content__demo__description">
+            H2 Black
+          </div>
+        </div>
+        <div class="clear_both"></div>
+      </div>
+
+
+	  <hr />
+      <div class="row">
+        <div class="col col-12">
+
+          <h2 tabindex="0" class="h2--light">
+            Find your dream home in Texas          
+          </h2>
+
+          <div class="component_content__demo__description">
+            H2 Light
+          </div>
+        </div>
+        <div class="clear_both"></div>
+      </div>
+
+
       <hr />
       <div class="row">
         <div class="col col-12">
@@ -329,6 +407,30 @@ export default class Typography extends Component {
           </div>
         </div>
         <div class="clear_both"></div>
+      </div>
+      <div class="row text-left">
+        <div class="col col-12">
+          <ul class="list list--blue">
+			<li>Should I refinance?</li>
+			<li>How much will my fixed rate mortgage payment be?</li>
+			<li>How much will my adjustable rate mortgage payments be?</li>
+			<li>How much will my payments be for a ballon mortgage?</li>
+			<li>Should I rent or buy?</li>
+		  </ul>
+          
+          <div class="component_content__demo__description">
+            List style blue
+          </div>
+        </div>
+        <div class="clear_both"></div>
+      </div>`
+      ,
+
+      `<div class="row text-left">
+        <div class="col col-sm-6 col-12">
+          <div class="tagline_text">Your real estate market</div>
+        </div>
+        <div class="clear_both"></div>
       </div>`,
     ];
 
@@ -404,6 +506,7 @@ export default class Typography extends Component {
         <TemplateComponentBlock blockTitle="Headings" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
         <TemplateComponentBlock blockTitle="Negative headings" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
         <TemplateComponentBlock blockTitle="List Style" elements={this.elements[5]} codeSnippets={this.codeSnippets[5]} />
+        <TemplateComponentBlock blockTitle="Others" elements={this.elements[6]} codeSnippets={this.codeSnippets[6]} />
 
       </TemplateDefault>
     )

@@ -10,7 +10,7 @@ export default class ListingCards extends Component {
     this.elements = [
       `<div class="row">
         <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
-          <h4 tabindex="0">Landscape Small</h4>
+          <h4 tabindex="0">Call to Action Cards</h4>
         </div>
       </div>
       <div class="row">
@@ -27,7 +27,42 @@ export default class ListingCards extends Component {
         </div>        
         <div class="clear_both"></div>
       </div>
-
+      <div class="row">
+        <div class="col col-12 mb-0" style="max-width:300px;">
+          <a href="#" class="card card--caltoaction">
+          	<div class="card--caltoaction_title">Mortgage Dictionary</div>
+          	<div class="card--caltoaction_text">Check our glossary of key mortgage terms</div>
+          </a>
+        </div>
+        <div class="col col-sm-6 col-12 mb-0">          
+        </div>     
+        <div class="clear_both"></div>
+      </div>
+      <div class="row">
+        <div class="col col-12 mb-0" style="max-width:300px;">
+          <a href="#" class="card card--features">
+          	<div class="card--features_title">Wheel Chair Access</div>
+          	<div class="card--features_text">14 homes</div>
+          </a>
+        </div>
+        <div class="col col-sm-6 col-12 mb-0">          
+        </div>     
+        <div class="clear_both"></div>
+      </div>
+	  <div class="row">
+        <div class="col col-12 mb-0">
+            <a class="card card--link" href="#">Search Neighborhood</a>
+            <a class="card card--link" href="#">Search Golf Courses</a>
+            <a class="card card--link" href="#">Search Local Happenings</a>
+            <a class="card card--link" href="#">Search Cities</a>
+            <a class="card card--link" href="#">Search Zip Codes</a>
+            <a class="card card--link" href="#">Search Counties</a>
+            <a class="card card--link" href="#">Search Real Estate Markets</a>
+            <a class="card card--link" href="#">Search Highrises</a>
+            <a class="card card--link" href="#">Master Planned Communities</a>
+        </div>
+        <div class="clear_both"></div>
+      </div>
       <hr />
 
       <div class="row">
@@ -52,31 +87,61 @@ export default class ListingCards extends Component {
       </div>
       <div class="row">
         <div class="col col-sm-6 col-12 mb-0 pb-0">
-          <div class="card card--agent">
-            <a href="#" class="card--agent__image" style="background-image: url(https://pics.harstatic.com/agent/716096.jpg?ts=2019-01-18T17:12:001099);"></a>            
+          <a href="#" class="card card--agent">
+            <div class="card--agent__image" style="background-image: url(https://pics.harstatic.com/agent/716096.jpg?ts=2019-01-18T17:12:001099);"></div>
             <div class="card--agent__content ">
-              <a class="card--agent__content_name  align-self-center" href="#">Leslie Avila</a>
+              <div class="card--agent__content_name  align-self-center">Leslie Avila</div>
               <div class="card--agent__content_stars  align-self-center">
 					<img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg">
 			   </div>
 			   <div class="card--agent__content_desc  align-self-center"><img alt="" src="https://content.harstatic.com/resource_2019/imgs/icons/platenium_p.svg"> Platinum Agent</div>
             </div>
-          </div>
+          </a>
         </div>
         
         <div class="col col-sm-6 col-12 mb-0 pb-0">
-          <div class="card card--agent">
+          <a href="#" class="card card--agent">
           	<div class="card--agent__badge">Designated REALTOR®</div>
-            <a href="#" class="card--agent__image" style="background-image: url(https://pics.harstatic.com/agent/716096.jpg?ts=2019-01-18T17:12:001099);"></a>            
+            <div class="card--agent__image" style="background-image: url(https://pics.harstatic.com/agent/716096.jpg?ts=2019-01-18T17:12:001099);"></div>
             <div class="card--agent__content">
-              <a class="card--agent__content_name" href="#">Leslie Avila</a>
+              <div class="card--agent__content_name">Leslie Avila</div>
               <div class="card--agent__content_stars">
 					<img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg">
 			   </div>
 			   <div class="card--agent__content_desc"><img alt="" src="https://content.harstatic.com/resource_2019/imgs/icons/platenium_p.svg"> Platinum Agent</div>
             </div>
-          </div>
+          </a>
         </div>
+        
+        <div class="col col-sm-6 col-12 mb-0 pb-0">
+          <a href="#" class="card card--agent">
+            <div class="card--agent__image" style="background-image: url(https://pics.harstatic.com/agent/716096.jpg?ts=2019-01-18T17:12:001099);"></div>
+            <div class="card--agent__content ">
+              <div class="card--agent__content_name  align-self-center"><img alt="" src="https://content.harstatic.com/resource_2019/imgs/icons/platenium_p.svg"> Leslie Avila</div>
+              <div class="card--agent__content_firm">Compass RE Texas</div>
+              <div class="card--agent__content_stars  align-self-center">
+					<img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg">
+			   </div>
+			   
+            </div>
+          </a>
+        </div>
+        
+        <div class="col col-sm-6 col-12 mb-0 pb-0">
+          <a href="#" class="card card--agent">
+            <div class="card--agent__image" style="background-image: url(https://pics.harstatic.com/agent/716096.jpg?ts=2019-01-18T17:12:001099);"></div>            
+            <div class="card--agent__content">
+              <div class="card--agent__content_name">Leslie Avila</div>
+              <div class="label label--agent label--agent__diamond">Diamond</div>
+			  <div class="card--agent__content_points">
+			  	<div><span class="font_weight--bold">11</span> questions</div>
+			  	<div><span class="font_weight--bold">3411</span> points</div>
+			  	<div><span class="font_weight--bold">643</span> answers</div>
+			  </div>
+            </div>
+          </a>
+        </div>
+        
       </div>
       <hr />
       
@@ -380,7 +445,36 @@ export default class ListingCards extends Component {
       </div>
       
       
+      <hr />
       
+      
+      <div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Claim Profile</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 mb-0 pb-0">
+          <a href="#" class="card card--claim_longinfo">
+          	<div class="card--claim_longinfo__profile">          		
+	            <div class="card--claim_longinfo__image" style="background-image:url('https://pics.harstatic.com/agent/512784.jpg?ts=2021-03-23T08:48:008490');"></div>
+	            <div class="card--claim_longinfo__content">
+	              <div class="card--claim_longinfo__content_name">Angel Carlson</div>
+	              <div class="card--claim_longinfo__content_firm">Heritage Realty</div>
+	              <div class="card--claim_longinfo__content_address">18842 Hwy 6, Navasota, TX 77868</div>
+	            </div>
+	            <div class="clearfix"></div>
+	        </div>
+	        <div class="card--claim_action pt-4 pt-md-0">
+	        	 <div class="btn btn--claimprofile">Claim your profile <img class="ml-2" src="https://content.harstatic.com/media/icons/arrow_right_white_simple.svg"></div>
+	        </div>
+	      </a>   
+         </div>
+        
+        
+      </div>
+
+
       <hr />
 	  <div class="row">
         <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
@@ -389,17 +483,17 @@ export default class ListingCards extends Component {
       </div>
 	  <div class="row">
         <div class="col-12 col-md-6 mb-0 pb-0">	
-	  		<div class="card card--team">
-            <div class=""><a href="#" class="card--team__logo_image" style="background-image: url(https://pics.harstatic.com/office/608300.jpg?ts=1608743551);"></a></div>
-            <div class="card--team__content ">
-              <a class="card--team__content_name  align-self-center" href="#">The Kink Team</a>              
-			   <div class="card--team__content_desc  align-self-center color_auxiliary">Keller Williams Realty The Woodlands</div>
-			   <div class="d-flex pt-2">
-			   		<div class="card--team__content_agents" style="background-image: url(https://pics.harstatic.com/agent/674895.jpg?ts=2020-07-25T16:48:005068);"></div>
-			   		<div class="color_slate align-self-center pl-2">2 members</div>
-			   </div>
-            </div>
-          </div>
+	  		<a class="card card--team" href="#">
+            	<div class="card--team__logo"><div class="card--team__logo_image" style="background-image: url(https://pics.harstatic.com/office/608300.jpg?ts=1608743551);"></div></div>
+	            <div class="card--team__content ">
+	              <div class="card--team__content_name  align-self-center">The Kink Team</div>              
+				   <div class="card--team__content_desc  align-self-center color_auxiliary">Keller Williams Realty The Woodlands</div>
+				   <div class="d-flex pt-2">
+				   		<div class="card--team__content_agents" style="background-image: url(https://pics.harstatic.com/agent/674895.jpg?ts=2020-07-25T16:48:005068);"></div>
+				   		<div class="color_slate align-self-center pl-2">2 members</div>
+				   </div>
+	            </div>
+			</a>
         </div>
       </div>
       
@@ -493,6 +587,30 @@ export default class ListingCards extends Component {
 
       <div class="row">
         <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Blog Post small <br><br></h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-md-6 col-12 mb-0 pb-0">
+          <div class="blog_post_small">
+              <a href="#">Just Listed in Houston: 8223 Lettie Street, Houston, TX 77075</a>
+              <div class="blog_post_small__date">Jun 14, 2020 <span>|</span> Green Living</div>
+              <div class="blog_post_small__name">Jean Risha</div>
+          </div>
+          
+          <div class="blog_post_small">
+              <a href="#">Home Security Cameras: Peace of Mind While You're Away</a>
+              <div class="blog_post_small__date">Jun 14, 2020 <span>|</span> Green Living</div>
+              <div class="blog_post_small__name">Lisa Benavides</div>
+          </div>
+        </div>
+      </div>
+      
+      
+       <hr />
+
+      <div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
           <h4 tabindex="0">Blog Post</h4>
         </div>
       </div>
@@ -512,6 +630,101 @@ export default class ListingCards extends Component {
             </div>            
           </div>
           </a>
+        </div>
+      </div>
+      
+      
+      <hr />
+
+      <div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Blog Post Medium</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-md-11 col-12 mb-0 pb-0">
+          <div class="card--blog_post_medium__container mb-4">
+          	<div class="agent_signature mb-3">
+				<div class="agent_signature agent_signature__photo">
+				  <a tabindex="-1" href="https://www.har.com/shadrick-bogany/agent_BOGANYS" title="View Shadrick Bogany's profile" style="background-image:url('https://pics.harstatic.com/agent/312961.jpg');"></a>
+				</div>
+				<div class="agent_signature agent_signature__info">
+				  <a class="agent_signature agent_signature__info mr-2 font_weight--bold color_har_blue_dark" href="https://www.har.com/shadrick-bogany/agent_BOGANYS" title="View Shadrick Bogany's profile" aria-label="View Shadrick Bogany's profile">
+				    Shadrick Bogany
+				  </a>
+				  <span class=" font_size--small_extra">
+								<img alt="" class="pb-1" style="width:12px;" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" style="width:12px;" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" style="width:12px;" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" style="width:12px;" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" style="width:12px;" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg">															
+			  </span>
+				  <br />
+				  <a class="agent_signature agent_signature__info agent_signature__info__broker_name" href="https://www.har.com/better-homes-and-gardens-real-estate-gary-greene/broker_GGPR11" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
+				    Uptown Real Estate
+				  </a>
+				</div>
+			</div>
+          <div class="card card--blog_post card--blog_post_medium">
+          	<div class="card--blog_post_medium__content">
+              <h5 tabindex="0">Basic Tools For Homeowners</h5>
+              <div class="card--blog_post_medium__date pt-1">Jun 14, 2020 <span>|</span> Green Living</div>
+              <div class="card--blog_post_medium__text pt-2">One big thing that you should always have around the house is a few tools for measuring things. Lorem ipsum. The most obvious tool for this is a tape… <a href="#" class="font_weight--bold">read more</a></div>
+            </div>
+            <div class="card--blog_post_medium__image_content">
+              <div class="card--blog_post_medium__image_content__image" style="background-image: url(https://content.harstatic.com/resource_2019/imgs/temprary/badges.jpg);">
+                <div title="Home prices are so high, pending sales have dropped for 7 months in a row"></div>
+              </div>
+            </div>            
+          </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <hr />
+
+      <div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Blog Post Large</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-md-9 col-12 mb-0 pb-0">
+          <div class="pt-4">
+          	
+          	<!-- blog post large -->
+          	<div class="card--blog_post_large__container">
+	          <div class="agent_signature mb-3">
+				<div class="agent_signature agent_signature__photo">
+				  <a tabindex="-1" href="https://www.har.com/shadrick-bogany/agent_BOGANYS" title="View Shadrick Bogany's profile" style="background-image:url('https://pics.harstatic.com/agent/312961.jpg');"></a>
+				</div>
+				<div class="agent_signature agent_signature__info">
+				  <a class="agent_signature agent_signature__info mr-2 font_weight--bold color_har_blue_dark" href="https://www.har.com/shadrick-bogany/agent_BOGANYS" title="View Shadrick Bogany's profile" aria-label="View Shadrick Bogany's profile">
+				    Shadrick Bogany
+				  </a>
+				  <span class=" font_size--small_extra">
+								<img alt="" class="pb-1" style="width:12px;" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" style="width:12px;" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" style="width:12px;" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" style="width:12px;" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" style="width:12px;" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg">															
+			  </span>
+				  <br />
+				  <a class="agent_signature agent_signature__info agent_signature__info__broker_name" href="https://www.har.com/better-homes-and-gardens-real-estate-gary-greene/broker_GGPR11" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
+				    Uptown Real Estate
+				  </a>
+				</div>
+			</div>
+	          <a href="#" class="card card--blog_post_large">
+	          	<div class="card--blog_post_large__image_content">
+	              <div class="card--blog_post_large__image_content__image" style="background-image: url(https://content.harstatic.com/resource_2019/imgs/temprary/badges.jpg);">
+	                <div title="Home prices are so high, pending sales have dropped for 7 months in a row"></div>
+	              </div>
+	            </div>            
+	            
+	          	<div class="card--blog_post_large__content">
+	              <h5 tabindex="0">DIY: Raised Bed Gardening</h5>
+	              <div class="card--blog_post_large__date pt-1">Jun 14, 2020 <span>|</span> Green Living</div>
+	              <div class="card--blog_post_large__text pt-2">First thing’s first: What exactly is a raised bed garden? Essentially, it’s a garden that has a box or other physical container around its border that allows you to add more soil to…  <a href="#" class="font_weight--bold">keep reading</a></div>
+	            </div>            
+	          </a>
+	          </div>
+	          <!-- blog post large ended -->
+	          
+	        </div>
         </div>
       </div>
       
@@ -618,6 +831,19 @@ export default class ListingCards extends Component {
             </div>
           </a>
         </div>
+        
+        <div class="col col-12 col-md-4 mb-0 pb-0">
+          <a href="#" class="card card--portrait_medium">
+            <div class="card--portrait_medium__image_content card--portrait_medium__image_content--medium">
+              <div class="card--portrait_medium__image_content__image" style="background-image:url(https://content.harstatic.com/masterplanned/large/100_304.jpg);"></div>
+            </div>
+            <div class="card--portrait_medium__content text-left">
+              <h5 tabindex="0">Wildwood at Northpointe</h5>
+              <hr class="mt-3 mb-3" />
+              <span class="font_size font_size--small color_auxiliary font_weight--regular">Located just of SH 249 in Tomball, Wildwood at North Pointe offers residents a prime...</span>
+            </div>
+          </a>
+        </div>
       </div>
 
       <hr />
@@ -649,6 +875,20 @@ export default class ListingCards extends Component {
             </div>
           </a>
         </div>
+        
+        
+         <div class="col col-12 col-md-4 mb-0 pb-0">
+          <a href="#" class="card card--video">
+            <div class="card--video__image_content card--video__image_content">
+              <div class="card--video__image_content__image" style="background-image:url(https://content.harstatic.com/masterplanned/large/100_304.jpg);"></div>
+            </div>
+            <div class="card--video__content text-left">
+              <h5 tabindex="0">The 20% Mortgage Down Payment Is Dead</h5>
+              <div class="card--video__content_link"><img class="mr-2" src="https://content.harstatic.com/media/temprary/play_video.png"> Watch</div>
+            </div>
+          </a>
+        </div>
+        
       </div>
       
       <hr />
@@ -660,7 +900,7 @@ export default class ListingCards extends Component {
       </div>
 
       <div class="row card_portrait_medium_container">
-        <div class="col col-12 col-md-4 mb-0 pb-0">
+        <div class="col col-12 col-md-6 mb-0 pb-0">
         
           <a href="#" class="card card--portrait_school">
             <div class="card--portrait_school__label">Elementary</div>
@@ -677,7 +917,116 @@ export default class ListingCards extends Component {
           </a>
           
         </div>
+        
+        <div class="col col-12 col-md-6 mb-0 pb-0">
+          <a href="#" class="card card--portrait_medium card--portrait_medium__school">
+            <div class="card--portrait_medium__image_content card--portrait_medium__image_content--medium">
+              <div class="card--portrait_medium__image_content__image" style="background-image:url('https://content.harstatic.com/media/temprary/oak_forest_temp_map.png');"></div>
+            </div>
+            <div class="card--portrait_medium__school__content text-left">
+        		<h4 tabindex="0" class="color_carbon mb-2">Nueces Canyon Lorem Ipsum Dolor School Elementary School</h4>
+        		<div class="font_size--small color_auxiliary pb-2">Grade Span: <span class=" font_weight--bold">PK - 05</span></div>
+            	<div class="pb-3">
+            		<img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg" style="width:16px;"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg" style="width:16px;"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg" style="width:16px;"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg" style="width:16px;"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg" style="width:16px;">
+				</div>
+				<div class="label label--grade label--grade_d">D</div><span class="font_size--medium color_auxiliary">Below Average</span>
+				<div class="pt-3">
+					<img src="https://content.harstatic.com/media/icons/school-grade-medal.svg">
+				</div>
+            </div>
+          </a>
+          
+        </div>
       </div>
+      <hr />
+
+      <div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Portrait School Card</h4>
+        </div>
+      </div>
+
+      <div class="row card_portrait_medium_container">
+        <div class="col col-12 col-md-6 mb-0 pb-0">
+        
+          <a href="#" class="card card--icon_btn">
+            <div class="card--icon_btn__image"><img src="https://content.harstatic.com/media/icons/calander_auxilary.svg"></div> 
+            <div class="card--icon_btn__content">
+              <h3 tabindex="0">Mortgage Guide</h3>
+              <div class="card--icon_btn__content_desc  align-self-center">Everything you needabout Mortgage</div>
+            </div>
+          </a>
+          
+        </div>
+      </div>
+      `,
+
+      `<div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Q&A Cards</h4>
+        </div>
+      </div>
+      <div class="row">
+      	<div class="col-12">
+		      	<a href="javascript:void(0);" class="card card--qa">
+		            <div class="card--qa__content">
+		            	<div class="card--qa__info">
+							<div class="card--qa__info_left">
+								Posted by Shadrick Bogany
+								<span>|</span><br>
+								Jun 06, 2020
+								<span>|</span>
+								<img src="https://content.harstatic.com/media/icons/comment_light_slate.svg" class="mr-1"> 0 answer
+							</div>
+							<div class="card--qa__info_right"><img src="https://content.harstatic.com/media/icons/eye_preview_slate_light.svg" class="mr-1">14</div>
+		            	</div>
+		            	<h3 tabindex="0">Realtor help with relocation (2wks) and past eviction?</h3>
+		            	<div class="card--qa__text"><div class="card--qa__text_pera">We are relocating to the Houston area for my fiancées job. We are look.</div> <span>read more</span></div>
+		            </div>
+		            <div class="card--qa__footer">
+		            	<div class="card--qa__footer_small">Answered by</div>
+		            	<div class="card--qa__footer_row">
+							<div tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span>Ross McEathron</span><br><div class="label label--agent label--agent__bronze">Bronze</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/616571.jpg?ts=2018-02-11T22:22:007875');"></div>							
+							<div tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span>Anisa Alagna</span><br><div class="label label--agent label--agent__platinum">Platinum</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/704455.jpg?ts=2018-05-09T20:37:001780');"></div>							
+							<div tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span> Pia Sikes </span><br><div class="label label--agent label--agent__platinum">Platinum</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/730508.jpg?ts=2021-01-18T09:53:002719');"></div>							
+							<div tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span>Kendra Riedel</span><br><div class="label label--agent label--agent__silver">Silver</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/712483.jpg?ts=2020-03-20T14:00:006147');"></div>
+							<div tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span>Diana C. Buckley</span><br><div class="label label--agent label--agent__gold">Gold</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/721108.jpg?ts=2021-04-22T21:28:002311');"></div>							
+							<div class="card--qa__footer_row_more">+2</div>							
+							<div class="card--qa__footer_row_label card--qa__footer_row_label_resolved"><img src="https://content.harstatic.com/media/icons/check_mark_green.svg" style="width:10px;" class="mr-1 float-left mt-1">Resolved</div>
+						</div>
+		            </div>            	   
+		          </a>
+		          
+		          
+		          <a href="javascript:void(0);" class="card card--qa">
+		            <div class="card--qa__content">
+		            	<div class="card--qa__info">
+							<div class="card--qa__info_left">
+								Posted by Shadrick Bogany
+								<span>|</span>
+								Jun 06, 2020
+								<span>|</span>
+								<img src="https://content.harstatic.com/media/icons/comment_light_slate.svg" class="mr-1"> 0 answer
+							</div>
+							<div class="card--qa__info_right"><img src="https://content.harstatic.com/media/icons/eye_preview_slate_light.svg" class="mr-1">14</div>
+		            	</div>
+		            	<h3 tabindex="0">Realtor help with relocation (2wks) and past eviction?</h3>
+		            	<div class="card--qa__text"><div class="card--qa__text_pera">We are relocating to the Houston area for my fiancées job. We are look We are relocating to the Houston area for my fiancées job. We are look</div> <span>read more</span></div>
+		            </div>
+		            <div class="card--qa__footer">
+		            	<div class="card--qa__footer_small">No answers yet</div>
+		            	<div class="card--qa__footer_agents">								
+							<img src="https://content.harstatic.com/media/icons/comment_blue_small.svg" class="mr-1">Be the first to give them an answer!
+						</div>
+		            </div>            	   
+		          </a>
+		          
+		          <a href="javascript:void(0);" class="card card--qa_simple">
+		          		<h3 tabindex="0">Realtor help with relocation (2wks) and past eviction?</h3>
+		            	<div class="card--qa_simple__text">We are relocating to the Houston area for my fiancées job. We are look We are relocating to the Houston area for my fiancées job. We are look... <span class="font_weight--bold">read more</span></div>		            
+		          </a>
+		     </div>
+		</div>
       `,
     ];
 
@@ -759,7 +1108,42 @@ export default class ListingCards extends Component {
 	  </div>
 	</div>            
 </div>
-</a>      
+</a>
+
+<!-- blog post large -->
+<div class="card--blog_post_large_cntr">
+	<div class="agent_signature mb-3">
+		<div class="agent_signature agent_signature__photo">
+		  <a tabindex="-1" href="https://www.har.com/shadrick-bogany/agent_BOGANYS" title="View Shadrick Bogany's profile" style="background-image:url('https://pics.harstatic.com/agent/312961.jpg');"></a>
+		</div>
+		<div class="agent_signature agent_signature__info">
+		  <a class="agent_signature agent_signature__info mr-2 font_weight--bold color_har_blue_dark" href="https://www.har.com/shadrick-bogany/agent_BOGANYS" title="View Shadrick Bogany's profile" aria-label="View Shadrick Bogany's profile">
+		    Shadrick Bogany
+		  </a>
+		  <span class=" font_size--small_extra">
+						<img alt="" class="pb-1" style="width:12px;" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" style="width:12px;" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" style="width:12px;" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" style="width:12px;" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" style="width:12px;" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg">															
+		</span>
+		  <br />
+		  <a class="agent_signature agent_signature__info agent_signature__info__broker_name" href="https://www.har.com/better-homes-and-gardens-real-estate-gary-greene/broker_GGPR11" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
+		    Uptown Real Estate
+		  </a>
+		</div>
+		</div>
+		<div class="card card--blog_post_large">
+			<div class="card--blog_post_large__image_content">
+		  <a href="#" class="card--blog_post_large__image_content__image" style="background-image: url(https://content.harstatic.com/resource_2019/imgs/temprary/badges.jpg);">
+		    <div title="Home prices are so high, pending sales have dropped for 7 months in a row"></div>
+		  </a>
+		</div>            
+		
+			<div class="card--blog_post_large__content">
+		  <h5 tabindex="0">DIY: Raised Bed Gardening</h5>
+		  <div class="card--blog_post_large__date pt-1">Jun 14, 2020 <span>|</span> Green Living</div>
+		  <div class="card--blog_post_large__text pt-2">First thing’s first: What exactly is a raised bed garden? Essentially, it’s a garden that has a box or other physical container around its border that allows you to add more soil to…  <a href="#" class="font_weight--bold">keep reading</a></div>
+		</div>            
+	</div>
+</div>
+<!-- blog post large ended -->     
 `,
 
 `<!--
@@ -871,6 +1255,72 @@ Notice that there is a specific container that changes gutter size
       </div>
     </a>
   </div>`,
+`<!--
+Q&A Cards
+
+Note: to enable the click event on agent photo to view its name we need to inlude this js code
+$('.popover-agent').popover({
+	trigger: 'toggleEnabled',
+	template: '<div class="popover popover--agents" role="tooltip"><div class="arrow"></div><div class="popover-body"></div></div>',  
+	html: true,
+})
+-->
+<a href="javascript:void(0);" class="card card--qa">
+<div class="card--qa__content">
+	<div class="card--qa__info">
+		<div class="card--qa__info_left">
+			Posted by Shadrick Bogany
+			<span>|</span><br>
+			Jun 06, 2020
+			<span>|</span>
+			<img src="https://content.harstatic.com/media/icons/comment_light_slate.svg" class="mr-1"> 0 answer
+		</div>
+		<div class="card--qa__info_right"><img src="https://content.harstatic.com/media/icons/eye_preview_slate_light.svg" class="mr-1">14</div>
+	</div>
+	<h3 tabindex="0">Realtor help with relocation (2wks) and past eviction?</h3>
+	<div class="card--qa__text"><div class="card--qa__text_pera">We are relocating to the Houston area for my fiancées job. We are look.</div> <span>read more</span></div>
+</div>
+<div class="card--qa__footer">
+	<div class="card--qa__footer_small">Answered by</div>
+	<div class="card--qa__footer_row">
+		<div tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span>Ross McEathron</span><br><div class="label label--agent label--agent__bronze">Bronze</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/616571.jpg?ts=2018-02-11T22:22:007875');"></div>							
+		<div tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span>Anisa Alagna</span><br><div class="label label--agent label--agent__platinum">Platinum</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/704455.jpg?ts=2018-05-09T20:37:001780');"></div>							
+		<div tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span> Pia Sikes </span><br><div class="label label--agent label--agent__platinum">Platinum</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/730508.jpg?ts=2021-01-18T09:53:002719');"></div>							
+		<div tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span>Kendra Riedel</span><br><div class="label label--agent label--agent__silver">Silver</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/712483.jpg?ts=2020-03-20T14:00:006147');"></div>
+		<div tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span>Diana C. Buckley</span><br><div class="label label--agent label--agent__gold">Gold</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/721108.jpg?ts=2021-04-22T21:28:002311');"></div>							
+		<div class="card--qa__footer_row_more">+2</div>							
+		<div class="card--qa__footer_row_label card--qa__footer_row_label_resolved"><img src="https://content.harstatic.com/media/icons/check_mark_green.svg" style="width:10px;" class="mr-1 float-left mt-1">Resolved</div>
+	</div>
+</div>            	   
+</a>
+
+
+<!-- without agents -->
+
+<a href="javascript:void(0);" class="card card--qa">
+<div class="card--qa__content">
+	<div class="card--qa__info">
+		<div class="card--qa__info_left">
+			Posted by Shadrick Bogany
+			<span>|</span>
+			Jun 06, 2020
+			<span>|</span>
+			<img src="https://content.harstatic.com/media/icons/comment_light_slate.svg" class="mr-1"> 0 answer
+		</div>
+		<div class="card--qa__info_right"><img src="https://content.harstatic.com/media/icons/eye_preview_slate_light.svg" class="mr-1">14</div>
+	</div>
+	<h3 tabindex="0">Realtor help with relocation (2wks) and past eviction?</h3>
+	<div class="card--qa__text"><div class="card--qa__text_pera">We are relocating to the Houston area for my fiancées job. We are look We are relocating to the Houston area for my fiancées job. We are look</div> <span>read more</span></div>
+</div>
+<div class="card--qa__footer">
+	<div class="card--qa__footer_small">No answers yet</div>
+	<div class="card--qa__footer_agents">								
+		<img src="https://content.harstatic.com/media/icons/comment_blue_small.svg" class="mr-1">Be the first to give them an answer!
+	</div>
+</div>            	   
+</a>`,
+  
+  
     ];
 
   }
@@ -884,6 +1334,7 @@ Notice that there is a specific container that changes gutter size
 
         <TemplateComponentBlock blockTitle="Landscape-Oriented Cards" elements={this.elements[0]} codeSnippets={this.codeSnippets[0]} />
         <TemplateComponentBlock blockTitle="Portrait-Oriented Cards" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
+        <TemplateComponentBlock blockTitle="QA Cards" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
 
       </TemplateDefault>
     )

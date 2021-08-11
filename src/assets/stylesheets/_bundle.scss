@@ -26,6 +26,12 @@ html { font-family: 'Inter', sans-serif !important; }
 @import "component_cards.scss";
 @import "component_dropdown.scss";
 @import "component_labels.scss";
+@import "component_messages.scss";
+@import "component_cards_v2.scss";
+@import "favorite.scss";
 
 // TEMPLATE BLOCKS
 @import "block_heros.scss";
+
+//sitewide
+@import "sitewide.scss";

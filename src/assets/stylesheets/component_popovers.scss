@@ -103,7 +103,20 @@
 		}
 	}
 	
-	
+	&--agents {
+		.popover-body {
+			padding: 8px;
+			font-size: $font-size-small;
+			text-align: center;
+		}	
+		
+		span {
+			font-size: $font-size-small;
+			font-weight: $font-weight-bold;
+			color: $color-auxiliary;
+			line-height: 1;
+		}
+	}
 	
 }
 

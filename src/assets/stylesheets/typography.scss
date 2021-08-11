@@ -55,6 +55,9 @@
   &--bold {
     font-weight: $font-weight-bold;
   }
+  &--bold_extra {
+    font-weight: $font-weight-bold-extra;
+  }
 }
 
 @media only screen and (max-width: 768px)  and (min-width: 576px) { // -md-
@@ -138,7 +141,7 @@ a {
   }
 }
 
-h1 {
+h1,.h1 {
   cursor: default;
   font-weight: $font-weight-bold;
   color: $color-har-blue-dark;
@@ -168,12 +171,29 @@ h1 {
     }
   }
 
-  &.h1--negative {
+ &.h1--negative {
     color: $color-snow-white !important;
   }
+  
+  &.h1--strong {
+    font-size: $font-size-large-extra-extra-extra-extra;
+    line-height: normal;
+    letter-spacing: -1.2px;
+    margin-bottom: 60px;
+    color: $color-black;
+    font-weight: $font-weight-bold-extra;
+
+    @media screen and (max-width: 576px) {
+	  font-size: $font-size-large-extra-extra;
+	  line-height: 1.4
+    }
+  }
+  
 }
 
-h2 {
+
+
+h2,.h2 {
   text-align: left !important;
   position: relative;
   cursor: default;
@@ -212,6 +232,102 @@ h2 {
   &.h2--negative {
     color: $color-snow-white !important;
   }
+  
+  &.h2--simple,&--simple {
+	  font-size: $font-size-large-extra-extra;
+	  font-weight: $font-weight-bold;
+	  color: $color-har-blue-dark;
+	  
+	  &:before { 
+		  content: none;
+	  }
+	  
+	  &__black {
+		  color: $color-carbon;
+	  }
+	  
+  }
+  
+  &--black_large {
+		color: $color-carbon;
+		font-size: 27px;
+		&:before { 
+			content: none;
+	  	}	 
+  }
+	  
+  &.h2--light {
+	  font-size: $font-size-large-extra-extra-extra;
+	  font-weight: $font-weight-semi-bold;
+	  color: $color-carbon;
+	  line-height: 40px;
+	  
+	  &:before { 
+		  content: none;
+	  }
+	  
+	  @media screen and (max-width: 576px) {
+	    font-size: $font-size-large-extra-extra;
+	    line-height: 32px;	    
+	  }
+  }
+  
+  &.h2--strong {
+	  font-size: $font-size-large-extra-extra-extra-extra;
+	  font-weight: $font-weight-bold;
+	  color: $color-black;
+	  line-height: normal;
+	  letter-spacing: -1.2px;
+	  
+	  &:before { 
+		  content: none;
+	  }
+	  
+	  @media screen and (max-width: 576px) {
+	    font-size: $font-size-large-extra-extra-extra;
+	    line-height: normal;	    
+	  }
+  }
+  
+  &.h2--centerline {
+	  font-size: $font-size-large-extra-extra-extra-extra;
+	  font-weight: $font-weight-bold;
+	  color: $color-black;
+	  line-height: normal;
+	  letter-spacing: -1.2px;
+	  
+	  &:before { 
+		  content: none;
+	  }
+	  
+	  @media screen and (max-width: 576px) {
+	    font-size: $font-size-large-extra-extra;
+	    line-height: 32px;	    
+	  }
+  }
+
+
+	&.h2--centerline,&--centerline{text-align: center !important;position: relative;}
+	&.h2--centerline span,&--centerline span{background-color:#ffffff;padding: 0px 32px;}
+	&.h2--centerline:after,&--centerline:after {
+	    display: inline-block;
+	    content: "";
+	    border-top: solid 3px #edf0fa;
+	    width: 100%;
+	    position: absolute;
+	    left:0px;
+	    right: 0px;
+	    top: 28px;
+	    z-index: -1;
+
+	    @media screen and (max-width: 576px) {
+		    top: 16px;
+		    border-top: solid 1px #edf0fa;
+		}
+	}
+
+
+
 }
 
 h3 {
@@ -259,6 +375,13 @@ h4 {
   text-align: justify;
 }
 
+.tagline_text {
+	text-transform: uppercase;
+	font-size: $font-size-large;
+	color: $color-cement-dark;
+}
+
+
 .list {
 	&--inside {		
 		li {
@@ -268,7 +391,8 @@ h4 {
 		}
 	}
 	
-	&--black {
+	
+	&--black,.blog_content ul {
 		
 		li {
 			padding:0px;
@@ -290,5 +414,33 @@ h4 {
 				border-radius:50%;
 			}
 		}
-	}		
+	}
+	
+	&--blue {
+		
+		li {
+			padding:0px;
+			margin:0px;
+			list-style:none;
+			display:block;
+			padding:0px 0px 10px 14px;
+			position: relative;
+			font-size: 14px;
+			color: $color-har-blue;
+			font-weight: $font-weight-semi-bold;
+			
+			&:before {
+				position:absolute;
+				display:block;
+				width:5px;
+				height:5px;
+				background-color: $color-har-blue;
+				left:0px;
+				top:9px;
+				content:"";
+				border-radius:50%;
+			}
+		}
+	}
+			
 }

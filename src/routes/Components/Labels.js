@@ -8,40 +8,73 @@ export default class Labels extends Component {
     super(props);
 
     this.elements = [
-      `<div class="row justify-content-center">
-        <div class="col col-3 pt-3">          
+      `<div class="row justify-content-start">
+        <div class="col col-6 pt-3 text-left">          
+          <h4 tabindex="">For all</h4>
+          
           <div class="label label--forsale">for sale</div>
-          <div class="component_content__demo__description">For Sale</div>          
+          <br><br>
+          <div class="label label--comingsoon">Coming Soon</div>
+          <br><br>
+          <div class="label label--forrent">For Rent</div>
+          <br><br>
+          <div class="label label--sold">Sold</div>
+          <br><br>
+          <div class="label label--undercontract">Under Contract</div>
+          <br><br>
+          <div class="label label--expired">Expired</div>
+          <br><br>
+          <div class="label label--withdraw">Withdraw</div>
+          <br><br>
+          <div class="label label--incompleted">Incompleted</div>
+          <br><br>
+          <div class="label label--notforsale">Not for sale</div>
+          <br><br>
+          <div class="label label--openhouse">Open House</div>
+          <br><br>
+          <div class="label label--pending">Under Contract - Pending</div>
+          <br><br>
+          <div class="label label--pending__continue">Under Contract - Pending Continue</div>
+          <br><br>
+          <div class="label label--pending__continue_show">Under Contract - Pending Continue to Show</div> 
         </div>
-        <div class="col col-3 pt-3">          
-          <div class="label label--forrent">for rent</div>
+        
+        
+        <div class="col col-6 pt-3 text-left">          
+          <h4 tabindex="">For agents only</h4>
+          
+          <div class="label label--comingsoon">Coming Soon</div>
+          <br><br>
+          <div class="label label--undercontract">Under Contract – OP</div>
+          <br><br>
+          <div class="label label--undercontract">Under Contract – P</div>
+          <br><br>
+          <div class="label label--undercontract">Under Contract – PS</div>
+          <br><br>
+          <div class="label label--expired">Expired</div>
+          <br><br>
+          <div class="label label--withdraw">Withdraw</div>
+          <br><br>
+          <div class="label label--terminated">Terminated</div>
+          <br><br>
+          <div class="label label--incompleted">Incompleted</div>
         </div>
-        <div class="col col-3 pt-3">          
-          <div class="label label--sold">sold</div>
-        </div> 
-        <div class="col col-3 pt-3">          
-          <div class="label label--terminated">terminated</div>
-        </div>        
+        
        </div>
+       
+       
        <div class="row">
         <div class="col col-3 pt-3">
-          <div class="label label--openhouse">Open House</div>
-          <div class="component_content__demo__description">Open House</div>          
-        </div>
-        <div class="col col-9 pt-3"></div>
-        <div class="col col-auto pt-3">          
-          <div class="label label--pending">Under Contract - Pending</div>
-          <div class="component_content__demo__description">Pending</div>          
+          <div class="label label--recognized">Open House</div>
+          <div class="component_content__demo__description">Recognized by NAR</div>
         </div>
         <div class="col col-auto pt-3">          
-          <div class="label label--pending__continue">Under Contract - Pending Continue</div>
-          <div class="component_content__demo__description">Pending Continue</div>
-        </div>
-        <div class="col col-auto pt-3">          
-          <div class="label label--pending__continue_show">Under Contract - Pending Continue to Show</div>
-          <div class="component_content__demo__description">Pending Continue Show</div>
+          <div class="label label--recognized_none">Non-Nar by NAR</div>
+          <div class="component_content__demo__description">Non-Nar by NAR</div>          
         </div>
        </div>
+       
+       
        <div class="row">
         <div class="col col-3 pt-3">          
           <div class="label label--newconstruction"><img src="https://content.harstatic.com/media/icons/icon-new-construction.svg">New construction</div>
@@ -90,6 +123,12 @@ export default class Labels extends Component {
        </div>`,
        `<div class="row justify-content-center">
         <div class="col col-2 pt-3">          
+          <div class="label label--typeahead  label--typeahead_neighborhood">Neighborhood</div> 
+        </div>
+        <div class="col col-2 pt-3">          
+          <div class="label label--typeahead  label--typeahead_subdivision">Subdivision</div> 
+        </div>
+        <div class="col col-2 pt-3">          
           <div class="label label--typeahead  label--typeahead_street">Street</div> 
         </div>
         <div class="col col-2 pt-3">          
@@ -113,37 +152,70 @@ export default class Labels extends Component {
         <div class="col col-2 pt-3">          
           <div class="label label--typeahead  label--typeahead_lead">Lead</div>
         </div>
-        <div class="col col-2 pt-3">     
+        <div class="col col-2 pt-3">
+        	<div class="label label--typeahead  label--typeahead_community">Community</div>
         </div>
-        <div class="col col-2 pt-3">          
+        <div class="col col-2 pt-3">
+        	<div class="label label--typeahead  label--typeahead_highrise">Highrise</div>
         </div>
-        <div class="col col-2 pt-3">          
+        <div class="col col-2 pt-3">
+        	<div class="label label--typeahead  label--typeahead_course">Course</div>
         </div>
-        <div class="col col-2 pt-3">          
+        <div class="col col-2 pt-3">
+        	<div class="label label--typeahead  label--typeahead_apartment_name">Apartment</div>
+        </div>
+        <div class="col col-2 pt-3">
+        	<div class="label label--typeahead  label--typeahead_marketarea">Marketarea</div>
+        </div>
+        <div class="col col-2 pt-3">
+        	<div class="label label--typeahead  label--typeahead_county">County </div>
+        </div>
+        <div class="col col-2 pt-3">
+        	<div class="label label--typeahead  label--typeahead_office">Office</div>
+        </div>
+        <div class="col col-2 pt-3">
+        	<div class="label label--typeahead  label--typeahead_keyword">Keyword</div>
+        </div>
+        <div class="col col-2 pt-3">
+        	<div class="label label--typeahead  label--typeahead_category">Category</div>
+        </div>
+        <div class="col col-2 pt-3">
+        	<div class="label label--typeahead  label--typeahead_management_name">Management Name</div>
+        </div>
+        <div class="col col-2 pt-3">
+        	<div class="label label--typeahead  label--typeahead_charterschool">Charterschool</div>
         </div>
        </div>`,
        `<div class="row justify-content-center">
-        <div class="col col-3 pt-3">          
-          <div class="label label--forsale">for sale</div>
-          <div class="component_content__demo__description">For Sale</div>          
+        <div class="col col-2 pt-3">
+          <div class="label label--agent label--agent__bronze">Bronze</div>
         </div>
-        <div class="col col-3 pt-3">          
-          <div class="label label--forrent">for rent</div>
+        <div class="col col-2 pt-3">          
+          <div class="label label--agent label--agent__platinum">Platinum</div>
         </div>
-        <div class="col col-3 pt-3">          
-          <div class="label label--newconstruction"><img src="https://content.harstatic.com/media/icons/icon-new-construction.svg">New construction</div>
+        <div class="col col-2 pt-3">          
+          <div class="label label--agent label--agent__diamond">Diamond</div>
         </div>
-        <div class="col col-3 pt-3">          
-          <div class="label label--justlisted"><img src="https://content.harstatic.com/media/icons/icon-just-listed.svg">Just listed</div>          
+        <div class="col col-2 pt-3">          
+          <div class="label label--agent label--agent__gold">Gold</div>
         </div>
-        <div class="col col-3 pt-3">          
-          <div class="label label--pricereduction"><img src="https://content.harstatic.com/media/icons/icon-price-reduction.svg">Price Reduction</div>          
+        <div class="col col-2 pt-3">          
+          <div class="label label--agent label--agent__silver">Silver</div>         
         </div>
-       </div>
-       <div class="row">
-        <div class="col col-3 pt-3">          
-          <div class="label label--openhouse">Open House</div>
-          <div class="component_content__demo__description">Open House</div>          
+       </div>`,
+       `<div class="row justify-content-center">
+        <div class="col col-12 pt-3 text-left">
+          <div class="label label--badges label--badges__justlisted">Just Listed</div>
+          <br><br>
+          <div class="label label--badges label--badges__openhouse">Open House</div>
+          <br><br>
+          <div class="label label--badges label--badges__pricereduced">Price Reduced</div>
+          <br><br>
+          <div class="label label--badges label--badges__homevalues">Home Values</div>
+          <br><br>
+          <div class="label label--badges label--badges__neighborhoods">Neighborhoods</div>         
+          <br><br>
+          <div class="label label--badges label--badges__agentsbrokers">Agents & Brokers</div>         
         </div>
        </div>`,
     ];
@@ -175,9 +247,11 @@ export default class Labels extends Component {
         activeParent="components"
         activeChild="labels">
 
-        <TemplateComponentBlock blockTitle="Listing Labels" elements={this.elements[0]} codeSnippets={this.codeSnippets[0]} />
+        <TemplateComponentBlock blockTitle="Listing Status" elements={this.elements[0]} codeSnippets={this.codeSnippets[0]} />
         <TemplateComponentBlock blockTitle="School Labels" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
         <TemplateComponentBlock blockTitle="Typeahead Labels" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
+		<TemplateComponentBlock blockTitle="Agent Level Labels" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
+		<TemplateComponentBlock blockTitle="Labels for badges" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
         
       </TemplateDefault>
     )

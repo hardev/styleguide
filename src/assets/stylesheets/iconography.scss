@@ -13,6 +13,32 @@
 
   &--github { background-image: url(../images/icon-github.svg); }
   &--price_reduced { background-image: url(../images/icon-price-reduced.svg); }
+  
+  &--circle {
+	  border: 1px solid $color-cloudy-sky;
+	  height: 48px;
+	  width: 48px;
+	  border-radius: 50%;
+	  line-height: 48px;
+	  text-align: center;
+	  
+	  img {
+	  	max-height: 30px;
+	  	max-width: 30px;
+	  }
+	  
+	  &_large {
+		  width: 80px;
+		  height: 80px;
+		  line-height: 80px;
+		  
+		  img {
+		  	max-height: 50px;
+		  	max-width: 50px;
+		  }
+	  }
+  }
+  
 }
 
 

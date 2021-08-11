@@ -158,6 +158,9 @@ hr {
   &--above_all {
     box-shadow: 0 10px 16px rgba(0,0,0,0.24);
   }
+  &--above_all_extra {
+    box-shadow: 0 16px 56px 0 rgba(0, 0, 0, 0.16);  
+  }
 }
 
 .border-color {
@@ -519,24 +522,6 @@ hr {
 	
 }
 
-.pagination {
-	.page-item
-		{
-			.page-link {
-				min-width: 36px;
-				height: 34px;
-				padding: .73rem .75rem;
-				text-align: center;
-				border: 1px solid $color-cloudy-sky;
-				color: $color-har-blue-dark !important;
-			}
-			
-			&.active .page-link {				
-				background-color: $color-cloudy-sky-light;
-				border-color: $color-cloudy-sky;
-			}
-		}
-}
 
 
 // only Medium devices (tablets, 768px and down)

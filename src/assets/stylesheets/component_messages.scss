@@ -1,0 +1,62 @@
+.message {
+	font-size: $font-size-large;
+	margin: 16px 0;
+	padding: 16px 20px;
+	border-radius: 4px;
+	background-color: $color-cement_light;
+	color: $color-auxiliary;
+	display: block;
+	text-align: left;
+	font-weight: $font-weight-semi_bold;
+	height: 56px;
+	
+	&--primary {
+		background-color:$color-har-blue;
+		color: $color-snow-white;
+	}
+	
+	&--secondary {
+		background-color:$color-har-blue-dark;
+		color: $color-snow-white;
+	}
+	
+	&--success {
+		background-color:$color-available_light;
+		color: $color-available;
+	}
+	
+	&--danger {
+		background-color:$color-snow-white;
+		color: $color-sold;
+		border:2px solid $color-sold;
+		line-height: 22px;
+	}
+	
+	&--warning {
+		background-color:$color-pending_light;
+		color: $color-carbon;
+	}
+	
+	&--info {
+		background-color: $color-cement_light;
+		color: $color-auxiliary;
+	}
+	
+	&--light {
+		background-color: $color-snow-white;
+		border:2px solid #f3f4f7;
+		color: $color-auxiliary;
+		line-height: 22px;
+	}
+
+	&--dark {
+		background-color:  $color-auxiliary;
+		color: $color-snow-white;
+	}
+	
+	&--withicon {
+		background-repeat: no-repeat;
+		background-position: 15px center;
+		padding-left: 52px;
+	}
+}

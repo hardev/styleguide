@@ -114,16 +114,18 @@
 }
 
 .folder {
-	background-color: $color-slate-light;
+	background-color: $color-cement-light;
 	border-radius: 2px;
 	height: 24px;
 	line-height: 24px;
 	font-size: $font-size-small;
-	color: $color-snow-white;
+	color: $color-carbon;
 	display: inline-block;
 	position: relative;
 	padding-left: 6px; 
 	padding-right: 22px;
+	margin-bottom: 5px;
+	margin-right: 5px;
 	
 	&--closeable {		
 		a {
@@ -131,9 +133,12 @@
 			position: absolute;
 			right: 2px; 
 			top: 0px;
-			width: 16px;
-			height: 16px;
-			margin-left: 4px;
+			width: 18px;
+			height: 24px;
+			margin-left: 4px;			
+			opacity: 45%;
+			background:url("https://content.harstatic.com/media/icons/cross_auxilary_small.svg") no-repeat right 5px center;
+			background-size: 8px;
 		}		
 	}
 }

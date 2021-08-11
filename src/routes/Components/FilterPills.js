@@ -43,16 +43,17 @@ export default class FilterPill extends Component {
         <div class="component_content__demo__description">Closable Pill</div>
       </div>
       <div class="col col-3">
-        <button class="iconpill" title="" aria-label="Filter by price disabled">Price  <span><img src="https://content.harstatic.com/media/icons/forbuttons/buttons-save-search.svg"></span></button>
+        <button class="iconpill" title="" aria-label="Filter by price disabled">Add to Folder  <span><img src="https://content.harstatic.com/media/icons/forbuttons/buttons-save-search.svg"></span></button>
         <div class="clearfix"></div>
         <div class="component_content__demo__description">Icon Pill</div>
       </div>
+      
     </div>
     <div class="row mt-4">
       <div class="col col-3">
         <div class="folder folder--closeable">
         	For my family!
-        	<a href="#"><img src="https://content.harstatic.com/media/icons/close_white_small.svg"></a>
+        	<a class="folder--closeable_close" href="#"></a>
         </div>
         <div class="clearfix"></div>
         <div class="component_content__demo__description">Folder Pill</div>

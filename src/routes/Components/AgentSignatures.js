@@ -111,6 +111,29 @@ export default class AgentSignatures extends Component {
           <div class="component_content__demo__description">Square agent signature</div>
           
         </div>
+       </div>
+       <hr>
+       
+        
+      <div class="row justify-content-center">
+        <div class="col col-sm-6 col-12">
+          
+          <div class="text-center">
+	      		<a tabindex="-1" class="agent_signature--photoonlye" href="https://www.har.com/shadrick-bogany/agent_BOGANYS" title="View Shadrick Bogany's profile">
+	      			<span style=""></span>
+	      		</a>
+          </div>
+          <div class="component_content__demo__description">Without Photo</div>
+        </div>
+        <div class="col col-sm-6 col-12">
+          <div class="text-center">
+	      		<a tabindex="-1" class="agent_signature--photoonlye" href="https://www.har.com/shadrick-bogany/agent_BOGANYS" title="View Shadrick Bogany's profile">
+	      			<span style="background-image:url('https://pics.harstatic.com/agent/312961.jpg');"></span>
+	      		</a>
+          </div>
+          <div class="component_content__demo__description">With Photo</div>
+          
+        </div>
        </div>`
     ];
 

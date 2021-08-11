@@ -15,8 +15,12 @@ label {
 	padding:12px;
 	
 	&::-ms-input-placeholder,
+	&::-webkit-input-placeholder,
+	&::-moz-placeholder,
+	&:-ms-input-placeholder,
+	&:-moz-placeholder,
 	&::placeholder {
-		color: $color-auxiliary-light !important;
+		color: rgba(0, 0, 0, 0.24) !important;
 	}
 
 	&:disabled,
@@ -70,7 +74,7 @@ label {
 			border-radius: 4px;
 
 			&::placeholder {
-				color: $color-auxiliary-light;
+				color: rgba(0, 0, 0, 0.24);
 			}
 
 			&:focus {
@@ -136,7 +140,7 @@ label {
 			line-height: 1;
 
 			&::placeholder {
-				color:  $color-auxiliary;
+				color:  rgba(0, 0, 0, 0.24);
 			}
 
 			&:focus {
@@ -153,6 +157,31 @@ label {
 			background-image: url("https://content.harstatic.com/media/icons/forbuttons/buttons-special-search.svg");
 			background-repeat: no-repeat;
 			background-position: center;
+		}
+	}
+	
+	&--custom {
+		border: 1px solid $color-auxiliary-light;
+		font-size: $font-size-medium;
+		color: $color-carbon !important;
+		border-radius: 0.25rem;
+		
+		.input-group-text {
+			background-color:  $color-cloudy-sky-light;
+			color: $color-slate;
+			border: none;
+			font-size: $font-size-medium;
+			padding-left: 12px;
+			padding-right: 12px;
+		}
+		.form-control { 
+			border: none; 
+		}
+		
+		@media screen and (max-width: 600px) {
+		.form-control,.btn {
+			height: auto;
+			}
 		}
 	}
 }
@@ -217,6 +246,65 @@ label {
 	  }
   }
   
+  
+   &__outline {
+	  position: relative;
+	  padding:0px;
+	  
+	  
+	  .custom-control-label {
+		 padding: 12px 12px 12px 48px;
+		 margin:0px;
+		 z-index: 11111;
+		 
+		 &_title {
+			 font-weight: $font-weight-semi-bold;
+			 color: $color-carbon;
+			 font-size: $font-size-medium;
+			 padding-bottom: 0px;
+			 display: block;			 
+		 }
+		 
+		 &_info {			 
+			 color: $color-slate-light;
+			 
+			 span {
+				 display: inline-block;
+			 }
+		 }
+		 
+		  &:before {
+			left: 16px;
+			top: 20px;	  
+		  }
+		  
+		  &:after {
+		    content: "";
+		    position: absolute;
+		    left: 0px;
+		    right: 0px;
+		    top: 0px;
+		    bottom: 0px;
+		    display: block;
+		    width: 100%;
+		    height: 100%;
+		    z-index: -1;
+		    border-bottom: 1px solid $color-cloudy-sky-light;
+		  }
+	  }
+	  
+	.custom-control-input:checked ~ .custom-control-label {
+	    &:after {
+		    background-image: none !important ;
+		    background-color: $color-cement-light;
+	    }
+	  }
+
+	  
+  }
+
+
+
   &-row {
 	  font-size: $font-size-small;
 	  padding-left: 0px;
@@ -252,10 +340,50 @@ label {
 		    background-image:url("https://content.harstatic.com/media/icons/icon-option-selected-black2.svg");		    
 	    }
 	  }
+	  
+	  &-inverse {
+		border-bottom: 1px solid rgba(255,255,255,0.17) !important;
+		
+		.custom-control-label {
+		  color: $color-snow-white;
+	  	}	  
+	  	
+	  	.custom-control-input:checked ~ .custom-control-label {
+			color: $color-snow-white;
+
+			&::before {
+		    	background-image:url("https://content.harstatic.com/media/icons/check_small_white.svg");
+		    	background-size: 13px;
+		    	background-repeat: no-repeat;
+		    	background-position: 0px 10px;
+	    	}
+	  	}
+	  }
 
   }
 
+  &--negative {
+		.custom-control-label{
+			color: $color-snow-white !important;
+			margin:0px 15px 10px 0px;
+		}
 
+		.custom-control-input:checked ~ .custom-control-label {
+	    color: $color-snow-white !important
+	    }
+
+		.custom-control-input:disabled ~ .custom-control-label {
+			color: $color-auxiliary-light !important;
+			opacity: 0.45;
+			-webkit-opacity: 0.45 !important;
+			-moz-opacity: 0.45 !important;
+		}
+
+		.custom-control-input:disabled ~ .custom-control-label::before {
+			background-color: inherit !important;
+		}
+		
+	}
 
 }
 
@@ -312,17 +440,30 @@ label {
 		  line-height: normal;
 		  margin:0px 15px 10px 0px;
 		  color: $color-auxiliary;
+		  
+		  @media screen and (max-width: 786px) {
+	   	  	font-size:12px;
+	   	  	padding:4px 0px 0px 5px;
+	   	  }
+
 	  }
 	  
 	  .custom-control-label::before {
 	    width: 18px;
 	    height: 18px;
 	    background-size:18px;
+	    
+	    @media screen and (max-width: 786px) {
+	   	  	width: 16px;
+	   	  	height: 16px;
+	    	background-size:16px;
+	   	 }
 	  }
 	  
 	  .custom-control-input:checked ~ .custom-control-label {
 		color: $color-har-blue-dark;
 	  }
+	  
   }
 
   &--negative {
@@ -408,6 +549,12 @@ label {
 	color: $color-slate-light;
 	text-align: left;
 
+	&_large_extra{
+		height: 48px !important;
+		font-size: $font-size-large !important;
+		padding: 6px 26px 6px 12px;
+	}
+	
 	&_large{
 		height: 40px !important;
 		font-size: $font-size-medium !important;
@@ -479,6 +626,21 @@ label {
 			}
 		}
 		
+		&_strong {
+			.dropdown-toggle {
+				height: 32px;
+				font-size: $font-size-medium !important;
+				color: $color-har-blue !important;
+				font-weight: $font-weight-bold;
+				padding:4px 8px;
+				border: none;
+				&:after {
+					background-position: right 8px;
+					width: 18px;
+				}
+			}
+		}
+		
 		&__simple {
 			.dropdown-toggle {
 				border: none;
@@ -502,6 +664,7 @@ label {
 					border : none !important;
 					width: 14px;
 					height:auto;
+					background-size: 8px !important;
 				}				
 							
 			}
@@ -510,6 +673,7 @@ label {
 						&:after {
 							background: url("https://content.harstatic.com/media/icons/select_arrow_auxilary_up.svg")no-repeat !important;
 							background-position: center center !important;
+							background-size: 8px !important;
 						}			
 					}
 			}	
@@ -520,7 +684,8 @@ label {
 					&:after {
 						width: 15px;
 						height: 15px;
-						background: url("https://content.harstatic.com/media/icons/dropdown_arrow_white.svg")no-repeat right 8px;						
+						background: url("https://content.harstatic.com/media/icons/dropdown_arrow_white.svg")no-repeat right 8px;
+						background-size: 8px !important;
 					}				
 					
 				}		
@@ -529,6 +694,7 @@ label {
 					.dropdown-toggle {
 						&:after {
 							background: url("https://content.harstatic.com/media/icons/dropdown_arrow_white_2.svg")no-repeat right 8px;
+							background-size: 8px !important;
 						}			
 					}			
 					
@@ -852,4 +1018,13 @@ label {
 			}
 		}
 	}
+}
+
+.input-description {
+	background-color: $color-cement-light;
+	border-radius: 4px;
+	color: $color-slate-light;
+	font-size: $font-size-small-extra;
+	padding: 4px;
+	text-align: left;
 }

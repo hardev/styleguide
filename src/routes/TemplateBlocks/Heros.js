@@ -49,6 +49,45 @@ export default class Heros extends Component {
 
       </section>
       <!-- /hero_landing_page -->`,
+      `<!-- hero_institutional_page -->
+      <section class="hero_institutional_page">
+        <h1 tabindex="0">Accessibility</h1>
+        <div class="hero_institutional_page__tageline" style="max-width:420px;">The Houston Association of REALTORS® (HAR) is committed to providing an accessible website.</div>
+      </section>
+      <!-- /hero_institutional_page -->`
+      ,
+      `<!-- hero_home -->
+      <div class="hero_home">
+        	<div class="ml-auto mr-auto" style="max-width:1056px;">
+				<h2 class="h2--simple h2--simple__black">Start your home search</h2>
+				<div class="hero_home__form">
+					<div class="hero_home__form_select">
+						<label class="color_black">Location</label>
+						<div class="dropdown dropdown--custom dropdown--custom__simple">
+						  <button class="dropdown-toggle btn--flate" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    Homes for sale
+						  </button>
+						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#">Action one</a>
+						    <a class="dropdown-item" href="#">Action two</a>
+						    <a class="dropdown-item" href="#">Action three</a>
+						  </div>
+						</div>
+					</div>
+					<div class="hero_home__form_input">
+						<label class="color_black">Location</label>
+						<input type="text" class="form-control" id="cityl" aria-describedby="city" placeholder="Enter address, city or zip code">
+					</div>
+					<div class="hero_home__form_button">
+						<button class="btn">Search homes</button>
+					</div>
+			    </div>
+				<a class="font_size--medium font_weight--semi_bold pr-5" href="#">Advanced search</a>
+				<a class="font_size--medium font_weight--semi_bold pr-5" href="#">Drive time estimator</a>
+			</div>
+      </div>
+      <!-- /hero_home -->`,
+      
     ];
 
 
@@ -93,6 +132,13 @@ export default class Heros extends Component {
 
 </section>
 <!-- /hero_landing_page -->`,
+`<!-- hero_institutional_page -->
+<section class="hero_institutional_page">
+    <h1 tabindex="0">Accessibility</h1>
+    <div class="hero_institutional_page__tageline" style="max-width:420px;">The Houston Association of REALTORS® (HAR) is committed to providing an accessible website.</div>
+</section>
+<!-- /hero_institutional_page -->`,
+
     ];
 
   }
@@ -106,6 +152,8 @@ export default class Heros extends Component {
         activeChild="heros">
 
         <TemplateComponentBlock hasContainer={false} blockTitle="Inner Page Hero" elements={this.elements[0]} codeSnippets={this.codeSnippets[0]} />
+        <TemplateComponentBlock hasContainer={false} blockTitle="Inner Institutional Hero" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
+        <TemplateComponentBlock hasContainer={false} blockTitle="Hero for Home page" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
 
       </TemplateExpanded>
     )

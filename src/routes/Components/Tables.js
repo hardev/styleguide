@@ -11,8 +11,8 @@ export default class Tables extends Component {
       `<div class="row justify-content-center">
         <div class="col col-10 pt-4">
           <div class="table_wrapper">
-    				<table tabindex="0" class="table table--medium">
-              <caption>Listing traffic report table</caption>
+    			<table tabindex="0" class="table table--medium">
+					<caption>Listing traffic report table</caption>
     				  <thead>
     				    <tr>
     				      <th scope="col">Table Header</th>
@@ -50,7 +50,59 @@ export default class Tables extends Component {
     				</table>
           </div>
           <div class="component_content__demo__description">e.g., Listing traffic report table</div>
+        </div>
+        <div class="row justify-content-center">
+        <div class="col col-10 pt-4">
+    			<table tabindex="0" class="table table--medium">
+					<caption>Listing traffic report table</caption>
+    				  <thead>
+    				    <tr>
+    				      <th scope="col">Table Header</th>
+    				      <th scope="col">Web Views</th>
+    				    </tr>
+    				  </thead>
+    				  <tbody>
+    				    <tr>
+    				      <td class="font_weight--bold" scope="row">Purchase Price</td>
+    				      <td>$250,100</td>
+    				    </tr>
+    				    
+    				    <tr>
+    				      <td class="font_weight--bold" scope="row">Down Payment</td>
+    				      <td>$50,200.00</td>
+    				    </tr>
+    				    
+    				    <tr>
+    				      <td class="font_weight--bold" scope="row">Mortgage Term</td>
+    				      <td>30 years</td>
+    				    </tr>
+    				    
+    				    <tr>
+    				      <td class="font_weight--bold" scope="row">Interest Rate</td>
+    				      <td>4.50%</td>
+    				    </tr>
+    				    
+    				    <tr>
+    				      <td class="font_weight--bold" scope="row">Monthly Mortgage Payment</td>
+    				      <td>$1,017.42</td>
+    				    </tr>
+    				    
+    				    <tr>
+    				      <td class="font_weight--bold" scope="row">Monthly Tax</td>
+    				      <td>$627.50</td>
+    				    </tr>					    				    
+    				</tbody>
+    				<tfoot>						    				
+    				    <tr>
+    				      <td scope="row">Monthly Total</td>
+    				      <td>$1,644.92</td>
+    				    </tr>					    				    
+    				</tfoot>
+    		</table>
+          </div>
+          <div class="component_content__demo__description">e.g., Listing traffic report table</div>
         </div>`,
+        
 
         `<div class="row justify-content-center">
         <div class="col col-10 pt-4">

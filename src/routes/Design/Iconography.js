@@ -34,7 +34,38 @@ export default class Iconography extends Component {
           </div>
         </div>
         <div class="clear_both"></div>
-      </div>`,
+      </div>
+      
+      <div class="row justify-content-center">
+        <div class="col col-sm-3 col-12">
+          <div class="icon icon--circle"><img src="https://content.harstatic.com/media/icons/icon-crm-shared-file.svg"></div>
+          <div class="component_content__demo__description">
+            
+          </div>
+        </div>
+        <div class="col col-sm-3 col-12">
+          <div class="icon icon--circle icon--circle_large"><img src="https://content.harstatic.com/media/icons/claim_yourprofile/illustration-enhance-your-profile_.svg"></div>
+          <div class="component_content__demo__description">
+            
+          </div>
+        </div>
+        <div class="col col-sm-3 col-12">
+          
+          <div class="component_content__demo__description">
+            
+          </div>
+        </div>
+        <div class="col col-sm-3 col-12">
+          
+          <div class="component_content__demo__description">
+            
+          </div>
+        </div>
+        <div class="clear_both"></div>
+      </div>
+      
+      
+      `,
     ];
 
 

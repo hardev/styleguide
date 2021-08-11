@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+
+.card--favorites {
+	display: flex !important;
+	padding: 0px 0px 12px 0px !important;
+	margin: 0px 0px 12px 0px !important;
+	border-bottom: 1px solid #f3f4f7;
+	text-decoration: none !important;
+	color: $color-auxiliary !important;
+	align-items: center;
+	float: none !important;
+	line-height: normal !important;
+	height: auto !important;
+
+
+	&__img {
+		border-radius: 4px;
+		overflow: hidden;
+		width: 88px;
+		min-width: 88px;
+		height: 72px;
+		margin-right: 12px;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		align-self: flex-start;
+	}
+	
+	&__content {
+		flex: 1;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		text-align: left;
+		
+		h4 {
+			font-size: $font-size-small;
+			margin-bottom: 0px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			display: block;			
+			
+		}
+		
+		&_info {
+			font-size: $font-size-small;
+			margin-bottom: 4px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+		
+		&_not_added {
+			opacity: 32%;
+		}
+		
+		.fav_container {
+			font-size: 16px;
+			padding: 4px;
+			
+			&__inner {								
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+		}
+		
+	}
+}
+
+
+/* card for fav used in consumer */
+.card .dropdown.show .dropdown-toggle{border-radius: 2px;box-shadow: 0 0 0 2px rgba(103, 161, 249, 0.5);border: solid 2px #67a1f9;}
+.note_block {border-radius: 4px;box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.24);background-color:#f8f2c0;padding:4px 8px 4px 8px;}
+.note_block_innter {background:url("https://content.harstatic.com/media/other/line_repeat_bg3.png") center top;color:#585645;line-height:1.7;}
+.note_block_innter a{color:#585645 !important; }
+.note_block_innter .form-control, .nb_font {font-family: 'Caveat', cursive;font-size:16px;}
+.note_block_innter .form-control{background-color:transparent;border:none;padding:0px;outline:none;box-shadow: none !important;font-family: 'Caveat', cursive;font-size:16px;line-height:1.7;max-height:82px;resize:none;}
+.note_block_innter .form-control::-webkit-input-placeholder { color: rgba(88, 86, 69, 0.4) !important;opacity:0.48 !important;}
+.note_block_innter .form-control::-ms-input-placeholde { color: rgba(88, 86, 69, 0.4)  !important;opacity:0.48 !important;}
+.note_block_innter .form-control::placeholder { color: rgba(88, 86, 69, 0.4) !important;opacity:0.48 !important;}
+.nb_readmore{display:inline-block;font-size:11px;}
+.note_block.editmode_one {box-shadow: 0 0 0 2px rgba(88, 86, 69, 0.48);}
+
+
+/* used in listing details */
+.fav_container {background-color: #f2efcf; position: relative;padding:12px; font-family: 'Caveat', cursive;font-family: 'Caveat', cursive;font-size: 18px;line-height: 1.1;color:#585645 !important; }
+.fav_container textarea {background-color: #f2efcf !important;font-family: 'Caveat', cursive;font-size: 18px;line-height: 1.1;color: #585645 !important; border: none !important;padding:2px;resize: none;}
+.fav_container textarea:focus {border-color:none !important; box-shadow: none !important;}
+
+.fav_container {
+	&--lock {
+		display: block;
+		position: absolute;
+		width: 24px;
+		height: 24px;
+		right:0px;
+		top:0px;
+		padding: 2px 0px 2px 7px;
+		
+		img {
+			width: 11px;
+		}
+	}
+}
+
+
+.fav_container:after {content: ""; display:block; position: absolute; bottom:0px;right:0px;position: absolute;top: auto;left: auto;width: 0px;height: 0px;border-bottom: 12px solid #ffffff;border-left: 12px solid #e2e0ba; }
+.bg_color_cement_light .fav_container:after {border-bottom: 12px solid #F3F4F7;}
+

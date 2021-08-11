@@ -1,5 +1,6 @@
 .nav-tabs {
-  
+  &--negative,
+  &--simple,
   &--underline {
 	overflow-x:auto;
 	overflow-y:hidden;
@@ -24,6 +25,19 @@
 		white-space: nowrap;
 		margin-bottom:0px;
 		
+		span {
+			border-radius:14px;
+			display: inline-block;
+			background-color: $color-cloudy-sky;
+			color: $color-auxiliary;
+			height: 16px;
+			line-height: 16px;
+			font-size: 11px;
+			margin: 0px 0px 0px 6px;
+			text-align: center;
+			padding: 0px 4px;
+		}
+		
 		&.active {
 			border-bottom: 2px solid $color-har-blue;
 			color: $color-har-blue;
@@ -32,5 +46,38 @@
 		}
 	}
 
+  }
+  
+  &--simple {
+	.nav-link {
+		border-bottom: 2px solid $color-snow-white;
+		color: $color-har-blue;
+		font-weight: 400;
+		text-transform: capitalize;
+		padding: 14px 20px;
+
+		&.active {
+			border-bottom: 2px solid $color-har-blue;
+			color: $color-har-blue;
+			font-weight: 400;
+		}
+	}
   }  
+  
+  &--negative {
+	  .nav-link {
+		border-bottom: 1px solid rgba(255,255,255,0.4);
+		color: $color-snow-white;		
+		span {
+			background-color: $color-cloudy-sky;
+			color: $color-snow-white;
+			}
+		
+		&.active {
+			border-bottom: 2px solid $color-snow-white;
+			color: $color-snow-white;
+			padding-bottom: 7px;
+			}
+		}
+	}
 }

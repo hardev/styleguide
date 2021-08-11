@@ -46,6 +46,15 @@ export default class Depth extends Component {
           </div>
         </div>
         <div class="clear_both"></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col col-sm-6 col-12">
+          <div class="depth depth--above_all_extra border_radius border_radius--default" style="height: 128px"></div>
+          <div class="component_content__demo__description">
+            e.g., side box
+          </div>
+        </div>
+        <div class="clear_both"></div>
       </div>`,
     ];
 
@@ -77,6 +86,12 @@ export default class Depth extends Component {
   Content goes here
   If you want to use it as a card, don't do it. Instead, use the class "card"
   -->
+</div>
+
+<div class="depth depth--above_all_extra border_radius border_radius--default">
+<!--
+  Content goes here
+-->
 </div>`,
     ];
 

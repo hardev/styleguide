@@ -15,6 +15,7 @@ import Buttons from './routes/Components/Buttons';
 import FilterPills from './routes/Components/FilterPills';
 import FormElements from './routes/Components/FormElements';
 import Cards from './routes/Components/Cards';
+import CardsV2 from './routes/Components/CardsV2';
 import ListingCards from './routes/Components/ListingCards';
 import ListingStatusTags from './routes/Components/ListingStatusTags';
 import Popovers from './routes/Components/Popovers';
@@ -23,6 +24,9 @@ import Tables from './routes/Components/Tables';
 import Tabs from './routes/Components/Tabs';
 import Modal from './routes/Components/Modal';
 import Labels from './routes/Components/Labels';
+import Messages from './routes/Components/Messages';
+import Sitewide from './routes/Components/Sitewide';
+import Favorite from './routes/Components/Favorites';
 
 import Heros from './routes/TemplateBlocks/Heros';
 
@@ -46,6 +50,7 @@ ReactDOM.render(
       <Route path="/components/filter_pills" component={FilterPills} />
       <Route path="/components/form_elements" component={FormElements} />
       <Route path="/components/cards" component={Cards} />
+      <Route path="/components/cardsv2" component={CardsV2} />
       <Route path="/components/listing_cards" component={ListingCards} />
       <Route path="/components/listing_status_tags" component={ListingStatusTags} />
       <Route path="/components/popovers" component={Popovers} />
@@ -54,6 +59,9 @@ ReactDOM.render(
       <Route path="/components/tabs" component={Tabs} />
       <Route path="/components/modal" component={Modal} />
       <Route path="/components/labels" component={Labels} />
+      <Route path="/components/messages" component={Messages} />
+      <Route path="/components/sitewide" component={Sitewide} />
+      <Route path="/components/favorites" component={Favorite} />
 
       <Route path="/template_blocks/heros" component={Heros} />
 

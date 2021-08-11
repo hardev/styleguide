@@ -45,7 +45,18 @@
     width: 1px;
     overflow: hidden;
   }
-
+  
+  tfoot tr td {
+		background-color:rgba(237, 240, 250, 0.48);
+		font-weight: $font-weight-bold	  	
+  }
+  
+  &--v-middle {
+	  td {
+		  vertical-align: middle !important;
+	  }
+  }
+  
   &--medium {
   	font-size: $font-size-small;
   	line-height: 16px;
@@ -92,8 +103,11 @@
 	  	border-top: none;
 	  	border-bottom: 1px solid $color-carbon;
   	}
+  	
   }
+ 
   
+ 
   &__description_highlighted {
 	  	color: $color-carbon;
 	  	font-weight: $font-weight-semi-bold;

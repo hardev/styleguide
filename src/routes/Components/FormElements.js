@@ -28,7 +28,18 @@ export default class Forms extends Component {
 	      	<label for="cityl">City</label>
 	      	<input type="text" class="form-control form-control--large" id="cityl" aria-describedby="city" placeholder="City">
 	      	<div class="component_content__demo__description">Large Input</div>
-        </div>
+        </div>        
+        <div class="col col-12 pr-sm-5 pl-sm-5" style="max-width:500px;">
+		    <label for="inlineFormInputGroup">Monthly rent</label>
+		    <div class="input-group input-group--custom mb-2">
+		        <div class="input-group-prepend">
+		          <div class="input-group-text">$</div>
+		        </div>
+		        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Monthly rent">
+		    </div>
+		    <div class="input-description">Enter the amount of the monthly rent payment.</div>
+		</div>
+		
        </div>`,
 
       `<div class="row">
@@ -182,6 +193,32 @@ export default class Forms extends Component {
         </div>
         
       </div>
+      
+      <div class="row">
+         <div class="col-6 col-12" style="margin-bottom: 0; padding-bottom: 0;">
+           <h4 tabindex="0">Checkbox With Description</h4>
+         </div>
+       </div>
+
+       <div class="row mt-4 pb-3">
+         <div class="col col-sm-6 col-12 pr-sm-6 pl-sm-6">
+          <div role="checkbox" class="custom-control custom-checkbox custom-checkbox__outline">
+            <input type="checkbox" id="checkbox_button_medium_13" name="checkbox_button_medium3" class="custom-control-input">
+            <label class="custom-control-label" for="checkbox_button_medium_13">
+            	<span class="custom-control-label_title">Wonderful houses</span>
+            	<span class="custom-control-label_info">
+            		1 home <span style="color:rgba(82, 115, 138, 0.48);">Wonderful houses</span>
+            	</span>
+            </label>
+          </div>
+        </div>
+		
+		<div class="col col-sm-6 col-12 pr-sm-6 pl-sm-6">
+          
+        </div>
+        
+      </div>
+      
        `,
 
        `<div class="row">
@@ -344,7 +381,16 @@ export default class Forms extends Component {
         </div>
       </div>
 
-      <div class="row">
+      <div class="row">        
+        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+          <select class="custom-select custom-select_large_extra">
+    		    <option selected>Select</option>
+    		    <option value="1">Option one</option>
+    		    <option value="2">Option two</option>
+    		    <option value="3">Option three</option>
+    		  </select>
+          <div class="component_content__demo__description">Large Select Menu</div>
+        </div>
         <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
           <select class="custom-select custom-select_large">
     		    <option selected>Select</option>
@@ -409,6 +455,31 @@ export default class Forms extends Component {
        </div>
        
        <div class="row">
+        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+    			<div class="dropdown dropdown--custom dropdown--custom_medium dropdown--custom_strong">
+    			  <button class="dropdown-toggle border-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    			    Dropdown button
+    			  </button>
+    			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    			    <a class="dropdown-item" href="#">Action one</a>
+    			    <a class="dropdown-item" href="#">Action two</a>
+    			    <a class="dropdown-item" href="#">Action three</a>
+    			  </div>
+    			</div>
+          <div class="component_content__demo__description">Bold Dropdown Menu</div>
+        </div>
+        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5"> 
+       		<div class="dropdown">
+			  <button class="dropdown-toggle btn btn--ordinary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    button style
+			  </button>
+			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(434px, 41px, 0px);">
+			    <a class="dropdown-item" href="#">Action one</a>
+			    <a class="dropdown-item" href="#">Action two</a>
+			    <a class="dropdown-item" href="#">Action three</a>
+			  </div>
+			</div>
+		</div>
         <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
     		<div class="dropdown dropdown--custom dropdown--custom__simple">
 			  <button class="dropdown-toggle btn--flate" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -608,7 +679,11 @@ export default class Forms extends Component {
 
 <!-- Disabled input -->
 <label for="city">City</label>
-<input disabled type="text" class="form-control" id="city" aria-describedby="city" placeholder="City">`,
+<input disabled type="text" class="form-control" id="city" aria-describedby="city" placeholder="City">
+
+<!-- Label read only -->
+<label class="sr-only" for="City">City</label>
+`,
 
 `<!-- Map search input -->
 <div class="input-group input-group--search_input_map">

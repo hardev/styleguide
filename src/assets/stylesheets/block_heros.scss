@@ -13,3 +13,119 @@
 
   }
 }
+
+
+.hero_institutional_page {
+  padding: 64px 0 64px 0;
+  text-align: center;
+  
+  h1 {
+	  margin-bottom: 23px;
+  }
+  
+  &__tageline {
+	  color: #4f6672;
+	  text-align: center;
+	  margin: 0px auto;
+	  font-size: $font_size_medium;
+  }
+  
+  @media screen and (max-width: 768px) {
+
+    padding: 48px 0 56px 0;
+
+    .horizontal_scrollable_items_container {
+      position: relative;
+      margin: 0 -15px;
+      padding-left: 15px;
+    }
+
+  }
+}
+
+
+.hero_home {
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.08);
+	border-radius: 8px;
+	padding: 40px;
+	background-color: $color_snow_white;
+	
+	@media screen and (max-width: 767px) {
+		padding:24px;
+	}
+
+	h2 {
+		font-size: 27px;
+	}
+	&__form {
+		padding: 16px 16px 16px 53px;
+		border-radius: 48px;
+		border: solid 1px $color_slate_light;
+		background-color: $color_snow_white;
+		display: flex;
+		margin-bottom: 20px;
+		
+		@media screen and (max-width: 767px) {
+			flex-direction: column;
+			padding:16px 24px;
+		}
+			
+			
+		&_select {
+			padding-right: 38px;
+			
+			.dropdown-toggle {
+				color: $color_black !important;
+				font-size: 20px;
+				padding: 5px 0px;
+				font-weight: $font-weight-semi_bold !important;
+			}
+			
+			@media screen and (max-width: 767px) {
+				flex-basis: 100%;
+				border-left: none;
+				width: 100%;
+			}
+		}
+		
+		&_input{
+			flex-grow: 1;
+			padding-left:38px;
+			border-left: 1px solid rgba(82, 115, 138, 0.24);
+			padding-right: 20px;
+			
+			input[type="text"] {
+				border: none;
+				font-size: 20px;
+				font-weight: $font-weight-semi_bold;
+				padding:5px 0px;
+			}
+			
+			@media screen and (max-width: 767px) {
+				flex-basis: 100%;
+				border-left: none;
+				border-top: 1px solid rgba(82, 115, 138, 0.24);
+				width: 100%;
+				padding-left:0px;
+				padding-top: 16px;
+				margin-top: 16px;
+			}
+		}
+		
+		&_button {
+			.btn {
+				padding: 16px 40px;
+				border-radius: 32px;
+				background-color: #ff0065;
+				color: $color_snow_white;
+				font-size: 20px;
+				font-weight: bold;
+				
+				@media screen and (max-width: 767px) {
+					width: 100%;
+				}
+
+			}
+		}
+	}
+}
