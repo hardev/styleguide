@@ -765,6 +765,20 @@ h2, .h2 {
       h2.h2--strong, .h2.h2--strong {
         font-size: 32px;
         line-height: normal; } }
+  h2.h2--medium, .h2.h2--medium {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    line-height: normal;
+    letter-spacing: -0.64px;
+    margin-bottom: 40px; }
+    h2.h2--medium:before, .h2.h2--medium:before {
+      content: none; }
+    @media screen and (max-width: 576px) {
+      h2.h2--medium, .h2.h2--medium {
+        font-size: 24px;
+        line-height: normal;
+        margin-bottom: 30px; } }
   h2.h2--centerline, .h2.h2--centerline {
     font-size: 48px;
     font-weight: 700;
@@ -2732,6 +2746,37 @@ label {
       .sticked .agent_signature--square__info__agent_name {
         padding-bottom: 0px; }
 
+.agent_signaturev2 {
+  text-align: left;
+  display: flex;
+  text-decoration: none !important; }
+  .agent_signaturev2__photo {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%; }
+  .agent_signaturev2__info {
+    flex-grow: 1;
+    align-self: center;
+    overflow: hidden; }
+    .agent_signaturev2__info__agent_name {
+      font-size: 14px;
+      color: #000;
+      font-weight: 600;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+    .agent_signaturev2__info__broker_name {
+      font-size: 12px;
+      color: #515B7A;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+
 .card {
   display: block !important;
   border-radius: 4px;
@@ -4141,6 +4186,36 @@ label {
       line-height: 20px; }
     .card--qa_simple__text {
       color: #3B5363; }
+  .card--qa_mini {
+    padding: 16px; }
+    .card--qa_mini h3 {
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 5px;
+      color: #212529;
+      line-height: 20px; }
+    .card--qa_mini__by {
+      color: #3B5363;
+      display: flex; }
+      .card--qa_mini__by--bytext {
+        font-size: 11px;
+        color: #52738A;
+        align-content: center;
+        margin-right: 5px;
+        display: block;
+        padding-top: 3px; }
+      .card--qa_mini__by--agent {
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        min-width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        display: inline-block;
+        margin-right: 4px; }
   .card--features {
     background-color: #ffffff;
     padding: 12px;
@@ -4547,6 +4622,11 @@ label {
     font-weight: 700;
     line-height: 1;
     margin-bottom: 16px; }
+    @media screen and (max-width: 767px) {
+      .label--badges {
+        font-size: 14px;
+        padding: 5px 8px;
+        height: 22px; } }
     .label--badges__openhouse {
       background-color: rgba(204, 0, 0, 0.24); }
     .label--badges__pricereduced {
@@ -4623,14 +4703,18 @@ label {
     color: #212529; }
   .cardv2--area {
     padding: 24px;
-    width: 278px;
-    display: inline-block; }
+    min-width: 272px;
+    width: 272px;
+    display: inline-block;
+    margin-right: 13px; }
     .cardv2--area h3 {
       font-size: 16px;
       font-weight: 800;
       color: #000;
       line-height: normal;
-      margin-bottom: 16px; }
+      margin-bottom: 0px;
+      display: block;
+      height: 56px; }
     .cardv2--area__desc {
       color: #5D5E5E;
       font-size: 14px;
@@ -4643,6 +4727,297 @@ label {
       margin-bottom: 24px;
       display: block; }
     .cardv2--area__map {
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      border-radius: 4px;
+      overflow: hidden;
+      height: 160px; }
+  .cardv2--neighbors {
+    display: flex;
+    flex-flow: wrap;
+    font-size: 14px;
+    padding: 16px;
+    color: #212529;
+    margin-bottom: 8px; }
+    @media screen and (max-width: 676px) {
+      .cardv2--neighbors {
+        padding: 12px; } }
+    .cardv2--neighbors__address {
+      flex-grow: 1;
+      align-self: center;
+      font-weight: 600;
+      color: #0738CD;
+      padding-right: 10px; }
+      @media screen and (max-width: 676px) {
+        .cardv2--neighbors__address {
+          flex-basis: 100%;
+          padding-bottom: 10px; } }
+    .cardv2--neighbors__subdiv {
+      width: 140px;
+      align-self: center;
+      padding-right: 10px; }
+      @media screen and (max-width: 676px) {
+        .cardv2--neighbors__subdiv {
+          flex-basis: 100%;
+          padding-bottom: 10px; } }
+    .cardv2--neighbors__zip {
+      width: 70px;
+      align-self: center;
+      padding-right: 10px; }
+    .cardv2--neighbors__city {
+      width: 70px;
+      align-self: center;
+      padding-right: 10px; }
+    .cardv2--neighbors__state {
+      width: 100px;
+      align-self: center;
+      text-align: right; }
+  .cardv2--rating {
+    display: block;
+    padding: 16px;
+    color: #212529;
+    position: relative; }
+    @media screen and (max-width: 676px) {
+      .cardv2--rating {
+        padding: 12px; } }
+    .cardv2--rating__icons {
+      position: absolute;
+      right: 16px;
+      top: 16px; }
+      @media screen and (max-width: 600px) {
+        .cardv2--rating__icons {
+          right: 8px;
+          top: 8px; } }
+      .cardv2--rating__icons > div {
+        display: inline-block;
+        height: 26px;
+        width: 26px;
+        opacity: 0.3;
+        text-align: center; }
+        .cardv2--rating__icons > div:hover {
+          opacity: 1; }
+    .cardv2--rating__prop {
+      display: flex;
+      margin-bottom: 16px; }
+      @media screen and (max-width: 600px) {
+        .cardv2--rating__prop {
+          margin-top: 24px; } }
+      .cardv2--rating__prop_img {
+        width: 88px;
+        min-width: 88px;
+        height: 72px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 4px; }
+      .cardv2--rating__prop_text {
+        padding-left: 15px;
+        align-self: center;
+        flex-grow: 1; }
+        .cardv2--rating__prop_text h4 {
+          font-size: 18px;
+          font-weight: 600;
+          margin-bottom: 0px; }
+        .cardv2--rating__prop_text_desc {
+          color: #5D5E5E;
+          font-size: 14px;
+          font-weight: 700; }
+          .cardv2--rating__prop_text_desc span {
+            font-weight: normal; }
+    .cardv2--rating__chart {
+      display: flex;
+      padding-bottom: 16px; }
+      @media screen and (max-width: 600px) {
+        .cardv2--rating__chart {
+          flex-direction: column; } }
+      .cardv2--rating__chart__outof {
+        width: 160px;
+        height: 96px;
+        min-width: 160px;
+        background-color: #EDF0FA;
+        color: #515B7A;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        padding: 12px;
+        border-radius: 4px; }
+        @media screen and (max-width: 600px) {
+          .cardv2--rating__chart__outof {
+            width: 100%;
+            margin-bottom: 16px; } }
+        .cardv2--rating__chart__outof span {
+          font-size: 48px;
+          display: block;
+          text-align: center;
+          line-height: 1; }
+      .cardv2--rating__chart__ratings {
+        padding-left: 16px;
+        flex-grow: 1;
+        align-self: center; }
+        @media screen and (max-width: 600px) {
+          .cardv2--rating__chart__ratings {
+            width: 100%;
+            padding-left: 0px; } }
+    .cardv2--rating p {
+      font-size: 14px;
+      color: #212529;
+      margin-bottom: 16px;
+      display: block;
+      text-align: left; }
+  .cardv2--badges {
+    padding: 24px;
+    display: block; }
+    .cardv2--badges__desc {
+      color: #5D5E5E;
+      font-size: 14px;
+      line-height: 1.43;
+      padding-bottom: 14px; }
+      @media screen and (max-width: 767px) {
+        .cardv2--badges__desc {
+          font-size: 12px;
+          padding-bottom: 0px;
+          height: 64px; } }
+    .cardv2--badges__link {
+      font-weight: 600;
+      font-size: 14px;
+      color: #0738CD;
+      display: block; }
+      @media screen and (max-width: 767px) {
+        .cardv2--badges__link {
+          font-size: 12px; } }
+    @media screen and (max-width: 767px) {
+      .cardv2--badges {
+        padding: 16px; } }
+    @media screen and (max-width: 767px) {
+      .cardv2--badges .label--badges {
+        font-size: 14px;
+        height: 26px; } }
+  .cardv2--appraisers {
+    display: flex !important;
+    align-items: end;
+    font-size: 14px;
+    line-height: 1.7;
+    padding: 20px;
+    margin-bottom: 8px; }
+    @media screen and (max-width: 776px) {
+      .cardv2--appraisers {
+        padding: 12px;
+        display: block !important; } }
+    .cardv2--appraisers__links {
+      flex-grow: 1;
+      padding-right: 10px; }
+      .cardv2--appraisers__links h3 {
+        font-weight: 600;
+        color: #212529; }
+      .cardv2--appraisers__links a {
+        display: block; }
+      @media screen and (max-width: 776px) {
+        .cardv2--appraisers__links {
+          flex-basis: 100%;
+          padding-bottom: 15px; } }
+    .cardv2--appraisers__viewall {
+      flex-grow: 1;
+      font-weight: 600;
+      text-align: right; }
+      @media screen and (max-width: 776px) {
+        .cardv2--appraisers__viewall {
+          text-align: left; } }
+
+.cardv2 {
+  display: block;
+  border-radius: 4px;
+  overflow: hidden;
+  border-radius: 8px;
+  border: solid 1px #d0d0d0;
+  text-align: left;
+  text-decoration: none !important;
+  background-position: top left;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-bottom: 30px;
+  background-color: #FFF;
+  transition: all 0.2s ease !important;
+  color: #212529; }
+  .cardv2:hover {
+    border: 1px solid #AFB8D9;
+    transition: all 0.2s ease !important;
+    color: #212529; }
+  .cardv2--portrait {
+    max-width: 278px;
+    width: 100%;
+    display: inline-block;
+    overflow: inherit;
+    cursor: pointer;
+    margin-right: 18px;
+    margin-bottom: 18px; }
+    .cardv2--portrait__header {
+      display: flex;
+      padding: 12px; }
+      .cardv2--portrait__header_agent {
+        width: calc(100% - 60px); }
+      .cardv2--portrait__header_controls {
+        min-width: 60px;
+        width: 60px;
+        text-align: right; }
+        .cardv2--portrait__header_controls > a {
+          display: inline-block;
+          padding: 2px; }
+        .cardv2--portrait__header_controls .dropdown-menu {
+          z-index: 111; }
+    .cardv2--portrait__img {
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 184px;
+      width: 100%; }
+    .cardv2--portrait__body {
+      padding: 12px; }
+      .cardv2--portrait__body_flexrow {
+        display: flex;
+        flex-basis: 100%;
+        padding-bottom: 8px; }
+      .cardv2--portrait__body_price {
+        font-size: 18px;
+        font-weight: 600;
+        color: #000;
+        flex-grow: 1; }
+      .cardv2--portrait__body_status {
+        flex-grow: 1;
+        text-align: right; }
+      .cardv2--portrait__body_address {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 19px;
+        flex-grow: 1; }
+      .cardv2--portrait__body_dayson {
+        font-size: 12px;
+        color: #515B7A;
+        text-align: right;
+        flex-grow: 1; }
+      .cardv2--portrait__body_features {
+        font-size: 14px;
+        color: #5D5E5E;
+        padding-top: 4px;
+        line-height: 1.64; }
+    .cardv2--portrait h3 {
+      font-size: 16px;
+      font-weight: 800;
+      color: #000;
+      line-height: normal;
+      margin-bottom: 16px; }
+    .cardv2--portrait__desc {
+      color: #5D5E5E;
+      font-size: 14px;
+      line-height: 1.43;
+      padding-bottom: 16px; }
+    .cardv2--portrait__link {
+      font-weight: 600;
+      font-size: 16px;
+      color: #0738CD;
+      margin-bottom: 24px;
+      display: block; }
+    .cardv2--portrait__map {
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -4789,10 +5164,11 @@ label {
       font-size: 14px;
       line-height: 1.43;
       padding-bottom: 14px; }
-      @media screen and (max-width: 767px) {
+      @media screen and (max-width: 550px) {
         .cardv2--badges__desc {
           font-size: 12px;
-          padding-bottom: 12px; } }
+          padding-bottom: 0px;
+          height: 64px; } }
     .cardv2--badges__link {
       font-weight: 600;
       font-size: 14px;
@@ -5585,5 +5961,17 @@ label {
   @media screen and (max-width: 767px) {
     .resources_link {
       color: #0738CD; } }
+
+.circle_nimber {
+  background-color: #f3f4f7;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  color: #515B7A;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  display: inline-block; }
 
 /*# sourceMappingURL=base.css.map */

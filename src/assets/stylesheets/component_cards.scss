@@ -2133,6 +2133,46 @@
 		}
 	}
 	
+	&--qa_mini {
+		
+		padding: 16px;
+		
+		h3 {
+			font-size: $font-size-medium;
+			font-weight: $font-weight-bold;
+			margin-bottom: 5px;
+			color: $color-carbon;
+			line-height: 20px;
+		}
+		
+		&__by {			
+			color: $color-slate;
+			display: flex;			
+			
+			&--bytext {
+				font-size: $font-size-small-extra;
+				color: $color-slate-light;
+				align-content: center;
+				margin-right: 5px;
+				display: block;
+				padding-top: 3px;
+			}
+			&--agent {
+					min-width: 24px;
+					width: 24px;
+					height: 24px;
+					min-width: 24px;
+					height: 24px;
+					border-radius: 50%;
+					background-repeat: no-repeat;
+					background-position: center center;
+					background-size: cover;
+					display: inline-block;
+					margin-right: 4px;
+			}
+		}
+	}
+	
 	&--features {
 		background-color: #ffffff;
 		padding: 12px;

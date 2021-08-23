@@ -17,6 +17,8 @@ import FormElements from './routes/Components/FormElements';
 import Cards from './routes/Components/Cards';
 import CardsV2 from './routes/Components/CardsV2';
 import ListingCards from './routes/Components/ListingCards';
+import ListingCardsPortraitV2 from './routes/Components/ListingCardsPortraitV2';
+import ListingCardsLandscapeV2 from './routes/Components/ListingCardsLandscapeV2';
 import ListingStatusTags from './routes/Components/ListingStatusTags';
 import Popovers from './routes/Components/Popovers';
 import SearchMap from './routes/Components/SearchMap';
@@ -52,6 +54,8 @@ ReactDOM.render(
       <Route path="/components/cards" component={Cards} />
       <Route path="/components/cardsv2" component={CardsV2} />
       <Route path="/components/listing_cards" component={ListingCards} />
+      <Route path="/components/listing_cards_portrait_v2" component={ListingCardsPortraitV2} />
+      <Route path="/components/listing_cards_landscape_v2" component={ListingCardsLandscapeV2} />
       <Route path="/components/listing_status_tags" component={ListingStatusTags} />
       <Route path="/components/popovers" component={Popovers} />
       <Route path="/components/search_map" component={SearchMap} />

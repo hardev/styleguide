@@ -142,11 +142,17 @@ export default class Header extends Component {
                   <li className={`li ${this.props.activeChild == 'listing_cards' ? 'li--active' : ''} `}>
                     <Link to="/components/listing_cards">Listing Cards</Link>
                   </li>
+                  <li className={`li ${this.props.activeChild == 'listing_cards_portrait_v2' ? 'li--active' : ''} `}>
+                    <Link to="/components/listing_cards_portrait_v2">Listing Cards - Portrait V2</Link>
+                  </li>
+				  <li className={`li ${this.props.activeChild == 'listing_cards_landscape_v2' ? 'li--active' : ''} `}>
+                    <Link to="/components/listing_cards_landscape_v2">Listing Cards - Landscape V2</Link>
+                  </li>
                   <li className={`li ${this.props.activeChild == 'cards' ? 'li--active' : ''} `}>
                     <Link to="/components/cards">Cards (Others)</Link>
                   </li>
                   <li className={`li ${this.props.activeChild == 'cardsv2' ? 'li--active' : ''} `}>
-                    <Link to="/components/cardsv2">Cards V2</Link>
+                    <Link to="/components/cardsv2">Cards (Others) V2</Link>
                   </li>
                   <li className={`li ${this.props.activeChild == 'listing_status_tags' ? 'li--active' : ''} `}>
                     <Link to="/components/listing_status_tags">Listing Status Tags</Link>

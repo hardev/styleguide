@@ -24,21 +24,102 @@
 	}
 	
 	//Area Card starts here
-	&--area {
-		padding: 24px;
-		min-width: 272px;
-		width: 272px;
+	&--portrait {
+		max-width: 278px;
+		width: 100%;
 		display: inline-block;
-		margin-right: 13px;
+		overflow: inherit;
+		cursor: pointer;
+		margin-right: 18px;
+		margin-bottom: 18px;
+		
+		&__header {
+			display: flex;
+			padding: 12px;
+			
+			&_agent {
+				width: calc(100% - 60px);
+			} 
+						
+			&_controls {
+				min-width: 60px;
+				width: 60px;
+				text-align: right;
+				
+				> a {
+					display: inline-block;
+					padding: 2px;
+				}
+				
+				.dropdown-menu {
+					z-index: 111;
+				}
+			}
+		}
+		
+		&__img {
+			background-position: center center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			height: 184px;
+			width: 100%;			
+		}
+		
+		&__body{
+			padding: 12px;
+			
+			&_flexrow {
+				display: flex;
+				flex-basis: 100%;
+				padding-bottom: 8px;
+			}
+			
+			&_price {
+				font-size: $font-size-large_extra;
+				font-weight: $font-weight-semi_bold;
+				color: $color-black;
+				flex-grow: 1;
+			}
+			&_status {
+				flex-grow: 1;
+				text-align: right;
+			}			
+			&_address {
+				font-size: $font-size-medium;
+				font-weight: $font-weight-semi_bold;
+				line-height: 19px;
+				flex-grow: 1;
+			}
+			&_dayson {
+				font-size: $font-size-small;
+				color: $color-auxiliary;
+				text-align: right;
+				flex-grow: 1;
+			}
+			
+			&_features {
+				font-size: $font-size-medium;
+				color: $color-cement-dark;
+				padding-top: 4px;
+				line-height: 1.64;
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		h3 {
 			font-size: $font-size-large;
 			font-weight: $font-weight-bold-extra;
 			color: $color-black;
 			line-height: normal;
-			margin-bottom: 0px;
-			display: block;
-			height: 56px;
+			margin-bottom: 16px;
 		}
 		
 		&__desc {
@@ -175,7 +256,7 @@
 				border-radius: 4px;
 			}
 			&_text {
-				padding-left: 15px;
+				padding-left: 16px;
 				align-self: center;
 				flex-grow: 1;
 				
@@ -265,7 +346,7 @@
 			line-height: 1.43;
 			padding-bottom: 14px;
 			
-			@media screen and (max-width: 767px) {
+			@media screen and (max-width: 550px) {
 				font-size: $font-size-small;
 				padding-bottom: 0px;
 				height: 64px;
@@ -297,46 +378,4 @@
 	//Badges card
 	
 	
-	//appraisers Card starts here	
-	&--appraisers{
-		display: flex !important;
-		align-items: end;
-		font-size: $font-size-medium;
-		line-height: 1.7;
-		padding: 20px;
-		margin-bottom: 8px;
-		
-		@media screen and (max-width: 776px) {
-			padding:12px;
-			display: block !important;
-		}
-		
-		&__links {
-			h3 {
-				font-weight: $font-weight-semi_bold;
-				color: $color-carbon;
-			}
-			flex-grow: 1;
-			padding-right: 10px;
-			a {
-				display: block;
-			}
-			@media screen and (max-width: 776px) {
-				flex-basis: 100%;
-				padding-bottom: 15px;
-			}
-		}
-		
-		&__viewall {
-			flex-grow: 1;
-			font-weight: $font-weight-semi_bold;
-			text-align: right;
-			
-			@media screen and (max-width: 776px) {
-				text-align: left;
-			}
-		}		
-			
-	}
-
 }

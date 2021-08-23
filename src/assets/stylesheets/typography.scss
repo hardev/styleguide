@@ -289,6 +289,26 @@ h2,.h2 {
 	  }
   }
   
+  &.h2--medium {
+	  font-size: $font-size-large-extra-extra-extra;
+	  font-weight: $font-weight-bold;
+	  color: $color-black;
+	  line-height: normal;
+	  letter-spacing: -0.64px;
+	  margin-bottom: 40px;
+	  
+	  &:before { 
+		  content: none;
+	  }
+	  
+	  @media screen and (max-width: 576px) {
+	    font-size: $font-size-large-extra-extra;
+	    line-height: normal;
+	    margin-bottom: 30px;
+	  }
+  }
+  
+  
   &.h2--centerline {
 	  font-size: $font-size-large-extra-extra-extra-extra;
 	  font-weight: $font-weight-bold;

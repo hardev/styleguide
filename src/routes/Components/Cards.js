@@ -1025,6 +1025,16 @@ export default class ListingCards extends Component {
 		          		<h3 tabindex="0">Realtor help with relocation (2wks) and past eviction?</h3>
 		            	<div class="card--qa_simple__text">We are relocating to the Houston area for my fiancées job. We are look We are relocating to the Houston area for my fiancées job. We are look... <span class="font_weight--bold">read more</span></div>		            
 		          </a>
+		          
+		          <br><br><br>
+		          
+		          <a href="javascript:void(0);" class="card card--qa_mini">
+		          		<h3 tabindex="0">Realtor help with relocation (2wks) and past eviction?</h3>
+		            	<div class="card--qa_mini__by">
+		            		<div class="card--qa_mini__by--bytext">Last answered by Laura Weisman</div>
+		            		<div tabindex="0" class="card--qa_mini__by--agent popover-dismiss popover-agent" data-content='<span>Anisa Alagna</span><br><div class="label label--agent label--agent__platinum">Platinum</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/704455.jpg?ts=2018-05-09T20:37:001780');"></div>
+		            	</div>		            
+		          </a>
 		     </div>
 		</div>
       `,

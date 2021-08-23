@@ -264,3 +264,44 @@
 	}
 	
 }
+
+
+
+.agent_signaturev2 {
+  text-align: left;
+  display: flex;
+  text-decoration: none !important;
+  
+  &__photo {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    margin-right: 8px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	border-radius: 50%;	
+  }
+  
+  &__info {
+    flex-grow:1;    
+    align-self: center;
+	overflow: hidden;
+
+    &__agent_name {
+      font-size: $font-size-medium;
+      color: $color-black;
+      font-weight: $font-weight-semi-bold;
+      white-space: nowrap;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+    }
+    &__broker_name {
+      font-size: $font-size-small;
+      color: $color-auxiliary;      
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}

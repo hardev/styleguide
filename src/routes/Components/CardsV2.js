@@ -170,6 +170,33 @@ export default class CardsV2 extends Component {
         <div class="clear_both"></div>
       </div>
       `,
+      `<div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Appraisers Cards</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-12 mb-0">
+          <div class="cardv2 cardv2--appraisers">          	
+          	<div class="cardv2--appraisers__links">
+          		<h3 tabindex="0">Abilene</h3>
+				<a href="#">19 Certified Residential Appraiser in Abilene</a>
+				<a href="#">17 Certified General Appraiser in Abilene</a>
+				<a href="#">7 Appraiser Trainee in Abilene</a>
+				<a href="#">1 Licensed Residential Appraiser in Abilene</a>
+          	</div>
+            <div class="cardv2--appraisers__viewall"><a href="#">All appraisers in Abilene -></a></div>
+          </div>
+        </div>
+        <div class="col col-sm-4 col-12 mb-0">
+          
+        </div>
+        <div class="col col-sm-4 col-12 mb-0">
+          
+        </div>        
+        <div class="clear_both"></div>
+      </div>
+      `,
     ];
 
 
@@ -194,6 +221,7 @@ export default class CardsV2 extends Component {
         <TemplateComponentBlock blockTitle="Badges Card" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
         <TemplateComponentBlock blockTitle="Neighborhoods Cards" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
         <TemplateComponentBlock blockTitle="Ratings Cards" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
+        <TemplateComponentBlock blockTitle="Appraisers Cards" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
 
       </TemplateDefault>
     )

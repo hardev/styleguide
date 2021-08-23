@@ -94,15 +94,15 @@
 	}
 	
 	
-	&--newconstruction {		
+	&--newconstruction {
 		font-weight: $font-weight-semi-bold;
-		background-color: $color-har-pink;
+		background-color: #fd4b78;
 		color: $color-snow-white;
-		font-weight: $font-weight-semi-bold;
+		font-size: 12px;
 		border-radius: 4px;
 		padding: 0px 5px;
 		height: 24px;
-		line-height:24px;
+		line-height:22px;
 	}
 	
 	&--justlisted {		
@@ -112,7 +112,7 @@
 		border-radius: 4px;
 		padding: 0px 5px;
 		height: 24px;
-		line-height:24px;
+		line-height:22px;
 	}
 	
 	&--pricereduction {		
@@ -122,7 +122,7 @@
 		border-radius: 4px;
 		padding: 0px 5px;
 		height: 24px;
-		line-height:24px;
+		line-height:22px;
 	}
 	
 	&--foreclosure {		
@@ -132,7 +132,7 @@
 		border-radius: 4px;
 		padding: 0px 5px;
 		height: 24px;
-		line-height:24px;
+		line-height:22px;
 	}
 	
 	&--openhouse_simple {		
@@ -142,7 +142,7 @@
 		border-radius: 4px;
 		padding:0px 5px;
 		height: 24px;
-		line-height:24px;
+		line-height:22px;
 	}
 	
 	&--virtualopenhouse {		
@@ -152,7 +152,7 @@
 		border-radius: 4px;
 		padding: 0px 5px;
 		height: 24px;
-		line-height:24px;
+		line-height:22px;
 	}
 	
 	&--openhouse {
@@ -404,6 +404,12 @@
 		line-height: 1;
 		margin-bottom: 16px;
 		
+		@media screen and (max-width: 767px) {
+			font-size: $font-size-medium;
+			padding: 5px 8px;
+			height: 22px;
+		}
+		
 		&__justlisted { 
 		}
 		
@@ -426,5 +432,88 @@
 		&__agentsbrokers { 
 			background-color: rgba(4,34,128,0.24);
 		}
+	}
+}
+
+.listingcard_badges {
+	border: 1px  solid $color-cloudy-sky-light;		
+	font-weight: $font-weight-semi-bold;
+	color: #ff0065;
+	font-size: 13px;
+	border-radius: 4px;
+	padding: 0px 5px;
+	height: 24px;
+	line-height:22px;
+	
+	&--newconstruction {
+		border: 1px  solid $color-cloudy-sky-light;		
+		font-weight: $font-weight-semi-bold;
+		color: #ff0065;
+		font-size: 13px;
+		border-radius: 4px;
+		padding: 0px 5px;
+		height: 24px;
+		line-height:22px;
+	}
+	
+	&--justlisted {		
+		color: $color-snow-white;
+		background-color: #14a47e;
+		font-weight: $font-weight-semi-bold;
+		border-radius: 4px;
+		padding: 0px 5px;
+		height: 24px;
+		line-height:22px;
+	}
+	
+	&--pricereduction {		
+		color: $color-snow-white;
+		background-color: $color-pending;
+		font-weight: $font-weight-semi-bold;
+		border-radius: 4px;
+		padding: 0px 5px;
+		height: 24px;
+		line-height:22px;
+	}
+	
+	&--foreclosure {		
+		color: $color-auxiliary;
+		background-color: #d8d8d8;
+		font-weight: $font-weight-semi-bold;
+		border-radius: 4px;
+		padding: 0px 5px;
+		height: 24px;
+		line-height:22px;
+	}
+	
+	&--openhouse_simple {		
+		color: $color-snow-white;
+		background-color: $color-har-blue;
+		font-weight: $font-weight-semi-bold;
+		border-radius: 4px;
+		padding:0px 5px;
+		height: 24px;
+		line-height:22px;
+	}
+	
+	&--virtualopenhouse {		
+		color: $color-snow-white;
+		background-color: $color-har-blue;
+		font-weight: $font-weight-semi-bold;
+		border-radius: 4px;
+		padding: 0px 5px;
+		height: 24px;
+		line-height:22px;
+	}
+	
+	&--openhouse {
+		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+		background-color: $color-har-pink;
+		border-top: 4px solid #b03453;
+		height: 32px;
+		color: $color-snow-white;
+		text-transform: uppercase;
+		font-weight: $font-weight-bold;
+		padding:4px 16px;
 	}
 }

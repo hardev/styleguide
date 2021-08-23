@@ -1,0 +1,202 @@
+.cardv2 {
+	display: block;
+	border-radius: 4px;
+	overflow: hidden;
+
+	// depth--emboss
+	border-radius: 8px;
+	border: solid 1px #d0d0d0;
+  
+	text-align: left;
+	text-decoration: none !important;
+	background-position: top left;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	margin-bottom: 30px;
+	background-color: $color-snow-white;
+	transition: all 0.2s ease !important;
+	color: $color-carbon;
+	
+	&:hover {
+		border: 1px solid $color-auxiliary-light;
+		transition: all 0.2s ease !important;
+		color: $color-carbon;
+	}
+	
+	//Area Card starts here
+	&--landscape {
+		a {
+			text-decoration: none !important;
+		}
+		display: grid !important;
+		grid-gap: 0;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 100% auto;
+		grid-template-areas: 'a b';
+
+		@media screen and (max-width: 600px) {
+			grid-template-columns: 100%;
+			grid-template-rows: 170px auto;
+		}
+
+		&__image {
+			grid-area: a;
+			width: 100%;
+			height: 100%;
+			background-color: $color-cloudy-sky-light;
+			background-repeat: no-repeat;
+			background-size: cover;
+			border-radius: 4px 0 0 4px;
+			overflow: hidden;
+			background-image: url("https://content.harstatic.com/media/icons/no_photo_placeholder.svg");
+			background-repeat: no-repeat;
+			background-position: center center ;
+			text-decoration: none;
+
+			// @media screen and (max-width: 768px) {
+			//   width: 40%;
+			// 	height: 88px;
+			// }
+
+			@media screen and (max-width: 600px) {
+				border-radius: 4px 4px 0 0;
+			}
+
+			a {
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+
+			&__image {
+				width: 100%;
+				height: 100%;
+				background-size: cover;
+				background-position: center;
+			}
+		}
+
+		&__content {
+			grid-area: b;
+			width: 100%;
+			overflow: hidden;
+			margin-left: 0;
+			color: $color-auxiliary;
+			text-decoration: none;
+			@media screen and (max-width: 600px) {
+				grid-column-start: 1;
+				grid-row-start: 2;
+			}
+			
+			&__header {
+				display: flex;
+				padding: 12px;
+				
+				&_agent {
+					width: calc(100% - 60px);
+				} 
+							
+				&_controls {
+					min-width: 60px;
+					width: 60px;
+					text-align: right;
+					
+					> a {
+						display: inline-block;
+						padding: 2px;
+					}
+					
+					.dropdown-menu {
+						z-index: 111;
+					}
+				}
+			}
+			
+			
+			&__body{
+				padding: 15px 16px;
+				border-top: 1px solid rgba(208, 208, 208, 0.48);
+				@media screen and (max-width: 600px) {
+					padding: 12px;
+				}
+
+				&_flexrow {
+					display: flex;
+					flex-basis: 100%;
+					padding-bottom: 8px;
+				}
+				
+				&_price {
+					font-size: $font-size-large_extra;
+					font-weight: $font-weight-semi_bold;
+					color: $color-black;
+					flex-grow: 1;
+				}
+				&_status {
+					flex-grow: 1;
+					text-align: right;
+					
+					.label {
+						margin-right: 0px;
+					}
+				}			
+				&_address {
+					font-size: $font-size-medium;
+					font-weight: $font-weight-semi_bold;
+					color: $color-black;
+					line-height: 19px;
+					padding-top: 8px;
+				}
+				&_dayson {
+					font-size: $font-size-small;
+					color: $color-auxiliary;
+					text-align: right;
+					padding-top: 12px;
+				}
+				
+				&_features {
+					font-size: $font-size-medium;
+					color: $color-cement-dark;
+					padding-top: 12px;
+					line-height: 23px;
+				}
+			}
+			
+		}
+
+		h5 {
+			font-size: $font-size-large;
+			line-height: 24px;
+			font-weight: $font-weight-bold;
+			margin-bottom: 4px;
+			color: $color-carbon;
+			text-overflow: ellipsis;
+			overflow: hidden;
+			display: block;
+
+			a {
+				color: $color-carbon;
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+
+			@media screen and (max-width: 768px) {
+				font-size: $font-size-medium;
+		    line-height: 16px;
+			}
+		}
+
+		&__text {
+			color: $color-auxiliary;
+			font-size: $font-size-small;
+			line-height: 18px;
+
+		}
+	}
+	//Area Card starts here
+	
+	
+}

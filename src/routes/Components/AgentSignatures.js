@@ -31,7 +31,27 @@ export default class AgentSignatures extends Component {
       </div>
         
         <hr>
-       
+        
+       <div class="row justify-content-center">
+        <div class="col col-sm-6 col-12">
+		
+          <a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
+            <div class="agent_signaturev2__photo" title="View Shadrick Bogany's profile" style="background-image:url('https://pics.harstatic.com/agent/312961.jpg');"></div>
+            <div class="agent_signaturev2__info">
+              <div class="agent_signaturev2__info__agent_name" title="View Shadrick Bogany's profile" aria-label="View Shadrick Bogany's profile">
+                Shadrick Bogany
+              </div>
+              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
+                Better Homes And Gardens Real
+              </div>
+            </div>
+          </a>
+
+          <div class="component_content__demo__description">Signature v2</div>
+        </div>
+      </div>
+        
+        <hr>
       <div class="row justify-content-center">
         <div class="col col-sm-6 col-12">
           

@@ -28,6 +28,11 @@ html { font-family: 'Inter', sans-serif !important; }
 @import "component_labels.scss";
 @import "component_messages.scss";
 @import "component_cards_v2.scss";
+
+//listing Cards
+@import "component_listingcards_portrait_v2.scss";
+@import "component_listingcards_landscape_v2.scss";
+
 @import "favorite.scss";
 
 // TEMPLATE BLOCKS

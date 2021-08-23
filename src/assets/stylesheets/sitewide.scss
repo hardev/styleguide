@@ -661,5 +661,16 @@
 	}
 }
 
-
+.circle_nimber {
+	background-color: #f3f4f7;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	color: $color-auxiliary;
+	text-align: center;
+	font-size: $font-size-small;
+	font-weight: $font-weight-semi_bold;
+	line-height:20px;
+	display: inline-block;
+}
 
