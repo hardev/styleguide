@@ -95,9 +95,9 @@
 	
 	
 	&--newconstruction {
+		border:1px solid $color-cloudy-sky-light;
 		font-weight: $font-weight-semi-bold;
-		background-color: #fd4b78;
-		color: $color-snow-white;
+		color: #fd4b78;
 		font-size: 12px;
 		border-radius: 4px;
 		padding: 0px 5px;
@@ -106,8 +106,8 @@
 	}
 	
 	&--justlisted {		
-		color: $color-snow-white;
-		background-color: #14a47e;
+		color: #14a47e;
+		border:1px solid $color-cloudy-sky-light;
 		font-weight: $font-weight-semi-bold;
 		border-radius: 4px;
 		padding: 0px 5px;
@@ -116,8 +116,8 @@
 	}
 	
 	&--pricereduction {		
-		color: $color-snow-white;
-		background-color: $color-pending;
+		border:1px solid $color-cloudy-sky-light;
+		color: #a800c3;
 		font-weight: $font-weight-semi-bold;
 		border-radius: 4px;
 		padding: 0px 5px;
@@ -125,9 +125,9 @@
 		line-height:22px;
 	}
 	
-	&--foreclosure {		
-		color: $color-auxiliary;
-		background-color: #d8d8d8;
+	&--foreclosure {
+		border:1px solid $color-cloudy-sky-light;		
+		color: $color-slate;
 		font-weight: $font-weight-semi-bold;
 		border-radius: 4px;
 		padding: 0px 5px;
@@ -135,9 +135,9 @@
 		line-height:22px;
 	}
 	
-	&--openhouse_simple {		
-		color: $color-snow-white;
-		background-color: $color-har-blue;
+	&--openhouse_simple {
+		border:1px solid $color-cloudy-sky-light;
+		color:  $color-har-blue;
 		font-weight: $font-weight-semi-bold;
 		border-radius: 4px;
 		padding:0px 5px;
@@ -145,9 +145,9 @@
 		line-height:22px;
 	}
 	
-	&--virtualopenhouse {		
-		color: $color-snow-white;
-		background-color: $color-har-blue;
+	&--virtualopenhouse {
+		border:1px solid $color-cloudy-sky-light;
+		color: $color-har-blue;
 		font-weight: $font-weight-semi-bold;
 		border-radius: 4px;
 		padding: 0px 5px;
@@ -435,85 +435,41 @@
 	}
 }
 
-.listingcard_badges {
-	border: 1px  solid $color-cloudy-sky-light;		
+.listingbadges {
+	border:1px solid $color-cloudy-sky-light;	
 	font-weight: $font-weight-semi-bold;
-	color: #ff0065;
 	font-size: 13px;
 	border-radius: 4px;
 	padding: 0px 5px;
-	height: 24px;
-	line-height:22px;
+	height: 28px;
+	display: inline-flex;
+	span {
+		 align-self: center;
+	}
 	
 	&--newconstruction {
-		border: 1px  solid $color-cloudy-sky-light;		
-		font-weight: $font-weight-semi-bold;
-		color: #ff0065;
-		font-size: 13px;
-		border-radius: 4px;
-		padding: 0px 5px;
-		height: 24px;
-		line-height:22px;
+		color: #fd4b78;		
 	}
 	
 	&--justlisted {		
-		color: $color-snow-white;
-		background-color: #14a47e;
-		font-weight: $font-weight-semi-bold;
-		border-radius: 4px;
-		padding: 0px 5px;
-		height: 24px;
-		line-height:22px;
+		color: #14a47e;	
 	}
 	
 	&--pricereduction {		
-		color: $color-snow-white;
-		background-color: $color-pending;
-		font-weight: $font-weight-semi-bold;
-		border-radius: 4px;
-		padding: 0px 5px;
-		height: 24px;
-		line-height:22px;
+		color: $color-pricechanged;
 	}
 	
-	&--foreclosure {		
-		color: $color-auxiliary;
-		background-color: #d8d8d8;
-		font-weight: $font-weight-semi-bold;
-		border-radius: 4px;
-		padding: 0px 5px;
-		height: 24px;
-		line-height:22px;
+	&--foreclosure {
+		color: $color-slate;
 	}
 	
-	&--openhouse_simple {		
-		color: $color-snow-white;
-		background-color: $color-har-blue;
-		font-weight: $font-weight-semi-bold;
-		border-radius: 4px;
-		padding:0px 5px;
-		height: 24px;
-		line-height:22px;
+	&--openhouse_simple {
+		color:  $color-har-blue;
 	}
 	
-	&--virtualopenhouse {		
-		color: $color-snow-white;
-		background-color: $color-har-blue;
-		font-weight: $font-weight-semi-bold;
-		border-radius: 4px;
-		padding: 0px 5px;
-		height: 24px;
-		line-height:22px;
+	&--virtualopenhouse {
+		color: $color-har-blue;
 	}
 	
-	&--openhouse {
-		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
-		background-color: $color-har-pink;
-		border-top: 4px solid #b03453;
-		height: 32px;
-		color: $color-snow-white;
-		text-transform: uppercase;
-		font-weight: $font-weight-bold;
-		padding:4px 16px;
-	}
+
 }

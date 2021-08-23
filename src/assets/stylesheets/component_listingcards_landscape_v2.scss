@@ -131,6 +131,12 @@
 					font-weight: $font-weight-semi_bold;
 					color: $color-black;
 					flex-grow: 1;
+					
+					.price_changed {
+						font-size: 13px;
+						font-weight: $font-weight-semi_bold;
+						color: $color-pricechanged;
+					}
 				}
 				&_status {
 					flex-grow: 1;
@@ -152,51 +158,46 @@
 					color: $color-auxiliary;
 					text-align: right;
 					padding-top: 12px;
+					white-space: nowrap;
+					flex-grow: 1;
+					align-self: flex-end;
 				}
 				
 				&_features {
 					font-size: $font-size-medium;
 					color: $color-cement-dark;
 					padding-top: 12px;
-					line-height: 23px;
+					line-height: 23px;					
+				}
+				
+				&_impovement {
+					font-size: $font-size-small-extra;
+					color: $color-auxiliary;
+					background-color: rgba(218,225,248,0.32);
+					padding: 8px;
+					margin-right: 16px;
+					margin-top: 12px;	
+					
+					.title {
+						font-weight: $font-weight-semi_bold;
+						color: $color-black;
+					}
+				}
+				
+				&_soldtext {
+					font-weight: $font-weight-semi_bold;
+					color: $color-sold;
+					font-size: $font-size-medium;
+					padding-bottom: 20px;
 				}
 			}
-			
+						
 		}
-
-		h5 {
-			font-size: $font-size-large;
-			line-height: 24px;
-			font-weight: $font-weight-bold;
-			margin-bottom: 4px;
-			color: $color-carbon;
-			text-overflow: ellipsis;
-			overflow: hidden;
-			display: block;
-
-			a {
-				color: $color-carbon;
-				text-decoration: none;
-
-				&:hover {
-					text-decoration: underline;
-				}
-			}
-
-			@media screen and (max-width: 768px) {
-				font-size: $font-size-medium;
-		    line-height: 16px;
-			}
-		}
-
-		&__text {
-			color: $color-auxiliary;
-			font-size: $font-size-small;
-			line-height: 18px;
-
-		}
+		
 	}
 	//Area Card starts here
-	
-	
+}//cardv2
+
+.cardv2--landscape__footer {
+	margin-bottom: 30px;
 }

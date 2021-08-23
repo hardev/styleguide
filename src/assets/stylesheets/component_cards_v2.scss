@@ -28,7 +28,7 @@
 		padding: 24px;
 		min-width: 272px;
 		width: 272px;
-		display: inline-block;
+		display: inline-block !important;
 		margin-right: 13px;
 		
 		h3 {
@@ -70,7 +70,7 @@
 	
 	//Neighbor Card starts here	
 	&--neighbors{
-		display: flex;
+		display: flex !important;
 		flex-flow: wrap;
 		font-size: $font-size-medium;
 		padding: 16px;

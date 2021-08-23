@@ -94,6 +94,32 @@ export default class Labels extends Component {
         <div class="col col-3 pt-3">          
           <div class="label label--virtualopenhouse"><img src="https://content.harstatic.com/media/icons/icon-open-house.svg">Virtual Open House</div>          
         </div>
+       </div>
+       
+       <div class="row">
+        <div class="col pt-5 pb-0 mb-0">          
+        	<h4 tabindex="">V2</h4>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col col-4 pt-3">          
+          <div class="listingbadges listingbadges--newconstruction"><img src="https://content.harstatic.com/media/icons/icon-new-construction.svg"><span>New construction</span></div>
+        </div>
+        <div class="col col-4 pt-3">          
+          <div class="listingbadges listingbadges--justlisted"><img src="https://content.harstatic.com/media/icons/icon-just-listed.svg"><span>Just listed</span></div>          
+        </div>
+        <div class="col col-4 pt-3">          
+          <div class="listingbadges listingbadges--pricereduction"><img src="https://content.harstatic.com/media/icons/icon-price-reduction.svg"><span>Price Reduction</span></div>          
+        </div>
+        <div class="col col-4 pt-3">          
+          <div class="listingbadges listingbadges--foreclosure"><img src="https://content.harstatic.com/media/icons/icon-foreclosure.svg"><span>Foreclosure</span></div>          
+        </div>
+        <div class="col col-4 pt-3">          
+          <div class="listingbadges listingbadges--openhouse_simple"><img src="https://content.harstatic.com/media/icons/icon-open-house.svg"><span>Open House</span></div>          
+        </div>
+        <div class="col col-4 pt-3">          
+          <div class="listingbadges listingbadges--virtualopenhouse"><img src="https://content.harstatic.com/media/icons/icon-open-house.svg"><span>Virtual Open House</span></div>          
+        </div>
        </div>`,
        `<div class="row">
         <div class="col col-3 pt-3">  
@@ -217,7 +243,8 @@ export default class Labels extends Component {
           <br><br>
           <div class="label label--badges label--badges__agentsbrokers">Agents & Brokers</div>         
         </div>
-       </div>`,
+       </div>
+       `,
     ];
 
 
