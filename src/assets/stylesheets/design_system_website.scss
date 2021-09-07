@@ -40,6 +40,10 @@ body {
 //   box-sizing: inherit;
 // }
 
+.container {
+	max-width: 1200px !important;
+	}
+	
 .wrapper {
   width: calc(100% - 280px);
   margin: 0 !important;
@@ -53,10 +57,10 @@ body {
 
   &--full_width {
     width: 100%;
-
+    
     .container {
       @media (min-width: 1200px) {
-        max-width: 1140px !important;
+        max-width: 1200px !important;
       }
     }
   }

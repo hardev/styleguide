@@ -31,12 +31,13 @@ export default class Labels extends Component {
           <div class="label label--notforsale">Not for sale</div>
           <br><br>
           <div class="label label--openhouse">Open House</div>
-          <br><br>
+          <!--<br><br>
           <div class="label label--pending">Under Contract - Pending</div>
           <br><br>
           <div class="label label--pending__continue">Under Contract - Pending Continue</div>
           <br><br>
           <div class="label label--pending__continue_show">Under Contract - Pending Continue to Show</div> 
+          -->
         </div>
         
         
@@ -74,7 +75,7 @@ export default class Labels extends Component {
         </div>
        </div>
        
-       
+       <!--
        <div class="row">
         <div class="col col-3 pt-3">          
           <div class="label label--newconstruction"><img src="https://content.harstatic.com/media/icons/icon-new-construction.svg">New construction</div>
@@ -95,7 +96,7 @@ export default class Labels extends Component {
           <div class="label label--virtualopenhouse"><img src="https://content.harstatic.com/media/icons/icon-open-house.svg">Virtual Open House</div>          
         </div>
        </div>
-       
+       -->
        <div class="row">
         <div class="col pt-5 pb-0 mb-0">          
         	<h4 tabindex="">V2</h4>
@@ -103,22 +104,22 @@ export default class Labels extends Component {
        </div>
        <div class="row">
         <div class="col col-4 pt-3">          
-          <div class="listingbadges listingbadges--newconstruction"><img src="https://content.harstatic.com/media/icons/icon-new-construction.svg"><span>New construction</span></div>
+          <div class="listingbadges listingbadges--newconstruction" style="background-image:url(https://content.harstatic.com/media/icons/icon-new-construction.svg);">New construction</div>
         </div>
         <div class="col col-4 pt-3">          
-          <div class="listingbadges listingbadges--justlisted"><img src="https://content.harstatic.com/media/icons/icon-just-listed.svg"><span>Just listed</span></div>          
+          <div class="listingbadges listingbadges--justlisted" style="background-image:url(https://content.harstatic.com/media/icons/icon-listing-just-listed.svg);">Just listed</div>
         </div>
         <div class="col col-4 pt-3">          
-          <div class="listingbadges listingbadges--pricereduction"><img src="https://content.harstatic.com/media/icons/icon-price-reduction.svg"><span>Price Reduction</span></div>          
+          <div class="listingbadges listingbadges--pricereduction" style="background-image:url(https://content.harstatic.com/media/icons/icon-price-reduction.svg);">Price Reduction</div>
         </div>
         <div class="col col-4 pt-3">          
-          <div class="listingbadges listingbadges--foreclosure"><img src="https://content.harstatic.com/media/icons/icon-foreclosure.svg"><span>Foreclosure</span></div>          
+          <div class="listingbadges listingbadges--foreclosure" style="background-image:url(https://content.harstatic.com/media/icons/icon-foreclosure.svg);">Foreclosure</div>
         </div>
         <div class="col col-4 pt-3">          
-          <div class="listingbadges listingbadges--openhouse_simple"><img src="https://content.harstatic.com/media/icons/icon-open-house.svg"><span>Open House</span></div>          
+          <div class="listingbadges listingbadges--openhouse_simple" style="background-image:url(https://content.harstatic.com/media/icons/icon-open-house.svg);">Open House</div>
         </div>
         <div class="col col-4 pt-3">          
-          <div class="listingbadges listingbadges--virtualopenhouse"><img src="https://content.harstatic.com/media/icons/icon-open-house.svg"><span>Virtual Open House</span></div>          
+          <div class="listingbadges listingbadges--virtualopenhouse" style="background-image:url(https://content.harstatic.com/media/icons/icon-open-house.svg);">Virtual Open House</div>
         </div>
        </div>`,
        `<div class="row">

@@ -64,3 +64,22 @@
 		color: $color-auxiliary;
 	}
 }
+
+.icon_square {
+	width: 40px;
+	height: 40px;
+	border-radius: 4px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+	border: solid 1px #dfe3f0;
+	background-color: #fff;
+	display: inline-flex;	
+	span {
+		align-self: center;
+		width: 40px;
+		
+		img {
+			max-width: 40px;
+			max-height: 40px;
+		}
+	}
+}

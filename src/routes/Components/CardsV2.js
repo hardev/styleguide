@@ -112,8 +112,17 @@ export default class CardsV2 extends Component {
             </div>
         	<div class="cardv2--rating__chart">
             	<div class="cardv2--rating__chart__outof">
-            		<span>4.4</span>
-            		Out of 5.0
+            		<div class="cardv2--rating__chart__outof--inner">
+            			<span>4.4</span>
+						Out of 5.0
+            		</div>
+            		<div class="cardv2--rating__chart__outof--stars">
+            			<img src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg">
+            			<img src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg">
+            			<img src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg">
+            			<img src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg">
+            			<img src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg">
+            	    </div>
             	</div>
             	<div class="cardv2--rating__chart__ratings">
             		<div class="ratingbar">

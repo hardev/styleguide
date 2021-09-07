@@ -464,3 +464,38 @@ h4 {
 	}
 			
 }
+
+.textcontent {
+
+	&__header {
+		padding: 56px 56px 27px 56px;
+		background-color: #fff;
+		@media screen and (max-width: 576px) {
+		    padding: 24px;
+	  	}
+	  	
+		&.headersticky {
+		  	padding: 18px 56px 18px 56px;
+		  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24);
+		  	border: solid 1px #dfe3f0;
+		  	
+		  	@media screen and (max-width: 576px) {
+			    padding: 18px 24px 18px 24px;
+		  	}
+	  	}  	
+	}
+	
+	&__content {
+		font-size: $font-size-medium;
+		color: $color-slate;
+		padding: 27px 56px 56px 56px;
+		
+		@media screen and (max-width: 576px) {
+		    padding: 24px;
+	  	}
+	}
+	
+	
+  	
+  	
+}

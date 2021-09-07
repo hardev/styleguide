@@ -50,7 +50,7 @@ export default class Iconography extends Component {
           </div>
         </div>
         <div class="col col-sm-3 col-12">
-          
+          <div class="icon_square"><span><img src="https://content.harstatic.com/media/icons/mls_subscriber_icons/icon-har-pro-archive-report.svg"></span></div>
           <div class="component_content__demo__description">
             
           </div>

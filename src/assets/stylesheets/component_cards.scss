@@ -26,6 +26,7 @@
 		}
 	}
 	
+	&--state,
 	&--video,
 	&--features,
 	&--caltoaction,
@@ -581,6 +582,25 @@
 		
 	&--transparent {
 		background-color: transparent !important;
+	}
+	
+	&--state {
+		display: block;
+		padding: 16px 10px;
+		
+		&__title {
+			font-size: $font-size-medium;
+			color: $color-black;
+			font-weight: $font-weight-bold;
+			padding-bottom:3px;
+			text-align: center;			
+		}
+		
+		&__desp {
+			color: $color-carbon;
+			font-size: $font-size-small;
+			text-align: center;
+		}
 	}
 	
 	&--landscape_small {
@@ -1859,10 +1879,8 @@
 			font-weight: $font-weight-bold;
 			margin-bottom: 0;
 			color: $color-carbon;
-			text-overflow: ellipsis;
-			overflow: hidden;
 			display: block;
-			
+			min-height: 40px;			
 			// span {
 			// 	font-weight: $font-weight-regular;
 			// }

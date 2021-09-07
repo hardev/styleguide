@@ -96,6 +96,12 @@ export default class Sitewide extends Component {
 
 				<div class="component_content__demo__description">Flags mini</div>
         	</div>
+       </div>
+       <div class="row">
+        	<div class="col col-12">
+        		<div class="certificate certificate--small">CSMS</div>
+				<div class="certificate certificate--small">GRI</div>				
+        	</div>
        </div>`,
     ];
 

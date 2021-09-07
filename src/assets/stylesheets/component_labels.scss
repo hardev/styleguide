@@ -440,12 +440,13 @@
 	font-weight: $font-weight-semi-bold;
 	font-size: 13px;
 	border-radius: 4px;
-	padding: 0px 5px;
+	padding: 0px 7px 0px 25px;
 	height: 28px;
-	display: inline-flex;
-	span {
-		 align-self: center;
-	}
+	line-height: 25px;
+	background-position: 5px center;
+	background-repeat: no-repeat;	
+	display: inline-block;
+	text-align: left;
 	
 	&--newconstruction {
 		color: #fd4b78;		

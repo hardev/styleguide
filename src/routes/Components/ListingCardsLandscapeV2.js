@@ -29,10 +29,10 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        	<div class="cardv2--landscape__content__header">	
 	        		<div class="cardv2--landscape__content__header_agent">
 	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
-				            <div class="agent_signaturev2__photo" title="View Shadrick Bogany's profile" style="background-image:url('https://pics.harstatic.com/agent/312961.jpg');"></div>
+				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
 				            <div class="agent_signaturev2__info">
-				              <div class="agent_signaturev2__info__agent_name" title="View Shadrick Bogany's profile" aria-label="View Shadrick Bogany's profile">
-				                Shadrick Bogany
+				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
+				                Michel Hayek
 				              </div>
 				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
 				                Better Homes And Gardens Real
@@ -106,10 +106,10 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        	<div class="cardv2--landscape__content__header">	
 	        		<div class="cardv2--landscape__content__header_agent">
 	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
-				            <div class="agent_signaturev2__photo" title="View Shadrick Bogany's profile" style="background-image:url('https://pics.harstatic.com/agent/312961.jpg');"></div>
+				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
 				            <div class="agent_signaturev2__info">
-				              <div class="agent_signaturev2__info__agent_name" title="View Shadrick Bogany's profile" aria-label="View Shadrick Bogany's profile">
-				                Shadrick Bogany
+				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
+				                Michel Hayek
 				              </div>
 				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
 				                Better Homes And Gardens Real
@@ -155,7 +155,7 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        	<!-- / cardv2 conetent -->
 	        </div>
 	        <div class="cardv2--landscape__footer">
-	        	<div class="listingbadges listingbadges--justlisted"><img src="https://content.harstatic.com/media/icons/icon-just-listed.svg"><span>Just listed</span></div>
+	        	<div class="listingbadges listingbadges--justlisted" style="background-image:url(https://content.harstatic.com/media/icons/icon-listing-just-listed.svg);">Just listed</div>
 	        </div>
 			<!-- / card--portrait v2 -->
 			        	
@@ -187,10 +187,10 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        	<div class="cardv2--landscape__content__header">	
 	        		<div class="cardv2--landscape__content__header_agent">
 	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
-				            <div class="agent_signaturev2__photo" title="View Shadrick Bogany's profile" style="background-image:url('https://pics.harstatic.com/agent/312961.jpg');"></div>
+				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
 				            <div class="agent_signaturev2__info">
-				              <div class="agent_signaturev2__info__agent_name" title="View Shadrick Bogany's profile" aria-label="View Shadrick Bogany's profile">
-				                Shadrick Bogany
+				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
+				                Michel Hayek
 				              </div>
 				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
 				                Better Homes And Gardens Real
@@ -237,7 +237,7 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        	<!-- / cardv2 conetent -->
 	        </div>
 	        <div class="cardv2--landscape__footer">
-	        	<div class="listingbadges listingbadges--pricereduction"><img src="https://content.harstatic.com/media/icons/icon-price-reduction.svg"><span>Price Reduction</span></div>
+	        	<div class="listingbadges listingbadges--pricereduction" style="background-image:url(https://content.harstatic.com/media/icons/icon-price-reduction.svg);">Price Reduction</div>
 	        </div>
 			<!-- / card--portrait v2 -->
 			        	
@@ -269,10 +269,10 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        	<div class="cardv2--landscape__content__header">	
 	        		<div class="cardv2--landscape__content__header_agent">
 	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
-				            <div class="agent_signaturev2__photo" title="View Shadrick Bogany's profile" style="background-image:url('https://pics.harstatic.com/agent/312961.jpg');"></div>
+				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
 				            <div class="agent_signaturev2__info">
-				              <div class="agent_signaturev2__info__agent_name" title="View Shadrick Bogany's profile" aria-label="View Shadrick Bogany's profile">
-				                Shadrick Bogany
+				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
+				                Michel Hayek
 				              </div>
 				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
 				                Better Homes And Gardens Real
@@ -318,11 +318,11 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        	<!-- / card conetent -->
 	        </div>
 	        <div class="cardv2--landscape__footer">	        	
-	        	<div class="listingbadges listingbadges--justlisted"><img src="https://content.harstatic.com/media/icons/icon-just-listed.svg"><span>Just listed</span></div>
-	        	<div class="listingbadges listingbadges--pricereduction"><img src="https://content.harstatic.com/media/icons/icon-price-reduction.svg"><span>Price Reduction</span></div>
-	        	<div class="listingbadges listingbadges--newconstruction"><img src="https://content.harstatic.com/media/icons/icon-new-construction.svg"><span>New construction</span></div>
-	        	<div class="listingbadges listingbadges--openhouse_simple"><img src="https://content.harstatic.com/media/icons/icon-open-house.svg"><span>Open House</span></div>
-	        	<div class="listingbadges listingbadges--foreclosure"><img src="https://content.harstatic.com/media/icons/icon-foreclosure.svg"><span>Foreclosure</span></div>
+	        	<div class="listingbadges listingbadges--justlisted" style="background-image:url(https://content.harstatic.com/media/icons/icon-listing-just-listed.svg);">Just listed</div>
+	        	<div class="listingbadges listingbadges--pricereduction" style="background-image:url(https://content.harstatic.com/media/icons/icon-price-reduction.svg);">Price Reduction</div>
+	        	<div class="listingbadges listingbadges--newconstruction" style="background-image:url(https://content.harstatic.com/media/icons/icon-new-construction.svg);">New construction</div>
+	        	<div class="listingbadges listingbadges--openhouse_simple" style="background-image:url(https://content.harstatic.com/media/icons/icon-open-house.svg);">Open House</div>
+	        	<div class="listingbadges listingbadges--foreclosure" style="background-image:url(https://content.harstatic.com/media/icons/icon-foreclosure.svg);">Foreclosure</div>
 	        </div>	        
 			<!-- / card--portrait v2 -->
 			        	
@@ -354,10 +354,10 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        	<div class="cardv2--landscape__content__header">	
 	        		<div class="cardv2--landscape__content__header_agent">
 	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
-				            <div class="agent_signaturev2__photo" title="View Shadrick Bogany's profile" style="background-image:url('https://pics.harstatic.com/agent/312961.jpg');"></div>
+				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
 				            <div class="agent_signaturev2__info">
-				              <div class="agent_signaturev2__info__agent_name" title="View Shadrick Bogany's profile" aria-label="View Shadrick Bogany's profile">
-				                Shadrick Bogany
+				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
+				                Michel Hayek
 				              </div>
 				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
 				                Better Homes And Gardens Real
@@ -436,10 +436,10 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        	<div class="cardv2--landscape__content__header">	
 	        		<div class="cardv2--landscape__content__header_agent">
 	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
-				            <div class="agent_signaturev2__photo" title="View Shadrick Bogany's profile" style="background-image:url('https://pics.harstatic.com/agent/312961.jpg');"></div>
+				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
 				            <div class="agent_signaturev2__info">
-				              <div class="agent_signaturev2__info__agent_name" title="View Shadrick Bogany's profile" aria-label="View Shadrick Bogany's profile">
-				                Shadrick Bogany
+				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
+				                Michel Hayek
 				              </div>
 				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
 				                Better Homes And Gardens Real

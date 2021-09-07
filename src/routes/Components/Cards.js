@@ -20,6 +20,14 @@ export default class ListingCards extends Component {
           </div>
         </div>
         <div class="col col-sm-4 col-12 mb-0">
+          <a href="#" class="card card--state">
+            <div class="card--state__title">Drive Time</div>
+            <div class="card--state__desp">16 Open Houses</div>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-sm-4 col-12 mb-0">
           <a href="#" class="d-block card card--hover text-decoration-none p-2 font_weight--bold mb-0"><img class="border_radius--mini mr-2 d-inline-block" style="width:38px;height:25px;" src="https://content.harstatic.com/resources/images/find_a_pro/flags_mini/af.jpg"> Afrikaans <span class="font_weight--regular color_auxiliary">(34)</span></a>
         </div>
         <div class="col col-sm-4 col-12 mb-0">
@@ -248,6 +256,68 @@ export default class ListingCards extends Component {
       </div>
       <div class="row">
         <div class="col-12 mb-0 pb-0">
+          <a href="#" class="card card--agent_longinfo">
+          	<div class="card--agent_longinfo__profile">
+	            <div class="card--agent_longinfo__image" style="background-image: url(https://pics.harstatic.com/agent/716096.jpg?ts=2019-01-18T17:12:001099);"></div>
+	            <div class="card--agent_longinfo__content">
+	              <div class="card--agent_longinfo__content_desc"><img alt="" src="https://content.harstatic.com/media/icons/label-platinum.svg"><div class="clearfix"></div></div>
+	              <div class="card--agent_longinfo__content_name">Aneeka Chauhan</div>
+	              <div class="card--agent_longinfo__content_stars">
+						<img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg">
+						<span class="font_weight--bold ml-1 align-middle">4.0</span> / <span class="mr-2 align-middle">5.0</span><span class=" color_auxiliary_light">70 surveys</span>
+				   </div>
+		 		   <div class="pt-2 font_size--small_extra d-none d-md-block overflow-ellipsis overflow-hidden">John Daugherty Broker Propert…</div>
+	            </div>
+	        </div>
+	        <div class="card--agent_longinfo__certifi pt-4 pt-md-0">
+	        	<div class="border-bottom mb-3 pb-1 ml-md-auto" style="max-width:240px;">
+		        	<div class="d-flex justify-content-md-end bd-highlight">
+					  <div class="pr-3 bd-highlight">
+					  		<div class="font_weight--bold color_carbon">23</div>
+							<div class="pb-2 color_auxiliary">For Sale</div>
+					  </div>
+					  <div class="pl-3 pr-3 bd-highlight">
+					  		<div class="font_weight--bold color_carbon">35</div>
+							<div class="pb-2 color_auxiliary">For Rent</div>
+					  </div>
+					  <div class="pl-3 pr-3 bd-highlight">
+					  		<div class="font_weight--bold color_carbon">19</div>
+							<div class="pb-2 color_auxiliary">Sold</div>
+					  </div>
+					  <div class="pl-3 bd-highlight">
+					  		<div class="font_weight--bold color_carbon">41</div>
+							<div class="pb-2 color_auxiliary">Leased</div>
+					  </div>
+					</div>
+					
+		        	<div class="font_size--small_extra_extra text-right" style="opacity:0.6;">Based on past 12 mos.</div>
+				</div>
+				
+	        	<div class="d-flex justify-content-md-end bd-highlight">
+				  <div class="pr-3 bd-highlight">
+				  		<div class="font_weight--bold mr-1 float-left overflow-hidden overflow-ellipsis">Portuguese</div>
+						<div class="card--agent_longinfo__more_btn" style="">+2</div>
+				  </div>
+				  <div class="pl-3 bd-highlight">
+				  		<span class="card--agent_longinfo__flag" data-toggle="tooltip" data-placement="top" title="" data-original-title="Brazil">
+							<img alt="Brazil" class="img-fluid" src="https://content.harstatic.com/resources/images/find_a_pro/flags_mini/br.jpg">
+						</span>
+						<span class="card--agent_longinfo__certificate" data-toggle="popover" data-trigger="focus" data-placement="bottom" title="" data-content="The Certified Negotiation Expert (CNE)">
+							CSMS
+						</span>			
+						<div class="card--agent_longinfo__more_btn" style="">+5</div>
+				  </div>
+				</div>
+	        </div>
+	        <div class="card--agent_longinfo__arrowlink color_har_blue font_size--medium text-decoration-none align-self-center float-right">
+	        	<div class="d-flex justify-content-end">
+	        		<div><span class="font_weight--bold">View profile</span> and<br>have her assistance</div>
+	        		<div class="align-self-center ml-3"><img style="height:20px;" src="https://content.harstatic.com/media/icons/arrow_right_blue.svg"></div>
+	        	</div>
+			</div>
+          </a>
+          
+          <br><br>
           <a href="#" class="card card--agent_longinfo">
           	<div class="card--agent_longinfo__profile">
 	            <div class="card--agent_longinfo__image" style="background-image: url(https://pics.harstatic.com/agent/716096.jpg?ts=2019-01-18T17:12:001099);"></div>
@@ -727,6 +797,40 @@ export default class ListingCards extends Component {
 	        </div>
         </div>
       </div>
+      
+      
+      
+      <hr />
+
+      <div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Contact Card</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-md-9 col-12 mb-0 pb-0">
+          <div class="pt-4">
+          	
+          	<!-- Contact Card -->
+          	<a href="#" class="card--contact">
+          		<div class="card--contact__img"></div>
+          		<div class="card--contact__content">
+          			<h3 tabindex="0"></h3>
+          			<div class="">
+          				3963 Southwest Freeway
+						Houston, TX 77027
+						Tel (713) 629-1900
+						Fax (713) 961-4859
+          			</div>
+          			<div class="link"><img class="mr-2" style="width:12px;" src="https://content.harstatic.com/media/icons/location_outline_blue.svg"> Get directions</div>
+          		</div>
+          	</a>
+	        <!-- blog post large ended -->
+	          
+	        </div>
+        </div>
+      </div>
+      
       
 	  </div>`,
 

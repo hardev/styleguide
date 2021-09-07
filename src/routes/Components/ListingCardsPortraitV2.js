@@ -20,10 +20,10 @@ export default class ListingCardsPortraitV2 extends Component {
 	        	<div class="cardv2--portrait__header">
 	        		<div class="cardv2--portrait__header_agent">
 	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
-				            <div class="agent_signaturev2__photo" title="View Shadrick Bogany's profile" style="background-image:url('https://pics.harstatic.com/agent/312961.jpg');"></div>
+				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
 				            <div class="agent_signaturev2__info">
-				              <div class="agent_signaturev2__info__agent_name" title="View Shadrick Bogany's profile" aria-label="View Shadrick Bogany's profile">
-				                Shadrick Bogany
+				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
+				                Michel Hayek
 				              </div>
 				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
 				                Better Homes And Gardens Real
@@ -68,8 +68,7 @@ export default class ListingCardsPortraitV2 extends Component {
 						</div>
 					</div>
 					<div class="cardv2--portrait__body_features">
-						Single Family · 5 beds · 5 baths
-						2 stories · 7,551 built sqft<br>
+						<div class="d-inline-block">Single Family&nbsp;</div><div class="d-inline-block">·&nbsp;5 beds&nbsp;</div><div class="d-inline-block">·&nbsp;5 baths&nbsp;</div><div class="d-inline-block">·&nbsp;2 stories&nbsp;</div><div class="d-inline-block">7,551 built sqft </div><br>
 						1932 year built
 					</div>
 	        	</div>
@@ -86,10 +85,10 @@ export default class ListingCardsPortraitV2 extends Component {
 	        	<div class="cardv2--portrait__header">
 	        		<div class="cardv2--portrait__header_agent">
 	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
-				            <div class="agent_signaturev2__photo" title="View Shadrick Bogany's profile" style="background-image:url('https://pics.harstatic.com/agent/312961.jpg');"></div>
+				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
 				            <div class="agent_signaturev2__info">
-				              <div class="agent_signaturev2__info__agent_name" title="View Shadrick Bogany's profile" aria-label="View Shadrick Bogany's profile">
-				                Shadrick Bogany
+				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
+				                Michel Hayek
 				              </div>
 				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
 				                Better Homes And Gardens Real
@@ -134,8 +133,7 @@ export default class ListingCardsPortraitV2 extends Component {
 						</div>
 					</div>
 					<div class="cardv2--portrait__body_features">
-						Single Family · 5 beds · 5 baths
-						2 stories · 7,551 built sqft<br>
+						<div class="d-inline-block">Single Family&nbsp;</div><div class="d-inline-block">·&nbsp;5 beds&nbsp;</div><div class="d-inline-block">·&nbsp;5 baths&nbsp;</div><div class="d-inline-block">·&nbsp;2 stories&nbsp;</div><div class="d-inline-block">7,551 built sqft </div><br>
 						1932 year built
 					</div>
 	        	</div>
@@ -143,11 +141,11 @@ export default class ListingCardsPortraitV2 extends Component {
 	        	<!-- / card img -->
 	        </div>
 	        <div class="cardv2--landscape__footer">	        	
-	        	<div class="listingbadges listingbadges--justlisted"><img src="https://content.harstatic.com/media/icons/icon-just-listed.svg"><span>Just listed</span></div>
-	        	<div class="listingbadges listingbadges--pricereduction"><img src="https://content.harstatic.com/media/icons/icon-price-reduction.svg"><span>Price Reduction</span></div>
-	        	<div class="listingbadges listingbadges--newconstruction"><img src="https://content.harstatic.com/media/icons/icon-new-construction.svg"><span>New construction</span></div>
-	        	<div class="listingbadges listingbadges--openhouse_simple"><img src="https://content.harstatic.com/media/icons/icon-open-house.svg"><span>Open House</span></div>
-	        	<div class="listingbadges listingbadges--foreclosure"><img src="https://content.harstatic.com/media/icons/icon-foreclosure.svg"><span>Foreclosure</span></div>
+	        	<div class="listingbadges listingbadges--justlisted" style="background-image:url(https://content.harstatic.com/media/icons/icon-listing-just-listed.svg);">Just listed</div>
+	        	<div class="listingbadges listingbadges--pricereduction" style="background-image:url(https://content.harstatic.com/media/icons/icon-price-reduction.svg);">Price Reduction</div>
+	        	<div class="listingbadges listingbadges--newconstruction" style="background-image:url(https://content.harstatic.com/media/icons/icon-new-construction.svg);">New construction</div>
+	        	<div class="listingbadges listingbadges--openhouse_simple" style="background-image:url(https://content.harstatic.com/media/icons/icon-open-house.svg);">Open House</div>
+	        	<div class="listingbadges listingbadges--foreclosure" style="background-image:url(https://content.harstatic.com/media/icons/icon-foreclosure.svg);">Foreclosure</div>
 	        </div>
 			<!-- / card--portrait v2 -->
 			
@@ -161,10 +159,10 @@ export default class ListingCardsPortraitV2 extends Component {
 	        	<div class="cardv2--portrait__header">
 	        		<div class="cardv2--portrait__header_agent">
 	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
-				            <div class="agent_signaturev2__photo" title="View Shadrick Bogany's profile" style="background-image:url('https://pics.harstatic.com/agent/312961.jpg');"></div>
+				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
 				            <div class="agent_signaturev2__info">
-				              <div class="agent_signaturev2__info__agent_name" title="View Shadrick Bogany's profile" aria-label="View Shadrick Bogany's profile">
-				                Shadrick Bogany
+				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
+				                Michel Hayek
 				              </div>
 				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
 				                Better Homes And Gardens Real
@@ -209,8 +207,7 @@ export default class ListingCardsPortraitV2 extends Component {
 						</div>
 					</div>
 					<div class="cardv2--portrait__body_features">
-						Single Family · 5 beds · 5 baths
-						2 stories · 7,551 built sqft<br>
+						<div class="d-inline-block">Single Family&nbsp;</div><div class="d-inline-block">·&nbsp;5 beds&nbsp;</div><div class="d-inline-block">·&nbsp;5 baths&nbsp;</div><div class="d-inline-block">·&nbsp;2 stories&nbsp;</div><div class="d-inline-block">7,551 built sqft </div><br>
 						1932 year built
 					</div>
 					<div class="cardv2--portrait__body_impovement" onclick="location.href='http://har.com'; return false;">								
@@ -232,10 +229,10 @@ export default class ListingCardsPortraitV2 extends Component {
 	        	<div class="cardv2--portrait__header">
 	        		<div class="cardv2--portrait__header_agent">
 	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
-				            <div class="agent_signaturev2__photo" title="View Shadrick Bogany's profile" style="background-image:url('https://pics.harstatic.com/agent/312961.jpg');"></div>
+				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
 				            <div class="agent_signaturev2__info">
-				              <div class="agent_signaturev2__info__agent_name" title="View Shadrick Bogany's profile" aria-label="View Shadrick Bogany's profile">
-				                Shadrick Bogany
+				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
+				                Michel Hayek
 				              </div>
 				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
 				                Better Homes And Gardens Real
@@ -280,8 +277,7 @@ export default class ListingCardsPortraitV2 extends Component {
 						</div>
 					</div>
 					<div class="cardv2--portrait__body_features">
-						Single Family · 5 beds · 5 baths
-						2 stories · 7,551 built sqft<br>
+						<div class="d-inline-block">Single Family&nbsp;</div><div class="d-inline-block">·&nbsp;5 beds&nbsp;</div><div class="d-inline-block">·&nbsp;5 baths&nbsp;</div><div class="d-inline-block">·&nbsp;2 stories&nbsp;</div><div class="d-inline-block">7,551 built sqft </div><br>
 						1932 year built
 					</div>
 					<div class="cardv2--portrait__body_soldtext">Sold: 06 June, 2021</div>
@@ -338,8 +334,7 @@ export default class ListingCardsPortraitV2 extends Component {
 						</div>
 					</div>
 					<div class="cardv2--portrait__body_features">
-						Single Family · 5 beds · 5 baths
-						2 stories · 7,551 built sqft<br>
+						<div class="d-inline-block">Single Family&nbsp;</div><div class="d-inline-block">·&nbsp;5 beds&nbsp;</div><div class="d-inline-block">·&nbsp;5 baths&nbsp;</div><div class="d-inline-block">·&nbsp;2 stories&nbsp;</div><div class="d-inline-block">7,551 built sqft </div><br>
 						1932 year built
 					</div>
 	        	</div>
@@ -484,10 +479,10 @@ export default class ListingCardsPortraitV2 extends Component {
 		        	<div class="cardv2--portrait__header">
 		        		<div class="cardv2--portrait__header_agent">
 		        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
-					            <div class="agent_signaturev2__photo" title="View Shadrick Bogany's profile" style="background-image:url('https://pics.harstatic.com/agent/312961.jpg');"></div>
+					            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
 					            <div class="agent_signaturev2__info">
-					              <div class="agent_signaturev2__info__agent_name" title="View Shadrick Bogany's profile" aria-label="View Shadrick Bogany's profile">
-					                Shadrick Bogany
+					              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
+					                Michel Hayek
 					              </div>
 					              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
 					                Better Homes And Gardens Real

@@ -39,7 +39,17 @@ export default class Forms extends Component {
 		    </div>
 		    <div class="input-description">Enter the amount of the monthly rent payment.</div>
 		</div>
-		
+		<div class="col col-12" style="max-width:500px;">
+		    <label for="Bedrooms">Bedrooms</label>
+		    <div class="input-grouped mb-2">
+		        <div class="input-grouped__text">
+		          <input type="text" class="form-control input-grouped__text__input" placeholder="Monthly rent">
+		        </div>
+		        <div class="input-grouped__text">
+		          <input type="text" class="form-control input-grouped__text__input" placeholder="Monthly rent">
+		        </div>
+		    </div>
+		</div>
        </div>`,
 
       `<div class="row">

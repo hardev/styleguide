@@ -979,11 +979,9 @@ label {
 	.btn {
 		border: 1px solid $color-cloudy-sky;
 		background-color: #fff;
-		font-size:16px;
-		font-size: 12px;
+		font-size:14px;
 		font-weight: bold;
-		padding: 9px 25px;
-		line-height: 1;
+		padding: 0px 25px;
 		cursor: pointer;
 		color: $color-slate !important;
 		transform: translate(0,0);
@@ -1027,4 +1025,22 @@ label {
 	font-size: $font-size-small-extra;
 	padding: 4px;
 	text-align: left;
+}
+
+.input-grouped {
+	display: flex;
+	&__text {
+		width: 50%;
+		&__input {
+			border-radius: 0px 4px 4px 0px;
+		}		
+		&:first-child{
+			.form-control {
+				border-radius: 4px 0px 0px 4px;
+				border-right: 0px;
+			}
+		}
+	}
+	
+	
 }

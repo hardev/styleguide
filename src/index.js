@@ -31,6 +31,7 @@ import Sitewide from './routes/Components/Sitewide';
 import Favorite from './routes/Components/Favorites';
 
 import Heros from './routes/TemplateBlocks/Heros';
+import AgentHeader from './routes/TemplateBlocks/AgentHeader';
 
 // import registerServiceWorker from './registerServiceWorker';
 import * as serviceWorker from './serviceWorker';
@@ -68,6 +69,7 @@ ReactDOM.render(
       <Route path="/components/favorites" component={Favorite} />
 
       <Route path="/template_blocks/heros" component={Heros} />
+      <Route path="/template_blocks/agent_header" component={AgentHeader} />
 
       <Route path="/*" exact={true} component={Error404} />
 

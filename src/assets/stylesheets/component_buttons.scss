@@ -8,9 +8,13 @@
   // margin: 0 8px 8px 0;
   display: inline-block;
   transition: all 0.2s ease !important;
-  border-radius: 4px;
-  font-weight: $font-weight-semi-bold;
-
+  border-radius: 8px;
+  font-weight: $font-weight-bold;
+  border:none;
+  height: 40px;
+  line-height: 40px;
+  font-size: $font-size-medium;
+  
   &:hover,
   &:focus {
     opacity: 0.8 !important;
@@ -24,16 +28,23 @@
 
   /* == SIZES == */
   &--large {
-    height: 48px !important;
-    line-height: 48px !important;
-    font-size: $font-size-large !important;
+    height: 64px !important;
+    line-height: 64px !important;
+    font-size: $font-size-large_extra !important;
     padding: 0 32px !important;
   }
 
+  &--large__extra {
+    height: 64px !important;
+    line-height: 64px !important;
+    font-size: $font-size-large_extra_extra !important;
+    padding: 0 40px !important;
+  }
+  
   &--medium {
-    height: 40px !important;
-    line-height: 40px !important;
-    font-size: $font-size-medium !important;
+    height: 48px !important;
+    line-height: 48px !important;
+    font-size: $font-size-large !important;
     padding: 0 24px !important;
     
     &__inline {
@@ -78,55 +89,46 @@
 
   /* == STYLES == */
   &--primary {
-    background: $color-har-blue !important;
-    border: 1px solid $color-har-blue-dark !important;
-    height: 40px;
-    line-height: 40px;
-    font-size: $font-size-medium;
+    background: $color-har-blue !important;    
+    height: 48px;
+    line-height: 48px;
     padding: 0 24px;
     color: $color-snow-white !important;
-    box-shadow: 0 2px 0 $color-har-blue-dark !important;
   }
 
   &--prominent {
     background: $color-har-pink !important;
-    border: 1px solid $color-har-pink-dark !important;
-    height: 40px;
-    line-height: 40px;
-    font-size: $font-size-medium;
+    height: 48px;
+    line-height: 48px;
     padding: 0 24px;
     color: $color-snow-white !important;
-    box-shadow: 0 2px 0 $color-har-pink-dark !important;
 
     &:hover {
       color: $color-snow-white;
     }
   }
 
+  &--simple ,
   &--ordinary {
     background: $color-snow-white !important;
-    border: 1px solid $color-auxiliary-light !important;
-    height: 40px;
-    line-height: 40px;
-    font-size: $font-size-medium;
+    border: 1px solid #d0d0d0 !important;
+    height: 48px;
+    line-height: 48px;
     padding: 0 24px;
-    color: $color-auxiliary;
-    box-shadow: 0 2px 0 $color-auxiliary-light !important;
+    color: $color-black;
 
     &:hover {
-      color: $color-auxiliary;
+      color: $color-black;
     }
   }
 
   &--shapeless {
     background: transparent !important;
     border: 1px solid rgba(255,255,255,0) !important;
-    height: 40px;
-    line-height: 40px;
-    font-size: $font-size-medium;
+    height: 48px;
+    line-height: 48px;
     padding: 0 24px;
-    color: $color-har-blue-dark;
-    box-shadow: none !important;
+    color: $color-black;
 
     &:hover {
       color: $color-har-blue;
@@ -135,15 +137,10 @@
 
   &:disabled {
     opacity: 0.65 !important;
-    background: $color-cloudy-sky-light !important;
-    border: 1px solid $color-auxiliary-light !important;
-    height: 40px;
-    line-height: 40px;
-    font-size: $font-size-medium;
-    padding: 0 24px;
-    color: $color-auxiliary !important;
+    background: $color-cement !important;
+    border: 1px solid $color-cement !important;
+    color:  $color-cement-dark !important;
     cursor: not-allowed;
-    box-shadow: 0 2px 0 $color-auxiliary-light !important;
 
     &:hover {
       color: $color-auxiliary;
@@ -157,23 +154,9 @@
     padding: 0 !important;
     border-radius: 50%;
   }
-  
-  &--simple {
-    background: $color-snow-white !important;
-    border: 1px solid $color-auxiliary-light !important;
-    height: 40px;
-    line-height: 40px;
-    font-size: $font-size-medium;
-    padding: 0 24px;
-    color: $color-auxiliary !important;
-	font-weight: $font-weight-semi-bold !important;
-  }
-  
+    
   &--flate {
-    height: 40px;
-    font-size: $font-size-medium;
-    color: $color-auxiliary !important;
-    box-shadow: 0 0px 0 $color-har-blue-dark !important;
+    color: $color-black !important;
     
     &:hover {
       background-color: $color-cement-light;
