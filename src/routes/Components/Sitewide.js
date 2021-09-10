@@ -43,6 +43,15 @@ export default class Sitewide extends Component {
         		<div class="clearfix"></div>
         	</div>
        </div>`,
+       `<div class="p-md-5 p-3">
+        	<div class="" style="max-width:525px;">
+        		<a class="advisory_item" href="#" style="background-image: url(https://pics.harstatic.com/agent/680946.jpg);filter: grayscale(1);" data-toggle="tooltip" data-placement="top" title="Elyssin Corona"></a>
+        		<a class="advisory_item" href="#" style="background-image: url(https://pics.harstatic.com/agent/631098.jpg);filter: grayscale(1);" data-toggle="tooltip" data-placement="top" title="Elyssin Corona"></a>
+        		<a class="advisory_item" href="#" style="background-image: url(https://pics.harstatic.com/agent/694080.jpg);filter: grayscale(1);" data-toggle="tooltip" data-placement="top" title="Elyssin Corona"></a>
+        		<a class="advisory_item" href="#" style="background-image: url(https://pics.harstatic.com/agent/199279.jpg);filter: grayscale(1);" data-toggle="tooltip" data-placement="top" title="Elyssin Corona"></a>
+        		<div class="clearfix"></div>
+        	</div>
+       </div>`,
        `<div class="row">
         	<div class="col col-8">
         		<div class="alertbox alertbox--warning"><span class="font_weight--bold">Warning:</span> Answers provided are just opinions and should not be accepted as advice.</div>
@@ -154,10 +163,12 @@ export default class Sitewide extends Component {
         activeChild="sitewide">
 
         <TemplateComponentBlock blockTitle="Photo Collage" elements={this.elements[0]} codeSnippets={this.codeSnippets[0]} />
-        <TemplateComponentBlock blockTitle="Alert Boxes" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
-        <TemplateComponentBlock blockTitle="Tabuler Data" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
-        <TemplateComponentBlock blockTitle="Disclaimer" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
+        <TemplateComponentBlock blockTitle="Advisory Group" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
+        <TemplateComponentBlock blockTitle="Alert Boxes" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
+        <TemplateComponentBlock blockTitle="Tabuler Data" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
         <TemplateComponentBlock blockTitle="Disclaimer" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
+        <TemplateComponentBlock blockTitle="Disclaimer" elements={this.elements[5]} codeSnippets={this.codeSnippets[5]} />
+        
         
       </TemplateDefault>
     )

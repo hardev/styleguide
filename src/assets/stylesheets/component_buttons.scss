@@ -11,8 +11,6 @@
   border-radius: 8px;
   font-weight: $font-weight-bold;
   border:none;
-  height: 40px;
-  line-height: 40px;
   font-size: $font-size-medium;
   
   &:hover,
@@ -28,8 +26,11 @@
 
   /* == SIZES == */
   &--large {
-    height: 64px !important;
-    line-height: 64px !important;
+    /* new sizes
+	height: 64px !important;
+    line-height: 64px !important;*/
+    height: 48px !important;
+    line-height: 48px !important;
     font-size: $font-size-large_extra !important;
     padding: 0 32px !important;
   }
@@ -42,8 +43,11 @@
   }
   
   &--medium {
+	/* new sizes 
     height: 48px !important;
-    line-height: 48px !important;
+    line-height: 48px !important;*/
+    height: 40px !important;
+    line-height: 40px !important;
     font-size: $font-size-large !important;
     padding: 0 24px !important;
     
@@ -90,17 +94,17 @@
   /* == STYLES == */
   &--primary {
     background: $color-har-blue !important;    
-    height: 48px;
-    line-height: 48px;
     padding: 0 24px;
+    height: 40px;
+    line-height: 40px;
     color: $color-snow-white !important;
   }
 
   &--prominent {
     background: $color-har-pink !important;
-    height: 48px;
-    line-height: 48px;
     padding: 0 24px;
+    height: 40px;
+    line-height: 40px;
     color: $color-snow-white !important;
 
     &:hover {
@@ -112,9 +116,9 @@
   &--ordinary {
     background: $color-snow-white !important;
     border: 1px solid #d0d0d0 !important;
-    height: 48px;
-    line-height: 48px;
     padding: 0 24px;
+    height: 40px;
+    line-height: 40px;
     color: $color-black;
 
     &:hover {
@@ -125,9 +129,9 @@
   &--shapeless {
     background: transparent !important;
     border: 1px solid rgba(255,255,255,0) !important;
-    height: 48px;
-    line-height: 48px;
     padding: 0 24px;
+    height: 40px;
+    line-height: 40px;
     color: $color-black;
 
     &:hover {
@@ -156,6 +160,7 @@
   }
     
   &--flate {
+	height: 40px;
     color: $color-black !important;
     
     &:hover {
@@ -561,6 +566,7 @@
   &--remove {
   	background-color: #515b7a;
 	height: 24px;
+	line-height: 24px;	
 	padding: 0 8px 0 8px;
 	border-radius: 4px;
 	background-color: #515b7a;
