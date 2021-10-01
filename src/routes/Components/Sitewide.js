@@ -88,6 +88,16 @@ export default class Sitewide extends Component {
        </div>`,
        `<div class="row">
         	<div class="col col-12">
+        		<blockquote class="qoutetion">
+        			<div class="qoutetion__text">        				
+						<span>The greatest compliment you can give me is a referral The greatest compliment you can give me is a referral!<img class="qoutetion__text_endqoute" src="https://content.harstatic.com/media/icons/quote-end.svg"><span>
+					</div>
+					<a class="qoutetion__readmore" href="">read more</a>
+        		</blockquote>
+        	</div>
+       </div>`,
+       `<div class="row">
+        	<div class="col col-12">
         		<img class="flag flag--small" src="https://content.harstatic.com/resources/images/find_a_pro/flags_mini/uk.jpg">
         		<img class="flag flag--small" src="https://content.harstatic.com/resources/images/find_a_pro/flags_mini/kr.jpg">
         		<img class="flag flag--small" src="https://content.harstatic.com/resources/images/find_a_pro/flags_mini/dk.jpg">
@@ -167,7 +177,7 @@ export default class Sitewide extends Component {
         <TemplateComponentBlock blockTitle="Alert Boxes" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
         <TemplateComponentBlock blockTitle="Tabuler Data" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
         <TemplateComponentBlock blockTitle="Disclaimer" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
-        <TemplateComponentBlock blockTitle="Disclaimer" elements={this.elements[5]} codeSnippets={this.codeSnippets[5]} />
+        <TemplateComponentBlock blockTitle="Qoutetion" elements={this.elements[5]} codeSnippets={this.codeSnippets[5]} />
         
         
       </TemplateDefault>

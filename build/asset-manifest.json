@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.83e1122c.chunk.css",
-    "main.js": "/static/js/main.8a08a7c8.chunk.js",
-    "main.js.map": "/static/js/main.8a08a7c8.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.bba92e10.chunk.js": "/static/js/2.bba92e10.chunk.js",
-    "static/js/2.bba92e10.chunk.js.map": "/static/js/2.bba92e10.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.e68e72c80a991192b37dd5205adeaaba.js": "/precache-manifest.e68e72c80a991192b37dd5205adeaaba.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.83e1122c.chunk.css.map": "/static/css/main.83e1122c.chunk.css.map",
-    "static/media/design_system_website.scss": "/static/media/icon-special-option-arrow-light.1296296e.svg",
-    "static/media/main.scss": "/static/media/placeholder.61f9092f.svg",
-    "static/media/logo-har-default.svg": "/static/media/logo-har-default.0f8d55a8.svg"
+    "main.css": "/styleguide/static/css/main.d749a9f6.chunk.css",
+    "main.js": "/styleguide/static/js/main.8de83c80.chunk.js",
+    "main.js.map": "/styleguide/static/js/main.8de83c80.chunk.js.map",
+    "runtime~main.js": "/styleguide/static/js/runtime~main.c875222f.js",
+    "runtime~main.js.map": "/styleguide/static/js/runtime~main.c875222f.js.map",
+    "static/js/2.1da78cda.chunk.js": "/styleguide/static/js/2.1da78cda.chunk.js",
+    "static/js/2.1da78cda.chunk.js.map": "/styleguide/static/js/2.1da78cda.chunk.js.map",
+    "index.html": "/styleguide/index.html",
+    "precache-manifest.69965b675d59141199432c366c104510.js": "/styleguide/precache-manifest.69965b675d59141199432c366c104510.js",
+    "service-worker.js": "/styleguide/service-worker.js",
+    "static/css/main.d749a9f6.chunk.css.map": "/styleguide/static/css/main.d749a9f6.chunk.css.map",
+    "static/media/design_system_website.scss": "/styleguide/static/media/icon-special-option-arrow-light.1296296e.svg",
+    "static/media/main.scss": "/styleguide/static/media/placeholder.61f9092f.svg",
+    "static/media/logo-har-default.svg": "/styleguide/static/media/logo-har-default.0f8d55a8.svg"
   }
 }

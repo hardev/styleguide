@@ -9,25 +9,21 @@ export default class ListingCardsLandscapeV2 extends Component {
     super(props);
 
     this.elements = [
-      `<div class="row pb-4">
+      `
+      <div class="row pb-4">
         <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
-          <h2 class="h2--simple h2--simple__black" tabindex="0">Landscape – List view</h2>
+          <h2 class="h2--simple h2--simple__black" tabindex="0">Landscape default</h2>
         </div>
       </div>
 
-      <div class="row">
+      <div class="row mb-5 pb-5">
         <div class="col col-12 mb-0 pb-0 text-left ">
-        	<!-- card--portrait v2 -->
-	        <div class="cardv2 cardv2--landscape">
-	        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
-		        	<!-- card img -->
-		        	<div class="cardv2--landscape__image" style="background-image:url(https://photos.harstatic.com/194227305/lr/img-1.jpeg?ts=2021-08-06T12:35:50.297);"></div>
-		        	<!-- / card img -->
-		        </a>
-	        	<!-- card header -->
-	        	<div class="cardv2--landscape__content">
-	        	<div class="cardv2--landscape__content__header">	
-	        		<div class="cardv2--landscape__content__header_agent">
+        
+	    	<!-- card--landscape v2 -->
+	        <div class="cardv2--landscape">
+	        	<!-- / card header -->	        	
+	        	<div class="cardv2--landscape__header">	
+	        		<div class="cardv2--landscape__header_agent">
 	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
 				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
 				            <div class="agent_signaturev2__info">
@@ -40,10 +36,12 @@ export default class ListingCardsLandscapeV2 extends Component {
 				            </div>
 				        </a>
 	        		</div>
-	        		<div class="cardv2--landscape__content__header_controls">
-	        			<a href="#"><img src="https://content.harstatic.com/media/icons/icon-bookmark-off.svg"></a>
+	        		<div class="cardv2--landscape__header_controls">
+	
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--small btn--icon btn--icon--favorite" aria-label="Save Bartlett Street #4 Houston TX 77098 as favorite">Save</button>
+	        			
 	        			<div class="dropdown d-inline-block">
-						 <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="https://content.harstatic.com/media/icons/icon-more-options.svg"></a>
+						 <button role="button" class="btn btn--ordinary btn--small btn--icon btn--icon--lone btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
 						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(434px, 41px, 0px);">
 						    <a class="dropdown-item" href="#">Action one</a>
 						    <a class="dropdown-item" href="#">Action two</a>
@@ -53,58 +51,94 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        		</div>
 	        	</div>
 	        	<!-- / card header -->	        	
-	        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
-		        	<!-- card body -->
+	        	
+	        	<div class="cardv2--landscape__content">		        	
 		        	<div class="cardv2--landscape__content__body">
-		        		<div class="cardv2--landscape__content__body_flexrow">
-		        			<div class="cardv2--landscape__content__body_price">$7,009,00</div>
-							<div class="cardv2--landscape__content__body_status"><div class="label label--forsale">for sale</div></div>
-						</div>
-						<div class="cardv2--landscape__content__body_address">
-							9 West Lane<br>
-							Houston, TX 77019
-						</div>
-						<div class="cardv2--landscape__content__body_features">
-							5 beds · 5 baths · 2 stories<br>
-							7,551 built sqft · 1932 year built
-						</div>
-						<div class="cardv2--landscape__content__body_dayson">
-							<div class="circle_nimber">2</div>  Days on HAR
-						</div>
-		        	</div>
-		        	<!-- / card body -->
-		        </a>	
-		        </div>
-	        	<!-- / card conetent -->
+			        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
+				        	<!-- card img -->
+				        	<div class="cardv2--landscape__content__body__image">
+				        		<div class="cardv2--landscape__content__body__image__img" style="background-image:url(https://photos.harstatic.com/194227305/lr/img-1.jpeg?ts=2021-08-06T12:35:50.297);"></div>
+				        		
+				        		<!-- / card footer -->
+						        <div class="cardv2--landscape__content__footer">
+						        	<div class="cardv2--landscape__content__footer_dayson">
+										<div class="circle_nimber">2</div>  Days on HAR
+									</div>
+									
+									<div class="cardv2--landscape__content__footer_ph">
+										39 Photos, 1 Video
+									</div>							
+						        </div>
+						        <!-- / card footer -->
+				        	</div>
+				        	<!-- / card img -->
+				        </a>
+			        	<!-- card header -->
+		        		
+			        	<!-- card details -->
+			        	<div class="cardv2--landscape__content__body__details">
+				        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
+				        		<div class="cardv2--landscape__content__body__details_address">
+				        			<div class="cardv2--landscape__content__body__details_address_left">	
+				        				<div class="cardv2--landscape__content__body__details_address_left_add">	
+				        					3914 Normandy Ave<br>
+											Highland Park, TX 5205
+										</div>
+										<div class="cardv2--landscape__content__body__details_address_left_info">
+											Residential - Single Family Property<br>
+											Style in Mount Vernon 01 & 03 Subdivision
+										</div>
+				        			</div>
+				        			<div class="cardv2--landscape__content__body__details_address_right">	
+				        				<div class="cardv2--landscape__content__body__details_price">$13,500,000</div>
+										<div class="label label--forsale">for sale</div>
+									</div>
+								</div>
+								
+								
+								<div class="cardv2--landscape__content__body__details_features">
+									<div class="cardv2--landscape__content__body__details_features_item">6 bedrooms</div>
+									<div class="cardv2--landscape__content__body__details_features_item">1986 year built</div>
+									<div class="cardv2--landscape__content__body__details_features_item">7 full & 1 half baths</div>
+									<div class="cardv2--landscape__content__body__details_features_item">0.47 Acres</div>		
+									<div class="cardv2--landscape__content__body__details_features_item">3 stories</div>
+									<div class="cardv2--landscape__content__body__details_features_item">Private Pool</div>
+									<div class="cardv2--landscape__content__body__details_features_item">8,741 built sqft</div>
+								</div>
+							</a>
+							
+			        	</div>
+			        	<!-- / card details -->
+				    </div>
+			        <!-- / card body -->
+			    </div>
+			    <!-- / card content -->	
 	        </div>
-			<!-- / card--portrait v2 -->
-			        	
+			<!-- / card--landscape v2 -->
+			
+						        	
         </div>
-      </div>
+      </div><!-- <div class="row"> -->
+      
+
       
       
       
       
-      <div class="row pb-4 pt-5">
+      <div class="row pb-4">
         <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
-          <h2 class="h2--simple h2--simple__black" tabindex="0">Landscape – List view w/ labels</h2>
-          <h4 class="mb-0" tabindex="0">Just Listed</h4>
+          <h2 class="h2--simple h2--simple__black" tabindex="0">W/ Schools</h2>
         </div>
       </div>
 
-      <div class="row">
+      <div class="row mb-5 pb-5">
         <div class="col col-12 mb-0 pb-0 text-left ">
-        	<!-- cardv2--landscape v2 -->
-	        <div class="cardv2 cardv2--landscape mb-2">
-	        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
-		        	<!-- card img -->
-		        	<div class="cardv2--landscape__image" style="background-image:url(https://photos.harstatic.com/194227305/lr/img-1.jpeg?ts=2021-08-06T12:35:50.297);"></div>
-		        	<!-- / card img -->
-		        </a>
-	        	<!-- card header -->
-	        	<div class="cardv2--landscape__content">
-	        	<div class="cardv2--landscape__content__header">	
-	        		<div class="cardv2--landscape__content__header_agent">
+        
+	    	<!-- card--landscape v2 -->
+	        <div class="cardv2--landscape">
+	        	<!-- / card header -->	        	
+	        	<div class="cardv2--landscape__header">	
+	        		<div class="cardv2--landscape__header_agent">
 	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
 				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
 				            <div class="agent_signaturev2__info">
@@ -117,10 +151,12 @@ export default class ListingCardsLandscapeV2 extends Component {
 				            </div>
 				        </a>
 	        		</div>
-	        		<div class="cardv2--landscape__content__header_controls">
-	        			<a href="#"><img src="https://content.harstatic.com/media/icons/icon-bookmark-off.svg"></a>
+	        		<div class="cardv2--landscape__header_controls">
+	
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--small btn--icon btn--icon--favorite" aria-label="Save Bartlett Street #4 Houston TX 77098 as favorite">Save</button>
+	        			
 	        			<div class="dropdown d-inline-block">
-						 <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="https://content.harstatic.com/media/icons/icon-more-options.svg"></a>
+						 <button role="button" class="btn btn--ordinary btn--small btn--icon btn--icon--lone btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
 						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(434px, 41px, 0px);">
 						    <a class="dropdown-item" href="#">Action one</a>
 						    <a class="dropdown-item" href="#">Action two</a>
@@ -130,311 +166,98 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        		</div>
 	        	</div>
 	        	<!-- / card header -->	        	
-	        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
-		        	<!-- card body -->
+	        	
+	        	<div class="cardv2--landscape__content">		        	
 		        	<div class="cardv2--landscape__content__body">
-		        		<div class="cardv2--landscape__content__body_flexrow">
-		        			<div class="cardv2--landscape__content__body_price">$7,009,00</div>
-							<div class="cardv2--landscape__content__body_status"><div class="label label--forsale">for sale</div></div>
-						</div>
-						<div class="cardv2--landscape__content__body_address">
-							9 West Lane<br>
-							Houston, TX 77019
-						</div>
-						<div class="cardv2--landscape__content__body_features">
-							5 beds · 5 baths · 2 stories<br>
-							7,551 built sqft · 1932 year built
-						</div>
-						<div class="cardv2--landscape__content__body_dayson">
-							<div class="circle_nimber">2</div>  Days on HAR
-						</div>
-		        	</div>
-		        	<!-- / card body -->
-		        </a>	
-		        </div>
-	        	<!-- / cardv2 conetent -->
-	        </div>
-	        <div class="cardv2--landscape__footer">
-	        	<div class="listingbadges listingbadges--justlisted" style="background-image:url(https://content.harstatic.com/media/icons/icon-listing-just-listed.svg);">Just listed</div>
-	        </div>
-			<!-- / card--portrait v2 -->
-			        	
-        </div>
-      </div>
-      
-      
-      
-      
-      
-      
-      <div class="row pb-4 pt-5">
-        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
-          <h4 class="mb-0" tabindex="0">Price Change</h4>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col col-12 mb-0 pb-0 text-left ">
-        	<!-- cardv2--landscape v2 -->
-	        <div class="cardv2 cardv2--landscape mb-2">
-	        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
-		        	<!-- card img -->
-		        	<div class="cardv2--landscape__image" style="background-image:url(https://photos.harstatic.com/194227305/lr/img-1.jpeg?ts=2021-08-06T12:35:50.297);"></div>
-		        	<!-- / card img -->
-		        </a>
-	        	<!-- card header -->
-	        	<div class="cardv2--landscape__content">
-	        	<div class="cardv2--landscape__content__header">	
-	        		<div class="cardv2--landscape__content__header_agent">
-	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
-				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
-				            <div class="agent_signaturev2__info">
-				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
-				                Michel Hayek
-				              </div>
-				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
-				                Better Homes And Gardens Real
-				              </div>
-				            </div>
+			        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
+				        	<!-- card img -->
+				        	<div class="cardv2--landscape__content__body__image">
+				        		<div class="cardv2--landscape__content__body__image__img" style="background-image:url(https://photos.harstatic.com/194227305/lr/img-1.jpeg?ts=2021-08-06T12:35:50.297);"></div>
+				        		
+				        		<!-- / card footer -->
+						        <div class="cardv2--landscape__content__footer">
+						        	<div class="cardv2--landscape__content__footer_dayson">
+										<div class="circle_nimber">2</div>  Days on HAR
+									</div>
+									
+									<div class="cardv2--landscape__content__footer_ph">
+										39 Photos
+									</div>							
+						        </div>
+						        <!-- / card footer -->
+				        	</div>
+				        	<!-- / card img -->
 				        </a>
-	        		</div>
-	        		<div class="cardv2--landscape__content__header_controls">
-	        			<a href="#"><img src="https://content.harstatic.com/media/icons/icon-bookmark-off.svg"></a>
-	        			<div class="dropdown d-inline-block">
-						 <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="https://content.harstatic.com/media/icons/icon-more-options.svg"></a>
-						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(434px, 41px, 0px);">
-						    <a class="dropdown-item" href="#">Action one</a>
-						    <a class="dropdown-item" href="#">Action two</a>
-						    <a class="dropdown-item" href="#">Action three</a>
-						  </div>
-						</div>	        			
-	        		</div>
-	        	</div>
-	        	<!-- / card header -->	        	
-	        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
-		        	<!-- card body -->
-		        	<div class="cardv2--landscape__content__body">
-		        		<div class="cardv2--landscape__content__body_flexrow">
-		        			<div class="cardv2--landscape__content__body_price">$7,009,00 <span class="price_changed" id="PricePopover" data-trigger="focus" data-custom-class="price_popover" data-toggle="popover" class="color_pending d-inline-block"><img src="https://content.harstatic.com/media/icons/icon-price-reduction.svg">1.24%</span>								
-		        			</div>
-							<div class="cardv2--landscape__content__body_status"><div class="label label--forsale">for sale</div></div>
-						</div>
-						<div class="cardv2--landscape__content__body_address">
-							9 West Lane<br>
-							Houston, TX 77019
-						</div>
-						<div class="cardv2--landscape__content__body_features">
-							5 beds · 5 baths · 2 stories<br>
-							7,551 built sqft · 1932 year built
-						</div>
-						<div class="cardv2--landscape__content__body_dayson">
-							<div class="circle_nimber">2</div>  Days on HAR
-						</div>
-		        	</div>
-		        	<!-- / card body -->
-		        </a>	
-		        </div>
-	        	<!-- / cardv2 conetent -->
-	        </div>
-	        <div class="cardv2--landscape__footer">
-	        	<div class="listingbadges listingbadges--pricereduction" style="background-image:url(https://content.harstatic.com/media/icons/icon-price-reduction.svg);">Price Reduction</div>
-	        </div>
-			<!-- / card--portrait v2 -->
-			        	
-        </div>
-      </div>      
-    
-    
-    
-    
-    
-    
-	  <div class="row pb-4 pt-5">
-        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
-          <h4 class="mb-0" tabindex="0">W/ all labels</h4>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col col-12 mb-0 pb-0 text-left ">
-        	<!-- card--portrait v2 -->
-	        <div class="cardv2 cardv2--landscape mb-2">
-	        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
-		        	<!-- card img -->
-		        	<div class="cardv2--landscape__image" style="background-image:url(https://photos.harstatic.com/194227305/lr/img-1.jpeg?ts=2021-08-06T12:35:50.297);"></div>
-		        	<!-- / card img -->
-		        </a>
-	        	<!-- card header -->
-	        	<div class="cardv2--landscape__content">
-	        	<div class="cardv2--landscape__content__header">	
-	        		<div class="cardv2--landscape__content__header_agent">
-	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
-				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
-				            <div class="agent_signaturev2__info">
-				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
-				                Michel Hayek
-				              </div>
-				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
-				                Better Homes And Gardens Real
-				              </div>
-				            </div>
-				        </a>
-	        		</div>
-	        		<div class="cardv2--landscape__content__header_controls">
-	        			<a href="#"><img src="https://content.harstatic.com/media/icons/icon-bookmark-off.svg"></a>
-	        			<div class="dropdown d-inline-block">
-						 <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="https://content.harstatic.com/media/icons/icon-more-options.svg"></a>
-						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(434px, 41px, 0px);">
-						    <a class="dropdown-item" href="#">Action one</a>
-						    <a class="dropdown-item" href="#">Action two</a>
-						    <a class="dropdown-item" href="#">Action three</a>
-						  </div>
-						</div>	        			
-	        		</div>
-	        	</div>
-	        	<!-- / card header -->	        	
-	        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
-		        	<!-- card body -->
-		        	<div class="cardv2--landscape__content__body">
-		        		<div class="cardv2--landscape__content__body_flexrow">
-		        			<div class="cardv2--landscape__content__body_price">$7,009,00</div>
-							<div class="cardv2--landscape__content__body_status"><div class="label label--forsale">for sale</div></div>
-						</div>
-						<div class="cardv2--landscape__content__body_address">
-							9 West Lane<br>
-							Houston, TX 77019
-						</div>
-						<div class="cardv2--landscape__content__body_features">
-							5 beds · 5 baths · 2 stories<br>
-							7,551 built sqft · 1932 year built
-						</div>
-						<div class="cardv2--landscape__content__body_dayson">
-							<div class="circle_nimber">2</div>  Days on HAR
-						</div>
-		        	</div>
-		        	<!-- / card body -->
-		        </a>	
-		        </div>
-	        	<!-- / card conetent -->
-	        </div>
-	        <div class="cardv2--landscape__footer">	        	
-	        	<div class="listingbadges listingbadges--justlisted" style="background-image:url(https://content.harstatic.com/media/icons/icon-listing-just-listed.svg);">Just listed</div>
-	        	<div class="listingbadges listingbadges--pricereduction" style="background-image:url(https://content.harstatic.com/media/icons/icon-price-reduction.svg);">Price Reduction</div>
-	        	<div class="listingbadges listingbadges--newconstruction" style="background-image:url(https://content.harstatic.com/media/icons/icon-new-construction.svg);">New construction</div>
-	        	<div class="listingbadges listingbadges--openhouse_simple" style="background-image:url(https://content.harstatic.com/media/icons/icon-open-house.svg);">Open House</div>
-	        	<div class="listingbadges listingbadges--foreclosure" style="background-image:url(https://content.harstatic.com/media/icons/icon-foreclosure.svg);">Foreclosure</div>
-	        </div>	        
-			<!-- / card--portrait v2 -->
-			        	
-        </div>
-      </div>
-      
-      
-      
-      
-      
-      
-      <div class="row pb-4 pt-5">
-        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
-          <h4 class="mb-0" tabindex="0">W/ assigned schools info</h4>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col col-12 mb-0 pb-0 text-left ">
-        	<!-- card--portrait v2 -->
-	        <div class="cardv2 cardv2--landscape">
-	        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
-		        	<!-- card img -->
-		        	<div class="cardv2--landscape__image" style="background-image:url(https://photos.harstatic.com/194227305/lr/img-1.jpeg?ts=2021-08-06T12:35:50.297);"></div>
-		        	<!-- / card img -->
-		        </a>
-	        	<!-- card header -->
-	        	<div class="cardv2--landscape__content">
-	        	<div class="cardv2--landscape__content__header">	
-	        		<div class="cardv2--landscape__content__header_agent">
-	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
-				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
-				            <div class="agent_signaturev2__info">
-				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
-				                Michel Hayek
-				              </div>
-				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
-				                Better Homes And Gardens Real
-				              </div>
-				            </div>
-				        </a>
-	        		</div>
-	        		<div class="cardv2--landscape__content__header_controls">
-	        			<a href="#"><img src="https://content.harstatic.com/media/icons/icon-bookmark-off.svg"></a>
-	        			<div class="dropdown d-inline-block">
-						 <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="https://content.harstatic.com/media/icons/icon-more-options.svg"></a>
-						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(434px, 41px, 0px);">
-						    <a class="dropdown-item" href="#">Action one</a>
-						    <a class="dropdown-item" href="#">Action two</a>
-						    <a class="dropdown-item" href="#">Action three</a>
-						  </div>
-						</div>	        			
-	        		</div>
-	        	</div>
-	        	<!-- / card header -->	        	
-	        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
-		        	<!-- card body -->
-		        	<div class="cardv2--landscape__content__body">
-		        		<div class="cardv2--landscape__content__body_flexrow">
-		        			<div class="cardv2--landscape__content__body_price">$7,009,00</div>
-							<div class="cardv2--landscape__content__body_status"><div class="label label--forsale">for sale</div></div>
-						</div>
-						<div class="cardv2--landscape__content__body_address">
-							9 West Lane<br>
-							Houston, TX 77019
-						</div>
-						<div class="cardv2--landscape__content__body_features">
-							5 beds · 5 baths · 2 stories<br>
-							7,551 built sqft · 1932 year built
-						</div>
-						<div class="cardv2--landscape__content__body_flexrow">
-							<div class="cardv2--landscape__content__body_impovement" onclick="location.href='http://har.com'; return false;">								
-			                  	<span class="title">Zone / Assigned schools:</span> Settlers Way Elementary School, First Colony Middle School, ClementsSchool
+			        	<!-- card header -->
+		        		
+			        	<!-- card details -->
+			        	<div class="cardv2--landscape__content__body__details">
+				        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
+				        		<div class="cardv2--landscape__content__body__details_address">
+				        			<div class="cardv2--landscape__content__body__details_address_left">	
+				        				<div class="cardv2--landscape__content__body__details_address_left_add">	
+				        					3914 Normandy Ave<br>
+											Highland Park, TX 5205
+										</div>
+										<div class="cardv2--landscape__content__body__details_address_left_info">
+											Residential - Single Family Property<br>
+											Style in Mount Vernon 01 & 03 Subdivision
+										</div>
+				        			</div>
+				        			<div class="cardv2--landscape__content__body__details_address_right">	
+				        				<div class="cardv2--landscape__content__body__details_price">$13,500,000</div>
+										<div class="label label--forsale">for sale</div>
+									</div>
+								</div>
+								
+								
+								<div class="cardv2--landscape__content__body__details_features">
+									<div class="cardv2--landscape__content__body__details_features_item">6 bedrooms</div>
+									<div class="cardv2--landscape__content__body__details_features_item">1986 year built</div>
+									<div class="cardv2--landscape__content__body__details_features_item">7 full & 1 half baths</div>
+									<div class="cardv2--landscape__content__body__details_features_item">0.47 Acres</div>		
+									<div class="cardv2--landscape__content__body__details_features_item">3 stories</div>
+									<div class="cardv2--landscape__content__body__details_features_item">Private Pool</div>
+									<div class="cardv2--landscape__content__body__details_features_item">8,741 built sqft</div>
+								</div>
+							</a>
+							<div class="cardv2--landscape__content__body__details_impovement">
+		                  		<span class="title">Zoned / Assigned Schools:</span><br>			                  		
+						  		<a href="#">Settlers Way Elementary School</a><br>
+						  		<a href="#">First Colony Middle School</a><br>
+						  		<a href="#">Clements High School</a>
 			                </div>
-							<div class="cardv2--landscape__content__body_dayson">
-								<div class="circle_nimber">2</div>  Days on HAR
-							</div>
-						</div>
-		        	</div>
-		        	<!-- / card body -->
-		        </a>	
-		        </div>
-	        	<!-- / card conetent -->
-	        </div>   
-			<!-- / card--portrait v2 -->
-			        	
+			        	</div>
+			        	<!-- / card details -->
+				    </div>
+			        <!-- / card body -->
+			    </div>
+			    <!-- / card content -->	
+	        </div>
+			<!-- / card--landscape v2 -->
+			
+						        	
         </div>
-      </div>
-
-
-
-
-
-	<div class="row pb-4 pt-5">
+      </div><!-- <div class="row"> -->
+      
+      
+      
+      
+      
+      <div class="row pb-4">
         <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
-          <h4 class="mb-0" tabindex="0">Sold Listings</h4>
+          <h2 class="h2--simple h2--simple__black" tabindex="0">Tax</h2>
         </div>
       </div>
 
-      <div class="row">
+      <div class="row mb-5 pb-5">
         <div class="col col-12 mb-0 pb-0 text-left ">
-        	<!-- card--portrait v2 -->
-	        <div class="cardv2 cardv2--landscape">
-	        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
-		        	<!-- card img -->
-		        	<div class="cardv2--landscape__image" style="background-image:url(https://photos.harstatic.com/194227305/lr/img-1.jpeg?ts=2021-08-06T12:35:50.297);"></div>
-		        	<!-- / card img -->
-		        </a>
-	        	<!-- card header -->
-	        	<div class="cardv2--landscape__content">
-	        	<div class="cardv2--landscape__content__header">	
-	        		<div class="cardv2--landscape__content__header_agent">
+        
+	    	<!-- card--landscape v2 -->
+	        <div class="cardv2--landscape">
+	        	<!-- / card header -->	        	
+	        	<div class="cardv2--landscape__header">	
+	        		<div class="cardv2--landscape__header_agent">
 	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
 				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
 				            <div class="agent_signaturev2__info">
@@ -447,10 +270,12 @@ export default class ListingCardsLandscapeV2 extends Component {
 				            </div>
 				        </a>
 	        		</div>
-	        		<div class="cardv2--landscape__content__header_controls">
-	        			<a href="#"><img src="https://content.harstatic.com/media/icons/icon-bookmark-off.svg"></a>
+	        		<div class="cardv2--landscape__header_controls">
+	
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--small btn--icon btn--icon--favorite" aria-label="Save Bartlett Street #4 Houston TX 77098 as favorite">Save</button>
+	        			
 	        			<div class="dropdown d-inline-block">
-						 <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="https://content.harstatic.com/media/icons/icon-more-options.svg"></a>
+						 <button role="button" class="btn btn--ordinary btn--small btn--icon btn--icon--lone btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
 						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(434px, 41px, 0px);">
 						    <a class="dropdown-item" href="#">Action one</a>
 						    <a class="dropdown-item" href="#">Action two</a>
@@ -460,66 +285,115 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        		</div>
 	        	</div>
 	        	<!-- / card header -->	        	
-	        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
-		        	<!-- card body -->
+	        	
+	        	<div class="cardv2--landscape__content">		        	
 		        	<div class="cardv2--landscape__content__body">
-		        		<div class="cardv2--landscape__content__body_flexrow">
-		        			<div class="cardv2--landscape__content__body_price">$7,009,00</div>
-							<div class="cardv2--landscape__content__body_status"><div class="label label--sold">Sold</div></div>
-						</div>
-						<div class="cardv2--landscape__content__body_address">
-							9 West Lane<br>
-							Houston, TX 77019
-						</div>
-						<div class="cardv2--landscape__content__body_features">
-							5 beds · 5 baths · 2 stories<br>
-							7,551 built sqft · 1932 year built
-						</div>
-						<div class="cardv2--landscape__content__body_flexrow">
-							<div class="cardv2--landscape__content__body_soldtext">Sold: 06 June, 2021</div>
-							<div class="cardv2--landscape__content__body_dayson">
-								<div class="circle_nimber">2</div>  Days on HAR
-							</div>
-						</div>
-		        	</div>
-		        	<!-- / card body -->
-		        </a>	
-		        </div>
-	        	<!-- / card conetent -->
-	        </div>   
-			<!-- / card--portrait v2 -->
-			        	
+			        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
+				        	<!-- card img -->
+				        	<div class="cardv2--landscape__content__body__image">
+				        		<div class="cardv2--landscape__content__body__image__img" style="background-image:url(https://photos.harstatic.com/194227305/lr/img-1.jpeg?ts=2021-08-06T12:35:50.297);"></div>
+				        		
+				        		<!-- / card footer -->
+						        <div class="cardv2--landscape__content__footer">
+						        	<div class="cardv2--landscape__content__footer_ph">
+										39 Photos
+									</div>							
+						        </div>
+						        <!-- / card footer -->
+				        	</div>
+				        	<!-- / card img -->
+				        </a>
+			        	<!-- card header -->
+		        		
+			        	<!-- card details -->
+			        	<div class="cardv2--landscape__content__body__details">
+				        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
+				        		<div class="cardv2--landscape__content__body__details_address">
+				        			<div class="cardv2--landscape__content__body__details_address_left">	
+				        				<div class="cardv2--landscape__content__body__details_address_left_add">	
+				        					3914 Normandy Ave<br>
+											Highland Park, TX 5205
+										</div>
+										<div class="cardv2--landscape__content__body__details_address_left_info">
+											Residential - Single Family Property<br>
+											Style in Mount Vernon 01 & 03 Subdivision
+										</div>
+				        			</div>
+				        			<div class="cardv2--landscape__content__body__details_address_right">	
+				        				<div class="cardv2--landscape__content__body__details_price">$13,500,000</div>
+										<div class="cardv2--landscape__content__body__details_address_right_txt">
+											Market Value<br>
+											Appraisal District
+										</div>
+									</div>
+								</div>
+								
+								
+								<div class="cardv2--landscape__content__body__details_features">
+									<div class="cardv2--landscape__content__body__details_features_item">6 bedrooms</div>
+									<div class="cardv2--landscape__content__body__details_features_item">1986 year built</div>
+									<div class="cardv2--landscape__content__body__details_features_item">7 full & 1 half baths</div>
+									<div class="cardv2--landscape__content__body__details_features_item">0.47 Acres</div>		
+									<div class="cardv2--landscape__content__body__details_features_item">3 stories</div>
+									<div class="cardv2--landscape__content__body__details_features_item">Private Pool</div>
+									<div class="cardv2--landscape__content__body__details_features_item">8,741 built sqft</div>
+								</div>
+							</a>
+							<div class="cardv2--landscape__content__body__details_impovement">
+								<div class="border-bottom pb-2 mb-2">
+			                  		<span class="title">Legal Description:</span> LT 19 BLK 1 HEARTHSTONE ESTATES<br>
+							  		<span class="title">Part of Neighborhood:</span> <a href="#">Hearthstone Estates</a>
+							  	</div>
+							  	<a href="#" class="font_weight--semi_bold">View Nearby Homes For Sale -></a>
+			                </div>
+			        	</div>
+			        	<!-- / card details -->
+				    </div>
+			        <!-- / card body -->
+			    </div>
+			    <!-- / card content -->	
+	        </div>
+			<!-- / card--landscape v2 -->
+			
+						        	
         </div>
-      </div>
-
-
-
-
-	  <div class="row pb-4 pt-5">
+      </div><!-- <div class="row"> -->      
+      
+      
+      
+      
+      <div class="row pb-4">
         <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
-          <h4 class="mb-0" tabindex="0">Without agent</h4>
+          <h2 class="h2--simple h2--simple__black" tabindex="0">W/ Labels</h2>
         </div>
       </div>
 
-      <div class="row">
+      <div class="row mb-5 pb-5">
         <div class="col col-12 mb-0 pb-0 text-left ">
-        	<!-- card--portrait v2 -->
-	        <div class="cardv2 cardv2--landscape without_agent">
-	        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
-		        	<!-- card img -->
-		        	<div class="cardv2--landscape__image" style="background-image:url(https://photos.harstatic.com/194227305/lr/img-1.jpeg?ts=2021-08-06T12:35:50.297);"></div>
-		        	<!-- / card img -->
-		        </a>
-	        	<!-- card header -->
-	        	<div class="cardv2--landscape__content">
-	        	<div class="cardv2--landscape__content__header pb-0">	
-	        		<div class="cardv2--landscape__content__header_agent">
-	        			<div class="cardv2--landscape__content__body_price">$7,009,00</div>
+        
+	    	<!-- card--landscape v2 -->
+	        <div class="cardv2--landscape">
+	        	<!-- / card header -->	        	
+	        	<div class="cardv2--landscape__header">	
+	        		<div class="cardv2--landscape__header_agent">
+	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
+				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
+				            <div class="agent_signaturev2__info">
+				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
+				                Michel Hayek
+				              </div>
+				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
+				                Better Homes And Gardens Real
+				              </div>
+				            </div>
+				        </a>
 	        		</div>
-	        		<div class="cardv2--landscape__content__header_controls">
-	        			<a href="#"><img src="https://content.harstatic.com/media/icons/icon-bookmark-off.svg"></a>
+	        		<div class="cardv2--landscape__header_controls">
+	
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--small btn--icon btn--icon--favorite" aria-label="Save Bartlett Street #4 Houston TX 77098 as favorite">Save</button>
+	        			
 	        			<div class="dropdown d-inline-block">
-						 <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="https://content.harstatic.com/media/icons/icon-more-options.svg"></a>
+						 <button role="button" class="btn btn--ordinary btn--small btn--icon btn--icon--lone btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
 						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(434px, 41px, 0px);">
 						    <a class="dropdown-item" href="#">Action one</a>
 						    <a class="dropdown-item" href="#">Action two</a>
@@ -529,39 +403,315 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        		</div>
 	        	</div>
 	        	<!-- / card header -->	        	
-	        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
-		        	<!-- card body -->
-		        	<div class="cardv2--landscape__content__body border-0 pt-1">
-		        		<div class="cardv2--landscape__content__body_flexrow">
-		        			<div class="cardv2--landscape__content__body_address pt-0">
-								9 West Lane<br>
-								Houston, TX 77019
+	        	
+	        	<div class="cardv2--landscape__content">		        	
+		        	<div class="cardv2--landscape__content__body">
+			        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
+				        	<!-- card img -->
+				        	<div class="cardv2--landscape__content__body__image">
+				        		<div class="cardv2--landscape__content__body__image__img" style="background-image:url(https://photos.harstatic.com/194227305/lr/img-1.jpeg?ts=2021-08-06T12:35:50.297);"></div>
+				        		
+				        		<!-- / card footer -->
+						        <div class="cardv2--landscape__content__footer">
+						        	<div class="cardv2--landscape__content__footer_dayson">
+										<div class="circle_nimber">2</div>  Days on HAR
+									</div>
+									
+									<div class="cardv2--landscape__content__footer_ph">
+										<div class="cardv2--landscape__content__footer_ph_3d">
+											<img src="https://content.harstatic.com/media/icons/3d_toure.svg">
+										</div>
+										
+										39 Photos, 1 Video
+									</div>							
+						        </div>
+						        <!-- / card footer -->
+				        	</div>
+				        	<!-- / card img -->
+				        </a>
+			        	<!-- card header -->
+		        		
+			        	<!-- card details -->
+			        	<div class="cardv2--landscape__content__body__details">
+				        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
+				        		<div class="cardv2--landscape__content__body__details_address">
+				        			<div class="cardv2--landscape__content__body__details_address_left">	
+				        				<div class="cardv2--landscape__content__body__details_address_left_add">	
+				        					3914 Normandy Ave<br>
+											Highland Park, TX 5205
+										</div>
+										<div class="cardv2--landscape__content__body__details_address_left_info">
+											Residential - Single Family Property<br>
+											Style in Mount Vernon 01 & 03 Subdivision
+										</div>
+				        			</div>
+				        			<div class="cardv2--landscape__content__body__details_address_right">	
+				        				<div class="cardv2--landscape__content__body__details_price">$13,500,000</div>
+										<div class="label label--forsale">for sale</div>
+									</div>
+								</div>
+								
+								
+								<div class="cardv2--landscape__content__body__details_features">
+									<div class="cardv2--landscape__content__body__details_features_item">6 bedrooms</div>
+									<div class="cardv2--landscape__content__body__details_features_item">1986 year built</div>
+									<div class="cardv2--landscape__content__body__details_features_item">7 full & 1 half baths</div>
+									<div class="cardv2--landscape__content__body__details_features_item">0.47 Acres</div>		
+									<div class="cardv2--landscape__content__body__details_features_item">3 stories</div>
+									<div class="cardv2--landscape__content__body__details_features_item">Private Pool</div>
+									<div class="cardv2--landscape__content__body__details_features_item">8,741 built sqft</div>
+								</div>
+							</a>
+							<div class="cardv2--landscape__content__body__details_badges">
+								<div class="listingbadges listingbadges--justlisted" style="background-image:url(https://content.harstatic.com/media/icons/icon-listing-just-listed.svg);">Just listed</div>
+								<div class="listingbadges listingbadges--pricereduction" style="background-image:url(https://content.harstatic.com/media/icons/icon-price-reduction.svg);">Price Reduction</div>
+								<div class="listingbadges listingbadges--openhouse_simple" style="background-image:url(https://content.harstatic.com/media/icons/icon-open-house.svg);">Open House</div>
 							</div>
-							<div class="cardv2--landscape__content__body_status pt-3"><div class="label label--forsale">for sale</div></div>
-						</div>						
-						<div class="cardv2--landscape__content__body_features">
-							5 beds · 5 baths · 2 stories<br>
-							7,551 built sqft · 1932 year built
-						</div>
-						<div class="pb-md-5 pb-2"><!-- this block will be only if no agent signature --></div>
-						<div class="cardv2--landscape__content__body_flexrow">
-							<div class="cardv2--landscape__content__body_dayson">
-								<div class="circle_nimber">2</div>  Days on HAR
-							</div>
-						</div>
-		        	</div>
-		        	<!-- / card body -->
-		        </a>	
-		        </div>
-	        	<!-- / card conetent -->
-	        </div>   
-			<!-- / card--portrait v2 -->
-			        	
+			        	</div>
+			        	<!-- / card details -->
+				    </div>
+			        <!-- / card body -->
+			    </div>
+			    <!-- / card content -->	
+	        </div>
+			<!-- / card--landscape v2 -->
+			
+						        	
+        </div>
+      </div><!-- <div class="row"> -->
+      
+      
+      
+      
+      
+      <div class="row pb-4">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h2 class="h2--simple h2--simple__black" tabindex="0">Sold</h2>
         </div>
       </div>
 
+      <div class="row mb-5 pb-5">
+        <div class="col col-12 mb-0 pb-0 text-left ">
+        
+	    	<!-- card--landscape v2 -->
+	        <div class="cardv2--landscape">
+	        	<!-- / card header -->	        	
+	        	<div class="cardv2--landscape__header">	
+	        		<div class="cardv2--landscape__header_agent">
+	        			<div class="cardv2--landscape__header_agent_title"><span class="font_weight--bold">Represented:</span> Buyer</div>
+	        		</div>
+	        		<div class="cardv2--landscape__header_controls">
+	
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--small btn--icon btn--icon--favorite" aria-label="Save Bartlett Street #4 Houston TX 77098 as favorite">Save</button>
+	        			
+	        			<div class="dropdown d-inline-block">
+						 <button role="button" class="btn btn--ordinary btn--small btn--icon btn--icon--lone btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(434px, 41px, 0px);">
+						    <a class="dropdown-item" href="#">Action one</a>
+						    <a class="dropdown-item" href="#">Action two</a>
+						    <a class="dropdown-item" href="#">Action three</a>
+						  </div>
+						</div>	        			
+	        		</div>
+	        	</div>
+	        	<!-- / card header -->	        	
+	        	
+	        	<div class="cardv2--landscape__content">		        	
+		        	<div class="cardv2--landscape__content__body">
+			        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
+				        	<!-- card img -->
+				        	<div class="cardv2--landscape__content__body__image">
+				        		<div class="cardv2--landscape__content__body__image__img" style="background-image:url(https://photos.harstatic.com/194227305/lr/img-1.jpeg?ts=2021-08-06T12:35:50.297);"></div>
+				        		
+				        		<!-- / card footer -->
+						        <div class="cardv2--landscape__content__footer">
+						        	<div class="cardv2--landscape__content__footer_dayson">
+										<div class="circle_nimber">2</div>  Days on HAR
+									</div>
+									
+									<div class="cardv2--landscape__content__footer_ph">
+										39 Photos
+									</div>							
+						        </div>
+						        <!-- / card footer -->
+				        	</div>
+				        	<!-- / card img -->
+				        </a>
+			        	<!-- card header -->
+		        		
+			        	<!-- card details -->
+			        	<div class="cardv2--landscape__content__body__details">
+				        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
+				        		<div class="cardv2--landscape__content__body__details_address">
+				        			<div class="cardv2--landscape__content__body__details_address_left">	
+				        				<div class="cardv2--landscape__content__body__details_address_left_add">	
+				        					3914 Normandy Ave<br>
+											Highland Park, TX 5205
+										</div>
+										<div class="cardv2--landscape__content__body__details_address_left_info">
+											Residential - Single Family Property<br>
+											Style in Mount Vernon 01 & 03 Subdivision
+										</div>
+				        			</div>
+				        			<div class="cardv2--landscape__content__body__details_address_right">	
+				        				<div class="cardv2--landscape__content__body__details_price">$13,500,000</div>
+										<div class="label label--sold">Sold</div>
+										<div class="font_weight--bold color_sold pt-3">06/06/2021</div>
+									</div>
+								</div>
+								
+								
+								<div class="cardv2--landscape__content__body__details_features">
+									<div class="cardv2--landscape__content__body__details_features_item">6 bedrooms</div>
+									<div class="cardv2--landscape__content__body__details_features_item">1986 year built</div>
+									<div class="cardv2--landscape__content__body__details_features_item">7 full & 1 half baths</div>
+									<div class="cardv2--landscape__content__body__details_features_item">0.47 Acres</div>		
+									<div class="cardv2--landscape__content__body__details_features_item">3 stories</div>
+									<div class="cardv2--landscape__content__body__details_features_item">Private Pool</div>
+									<div class="cardv2--landscape__content__body__details_features_item">8,741 built sqft</div>
+								</div>
+							</a>
+			        	</div>
+			        	<!-- / card details -->
+				    </div>
+			        <!-- / card body -->
+			    </div>
+			    <!-- / card content -->	
+	        </div>
+			<!-- / card--landscape v2 -->
+			
+						        	
+        </div>
+      </div><!-- <div class="row"> -->
+      
+      
+      
+      
+      
+      <div class="row pb-4">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h2 class="h2--simple h2--simple__black" tabindex="0">W/ Open House</h2>
+        </div>
+      </div>
 
-    `,
+      <div class="row mb-5 pb-5">
+        <div class="col col-12 mb-0 pb-0 text-left ">
+        
+	    	<!-- card--landscape v2 -->
+	        <div class="cardv2--landscape">
+	        	<!-- / card header -->	        	
+	        	<div class="cardv2--landscape__header">	
+	        		<div class="cardv2--landscape__header_agent">
+	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
+				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
+				            <div class="agent_signaturev2__info">
+				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
+				                Michel Hayek
+				              </div>
+				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
+				                Better Homes And Gardens Real
+				              </div>
+				            </div>
+				        </a>
+	        		</div>
+	        		<div class="cardv2--landscape__header_controls">
+	
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--small btn--icon btn--icon--favorite" aria-label="Save Bartlett Street #4 Houston TX 77098 as favorite">Save</button>
+	        			
+	        			<div class="dropdown d-inline-block">
+						 <button role="button" class="btn btn--ordinary btn--small btn--icon btn--icon--lone btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(434px, 41px, 0px);">
+						    <a class="dropdown-item" href="#">Action one</a>
+						    <a class="dropdown-item" href="#">Action two</a>
+						    <a class="dropdown-item" href="#">Action three</a>
+						  </div>
+						</div>	        			
+	        		</div>
+	        	</div>
+	        	<!-- / card header -->	        	
+	        	
+	        	<div class="cardv2--landscape__content">		        	
+		        	<div class="cardv2--landscape__content__body">
+			        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
+				        	<!-- card img -->
+				        	<div class="cardv2--landscape__content__body__image">
+				        		<div class="cardv2--landscape__content__body__image__img" style="background-image:url(https://photos.harstatic.com/194227305/lr/img-1.jpeg?ts=2021-08-06T12:35:50.297);"></div>
+				        		
+				        		<!-- / card footer -->
+						        <div class="cardv2--landscape__content__footer">
+						        	<div class="cardv2--landscape__content__footer_dayson">
+										<div class="circle_nimber">2</div>  Days on HAR
+									</div>
+									
+									<div class="cardv2--landscape__content__footer_ph">
+										39 Photos
+									</div>							
+						        </div>
+						        <!-- / card footer -->
+				        	</div>
+				        	<!-- / card img -->
+				        </a>
+			        	<!-- card header -->
+		        		
+			        	<!-- card details -->
+			        	<div class="cardv2--landscape__content__body__details">
+				        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
+				        		<div class="cardv2--landscape__content__body__details_address">
+				        			<div class="cardv2--landscape__content__body__details_address_left">	
+				        				<div class="cardv2--landscape__content__body__details_address_left_add">	
+				        					3914 Normandy Ave<br>
+											Highland Park, TX 5205
+										</div>
+										<div class="cardv2--landscape__content__body__details_address_left_info">
+											Residential - Single Family Property<br>
+											Style in Mount Vernon 01 & 03 Subdivision
+										</div>
+				        			</div>
+				        			<div class="cardv2--landscape__content__body__details_address_right">	
+				        				<div class="cardv2--landscape__content__body__details_price">$13,500,000</div>
+										<div class="label label--forsale">for sale</div>
+									</div>
+								</div>
+								
+								
+								<div class="cardv2--landscape__content__body__details_features">
+									<div class="cardv2--landscape__content__body__details_features_item">6 bedrooms</div>
+									<div class="cardv2--landscape__content__body__details_features_item">1986 year built</div>
+									<div class="cardv2--landscape__content__body__details_features_item">7 full & 1 half baths</div>
+									<div class="cardv2--landscape__content__body__details_features_item">0.47 Acres</div>		
+									<div class="cardv2--landscape__content__body__details_features_item">3 stories</div>
+									<div class="cardv2--landscape__content__body__details_features_item">Private Pool</div>
+									<div class="cardv2--landscape__content__body__details_features_item">8,741 built sqft</div>
+								</div>
+							</a>
+							<div class="cardv2--landscape__content__body__details_badges">
+								<div class="cardv2--landscape__content__body__details_badges_openhouse">
+						        	<div class="label label--openhouse">Open House</div>
+						        	<div class="pl-2">
+						        		<div class="font_weight--bold">Aug 11</div>
+										11:00 AM – 6:00 PM
+									</div>
+						        </div>
+							</div>
+			        	</div>
+			        	<!-- / card details -->
+				    </div>
+			        <!-- / card body -->
+			    </div>
+			    <!-- / card content -->	
+	        </div>
+			<!-- / card--landscape v2 -->
+			
+						        	
+        </div>
+      </div><!-- <div class="row"> -->
+      
+            
+      
+      
+      
+      
+          `,
     ];
 
 

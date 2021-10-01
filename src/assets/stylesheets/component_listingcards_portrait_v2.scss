@@ -111,32 +111,51 @@
 			&_dayson {
 				font-size: $font-size-small;
 				color: $color-auxiliary;
-				text-align: right;
 				flex-grow: 1;
+				padding-top: 12px;
 			}
 			
 			&_features {
 				font-size: $font-size-medium;
 				color: $color-cement-dark;
-				padding-top: 4px;
+				
 				line-height: 1.64;
+				
+				
+				ul	{
+					margin: 0px;
+					padding: 0px;
+    
+					li {
+						display: inline-block;
+						list-style: none;
+						margin: 0px;
+						padding:0px;
+						
+						&:after{
+							margin: 0px 3px 0 5px;
+							content: "·";
+						}
+						
+						&:last-child {
+							&:after{
+								margin: 0px;
+								content: "";
+							}	
+						}
+					}
+				}
+				
 			}
 			
-			&_impovement {
-				font-size: $font-size-small-extra;
-				color: $color-auxiliary;
-				background-color: rgba(218,225,248,0.32);
-				padding: 8px;
-				margin-top: 8px;	
+			&_badges {
+				padding-top: 14px;
 				
-				.title {
-					font-weight: $font-weight-semi_bold;
-					color: $color-black;
-					overflow: hidden;
-					text-overflow: ellipsis;
-					white-space: nowrap;
+				.listingbadges {
+					margin-bottom: 4px;
 				}
 			}
+			
 			
 			&_soldtext {
 				font-weight: $font-weight-semi_bold;
@@ -146,7 +165,7 @@
 			}
 			
 			&_ratings {
-				padding-top: 12px;
+				padding-top: 6px;
 				padding-bottom: 4px;
 				line-height: 16px;
 				display: flex;
@@ -158,11 +177,31 @@
 					display: inline-block;
 					padding-left: 5px;
 					align-self: flex-end;
+					padding-top: 2px;
 				}
 			}
 
 		}
-	
+		
+		&_impovement {
+			font-size: $font-size-small-extra;
+			color: $color-auxiliary;
+			background-color: rgba(218,225,248,0.32);
+			padding: 8px 12px;
+			line-height: 1.6;
+			border-radius: 4px;
+			margin: 8px 4px 4px 4px;	
+			> a:hover {
+				text-decoration: underline !important;	
+			}
+			.title {
+				font-weight: $font-weight-semi_bold;
+				color: $color-black;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+		}
 	}
 	//Area Card starts here
 }

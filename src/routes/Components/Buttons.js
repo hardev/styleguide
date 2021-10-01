@@ -16,6 +16,7 @@ export default class Buttons extends Component {
 
         <div class="col col-sm-3 col-6">
           <button role="button" class="btn btn--primary btn--medium">Button</button>
+          <button role="button" class="btn btn--primary btn--rounded btn--medium">Button</button>
           <div class="component_content__demo__description">Medium Button</div>
         </div>
 
@@ -52,7 +53,7 @@ export default class Buttons extends Component {
           <button role="button" class="btn btn--shapeless btn--medium">Button</button>
           <div class="component_content__demo__description">Shapeless Button</div>
         </div>
-
+		
         <div class="clear_both"></div>
       </div>
 

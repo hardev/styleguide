@@ -26,6 +26,7 @@
 		}
 	}
 	
+	&--neighbours,
 	&--state,
 	&--video,
 	&--features,
@@ -600,6 +601,18 @@
 			color: $color-carbon;
 			font-size: $font-size-small;
 			text-align: center;
+		}
+	}
+	
+	&--neighbours {
+		display: block;
+		padding: 8px 16px;
+		font-size: $font-size-medium;
+		font-weight: $font-weight-bold;
+		
+		span {
+			color: $color-auxiliary;
+			font-weight: $font-weight-regular;
 		}
 	}
 	

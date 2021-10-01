@@ -92,6 +92,7 @@
   }
 
   /* == STYLES == */
+  &.btn-primary,
   &--primary {
     background: $color-har-blue !important;    
     padding: 0 24px;
@@ -99,7 +100,7 @@
     line-height: 40px;
     color: $color-snow-white !important;
   }
-
+  &.btn-danger,
   &--prominent {
     background: $color-har-pink !important;
     padding: 0 24px;
@@ -247,6 +248,13 @@
 		  margin-right: 4px;
 	  }
   }
+  
+  
+  &--rounded {
+	border-radius: 32px;	  
+  }
+  
+  
   
   &--claimprofile {
 		background-color: $color-har-blue-dark;

@@ -412,7 +412,7 @@
 
 .certificate {
 	border-radius: 4px;
-	margin-right:3px;
+	margin-right:2px;
 	margin-bottom:4px;	
 	border: solid 1px #ddd;
 	text-decoration: none;
@@ -420,9 +420,12 @@
 	line-height:24px;
 	padding: 0px 5px;
 	display: inline-block;
+	font-weight: $font-weight-regular !important;
+	text-decoration: none !important;
 	
 	&--small { 
 		height: 24px;
+		font-size: $font-size-small;
 	}
 	
 	&--mini { 
@@ -624,6 +627,82 @@
 	
 }
 
+
+.qoutetion {
+	background-color: $color-cement-light;
+	border-radius: 4px;
+	padding: 12px;
+	text-align: left;
+		
+	&__text {
+		font-size: $font-size-medium;
+		color: $color-auxiliary;
+		font-style: italic;
+		position: relative;
+		padding-left: 20px;
+		padding-right: 0px;
+		display: inline-flex;
+		
+		&:before {
+			content: "";
+			display: block;
+			width: 14px;
+			height: 14px;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-image: url(https://content.harstatic.com/media/icons/quote-left.svg);
+			background-size: 15px 15px;
+		}
+		
+		&_endqoute {
+			display:inline;
+			width: 16px;
+			height: 16px;
+			object-fit: content;
+			margin-left: 8px;
+		}
+	}
+	
+	&__readmore {
+		display: none;
+	}
+	
+	@media screen and (max-width: 768px) {
+		display: flex;
+		
+		&__text {
+			flex-grow: 1;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			font-size: $font-size-small;
+			padding-right: 5px;
+			
+			span {
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+			
+			&_endqoute {
+				display: none;
+			}
+		}
+		
+		&__readmore {
+			display: flex;
+			white-space: nowrap;
+			font-style: italic;
+			font-weight: bold;
+			color: $color-auxiliary;
+		}		
+	}
+}
+
+
 // ratings
 .ratingbar {
 	display: flex;
@@ -704,8 +783,7 @@
 
 .circle_nimber {
 	background-color: #f3f4f7;
-	border-radius: 50%;
-	width: 20px;
+	border-radius: 10px;
 	height: 20px;
 	color: $color-auxiliary;
 	text-align: center;
@@ -713,5 +791,43 @@
 	font-weight: $font-weight-semi_bold;
 	line-height:20px;
 	display: inline-block;
+	padding:0px 7px;
 }
+
+
+
+
+/* inpage nav */
+.inpagenav_simple{cursor: default;background-color:rgba(255, 255, 255, 0.64);min-height:40px;white-space: nowrap;overflow-x: auto;-webkit-overflow-scrolling: touch;-ms-overflow-style: -ms-autohiding-scrollbar;}
+.inpagenav_simple::-webkit-scrollbar {display: none; }
+.inpagenav_simple ul {margin: auto;}
+.inpagenav_simple ul li,#MarketNav ul{display:inline-block;padding:0px;margin:0px;list-style:none;}
+.inpagenav_simple ul li a{color:#515b7a !important;font-size:14px;font-weight:500;border-bottom:2px solid rgba(255, 255, 255, 0.0);padding:0 25px;display:inline-block;height:40px;line-height:40px;text-transform: uppercase;}
+.inpagenav_simple ul li.active a{border-color:#0738cd !important;color:#0738cd !important;-webkit-transition: none;-moz-transition: none;-o-transition: none;transition: none;}
+.inpagenav_simple ul li.active path{fill:#0738cd;}
+.inpagenav_simple ul li a:hover{border-color:#0738cd; text-decoration: none;}
+@media (max-width:768px) {
+	.inpagenav ul li a{padding:0 15px;}
+}
+@media (max-width:576px) {
+   .inpagenav ul li a{padding:0 10px;}
+}
+
+//bootbox customization
+.bootbox-close-button {
+	top: 14px !important;
+	width: 16px !important;
+	height: 16px !important;
+	background-image: url(https://content.harstatic.com/media/icons/icon-close-auxiliary.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 0px !important;
+}
+
+
+.bigicon_btn {text-decoration: none !important;transition: all 0.2s ease !important;}
+.bigicon_btn img {-webkit-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1)); filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1)); }
+.bigicon_btn:hover img {-webkit-filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.24)); filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.24)); transition: all 0.2s ease !important;}
+
+.hero_landing_page {background-image: none !important;}
 

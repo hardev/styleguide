@@ -31,7 +31,7 @@ export default class ListingCards extends Component {
           <a href="#" class="d-block card card--hover text-decoration-none p-2 font_weight--bold mb-0"><img class="border_radius--mini mr-2 d-inline-block" style="width:38px;height:25px;" src="https://content.harstatic.com/resources/images/find_a_pro/flags_mini/af.jpg"> Afrikaans <span class="font_weight--regular color_auxiliary">(34)</span></a>
         </div>
         <div class="col col-sm-4 col-12 mb-0">
-          <a href="#" class="d-block card card--hover text-decoration-none p-2 font_weight--bold mb-0">Arabic <span class="font_weight--regular color_auxiliary">(34)</span></a>
+          <a href="#" class="card card--neighbours">Arabic <span>(34)</span></a>
         </div>        
         <div class="clear_both"></div>
       </div>

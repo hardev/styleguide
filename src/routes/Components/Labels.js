@@ -177,6 +177,9 @@ export default class Labels extends Component {
           <div class="label label--typeahead  label--typeahead_broker">Broker</div>
         </div>
         <div class="col col-2 pt-3">          
+          <div class="label label--typeahead  label--typeahead_team">Team</div>
+        </div>
+        <div class="col col-2 pt-3">          
           <div class="label label--typeahead  label--typeahead_lead">Lead</div>
         </div>
         <div class="col col-2 pt-3">
@@ -242,7 +245,12 @@ export default class Labels extends Component {
           <br><br>
           <div class="label label--badges label--badges__neighborhoods">Neighborhoods</div>         
           <br><br>
-          <div class="label label--badges label--badges__agentsbrokers">Agents & Brokers</div>         
+          <div class="label label--badges label--badges__agentsbrokers">Agents & Brokers</div>
+          <br><br>
+          <div class="label label--default label--default__membership">Membership</div>
+          <a href="#" class="label label--default label--default__membership">Member of Something Else</a>
+          <br><br>
+          <a href="#" class="label label--default label--default__team">Lead of A to Z Houston Real Estate Team</a>
         </div>
        </div>
        `,
@@ -279,7 +287,7 @@ export default class Labels extends Component {
         <TemplateComponentBlock blockTitle="School Labels" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
         <TemplateComponentBlock blockTitle="Typeahead Labels" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
 		<TemplateComponentBlock blockTitle="Agent Level Labels" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
-		<TemplateComponentBlock blockTitle="Labels for badges" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
+		<TemplateComponentBlock blockTitle="Labels Default" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
         
       </TemplateDefault>
     )

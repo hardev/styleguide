@@ -11,7 +11,7 @@ export default class ListingCardsPortraitV2 extends Component {
     this.elements = [
       `<div class="row">
         <div class="col col-md-6 col-12 mb-0 pb-0 text-left ">
-        	<h4 tabindex="0">Portrait large</h4>
+        	<h4 tabindex="0">Portrait Default</h4>
         
         
         	<!-- card--portrait v2 -->
@@ -60,16 +60,22 @@ export default class ListingCardsPortraitV2 extends Component {
 					</div>
 					<div class="cardv2--portrait__body_flexrow">
 						<div class="cardv2--portrait__body_address">
-							9 West Lane<br>
-							Houston, TX 77019
-						</div>
-						<div class="cardv2--portrait__body_dayson">
-							<div class="circle_nimber">2</div>  Days on HAR
-						</div>
+							14302 Laurus Estates Lane<br>
+							Cypress, TX 77429
+						</div>						
 					</div>
 					<div class="cardv2--portrait__body_features">
-						<div class="d-inline-block">Single Family&nbsp;</div><div class="d-inline-block">·&nbsp;5 beds&nbsp;</div><div class="d-inline-block">·&nbsp;5 baths&nbsp;</div><div class="d-inline-block">·&nbsp;2 stories&nbsp;</div><div class="d-inline-block">7,551 built sqft </div><br>
-						1932 year built
+						<ul>
+							<li>Residential - Single Family</li>
+							<li>6 beds</li>
+							<li>1 full & 4 half baths</li>
+							<li>3 stories</li>
+							<li>8,741 built sqft</li>
+							<li>1986 year built</li>
+						</ul>
+					</div>
+					<div class="cardv2--portrait__body_dayson">
+						<div class="circle_nimber">2</div>  Days on HAR
 					</div>
 	        	</div>
 	        	</a>
@@ -79,6 +85,8 @@ export default class ListingCardsPortraitV2 extends Component {
 			
 			<br><br>
 			
+			
+			<h4 tabindex="0">W/ Labels</h4>
 			<!-- card--portrait v2 -->
 	        <div class="cardv2 cardv2--portrait mb-2">
 	        	<!-- card header -->
@@ -125,32 +133,39 @@ export default class ListingCardsPortraitV2 extends Component {
 					</div>
 					<div class="cardv2--portrait__body_flexrow">
 						<div class="cardv2--portrait__body_address">
-							9 West Lane<br>
-							Houston, TX 77019
-						</div>
-						<div class="cardv2--portrait__body_dayson">
-							<div class="circle_nimber">2</div>  Days on HAR
-						</div>
+							3914 Normandy Ave<br>
+							Highland Park, TX 75205
+						</div>						
 					</div>
 					<div class="cardv2--portrait__body_features">
-						<div class="d-inline-block">Single Family&nbsp;</div><div class="d-inline-block">·&nbsp;5 beds&nbsp;</div><div class="d-inline-block">·&nbsp;5 baths&nbsp;</div><div class="d-inline-block">·&nbsp;2 stories&nbsp;</div><div class="d-inline-block">7,551 built sqft </div><br>
-						1932 year built
+						<ul>
+							<li>Residential - Single Family</li>
+							<li>6 beds</li>
+							<li>1 full & 4 half baths</li>
+							<li>3 stories</li>
+							<li>8,741 built sqft</li>
+							<li>1986 year built</li>
+						</ul>
 					</div>
+					<div class="cardv2--portrait__body_dayson">
+						<div class="circle_nimber">2</div>  Days on HAR
+					</div>
+					<div class="cardv2--portrait__body_badges">	        	
+			        	<div class="listingbadges listingbadges--justlisted" style="background-image:url(https://content.harstatic.com/media/icons/icon-listing-just-listed.svg);">Just listed</div>
+			        	<div class="listingbadges listingbadges--pricereduction" style="background-image:url(https://content.harstatic.com/media/icons/icon-price-reduction.svg);">Price Reduction</div>
+			        	<div class="listingbadges listingbadges--newconstruction" style="background-image:url(https://content.harstatic.com/media/icons/icon-new-construction.svg);">New construction</div>
+			        </div>
 	        	</div>
 	        	</a>
 	        	<!-- / card img -->
-	        </div>
-	        <div class="cardv2--landscape__footer">	        	
-	        	<div class="listingbadges listingbadges--justlisted" style="background-image:url(https://content.harstatic.com/media/icons/icon-listing-just-listed.svg);">Just listed</div>
-	        	<div class="listingbadges listingbadges--pricereduction" style="background-image:url(https://content.harstatic.com/media/icons/icon-price-reduction.svg);">Price Reduction</div>
-	        	<div class="listingbadges listingbadges--newconstruction" style="background-image:url(https://content.harstatic.com/media/icons/icon-new-construction.svg);">New construction</div>
-	        	<div class="listingbadges listingbadges--openhouse_simple" style="background-image:url(https://content.harstatic.com/media/icons/icon-open-house.svg);">Open House</div>
-	        	<div class="listingbadges listingbadges--foreclosure" style="background-image:url(https://content.harstatic.com/media/icons/icon-foreclosure.svg);">Foreclosure</div>
-	        </div>
+	        </div>	        
 			<!-- / card--portrait v2 -->
 			
 			
 			<br><br>
+			
+			
+			<h4 tabindex="0">W/ Schools</h4>
 			
 			
 			<!-- card--portrait v2 -->
@@ -199,22 +214,33 @@ export default class ListingCardsPortraitV2 extends Component {
 					</div>
 					<div class="cardv2--portrait__body_flexrow">
 						<div class="cardv2--portrait__body_address">
-							9 West Lane<br>
-							Houston, TX 77019
+							3914 Normandy Ave<br>
+							Highland Park, TX 75205
+						</div>
+					</div>
+					<div class="cardv2--portrait__body_features">
+						<div class="cardv2--portrait__body_features">
+							<ul>
+								<li>Residential - Single Family</li>
+								<li>6 beds</li>
+								<li>1 full & 4 half baths</li>
+								<li>3 stories</li>
+								<li>8,741 built sqft</li>
+								<li>1986 year built</li>
+							</ul>
 						</div>
 						<div class="cardv2--portrait__body_dayson">
 							<div class="circle_nimber">2</div>  Days on HAR
 						</div>
-					</div>
-					<div class="cardv2--portrait__body_features">
-						<div class="d-inline-block">Single Family&nbsp;</div><div class="d-inline-block">·&nbsp;5 beds&nbsp;</div><div class="d-inline-block">·&nbsp;5 baths&nbsp;</div><div class="d-inline-block">·&nbsp;2 stories&nbsp;</div><div class="d-inline-block">7,551 built sqft </div><br>
-						1932 year built
-					</div>
-					<div class="cardv2--portrait__body_impovement" onclick="location.href='http://har.com'; return false;">								
-	                  	<span class="title">Zone / Assigned schools:</span> Settlers Way Elementary School, First Colony Middle School, ClementsSchool
-	                </div>
+					</div>					
 	        	</div>
 	        	</a>
+	        	<div class="cardv2--portrait_impovement" onclick="location.href='http://har.com'; return false;">								
+                  	<div class="title">Zone / Assigned schools:</div> 
+                  	<a href="#1" class="d-block color_har_blue">Settlers Way Elementary School</a>
+                  	<a href="#2" class="d-block color_har_blue">First Colony Middle School</a>
+                  	<a href="#3" class="d-block color_har_blue">ClementsSchool</a>
+                </div>	        	
 	        	<!-- / card img -->
 	        </div>
 			<!-- / card--portrait v2 -->
@@ -227,18 +253,8 @@ export default class ListingCardsPortraitV2 extends Component {
 	        <div class="cardv2 cardv2--portrait">
 	        	<!-- card header -->
 	        	<div class="cardv2--portrait__header">
-	        		<div class="cardv2--portrait__header_agent">
-	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
-				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
-				            <div class="agent_signaturev2__info">
-				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
-				                Michel Hayek
-				              </div>
-				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
-				                Better Homes And Gardens Real
-				              </div>
-				            </div>
-				        </a>
+	        		<div class="cardv2--portrait__header_title text-truncate font_size--medium">
+	        			Cosmopolitan: <span class=" font_weight--regular">Buyer</span>
 	        		</div>
 	        		<div class="cardv2--portrait__header_controls">
 	        			<a href="#"><img src="https://content.harstatic.com/media/icons/icon-bookmark-off.svg"></a>
@@ -264,23 +280,32 @@ export default class ListingCardsPortraitV2 extends Component {
 	        	<a href="#">
 	        	<div class="cardv2--portrait__body">
 	        		<div class="cardv2--portrait__body_flexrow">
-	        			<div class="cardv2--portrait__body_price">$7,009,00</div>
-						<div class="cardv2--portrait__body_status"><div class="label label--forsale">for sale</div></div>
+	        			<div class="cardv2--portrait__body_price">$285K - $325K</div>
+						<div class="cardv2--portrait__body_status"><div class="label label--sold">Sold</div></div>
 					</div>
 					<div class="cardv2--portrait__body_flexrow">
 						<div class="cardv2--portrait__body_address">
 							9 West Lane<br>
 							Houston, TX 77019
 						</div>
+					</div>
+					<div class="cardv2--portrait__body_features">
+						<div class="cardv2--portrait__body_features">
+							<ul>
+								<li>Residential - Single Family</li>
+								<li>6 beds</li>
+								<li>1 full & 4 half baths</li>
+								<li>3 stories</li>
+								<li>8,741 built sqft</li>
+								<li>1986 year built</li>
+							</ul>
+							<div class="cardv2--portrait__body_soldtext">Sold: 06 June, 2021</div>
+						</div>
 						<div class="cardv2--portrait__body_dayson">
 							<div class="circle_nimber">2</div>  Days on HAR
 						</div>
 					</div>
-					<div class="cardv2--portrait__body_features">
-						<div class="d-inline-block">Single Family&nbsp;</div><div class="d-inline-block">·&nbsp;5 beds&nbsp;</div><div class="d-inline-block">·&nbsp;5 baths&nbsp;</div><div class="d-inline-block">·&nbsp;2 stories&nbsp;</div><div class="d-inline-block">7,551 built sqft </div><br>
-						1932 year built
-					</div>
-					<div class="cardv2--portrait__body_soldtext">Sold: 06 June, 2021</div>
+					
 	        	</div>
 	        	</a>
 	        	<!-- / card img -->
@@ -290,60 +315,7 @@ export default class ListingCardsPortraitV2 extends Component {
 			<br><br>
 			
 			
-			<!-- card--portrait v2 -->
-	        <div class="cardv2 cardv2--portrait">
-	        	<!-- card header -->
-	        	<div class="cardv2--portrait__header">
-	        		<div class="cardv2--portrait__header_agent">
-	        			
-	        		</div>
-	        		<div class="cardv2--portrait__header_controls">
-	        			<a href="#"><img src="https://content.harstatic.com/media/icons/icon-bookmark-off.svg"></a>
-	        			<div class="dropdown d-inline-block">
-						 <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="https://content.harstatic.com/media/icons/icon-more-options.svg"></a>
-						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(434px, 41px, 0px);">
-						    <a class="dropdown-item" href="#">Action one</a>
-						    <a class="dropdown-item" href="#">Action two</a>
-						    <a class="dropdown-item" href="#">Action three</a>
-						  </div>
-						</div>	        			
-	        		</div>
-	        	</div>
-	        	<!-- / card header -->
-	        	
-	        	<!-- card img -->
-	        	<a href="#">
-	        		<div class="cardv2--portrait__img" style="background-image:url(https://photos.harstatic.com/194227305/lr/img-1.jpeg?ts=2021-08-06T12:35:50.297);"></div>
-				</a>
-	        	<!-- / card img -->
-	        	
-	        	<!-- card body -->
-	        	<a href="#">
-	        	<div class="cardv2--portrait__body">
-	        		<div class="cardv2--portrait__body_flexrow">
-	        			<div class="cardv2--portrait__body_price">$7,009,00</div>
-						<div class="cardv2--portrait__body_status"><div class="label label--forsale">for sale</div></div>
-					</div>
-					<div class="cardv2--portrait__body_flexrow">
-						<div class="cardv2--portrait__body_address">
-							9 West Lane<br>
-							Houston, TX 77019
-						</div>
-						<div class="cardv2--portrait__body_dayson">
-							<div class="circle_nimber">2</div>  Days on HAR
-						</div>
-					</div>
-					<div class="cardv2--portrait__body_features">
-						<div class="d-inline-block">Single Family&nbsp;</div><div class="d-inline-block">·&nbsp;5 beds&nbsp;</div><div class="d-inline-block">·&nbsp;5 baths&nbsp;</div><div class="d-inline-block">·&nbsp;2 stories&nbsp;</div><div class="d-inline-block">7,551 built sqft </div><br>
-						1932 year built
-					</div>
-	        	</div>
-	        	</a>
-	        	<!-- / card img -->
-	        </div>
-			<!-- / card--portrait v2 -->
 			
-			<br><br>
 			
         </div><!-- left col ended -->
         
@@ -386,7 +358,12 @@ export default class ListingCardsPortraitV2 extends Component {
 						</div>
 					</div>
 					<div class="cardv2--portrait__body_features">
-						23 floors · 80 units · 10 penthouses
+						<ul>
+							<li>23 floors</li>
+							<li>80 units</li>
+							<li>10 penthouses</li>
+						</ul>
+						
 					</div>
 					<div class="cardv2--portrait__body_ratings">
 						<div class="stars">
@@ -447,8 +424,11 @@ export default class ListingCardsPortraitV2 extends Component {
 						</div>
 					</div>
 					<div class="cardv2--portrait__body_features">
-						Studio - 3 beds · 1 - 3 baths<br>
-						550 - 2,000 sqft
+						<ul>
+							<li>Studio - 3 beds</li>
+							<li>1 - 3 baths</li>
+							<li>550 - 2,000 sqft</li>
+						</ul>
 					</div>
 					<div class="cardv2--portrait__body_ratings">
 						<div class="stars">
@@ -522,14 +502,19 @@ export default class ListingCardsPortraitV2 extends Component {
 								9 West Lane<br>
 								Houston, TX 77019
 							</div>
-							<div class="cardv2--portrait__body_dayson">
-								<div class="circle_nimber">2</div>  Days on HAR
-							</div>
 						</div>
 						<div class="cardv2--portrait__body_features">
-							Single Family · 5 beds · 5 baths
-							2 stories · 7,551 built sqft<br>
-							1932 year built
+							<ul>
+								<li>Residential - Single Family</li>
+								<li>6 beds</li>
+								<li>1 full & 4 half baths</li>
+								<li>3 stories</li>
+								<li>8,741 built sqft</li>
+								<li>1986 year built</li>
+							</ul>
+						</div>
+						<div class="cardv2--portrait__body_dayson">
+							<div class="circle_nimber">2</div>  Days on HAR
 						</div>
 		        	</div>
 		        	</a>
