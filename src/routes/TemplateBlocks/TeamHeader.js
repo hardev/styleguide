@@ -10,17 +10,7 @@ export default class TeamHeader extends Component {
     this.elements = [      
       `
       <!-- Broker Header block -->
-      <section class="brokerheader brokerheader__team ">
-      	<div class="brokerheader__photo" style="background-image:url(https://content.harstatic.com/img/member/heroimages/Agent_Website_Image_11.jpg);">
-      		<div class="brokerheader__photo__inner">
-	      		<div class="brokerheader__photo__inner_share">
-					<a href="#"><img alt="Facebook" src="https://content.harstatic.com/media/icons/social/white/facebook.svg"></a>
-					<a href="#"><img alt="LinkedIn" src="https://content.harstatic.com/media/icons/social/white/linkedin.svg"></a>
-					<a href="#"><img alt="twitter" src="https://content.harstatic.com/media/icons/social/white/twitter.svg"></a>
-					<a class="agentheader__certi__list__link" href="#"><span>Share</span></a>
-				</div>
-			</div>
-        </div>
+      <section class="brokerheader brokerheader__team brokerheader__team__nobackground">
         <div class="brokerheader__agrow">
         	<div class="brokerheader__agrow__ag">
         		<div class="brokerheader__agrow__ag__ph">
@@ -29,32 +19,41 @@ export default class TeamHeader extends Component {
         				<!-- if no image for agent company <img src="https://content.harstatic.com/media/icons/broker_building.svg"> -->
         			</a>
         		</div>
-        		<div class="brokerheader__agrow__ag__info  text-truncate">
-        			<div class="brokerheader__agrow__ag__info_title">
-	        			<div class="label label--typeahead label--typeahead_team mb-2">Team</div>
-        				<h1 tabindex="0" class="text-truncate d-block">Tailored Real Estate Group</h1>
-					</div>
-        			
-        			<div class="row no-gutters brokerheader__agrow__ag__info_text d-none d-md-inline-flex">
-        				<div class="col text-truncate">Compass RE Texas, LLC</div>
-        				<div class="col-auto">(<a class="font_weight--semi_bold" href="#">View Firm</a>)</div>
-        			</div>
-        			
-        			<div class="row no-gutters brokerheader__agrow__ag__info_textres d-flex d-md-none">
-        				<div class="col text-truncate">Compass RE Texas, LLC</div>
-        				<div class="col-auto">(<a class="font_weight--semi_bold" href="#">View Firm</a>)</div>
-        			</div>
-        		</div>
-			</div><!-- /brokerheader__broker -->
-			
-			<div class="brokerheader__agrow__links d-md-block d-none">
-				<button tabindex="0" class="btn btn--prominent ml-lg-3 mb-2">Send email</button>
-				<div class="brokerheader__agrow__links_more">
-					<button tabindex="0" class="btn btn--ordinary btn--small mr-3">View phone</button>
-					<button tabindex="0" class="btn btn--ordinary btn--small">Visit website ↗</button>
+        	</div>
+        	<div class="brokerheader__agrow__inner">
+				<div class="brokerheader__photo__inner_share">
+					<a href="#"><img alt="Facebook" src="https://content.harstatic.com/media/icons/facebook_auxiliary.svg"></a>
+					<a href="#"><img alt="LinkedIn" src="https://content.harstatic.com/media/icons/linkedin_auxiliary.svg"></a>
+					<a href="#"><img alt="twitter" src="https://content.harstatic.com/media/icons/twitter_auxiliary.svg"></a>
+					<a class="pl-2" href="#"><span>Share</span></a>
 				</div>
-			</div><!-- brokerheader__links -->
-					
+				<div class="brokerheader__agrow__inner__cols">
+	        		<div class="brokerheader__agrow__ag__info  text-truncate">
+	        			<div class="brokerheader__agrow__ag__info_title">
+		        			<div class="label label--typeahead label--typeahead_team mb-2">Team</div>
+	        				<h1 tabindex="0" class="text-truncate d-block">Tailored Real Estate Group</h1>
+						</div>
+	        			
+	        			<div class="row no-gutters brokerheader__agrow__ag__info_text d-none d-md-inline-flex">
+	        				<div class="col text-truncate">Compass RE Texas, LLC</div>
+	        				<div class="col-auto">(<a class="font_weight--semi_bold" href="#">View Firm</a>)</div>
+	        			</div>
+	        			
+	        			<div class="row no-gutters brokerheader__agrow__ag__info_textres d-flex d-md-none">
+	        				<div class="col text-truncate">Compass RE Texas, LLC</div>
+	        				<div class="col-auto">(<a class="font_weight--semi_bold" href="#">View Firm</a>)</div>
+	        			</div>
+	        		</div>
+	        		
+	        		<div class="brokerheader__agrow__links d-md-block d-none">
+						<button tabindex="0" class="btn btn--prominent ml-lg-3 mb-2">Send email</button>
+						<div class="brokerheader__agrow__links_more">
+							<button tabindex="0" class="btn btn--ordinary btn--small mr-3">View phone</button>
+							<button tabindex="0" class="btn btn--ordinary btn--small">Visit website ↗</button>
+						</div>
+					</div><!-- brokerheader__links -->
+	        	</div>
+			</div><!-- /brokerheader__broker -->						
         </div><!-- brokerheader__broker -->
         
         <div class="team_details_row">
@@ -149,18 +148,8 @@ export default class TeamHeader extends Component {
       `,
       `
       <!-- Broker Header block -->
-      <section class="brokerheader brokerheader__small brokerheader__team">
-      	<div class="brokerheader__photo" style="background-image:url(https://content.harstatic.com/img/member/heroimages/Agent_Website_Image_11.jpg);">
-      		<div class="brokerheader__photo__inner">
-	      		<div class="brokerheader__photo__inner_share">
-					<a href="#"><img alt="Facebook" src="https://content.harstatic.com/media/icons/social/white/facebook.svg"></a>
-					<a href="#"><img alt="LinkedIn" src="https://content.harstatic.com/media/icons/social/white/linkedin.svg"></a>
-					<a href="#"><img alt="twitter" src="https://content.harstatic.com/media/icons/social/white/twitter.svg"></a>
-					<a class="pl-2" href="#"><span>Share</span></a>
-				</div>
-			</div>
-        </div>
-        <div class="brokerheader__agrow">
+      <section class="brokerheader teamheader__small_nobg">
+      	<div class="brokerheader__agrow">
         	<div class="brokerheader__agrow__ag">
         		<div class="brokerheader__agrow__ag__ph">
         			<a class="brokerheader__agrow__ag__ph__img" href="#">
@@ -170,13 +159,13 @@ export default class TeamHeader extends Component {
         		</div>
         		<div class="brokerheader__agrow__ag__info  text-truncate">
         			<div class="brokerheader__agrow__ag__info_title">
-        				<h1 tabindex="0">John Daugherty Realtors</h1>
+        				<div class="label label--typeahead label--typeahead_team mb-2">Team</div>
+        				<h1 class="d-block" tabindex="0">Tailored Real Estate Group</h1>
 					</div>
         			
-        			<div class="row no-gutters brokerheader__agrow__ag__info_text d-none d-md-flex">
-        				<div class="col-auto pr-2"><img src="https://content.harstatic.com/media/icons/location_icon_auxiliary.svg"></div>
-        				<div class="col text-truncate">520 Post Oak Blvd Fl 6 – Houston, TX 77027</div>
-        				<div class="col-auto"><a class="font_weight--semi_bold" href="#">Get directions</a></div>
+        			<div class="row no-gutters brokerheader__agrow__ag__info_text d-none d-md-inline-flex">
+        				<div class="col text-truncate">Compass RE Texas, LLC</div>
+        				<div class="col-auto">(<a class="font_weight--semi_bold" href="#">View Firm</a>)</div>
         			</div>
         			
         			<div class="row no-gutters brokerheader__agrow__ag__info_textres d-block d-md-none">
@@ -201,19 +190,6 @@ export default class TeamHeader extends Component {
 					  			</a>
 					  			<a href="#" tabindex="-1" class="agent_signature--mini__extra mr-2" title="View Amy Nabors 's profile">
 				      				<div class="agent_signature--mini__extra__photo" style="background-image:url('https://pics.harstatic.com/agent/488012.jpg?ts=2020-01-17T13:30:002828');"></div>
-					  			</a>
-					  			<a href="#" tabindex="-1" class="agent_signature--mini__extra mr-2" title="View Amy Nabors 's profile">
-				      				<div class="agent_signature--mini__extra__photo" style="background-image:url('https://pics.harstatic.com/agent/659960.jpg?ts=2018-07-26T02:05:002897');"></div>
-					  			</a>
-					  			<a href="#" tabindex="-1" class="agent_signature--mini__extra mr-2" title="View Amy Nabors 's profile">
-				      				<div class="agent_signature--mini__extra__photo" style="background-image:url('https://pics.harstatic.com/agent/199394.jpg?ts=2018-02-08T08:20:007353');"></div>
-					  			</a>
-					  			<a href="#" tabindex="-1" class="agent_signature--mini__extra mr-2" title="View Amy Nabors 's profile">
-				      				<div class="agent_signature--mini__extra__photo" style="background-image:url('https://pics.harstatic.com/agent/650268.jpg?ts=2020-08-16T08:41:006234');"></div>
-					  			</a>
-					  			
-					  			<a href="#" tabindex="-1" class="agent_signature--mini__extra" title="View Amy Nabors 's profile">
-				      				<div class="agent_signature--mini__extra__photo"><span>7+</span></div>
 					  			</a>
 					        </div>
 					    </div>
@@ -257,6 +233,12 @@ export default class TeamHeader extends Component {
 			</div><!-- /brokerheader__broker -->
 			
 			<div class="brokerheader__agrow__links d-md-block d-none">
+				<div class="brokerheader__agrow__links_share">
+					<a href="#"><img alt="Facebook" src="https://content.harstatic.com/media/icons/facebook_auxiliary.svg"></a>
+					<a href="#"><img alt="LinkedIn" src="https://content.harstatic.com/media/icons/linkedin_auxiliary.svg"></a>
+					<a href="#"><img alt="twitter" src="https://content.harstatic.com/media/icons/twitter_auxiliary.svg"></a>
+					<a class="pl-2" href="#"><span>Share</span></a>
+				</div>
 				<button tabindex="0" class="btn btn--prominent ml-3 mb-2">Send email</button>
 				<div class="brokerheader__agrow__links_more">
 					<button tabindex="0" class="btn btn--ordinary btn--small mr-3">View phone</button>
@@ -290,8 +272,8 @@ export default class TeamHeader extends Component {
         activeParent="template_blocks"
         activeChild="team_header">
 
-        <TemplateComponentBlock hasContainer={false} blockTitle="Broker Header" elements={this.elements[0]} codeSnippets={this.codeSnippets[0]} />
-        <TemplateComponentBlock hasContainer={false} blockTitle="Broker Header smaller" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
+        <TemplateComponentBlock hasContainer={false} blockTitle="Team Header" elements={this.elements[0]} codeSnippets={this.codeSnippets[0]} />
+        <TemplateComponentBlock hasContainer={false} blockTitle="Team Header smaller" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
         
 
       </TemplateExpanded>

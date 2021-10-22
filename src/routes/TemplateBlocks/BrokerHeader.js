@@ -31,7 +31,7 @@ export default class BrokerHeader extends Component {
         		</div>
         		<div class="brokerheader__agrow__ag__info  text-truncate">
         			<div class="brokerheader__agrow__ag__info_title">
-        				<h1 tabindex="0">John Daugherty Realtors</h1>
+        				<h1 tabindex="0">Keller Williams Realty Southwest</h1>
 					</div>
         			
         			<div class="row no-gutters brokerheader__agrow__ag__info_text d-none d-md-flex">
@@ -71,7 +71,7 @@ export default class BrokerHeader extends Component {
 	  				<div class="agent_signature--mini__name text-truncate">Laura</div>
 	  			</a>
 	  			<a href="#" tabindex="-1" class="agent_signature--mini mr-2" title="View Amy Nabors 's profile">
-      				<div class="agent_signature--mini__photo" style="background-image:url('https://pics.harstatic.com/agent/650268.jpg?ts=2020-08-16T08:41:006234');"></div>
+      				<div class="agent_signature--mini__photo" style="background-image:url('https://content.harstatic.com/media/icons/agent_placeholder.svg');"></div>
 	  				<div class="agent_signature--mini__name text-truncate">Neil</div>
 	  			</a>
 	  			

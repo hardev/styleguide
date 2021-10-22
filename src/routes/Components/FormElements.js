@@ -26,7 +26,7 @@ export default class Forms extends Component {
         </div>
         <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
 	      	<label for="cityl">City</label>
-	      	<input type="text" class="form-control form-control--large" id="cityl" aria-describedby="city" placeholder="City">
+	      	<input type="text" class="form-control form-control--large is-invalid" id="cityl" aria-describedby="city" placeholder="City">
 	      	<div class="component_content__demo__description">Large Input</div>
         </div>        
         <div class="col col-12 pr-sm-5 pl-sm-5" style="max-width:500px;">
@@ -677,6 +677,50 @@ export default class Forms extends Component {
           </div>
         </div>
       `,
+	  
+	  `
+	  <div class="row justify-content-center">
+          <div class="col col-sm-12 col-12">
+			  <div class="btn-group btn-group-toggle btn-group--nps" data-toggle="buttons">
+		          <label class="btn active">
+		            <input type="radio" name="options" id="option1" autocomplete="off"> 0
+		          </label>
+		          <label class="btn">
+		            <input type="radio" name="options" id="option1" autocomplete="off" checked> 1
+		          </label>
+		          <label class="btn">
+		            <input type="radio" name="options" id="option2" autocomplete="off"> 2
+		          </label>
+		          <label class="btn">
+		            <input type="radio" name="options" id="option2" autocomplete="off"> 3
+		          </label>
+		          <label class="btn">
+		            <input type="radio" name="options" id="option2" autocomplete="off"> 4
+		          </label>
+		          <label class="btn">
+		            <input type="radio" name="options" id="option2" autocomplete="off"> 5
+		          </label>
+		          <label class="btn">
+		            <input type="radio" name="options" id="option2" autocomplete="off"> 6
+		          </label>
+		          <label class="btn">
+		            <input type="radio" name="options" id="option2" autocomplete="off"> 7
+		          </label>
+		          <label class="btn">
+		            <input type="radio" name="options" id="option2" autocomplete="off"> 8
+		          </label>
+		          <label class="btn">
+		            <input type="radio" name="options" id="option2" autocomplete="off"> 9
+		          </label>
+		          <label class="btn">
+		            <input type="radio" name="options" id="option2" autocomplete="off"> 10
+		          </label>
+		        </div>
+		    </div>
+	    </div>
+      `,
+
+	  
 
     ];
 
@@ -904,6 +948,7 @@ export default class Forms extends Component {
         <TemplateComponentBlock blockTitle="Dropdown Menu" elements={this.elements[5]} codeSnippets={this.codeSnippets[5]} />
         <TemplateComponentBlock blockTitle="Choosable Box" elements={this.elements[6]} codeSnippets={this.codeSnippets[6]} />
         <TemplateComponentBlock blockTitle="Toggle Buttons" elements={this.elements[7]} codeSnippets={this.codeSnippets[7]} />
+        <TemplateComponentBlock blockTitle="Toggle Buttons" elements={this.elements[8]} codeSnippets={this.codeSnippets[8]} />
 
 
       </TemplateDefault>

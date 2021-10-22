@@ -338,15 +338,63 @@
     }
 	
 	&--onlyicon {
-	  width: 25px;
+	  width: 40px;
 	  padding: 0px !important;
 	  font-size: 1px !important;
+	  display: inline-block;
+	  
+      &:after {
+	      margin-right: 0px;
+	  }
 	  
       &:before {
         margin-right:auto;
         margin-left: auto;
+        margin-top: 0px;
+        width: 24px;
+        height: 24px;
+      }
+
+      &:focus {
+	    box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0) !important;
+	  }
+
+      &.btn--small {
+	      width: 32px;
+	      
+	      &:before {
+	        width: 18px;
+	        height: 18px;
+	      }
+      }
+      
+      &.btn--large {
+	      width: 48px;
+	      height: 48px;	      
       }
     }
+    
+    &--borderless {
+	  width: 24px;
+	  height: 24px !important;
+	  line-height: 24px !important;
+	  padding: 0px !important;
+	  font-size: 1px !important;
+	  display: inline-block;
+	  
+      &:after {
+	      margin-right: 0px;
+	  }
+	  
+      &:before {
+        margin-right:auto;
+        margin-left: auto;
+        width: 24px;
+        height: 24px;
+        margin-top: 0px;
+      }
+    }
+    
     
     &--placeholder {
       &:before {
@@ -356,13 +404,19 @@
 
     &--favorite {
       &:before {
-        background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/heart_outline.svg);
+        background-image: url(https://content.harstatic.com/media/icons/icon-bookmark-off.svg);
+      }
+    }
+    
+    &--favorited {
+      &:before {
+        background-image: url(https://content.harstatic.com/media/icons/heart_light_pink.svg);
       }
     }
 
     &--dot_dot_dot {
       &:before {
-        background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/dot_dot_dot.svg);
+        background-image: url(https://content.harstatic.com/media/icons/icon-more-options.svg);
       }
     }
 
@@ -540,6 +594,26 @@
       }
     }
     
+    &--tour {
+      &:before {
+        background-image: url(https://content.harstatic.com/media/icons/listing_details/icon_3d_for_button.svg);
+      }
+    }
+
+    &--play {
+      &:before {
+        background-image: url(https://content.harstatic.com/media/icons/listing_details/icon_play_for_button.svg);
+      }
+    }
+    
+    &--gallery {
+      &:before {
+        background-image: url(https://content.harstatic.com/media/temprary/photogallery_icon.png);
+        width: 22px;
+      }
+    }
+    
+    
     &--lone {
       &:before {
         margin-right: 0;
@@ -559,6 +633,13 @@
       }
     }
     
+    &--full {
+      &:before {
+        width: 100%;
+        height: 100%;
+      }
+    }
+      
     &--sm-none {
      
      &:before {     

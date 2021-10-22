@@ -565,6 +565,16 @@ label {
 		height: 32px !important;
 		font-size: $font-size-small !important;
 	}
+	
+	option {
+	    background-color: #fef5e6;
+	    border-bottom: 1px solid #ebdac0;
+	    border-right: 1px solid #d6bb86;
+	    border-left: 1px solid #d6bb86;
+	}
+	option:hover {
+	    cursor: pointer;
+	}
 }
 
 .dropdown {
@@ -981,11 +991,11 @@ label {
 		background-color: #fff;
 		font-size:14px;
 		font-weight: bold;
-		padding: 0px 25px;
+		padding: 8px 15px;
 		cursor: pointer;
 		color: $color-slate !important;
 		transform: translate(0,0);
-		
+		border-radius: 22px;
 		.custom_fill {
 			fill: $color-slate !important;
 		}
@@ -1013,6 +1023,32 @@ label {
 			
 			.custom_fill {
 				fill: $color-snow-white !important;
+			}
+		}
+	}
+	
+	&--nps {
+		flex-wrap: wrap;
+		justify-content: center;
+		.btn {
+			padding: 0px;
+			border-radius: 50% !important;
+  			border:none !important;
+			background-color: #fff;
+			margin-right: 5px;
+			margin-bottom: 4px;
+			color: $color-auxiliary !important;
+			font-weight: $font-weight-semi-bold;
+			width: 42px;
+			height: 42px;
+			display: block;
+			max-width: 42px;
+			line-height: 42px;
+			min-width: 42px;
+			background-color: #d9e0f8;
+			
+			&:hover {
+				opacity: 80% !important;
 			}
 		}
 	}

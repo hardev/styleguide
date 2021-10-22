@@ -462,10 +462,24 @@
 			color: $color-auxiliary !important;
 			border: solid 1px $color-auxiliary-light;
 			background-color: $color-cement-light;
+			height: auto;
+			text-align: left;
+			padding: 7px 16px;
 		}
 		
 		&__team { 
 			color: $color-har-blue !important;
+		}
+		
+		&__open, &__resolved {
+			border:none;
+			height: 28px;
+			padding: 7px 12px;
+			line-height: 12px;
+			margin-bottom: 0px;
+			margin-right: 0px;
+			font-weight: normal;
+			font-size: $font-size-large;
 		}
 	}
 }

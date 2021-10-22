@@ -32,10 +32,10 @@ export default class ListingCardsPortraitV2 extends Component {
 				        </a>
 	        		</div>
 	        		<div class="cardv2--portrait__header_controls">
-	        			<a href="#"><img src="https://content.harstatic.com/media/icons/icon-bookmark-off.svg"></a>
-	        			<div class="dropdown d-inline-block">
-						 <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="https://content.harstatic.com/media/icons/icon-more-options.svg"></a>
-						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(434px, 41px, 0px);">
+	        			<button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--favorite"></button>
+	        			<div class="dropdown dropdown--custom  d-inline-block">
+						 <button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
 						    <a class="dropdown-item" href="#">Action one</a>
 						    <a class="dropdown-item" href="#">Action two</a>
 						    <a class="dropdown-item" href="#">Action three</a>
@@ -105,10 +105,10 @@ export default class ListingCardsPortraitV2 extends Component {
 				        </a>
 	        		</div>
 	        		<div class="cardv2--portrait__header_controls">
-	        			<a href="#"><img src="https://content.harstatic.com/media/icons/icon-bookmark-off.svg"></a>
-	        			<div class="dropdown d-inline-block">
-						 <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="https://content.harstatic.com/media/icons/icon-more-options.svg"></a>
-						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(434px, 41px, 0px);">
+	        			<button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--favorited"></button>
+	        			<div class="dropdown dropdown--custom  d-inline-block">
+						 <button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
 						    <a class="dropdown-item" href="#">Action one</a>
 						    <a class="dropdown-item" href="#">Action two</a>
 						    <a class="dropdown-item" href="#">Action three</a>
@@ -152,7 +152,7 @@ export default class ListingCardsPortraitV2 extends Component {
 					</div>
 					<div class="cardv2--portrait__body_badges">	        	
 			        	<div class="listingbadges listingbadges--justlisted" style="background-image:url(https://content.harstatic.com/media/icons/icon-listing-just-listed.svg);">Just listed</div>
-			        	<div class="listingbadges listingbadges--pricereduction" style="background-image:url(https://content.harstatic.com/media/icons/icon-price-reduction.svg);">Price Reduction</div>
+			        	<div class="listingbadges listingbadges--pricereduction" style="background-image:url(https://content.harstatic.com/media/icons/icon-price-reduction.svg);">Price Change</div>
 			        	<div class="listingbadges listingbadges--newconstruction" style="background-image:url(https://content.harstatic.com/media/icons/icon-new-construction.svg);">New construction</div>
 			        </div>
 	        	</div>
@@ -186,10 +186,10 @@ export default class ListingCardsPortraitV2 extends Component {
 				        </a>
 	        		</div>
 	        		<div class="cardv2--portrait__header_controls">
-	        			<a href="#"><img src="https://content.harstatic.com/media/icons/icon-bookmark-off.svg"></a>
-	        			<div class="dropdown d-inline-block">
-						 <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="https://content.harstatic.com/media/icons/icon-more-options.svg"></a>
-						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(434px, 41px, 0px);">
+	        			<button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--favorite"></button>
+	        			<div class="dropdown dropdown--custom  d-inline-block">
+						 <button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
 						    <a class="dropdown-item" href="#">Action one</a>
 						    <a class="dropdown-item" href="#">Action two</a>
 						    <a class="dropdown-item" href="#">Action three</a>
@@ -257,10 +257,10 @@ export default class ListingCardsPortraitV2 extends Component {
 	        			Cosmopolitan: <span class=" font_weight--regular">Buyer</span>
 	        		</div>
 	        		<div class="cardv2--portrait__header_controls">
-	        			<a href="#"><img src="https://content.harstatic.com/media/icons/icon-bookmark-off.svg"></a>
-	        			<div class="dropdown d-inline-block">
-						 <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="https://content.harstatic.com/media/icons/icon-more-options.svg"></a>
-						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(434px, 41px, 0px);">
+	        			<button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--favorite"></button>
+	        			<div class="dropdown dropdown--custom  d-inline-block">
+						 <button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
 						    <a class="dropdown-item" href="#">Action one</a>
 						    <a class="dropdown-item" href="#">Action two</a>
 						    <a class="dropdown-item" href="#">Action three</a>
@@ -333,10 +333,10 @@ export default class ListingCardsPortraitV2 extends Component {
 	        			Cosmopolitan
 	        		</div>
 	        		<div class="cardv2--portrait__header_controls">
-	        			<a href="#"><img src="https://content.harstatic.com/media/icons/icon-bookmark-off.svg"></a>
-	        			<div class="dropdown d-inline-block">
-						 <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="https://content.harstatic.com/media/icons/icon-more-options.svg"></a>
-						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(434px, 41px, 0px);">
+	        			<button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--favorited"></button>
+	        			<div class="dropdown dropdown--custom  d-inline-block">
+						 <button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
 						    <a class="dropdown-item" href="#">Action one</a>
 						    <a class="dropdown-item" href="#">Action two</a>
 						    <a class="dropdown-item" href="#">Action three</a>
@@ -393,10 +393,10 @@ export default class ListingCardsPortraitV2 extends Component {
 	        			Cabochon At River Cabochon At River
 	        		</div>
 	        		<div class="cardv2--portrait__header_controls">
-	        			<a href="#"><img src="https://content.harstatic.com/media/icons/icon-bookmark-off.svg"></a>
-	        			<div class="dropdown d-inline-block">
-						 <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="https://content.harstatic.com/media/icons/icon-more-options.svg"></a>
-						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(434px, 41px, 0px);">
+	        			<button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--favorite"></button>
+	        			<div class="dropdown dropdown--custom  d-inline-block">
+						 <button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
 						    <a class="dropdown-item" href="#">Action one</a>
 						    <a class="dropdown-item" href="#">Action two</a>
 						    <a class="dropdown-item" href="#">Action three</a>
@@ -471,10 +471,10 @@ export default class ListingCardsPortraitV2 extends Component {
 					        </a>
 		        		</div>
 		        		<div class="cardv2--portrait__header_controls">
-		        			<a href="#"><img src="https://content.harstatic.com/media/icons/icon-bookmark-off.svg"></a>
-		        			<div class="dropdown d-inline-block">
-							 <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="https://content.harstatic.com/media/icons/icon-more-options.svg"></a>
-							  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(434px, 41px, 0px);">
+		        			<button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--favorite"></button>
+							<div class="dropdown dropdown--custom  d-inline-block">
+								<button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+							  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
 							    <a class="dropdown-item" href="#">Action one</a>
 							    <a class="dropdown-item" href="#">Action two</a>
 							    <a class="dropdown-item" href="#">Action three</a>

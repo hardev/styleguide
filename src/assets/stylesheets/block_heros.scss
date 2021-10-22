@@ -129,3 +129,91 @@
 		}
 	}
 }
+
+
+/// inner pages heros
+
+.hero {
+	
+	h1 { 
+		font-size: $font-size-large-extra-extra-extra-extra;
+		font-weight: $font-weight-bold-extra;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.17;
+		letter-spacing: -1.2px;
+		color: $color_black;
+		margin-bottom: 16px;
+  	}
+	
+	&--default{
+		border-bottom: 1px solid #dfe3f0;
+		padding-bottom: 40px;
+		padding-top: 63px;
+		
+		@media screen and (max-width: 767px) {
+			padding-bottom: 40px;
+			padding-top: 40px;
+		}
+		
+		&__content {
+			max-width: 540px;
+					
+			&--tagline {
+			  font-size: $font-size-large-extra;
+			  font-weight: $font-weight-semi-bold;
+			  font-stretch: normal;
+			  font-style: normal;
+			  letter-spacing: normal;
+			  color: $color-carbon;
+			  margin-bottom: 24px;
+			}
+			
+			&--pera {
+			  font-size: $font-size-large;
+			  font-stretch: normal;
+			  font-style: normal;
+			  line-height: 1.44;
+			  letter-spacing: normal;
+			  color: $color-slate-light;
+			  margin-bottom: 24px;
+			}
+		}
+	}
+	
+	
+	&--withimage{
+		display: flex;		
+		flex-wrap: wrap;
+		
+		&--tagline {
+		  font-size: $font-size-large-extra;
+		  font-weight: $font-weight-semi-bold;
+		  font-stretch: normal;
+		  font-style: normal;
+		  letter-spacing: normal;
+		  color: $color-carbon;
+		}
+		
+		&--pera {
+		  font-size: $font-size-large;
+		  font-stretch: normal;
+		  font-style: normal;
+		  line-height: 1.44;
+		  letter-spacing: normal;
+		  color: $color-slate-light;
+		}
+		
+		&__left {
+			width: 100%;
+			flex: 0 0 50%;
+			max-width: 50%;				
+		}
+		
+		&__right {
+			width: 100%;
+			flex: 0 0 50%;
+			max-width: 50%;				
+		}
+	}
+}

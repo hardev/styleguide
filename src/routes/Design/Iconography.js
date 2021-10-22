@@ -66,6 +66,39 @@ export default class Iconography extends Component {
       
       
       `,
+      `
+      <div class="row justify-content-center">
+        <div class="col col-sm-12 col-12">
+        	<div class="d-inline-block pr-3">
+        		<button type="button" class="btn btn--ordinary btn--icon--onlyicon btn--icon btn--icon--favorite">
+        	</div>
+        	<div class="d-inline-block pr-3">
+        		<button type="button" class="btn btn--ordinary btn--small btn--icon--onlyicon btn--icon btn--icon--favorite">
+        	</div>
+        	<div class="d-inline-block pr-3">
+        		<button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--favorite"></button>
+        	</div>	
+        	
+        	<br><br>
+        	
+        	<div class="d-inline-block pr-3">
+        		<button type="button" class="btn btn--ordinary btn--icon--onlyicon btn--icon btn--icon--favorited">
+        	</div>
+        	<div class="d-inline-block pr-3">
+        		<button type="button" class="btn btn--ordinary btn--small btn--icon--onlyicon btn--icon btn--icon--favorited">
+        	</div>
+        	<div class="d-inline-block pr-3">
+        		<button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--favorited"></button>
+        	</div>
+        	
+        	<br><br>
+        	
+        	<button class="btn btn--ordinary btn--icon btn--icon--onlyicon btn--icon--full btn--icon--play btn--large"></button>
+        	<button class="btn btn--ordinary btn--icon btn--icon--onlyicon btn--icon--full btn--icon--tour btn--large"></button>
+        	<button class="btn btn--ordinary btn--icon btn--icon--gallery btn--large">View Gallery (43 photos)</button>
+        </div>
+      </div>
+      `,
     ];
 
 
@@ -89,6 +122,7 @@ export default class Iconography extends Component {
         activeChild="iconography">
 
         <TemplateComponentBlock blockTitle="Icon Link Basic" elements={this.elements[0]} codeSnippets={this.codeSnippets[0]} />
+        <TemplateComponentBlock blockTitle="Icon Buttons" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
 
       </TemplateDefault>
     )

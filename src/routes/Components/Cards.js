@@ -452,6 +452,33 @@ export default class ListingCards extends Component {
       
       <div class="row">
         <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Agent Card shortinfo</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 mb-0 pb-0">
+          <a href="#" class="card card--agent_longinfo  card--agent_longinfo_reduced" style="max-width:520px;">
+          	<div class="card--agent_longinfo__profile">
+	            <div class="card--agent_longinfo_small__image" style="background-image: url(https://pics.harstatic.com/agent/716096.jpg?ts=2019-01-18T17:12:001099);"></div>            
+	            <div class="card--agent_longinfo__content">
+	              <div class="card--agent_longinfo__content_desc pb-1 pt-0"><img alt="" src="https://content.harstatic.com/media/icons/label-platinum.svg"><div class="clearfix"></div></div>
+	              <div class="font_weight--bold color_carbon pb-2" href="#">Aneeka Chauhan</div>
+	              <div class="card--agent_longinfo__content_stars">
+						<img style="width:12px;" alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img style="width:12px;" alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img style="width:12px;" alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img style="width:12px;" alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img style="width:12px;" alt="" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg">						
+				   </div>
+		 		   <div class="pt-1 overflow-ellipsis overflow-hidden">John Daugherty Broker Propert</div>
+	            </div>
+	        </div>	        
+          </a>
+        </div>        
+      </div>
+      
+      <hr />
+      
+      
+      
+      <div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
           <h4 tabindex="0">Broker Card</h4>
         </div>
       </div>
@@ -1096,7 +1123,7 @@ export default class ListingCards extends Component {
 							<div tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span>Kendra Riedel</span><br><div class="label label--agent label--agent__silver">Silver</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/712483.jpg?ts=2020-03-20T14:00:006147');"></div>
 							<div tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span>Diana C. Buckley</span><br><div class="label label--agent label--agent__gold">Gold</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/721108.jpg?ts=2021-04-22T21:28:002311');"></div>							
 							<div class="card--qa__footer_row_more">+2</div>							
-							<div class="card--qa__footer_row_label card--qa__footer_row_label_resolved"><img src="https://content.harstatic.com/media/icons/check_mark_green.svg" style="width:10px;" class="mr-1 float-left mt-1">Resolved</div>
+							<div class="card--qa__footer_row_label__container"><div class="label label--default label--default__resolved"><img src="https://content.harstatic.com/media/icons/checkmark-rounded_cement.svg">Resolved</div></div>
 						</div>
 		            </div>            	   
 		          </a>

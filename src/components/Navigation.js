@@ -109,6 +109,9 @@ export default class Header extends Component {
                   <li className={`li ${this.props.activeChild == 'typography' ? 'li--active' : ''} `}>
 										<Link to="/design/typography">Typography</Link>
                   </li>
+                  <li className={`li ${this.props.activeChild == 'images' ? 'li--active' : ''} `}>
+										<Link to="/design/images">Images</Link>
+                  </li>
                 </ul>
               </li>
 
@@ -213,6 +216,9 @@ export default class Header extends Component {
                   </li>
                   <li className={`li ${this.props.activeChild == 'team_header' ? 'li--active' : ''} `}>
                     <Link to="/template_blocks/team_header">Team Header</Link>
+                  </li>
+                  <li className={`li ${this.props.activeChild == 'cmsblocks' ? 'li--active' : ''} `}>
+                    <Link to="/template_blocks/cmsblocks">CMS Blocks</Link>
                   </li>
                 </ul>
               </li>

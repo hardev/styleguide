@@ -737,6 +737,31 @@
 	}	
 }	
 
+
+//map pointer
+.map_pointer {
+
+	&__agent {
+		display: block;
+		height: 48px;
+		width: 40px;
+		background-image: url(https://content.harstatic.com/media/icons/map_pointer_bg.svg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		padding: 3px;
+		
+		&__agentpic {
+			width: 34px;
+			height: 34px;
+			border-radius: 50%;
+			background-repeat: no-repeat;
+			background-position: center center;	
+			background-size: cover;
+		}
+	}
+}
+
+
 .property_select_checkbox {
 	width: 93px;
 	height: 93px;
@@ -813,6 +838,24 @@
    .inpagenav ul li a{padding:0 10px;}
 }
 
+
+/* navbar */
+.inpagenav{cursor: default;background-color:rgba(255, 255, 255, 0.64);min-height:64px;position:static;position:-webkit-sticky;position:-moz-sticky;position:sticky !important;z-index:111;top:0px;-webkit-backdrop-filter: blur(10px);backdrop-filter: blur(10px);white-space: nowrap;overflow-x: auto;-webkit-overflow-scrolling: touch;-ms-overflow-style: -ms-autohiding-scrollbar;border-bottom:2px solid #dae1f8;}
+.inpagenav::-webkit-scrollbar {display: none; }
+.modal-open .inpagenav{position: static;}
+.inpagenav ul {margin: auto;}
+.inpagenav ul li,#MarketNav ul{display:inline-block;padding:0px;margin:0px;list-style:none;}
+.inpagenav ul li a{color:#515b7a !important;font-size:14px;font-weight:600;border-bottom:4px solid rgba(255, 255, 255, 0.0);padding:0 25px;display:inline-block;height:62px;line-height:62px;}
+.inpagenav ul li.active a{border-bottom:2px solid #0738cd !important;color:#0738cd !important;-webkit-transition: none;-moz-transition: none;-o-transition: none;transition: none;}
+.inpagenav ul li a:hover{border-bottom:2px solid #0738cd !important; text-decoration: none;}
+.nav_shadow {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24);}
+@media (max-width:768px) {
+	.inpagenav ul li a{padding:0 15px;}
+}
+@media (max-width:576px) {   
+   .inpagenav ul li a{padding:0 10px;}
+}
+   
 //bootbox customization
 .bootbox-close-button {
 	top: 14px !important;
@@ -824,10 +867,30 @@
 	font-size: 0px !important;
 }
 
-
+.border--end{border-bottom: 4px solid #ff0065;}
 .bigicon_btn {text-decoration: none !important;transition: all 0.2s ease !important;}
 .bigicon_btn img {-webkit-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1)); filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1)); }
 .bigicon_btn:hover img {-webkit-filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.24)); filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.24)); transition: all 0.2s ease !important;}
 
 .hero_landing_page {background-image: none !important;}
 
+.was-validated .form-control:invalid, .form-control.is-invalid {background-image:url(https://content.harstatic.com/media/icons/icon-field-required_input.svg) !important;background-size: 14px !important; background-position:right 10px center !important;}
+
+.nps_popup {	
+	.modal-body{
+		padding: 0px;
+		
+		&--message {
+			background-color: #042280;
+			padding: 30px;
+			color: #ffffff;
+			text-align: center;
+			font-size: 600;
+			font-size: 18px;
+		}
+		
+		&--input {
+			padding: 30px;
+		}
+	}
+}

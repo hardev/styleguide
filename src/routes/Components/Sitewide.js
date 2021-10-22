@@ -121,6 +121,58 @@ export default class Sitewide extends Component {
         		<div class="certificate certificate--small">CSMS</div>
 				<div class="certificate certificate--small">GRI</div>				
         	</div>
+       </div>`
+       ,`
+       <div class="row">
+        	<div class="col col-12">
+        		<a href="#" class="map_pointer__agent"><div class="map_pointer__agent__agentpic" style="background-image:url('https://pics.harstatic.com/agent/720353.jpg?ts=2020-03-04T21:54:005525');"></div></a>
+
+				<div class="component_content__demo__description">Flags Small</div>
+        	</div>
+       </div>`,
+       
+        `
+       <div class="row">
+        	<div class="col col-12">
+        		<button type="button" class="btn btn--ordinary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#VideoPopup">Play Video 1 - autoplay</button>	
+				<button type="button" class="btn btn--ordinary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/IP7uGKgJL8U" data-target="#VideoPopup">Play Video 2</button>
+					
+				<div class="modal fade modal--medium modal--video" id="VideoPopup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body">				
+				       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>        
+				        <!-- 16:9 aspect ratio -->
+						<div class="embed-responsive embed-responsive-16by9">
+						  <iframe class="embed-responsive-item" src="" id="VideoIframeContainer"  allowscriptaccess="always" allow="autoplay"></iframe>
+						</div>
+				      </div>				
+				    </div>
+				  </div>
+				</div>
+				
+				<script>
+				$(document).on('ready', function() {
+					// Gets the video src from the data-src on each button					
+					var $videoSrc;  
+					$('.video-btn').click(function() {
+					    $videoSrc = $(this).data( "src" );
+					});
+					console.log($videoSrc);
+					// when the modal is opened autoplay it  
+					$('#VideoPopup').on('shown.bs.modal', function (e) {					    
+					// set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+					$("#VideoIframeContainer").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
+					})
+					// stop playing the youtube video when I close the modal
+					$('#VideoPopup').on('hide.bs.modal', function (e) {
+					    // a poor man's stop video
+					    $("#VideoIframeContainer").attr('src',$videoSrc); 
+					})
+   				</script>
+   				
+				<div class="component_content__demo__description">Video Popup</div>
+        	</div>
        </div>`,
     ];
 
@@ -160,7 +212,65 @@ export default class Sitewide extends Component {
 	<div class="clearfix"></div>
 </div>`,
 `<div class="alertbox alertbox--warning"><span class="font_weight--bold">Warning:</span> Answers provided are just opinions and should not be accepted as advice.</div>
-`,			
+`,	
+`
+3
+`,	
+`
+4
+`,
+`
+5
+`,
+`
+6
+`,
+`
+7
+`,
+`
+8
+`,
+`
+<button type="button" class="btn btn--ordinary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#VideoPopup">Play Video 1 - autoplay</button>	
+<button type="button" class="btn btn--ordinary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/IP7uGKgJL8U" data-target="#VideoPopup">Play Video 2</button>
+	
+<div class="modal fade modal--medium modal--video" id="VideoPopup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body">				
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>        
+        <!-- 16:9 aspect ratio -->
+		<div class="embed-responsive embed-responsive-16by9">
+		  <iframe class="embed-responsive-item" src="" id="VideoIframeContainer"  allowscriptaccess="always" allow="autoplay"></iframe>
+		</div>
+      </div>				
+    </div>
+  </div>
+</div>
+
+<script>
+$(document).on('ready', function() {
+	// Gets the video src from the data-src on each button					
+	var $videoSrc;  
+	$('.video-btn').click(function() {
+	    $videoSrc = $(this).data( "src" );
+	});
+	console.log($videoSrc);
+	// when the modal is opened autoplay it  
+	$('#VideoPopup').on('shown.bs.modal', function (e) {					    
+	// set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+	$("#VideoIframeContainer").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
+	})
+	// stop playing the youtube video when I close the modal
+	$('#VideoPopup').on('hide.bs.modal', function (e) {
+	    // a poor man's stop video
+	    $("#VideoIframeContainer").attr('src',$videoSrc); 
+	})
+});
+</script>
+`,
+		
 ];
 
   }
@@ -178,6 +288,9 @@ export default class Sitewide extends Component {
         <TemplateComponentBlock blockTitle="Tabuler Data" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
         <TemplateComponentBlock blockTitle="Disclaimer" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
         <TemplateComponentBlock blockTitle="Qoutetion" elements={this.elements[5]} codeSnippets={this.codeSnippets[5]} />
+        <TemplateComponentBlock blockTitle="Flags and Tags" elements={this.elements[6]} codeSnippets={this.codeSnippets[6]} />
+        <TemplateComponentBlock blockTitle="Map Pointers" elements={this.elements[7]} codeSnippets={this.codeSnippets[7]} />
+        <TemplateComponentBlock blockTitle="Open Youtube video in Popup" elements={this.elements[8]} codeSnippets={this.codeSnippets[8]} />
         
         
       </TemplateDefault>

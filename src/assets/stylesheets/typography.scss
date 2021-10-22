@@ -144,7 +144,7 @@ a {
 h1,.h1 {
   cursor: default;
   font-weight: $font-weight-bold;
-  color: $color-har-blue-dark;
+  color: $color-black;
 
   // &--main_page {
     font-size: $font-size-large-extra-extra-extra-extra;
@@ -198,10 +198,11 @@ h2,.h2 {
   position: relative;
   cursor: default;
   font-weight: $font-weight-bold;
-  color: $color-har-blue-dark;
-  font-size: $font-size-large-extra-extra;
+  color: $color-black;
+  font-size: 27px;
+  /*font-size: $font-size-large-extra-extra;*/
   line-height: 32px;
-  letter-spacing: -0.4px;
+  letter-spacing: -0.64px;
   margin-bottom: 24px;
 
   @media screen and (max-width: 576px) {
@@ -214,6 +215,12 @@ h2,.h2 {
 		}
   }
 
+  &:before {
+    content:none;
+    display: none;
+  }
+    
+  /*
   &:before {
     content: "";
     display: block;
@@ -228,7 +235,7 @@ h2,.h2 {
 	    margin-bottom: 2px;
 	}
   }
-
+  */
   &.h2--negative {
     color: $color-snow-white !important;
   }
@@ -236,7 +243,7 @@ h2,.h2 {
   &.h2--simple,&--simple {
 	  font-size: $font-size-large-extra-extra;
 	  font-weight: $font-weight-bold;
-	  color: $color-har-blue-dark;
+	  color: $color-black;
 	  
 	  &:before { 
 		  content: none;
@@ -249,7 +256,7 @@ h2,.h2 {
   }
   
   &--black_large {
-		color: $color-carbon;
+		color: $color-black;
 		font-size: 27px;
 		&:before { 
 			content: none;
@@ -259,7 +266,7 @@ h2,.h2 {
   &.h2--light {
 	  font-size: $font-size-large-extra-extra-extra;
 	  font-weight: $font-weight-semi-bold;
-	  color: $color-carbon;
+	  color: $color-black;
 	  line-height: 40px;
 	  
 	  &:before { 
@@ -354,7 +361,7 @@ h3 {
   text-align: left !important;
   cursor: default;
   font-weight: $font-weight-bold;
-  color: $color-har-blue-dark;
+  color: $color-black;
   font-size: $font-size-large-extra;
   line-height: 26px;
   margin-bottom: 16px;
@@ -368,10 +375,10 @@ h4 {
   text-align: left !important;
   cursor: default;
   font-weight: $font-weight-bold;
-  color: $color-carbon;
+  color: $color-black;
   font-size: $font-size-large;
   line-height: 24px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 
   &.h4--negative {
     color: $color-snow-white !important;

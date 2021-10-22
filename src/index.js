@@ -9,6 +9,7 @@ import ColorScheme from './routes/Design/ColorScheme';
 import Depth from './routes/Design/Depth';
 import Iconography from './routes/Design/Iconography';
 import Typography from './routes/Design/Typography';
+import Images from './routes/Design/images';
 
 import AgentSignatures from './routes/Components/AgentSignatures';
 import Buttons from './routes/Components/Buttons';
@@ -31,6 +32,7 @@ import Sitewide from './routes/Components/Sitewide';
 import Favorite from './routes/Components/Favorites';
 
 import Heros from './routes/TemplateBlocks/Heros';
+import CMSBlocks from './routes/TemplateBlocks/CMSBlocks';
 import AgentHeader from './routes/TemplateBlocks/AgentHeader';
 import BrokerHeader from './routes/TemplateBlocks/BrokerHeader';
 import TeamHeader from './routes/TemplateBlocks/TeamHeader';
@@ -49,6 +51,7 @@ ReactDOM.render(
       <Route path="/design/depth" component={Depth} />
       <Route path="/design/iconography" component={Iconography} />
       <Route path="/design/typography" component={Typography} />
+      <Route path="/design/images" component={Images} />
 
       <Route path="/components/agent_signatures" component={AgentSignatures} />
       <Route path="/components/buttons" component={Buttons} />
@@ -71,6 +74,7 @@ ReactDOM.render(
       <Route path="/components/favorites" component={Favorite} />
 
       <Route path="/template_blocks/heros" component={Heros} />
+      <Route path="/template_blocks/cmsblocks" component={CMSBlocks} />
       <Route path="/template_blocks/agent_header" component={AgentHeader} />
       <Route path="/template_blocks/broker_header" component={BrokerHeader} />
       <Route path="/template_blocks/team_header" component={TeamHeader} />

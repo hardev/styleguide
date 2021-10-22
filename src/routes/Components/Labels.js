@@ -251,6 +251,9 @@ export default class Labels extends Component {
           <a href="#" class="label label--default label--default__membership">Member of Something Else</a>
           <br><br>
           <a href="#" class="label label--default label--default__team">Lead of A to Z Houston Real Estate Team</a>
+          <br><br><br><br>
+          <div class="label label--default label--default__open">Open</div>
+          <div class="label label--default label--default__resolved"><img src="https://content.harstatic.com/media/icons/checkmark-rounded_cement.svg">Resolved</div>
         </div>
        </div>
        `,
