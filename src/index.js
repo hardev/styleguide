@@ -41,8 +41,9 @@ import TeamHeader from './routes/TemplateBlocks/TeamHeader';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
+const basename = process.env.NODE_ENV === 'production'? '/HTML_crm/styleguide/': undefined;
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={basename}>
     <Switch>
       <Route path="/" exact={true} component={App} />
 
