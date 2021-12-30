@@ -81,6 +81,25 @@ export default class Buttons extends Component {
         </div>
       </div>
       
+      <hr>
+      
+      <div class="row small-gutters">
+        <div class="col col-4">
+          <button role="button" class="btn btn--ordinary btn--fluid">Street View</button>
+          <div class="component_content__demo__description">bnt--fluid</div>
+        </div>
+
+        <div class="col col-4">
+          <button role="button" class="btn btn--ordinary btn--fluid">Get Directions</button>
+          <div class="component_content__demo__description">bnt--fluid</div>
+        </div>
+		
+		<div class="col col-4">
+          <button role="button" class="btn btn--ordinary btn--fluid">Drive Time</button>
+          <div class="component_content__demo__description">bnt--fluid</div>
+        </div>
+      </div>
+      
        <hr>
 
       <div class="row">
@@ -176,7 +195,20 @@ export default class Buttons extends Component {
         </div>
 
         <div class="clear_both"></div>
-      </div>`,
+      </div>
+      
+      <hr>
+      <div class="row">
+        <div class="col col-12 text-left">
+	        <button role="button" class="btn btn--anchor">Home</button>
+	        <button role="button" class="btn btn--anchor">Shools</button>
+	        <button role="button" class="btn btn--anchor">Home Values</button>
+			<button role="button" class="btn btn--anchor">Highrise</button>
+        </div>
+
+        <div class="clear_both"></div>
+      </div>
+      `,
 
       `<div class="row">
         <div class="col col-sm-3 col-6">
@@ -221,6 +253,16 @@ export default class Buttons extends Component {
           </div>
 
           <div class="component_content__demo__description">Button with Icon and Options</div>
+        </div>
+
+        <div class="clear_both"></div>
+      </div>
+      `,
+
+      `<div class="row">
+        <div class="col">
+          <button role="button" class="btn btn--ordinary btn--icon btn--icon--maptoggle btn--large ">View Map</button>
+          <button role="button" class="btn btn--ordinary btn--icon btn--icon--listview btn--large">View List</button>
         </div>
 
         <div class="clear_both"></div>
@@ -287,6 +329,7 @@ export default class Buttons extends Component {
         <TemplateComponentBlock blockTitle="Sizes" elements={this.elements[0]} codeSnippets={this.codeSnippets[0]} />
         <TemplateComponentBlock blockTitle="Styles" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
         <TemplateComponentBlock blockTitle="Variations" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
+        <TemplateComponentBlock blockTitle="Buttons with icons" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
 
       </TemplateDefault>
     )

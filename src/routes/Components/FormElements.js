@@ -28,7 +28,12 @@ export default class Forms extends Component {
 	      	<label for="cityl">City</label>
 	      	<input type="text" class="form-control form-control--large is-invalid" id="cityl" aria-describedby="city" placeholder="City">
 	      	<div class="component_content__demo__description">Large Input</div>
-        </div>        
+        </div>
+        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+	      	<label for="cityl" class="form-label--bold">City</label>
+	      	<input type="text" class="form-control form-control--large__extra" id="cityl" aria-describedby="city" placeholder="City">
+	      	<div class="component_content__demo__description">Large Input</div>
+        </div> 
         <div class="col col-12 pr-sm-5 pl-sm-5" style="max-width:500px;">
 		    <label for="inlineFormInputGroup">Monthly rent</label>
 		    <div class="input-group input-group--custom mb-2">
@@ -142,12 +147,34 @@ export default class Forms extends Component {
        <div class="row">
         <div class="col col-6 pr-sm-5 pl-sm-5">
           <div>
-		        <input type="text" class="form-control input-search_form" placeholder="Search by address, city or zip code">
+		        <div class="input--gps">
+					<input type="text" class="form-control" name="address" autocomplete="off" placeholder="Enter address" aria-label="Enter address or zipcode" value="Houston Southwest Airport, 503 Mckeever Rd, Rosharon, Texas 77583">
+					<a class="input--gps__btn" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Get my current location"></a>
+				</div>
           </div>
           <div class="component_content__demo__description">Form Search input with icon</div>
         </div>
         
-       </div>`,
+       </div>
+       
+       
+       <hr>
+       
+       <div class="row">
+	        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+	          <h4 tabindex="0">Form search input</h4>
+	        </div>
+	    </div>
+       <div class="row">
+        <div class="col col-6 pr-sm-5 pl-sm-5">
+          <div>
+		        <input type="text" class="form-control input-gps_form" placeholder="Search by address, city or zip code">
+          </div>
+          <div class="component_content__demo__description">Form Search input with gps</div>
+        </div>
+        
+       </div>
+       `,
        `
        <div class="row">
          <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
@@ -462,6 +489,16 @@ export default class Forms extends Component {
     			</div>
           <div class="component_content__demo__description">Bold Dropdown Menu</div>
         </div>
+        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+		        <select class="custom-select custom-select__rounded custom-select_medium">
+	    		    <option selected>Select</option>
+	    		    <option value="1">Option one</option>
+	    		    <option value="2">Option two</option>
+	    		    <option value="3">Option three</option>
+	    		</select>
+    			
+          <div class="component_content__demo__description">Bold Dropdown Menu</div>
+        </div>
        </div>
        
        <div class="row">
@@ -479,11 +516,11 @@ export default class Forms extends Component {
           <div class="component_content__demo__description">Bold Dropdown Menu</div>
         </div>
         <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5"> 
-       		<div class="dropdown">
+       		<div class="dropdown dropdown--withbtn">
 			  <button class="dropdown-toggle btn btn--ordinary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			    button style
 			  </button>
-			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(434px, 41px, 0px);">
+			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
 			    <a class="dropdown-item" href="#">Action one</a>
 			    <a class="dropdown-item" href="#">Action two</a>
 			    <a class="dropdown-item" href="#">Action three</a>
@@ -502,7 +539,49 @@ export default class Forms extends Component {
 			  </div>
 			</div>
           <div class="component_content__demo__description">Dropdown Simple</div>
-        </div>        
+        </div>
+        
+        
+        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+    		
+    		<!-- dropdown with icons -->
+    		<div class="dropdown dropdown--custom  d-inline-block">
+			 <button type="button" class="btn btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+			  <div class="dropdown-menu dropdown-menu__withicons dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
+			    <a class="dropdown-item" href="#">
+			    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_copy.svg"></div>
+			    	<div class="dropdown-item__text">
+			    		<div class="dropdown-item__text__title">Copy link</div>
+			    	</div>
+			    </a>
+			    <a class="dropdown-item" href="#">
+			    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_share.svg"></div>
+			    	<div class="dropdown-item__text">
+			    		<div class="dropdown-item__text__title">Share listing</div>
+			    		<div class="dropdown-item__text__desc">Share listing</div>
+			    	</div>
+			    </a>
+			    <a class="dropdown-item" href="#">
+			    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_hide.svg"></div>
+			    	<div class="dropdown-item__text">
+			    		<div class="dropdown-item__text__title">Hide listing</div>
+			    		<div class="dropdown-item__text__desc">See fewer listings like this</div>
+			    	</div>
+			    </a>
+			    <a class="dropdown-item" href="#">
+			    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_report.svg"></div>
+			    	<div class="dropdown-item__text">
+			    		<div class="dropdown-item__text__title">Report this listing</div>
+			    		<div class="dropdown-item__text__desc">Report this listing</div>
+			    	</div>
+			    </a>
+			  </div>
+			</div>
+			<!-- / dropdown with icons -->
+			
+          <div class="component_content__demo__description">Dropdown Simple</div>
+        </div>
+                
        </div>
       `,
 
@@ -676,6 +755,37 @@ export default class Forms extends Component {
             <div class="component_content__demo__description">Toggle Buttons</div>
           </div>
         </div>
+        
+        <div class="row justify-content-center">
+          <div class="col col-sm-6 col-12 pr-sm-5 pl-sm-5">
+            <div class="btn-group btn-group-toggle btn-group--green" data-toggle="buttons">
+              <label class="btn btn-secondary active">
+                <input type="radio" name="options" id="option1" autocomplete="off" checked> For Sale
+              </label>
+              <label class="btn btn-secondary">
+                <input type="radio" name="options" id="option2" autocomplete="off"> For Rent
+              </label>
+            </div>
+            <div class="component_content__demo__description">Toggle Buttons</div>
+          </div>
+        </div>
+        
+        <div class="row justify-content-center">
+          <div class="col col-12 pr-sm-5 pl-sm-5">
+            <div class="btn-group btn-group-toggle btn-group--btns" data-toggle="buttons">
+              <label class="btn btn--ordinary active btn--large">
+                <input type="radio" name="options" id="option1" autocomplete="off" checked> Drive Time
+              </label>
+              <label class="btn btn--ordinary btn--large">
+                <input type="radio" name="options" id="option2" autocomplete="off"> Schools
+              </label>
+              <label class="btn btn--ordinary btn--large">
+                <input type="radio" name="options" id="option2" autocomplete="off"> Agents
+              </label>
+            </div>
+            <div class="component_content__demo__description">Toggle Buttons</div>
+          </div>
+        </div>
       `,
 	  
 	  `
@@ -720,7 +830,73 @@ export default class Forms extends Component {
 	    </div>
       `,
 
-	  
+	  `
+	  <div class="row justify-content-center">
+          <div class="col col-md-6 col-12">
+			  
+			  <div class="popover--dropdown">
+			  		<button role="button" type="button" class="popover--dropdown__btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Status</button>
+			  		<div class="dropdown-menu dropdown-menu--unclosable  popover--dropdown__content">		  			
+			  			<div class="popover--dropdown__content__header">
+			  				<h3 tabindex="0">Status</h3>
+			  				<div class="ml-auto">
+			  					<a class="mr-4" href="#">Reset</a>
+			  					<a href="#"><img src="https://content.harstatic.com/media/icons/close_black.svg"></a>
+			  				</div>
+			  			</div>
+			  			<div class="popover--dropdown__content__inner">
+							<div class="popover--dropdown__content__item">
+								<div role="checkbox" class="custom-control custom-checkbox custom-checkbox_with-description">
+						            <input type="checkbox" id="checkbox_button_medium_11" name="checkbox_button_medium" class="custom-control-input">
+						            <label class="custom-control-label" for="checkbox_button_medium_11"><div class="statusdote statusdote--active"></div> For Sale <div class="ml-3 statusdote statusdote--rent"></div> For Rent</label>
+						            <span>Available for sale / for rent</span>
+						        </div>
+							</div>
+						</div>
+						<div class="popover--dropdown__content__footer">
+							<button role="button" class="btn btn--primary w-100">View Results</button>
+						</div>						
+					</div>
+					<div class="popover--dropdown__overlay"></div>
+			  </div>
+			  
+			  <script>
+			  $(document).on('ready', function() {
+				  $('.dropdown-menu--unclosable').click(function(e) {
+				    e.stopPropagation();
+				  });
+			  });
+			  </script>
+		  </div>
+	  </div>
+      `,
+
+	  `
+	  <div class="row justify-content-center">
+          <div class="col col-md-6 col-12">
+			  <div class="checkbox_btn_time">
+	            <input type="checkbox" class="custom-control-input" id="time_1">
+	            <label class="custom-control-label" for="time_1">            	
+	            	<span class="custom-control-label__text">9:30 am - 10:00 am</span>
+	            </label>
+	          </div>
+	          
+	          <div class="checkbox_btn_time">
+	            <input type="checkbox" class="custom-control-input" id="time_3" checked>
+	            <label class="custom-control-label" for="time_3">            	
+	            	<span class="custom-control-label__text">9:30 am - 10:00 am</span>
+	            </label>
+	          </div>
+	          
+	          <div class="checkbox_btn_time">
+	            <input type="checkbox" class="custom-control-input" id="time_2" disabled>
+	            <label class="custom-control-label" for="time_2">            	
+	            	<span class="custom-control-label__text">8:30 am - 9:00 am (Blocked)</span>
+	            </label>
+	          </div>
+		  </div>
+	  </div>
+      `,	  
 
     ];
 
@@ -949,6 +1125,8 @@ export default class Forms extends Component {
         <TemplateComponentBlock blockTitle="Choosable Box" elements={this.elements[6]} codeSnippets={this.codeSnippets[6]} />
         <TemplateComponentBlock blockTitle="Toggle Buttons" elements={this.elements[7]} codeSnippets={this.codeSnippets[7]} />
         <TemplateComponentBlock blockTitle="Toggle Buttons" elements={this.elements[8]} codeSnippets={this.codeSnippets[8]} />
+        <TemplateComponentBlock blockTitle="Popover Dropdown" elements={this.elements[9]} codeSnippets={this.codeSnippets[9]} />
+        <TemplateComponentBlock blockTitle="Time Picker" elements={this.elements[10]} codeSnippets={this.codeSnippets[10]} />
 
 
       </TemplateDefault>

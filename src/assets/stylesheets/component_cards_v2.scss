@@ -350,5 +350,118 @@
 		}		
 			
 	}
+	
+	
+	//school Card starts here	
+	&--school{
+		display: flex !important;
+		align-items: end;
+		font-size: $font-size-medium;
+		line-height: 1.7;
+		padding: 0px;
+		margin-bottom: 8px;
+		
+		
+		display: grid !important;
+		grid-gap: 0;
+		grid-template-columns: 35% 65%;
+		grid-template-rows: 100% auto;
+		grid-template-areas: 'a b';
+
+		@media screen and (max-width: 600px) {
+			grid-template-columns: 100%;
+			grid-template-rows: 120px auto;
+		}
+
+		&__image_content {
+			// float: left;
+			// width: 112px;
+			// height: 120px;
+			grid-area: a;
+			width: 100%;
+			height: 100%;
+			background-color: $color-cloudy-sky-light;
+			background-repeat: no-repeat;
+			background-size: cover;
+			border-radius: 4px 0 0 4px;
+			overflow: hidden;
+			background-image: url("https://content.harstatic.com/media/icons/no_photo_placeholder.svg");
+			background-repeat: no-repeat;
+			background-position: center center ;
+			text-decoration: none;
+
+			// @media screen and (max-width: 768px) {
+			//   width: 40%;
+			// 	height: 88px;
+			// }
+
+			@media screen and (max-width: 600px) {
+				border-radius: 4px 4px 0 0;
+			}
+
+			a {
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+
+			&__image {
+				width: 100%;
+				height: 100%;
+				background-size: cover;
+				background-position: center;
+				
+			}
+		}
+
+		&__content {
+			// float: left;
+			grid-area: b;
+			// width: calc(100% - 112px);
+			width: 100%;
+			overflow: hidden;
+			margin-left: 0;
+			padding: 24px;
+			color: $color-auxiliary;
+			text-decoration: none;
+
+			// @media screen and (max-width: 768px) {
+		  //   width: 60%;
+			// 	padding: 16px;
+		  // }
+
+			@media screen and (max-width: 600px) {
+				grid-column-start: 1;
+				grid-row-start: 2;
+				padding: 16px;
+			}
+			
+			&__impovement {
+				font-size: $font-size-small;
+				color: $color-auxiliary;
+				background-color: $color-cement-light;
+				padding: 12px;
+				margin-top: 12px;
+				line-height: 18px;	
+				
+				> a {					
+					color: $color-har-blue !important;	
+					
+					&:hover {
+						text-decoration: underline !important;
+					}
+				}
+				
+				.title {
+					font-weight: $font-weight-semi_bold;
+					color: $color-black;
+				}
+			}
+		}
+
+			
+	}
+
+	
 
 }

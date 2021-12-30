@@ -75,8 +75,6 @@
 		
 		&__content {
 			
-			border-radius: 4px;
-		
 			border-radius: 8px;
 			border: solid 1px #d0d0d0;
 		  
@@ -314,6 +312,81 @@
 				
 				.listingbadges { 
 					margin-bottom: 4px;
+				}
+			}
+		}
+		
+		&__selected {
+			box-shadow: 0 0 0 4px rgba(7, 56, 205, 0.12);
+			border: solid 1px $color-auxiliary !important;
+			background-color: #fff;
+		}
+		
+		&__select {
+			padding: 8px 12px;
+			border-bottom: 1px solid $color-cloudy-sky-light;
+			text-align: center;
+			display: none;
+			
+			&__on {
+				display: none;
+			}
+		}
+		
+		.btn--mobileonly { 
+			display: none; 
+		}
+		
+		@media screen and (max-width: 700px) {
+			border-radius: 8px;
+			border: solid 1px #d0d0d0 !important;
+			padding: 0px;
+			
+			&__header {
+				padding: 12px;
+				&_agent {
+										
+					&_title {
+					}
+				} 
+							
+				&_controls {					
+					> a {
+						
+					}
+					.dropdown-menu {
+					}
+				}
+			}
+			
+			&__content { 
+				border: none;
+				padding: 0px;
+				border-radius: 0px;
+				margin-bottom: 0px;
+				border-radius: 8px;
+				&__body {
+					&__image {
+						&__img {
+							border-radius: 0px;			
+						}
+					}
+				}
+
+			}
+			
+			.btn--mobileonly { 
+				display: inline-block; 
+			}
+			
+			.btn--desktoponly {
+				display: none;
+			}
+			
+			
+			&__select {
+				&__on {
+					display: block;
 				}
 			}
 		}

@@ -143,6 +143,35 @@
 	}
 }
 
+.pill {
+	background-color:#DAE1F8;
+	border-radius: 2px;
+	height: 32px;
+	line-height: 24px;
+	font-size: $font-size-medium;
+	color: $color-har-blue-dark;
+	display: inline-block;
+	position: relative;
+	padding: 4px 30px 4px 8px;
+	border-radius: 4px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	
+	&--location {		
+		a {
+			display:block;
+			position: absolute;
+			right: 2px; 
+			top: 0px;
+			width: 32px;
+			height: 32px;
+			margin-left: 4px;
+			background:url("https://content.harstatic.com/media/icons/cross_blue.svg") no-repeat right 4px center;
+			background-size: 20px;
+		}		
+	}
+}
+
 .alphabets_filter {
 	overflow: hidden;
 	overflow-x: auto;

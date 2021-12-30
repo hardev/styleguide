@@ -16,6 +16,10 @@ export default class ListingCardsPortraitV2 extends Component {
         
         	<!-- card--portrait v2 -->
 	        <div class="cardv2 cardv2--portrait">
+	        	<!-- card select -->
+	        	<div class="cardv2--portrait__select">
+	        		<button role="button" class="btn btn--primary btn--small">Add to compare</button>
+	        	</div>
 	        	<!-- card header -->
 	        	<div class="cardv2--portrait__header">
 	        		<div class="cardv2--portrait__header_agent">
@@ -32,15 +36,41 @@ export default class ListingCardsPortraitV2 extends Component {
 				        </a>
 	        		</div>
 	        		<div class="cardv2--portrait__header_controls">
-	        			<button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--favorite"></button>
-	        			<div class="dropdown dropdown--custom  d-inline-block">
-						 <button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
-						    <a class="dropdown-item" href="#">Action one</a>
-						    <a class="dropdown-item" href="#">Action two</a>
-						    <a class="dropdown-item" href="#">Action three</a>
+	        			<button type="button" class="btn btn--icon--borderless btn--icon btn--icon--favorite"></button>
+	        			<!-- dropdown with icons -->
+			    		<div class="dropdown dropdown--custom  d-inline-block">
+						 <button type="button" class="btn btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						  <div class="dropdown-menu dropdown-menu__withicons dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_copy.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Copy link</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_share.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Share listing</div>
+						    		<div class="dropdown-item__text__desc">Share listing</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_hide.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Hide listing</div>
+						    		<div class="dropdown-item__text__desc">See fewer listings like this</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_report.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Report this listing</div>
+						    		<div class="dropdown-item__text__desc">Report this listing</div>
+						    	</div>
+						    </a>
 						  </div>
-						</div>	        			
+						</div>
+						<!-- / dropdown with icons -->	        			
 	        		</div>
 	        	</div>
 	        	<!-- / card header -->
@@ -89,6 +119,10 @@ export default class ListingCardsPortraitV2 extends Component {
 			<h4 tabindex="0">W/ Labels</h4>
 			<!-- card--portrait v2 -->
 	        <div class="cardv2 cardv2--portrait mb-2">
+	        	<!-- card select -->
+	        	<div class="cardv2--portrait__select">
+	        		<button role="button" class="btn btn--primary btn--small">Add to compare</button>
+	        	</div>
 	        	<!-- card header -->
 	        	<div class="cardv2--portrait__header">
 	        		<div class="cardv2--portrait__header_agent">
@@ -105,15 +139,41 @@ export default class ListingCardsPortraitV2 extends Component {
 				        </a>
 	        		</div>
 	        		<div class="cardv2--portrait__header_controls">
-	        			<button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--favorited"></button>
-	        			<div class="dropdown dropdown--custom  d-inline-block">
-						 <button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
-						    <a class="dropdown-item" href="#">Action one</a>
-						    <a class="dropdown-item" href="#">Action two</a>
-						    <a class="dropdown-item" href="#">Action three</a>
+	        			<button type="button" class="btn btn--icon--borderless btn--icon btn--icon--favorited"></button>
+	        			<!-- dropdown with icons -->
+			    		<div class="dropdown dropdown--custom  d-inline-block">
+						 <button type="button" class="btn btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						  <div class="dropdown-menu dropdown-menu__withicons dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_copy.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Copy link</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_share.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Share listing</div>
+						    		<div class="dropdown-item__text__desc">Share listing</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_hide.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Hide listing</div>
+						    		<div class="dropdown-item__text__desc">See fewer listings like this</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_report.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Report this listing</div>
+						    		<div class="dropdown-item__text__desc">Report this listing</div>
+						    	</div>
+						    </a>
 						  </div>
-						</div>	        			
+						</div>
+						<!-- / dropdown with icons -->	        			
 	        		</div>
 	        	</div>
 	        	<!-- / card header -->
@@ -170,6 +230,10 @@ export default class ListingCardsPortraitV2 extends Component {
 			
 			<!-- card--portrait v2 -->
 	        <div class="cardv2 cardv2--portrait">
+	        	<!-- card select -->
+	        	<div class="cardv2--portrait__select">
+	        		<button role="button" class="btn btn--primary btn--small">Add to compare</button>
+	        	</div>	        	
 	        	<!-- card header -->
 	        	<div class="cardv2--portrait__header">
 	        		<div class="cardv2--portrait__header_agent">
@@ -186,15 +250,41 @@ export default class ListingCardsPortraitV2 extends Component {
 				        </a>
 	        		</div>
 	        		<div class="cardv2--portrait__header_controls">
-	        			<button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--favorite"></button>
-	        			<div class="dropdown dropdown--custom  d-inline-block">
-						 <button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
-						    <a class="dropdown-item" href="#">Action one</a>
-						    <a class="dropdown-item" href="#">Action two</a>
-						    <a class="dropdown-item" href="#">Action three</a>
+	        			<button type="button" class="btn btn--icon--borderless btn--icon btn--icon--favorite"></button>
+	        			<!-- dropdown with icons -->
+			    		<div class="dropdown dropdown--custom  d-inline-block">
+						 <button type="button" class="btn btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						  <div class="dropdown-menu dropdown-menu__withicons dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_copy.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Copy link</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_share.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Share listing</div>
+						    		<div class="dropdown-item__text__desc">Share listing</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_hide.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Hide listing</div>
+						    		<div class="dropdown-item__text__desc">See fewer listings like this</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_report.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Report this listing</div>
+						    		<div class="dropdown-item__text__desc">Report this listing</div>
+						    	</div>
+						    </a>
 						  </div>
-						</div>	        			
+						</div>
+						<!-- / dropdown with icons -->		        			
 	        		</div>
 	        	</div>
 	        	<!-- / card header -->
@@ -251,21 +341,51 @@ export default class ListingCardsPortraitV2 extends Component {
 			
 			<!-- card--portrait v2 -->
 	        <div class="cardv2 cardv2--portrait">
+	        	<!-- card select -->
+	        	<div class="cardv2--portrait__select">
+	        		<button role="button" class="btn btn--primary btn--small">Add to compare</button>
+	        	</div>	        	
 	        	<!-- card header -->
 	        	<div class="cardv2--portrait__header">
 	        		<div class="cardv2--portrait__header_title text-truncate font_size--medium">
 	        			Cosmopolitan: <span class=" font_weight--regular">Buyer</span>
 	        		</div>
 	        		<div class="cardv2--portrait__header_controls">
-	        			<button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--favorite"></button>
-	        			<div class="dropdown dropdown--custom  d-inline-block">
-						 <button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
-						    <a class="dropdown-item" href="#">Action one</a>
-						    <a class="dropdown-item" href="#">Action two</a>
-						    <a class="dropdown-item" href="#">Action three</a>
+	        			<button type="button" class="btn btn--icon--borderless btn--icon btn--icon--favorite"></button>
+	        			<!-- dropdown with icons -->
+			    		<div class="dropdown dropdown--custom  d-inline-block">
+						 <button type="button" class="btn btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						  <div class="dropdown-menu dropdown-menu__withicons dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_copy.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Copy link</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_share.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Share listing</div>
+						    		<div class="dropdown-item__text__desc">Share listing</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_hide.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Hide listing</div>
+						    		<div class="dropdown-item__text__desc">See fewer listings like this</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_report.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Report this listing</div>
+						    		<div class="dropdown-item__text__desc">Report this listing</div>
+						    	</div>
+						    </a>
 						  </div>
-						</div>	        			
+						</div>
+						<!-- / dropdown with icons -->		        			
 	        		</div>
 	        	</div>
 	        	<!-- / card header -->
@@ -316,6 +436,117 @@ export default class ListingCardsPortraitV2 extends Component {
 			
 			
 			
+			<h4 tabindex="0">W/ Lotinformation</h4>
+			
+			
+			<!-- card--portrait v2 -->
+	        <div class="cardv2 cardv2--portrait">
+	        	<!-- card select -->
+	        	<div class="cardv2--portrait__select">
+	        		<button role="button" class="btn btn--primary btn--small">Add to compare</button>
+	        	</div>	        	
+	        	<!-- card header -->
+	        	<div class="cardv2--portrait__header">
+	        		<div class="cardv2--portrait__header_agent">
+	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
+				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
+				            <div class="agent_signaturev2__info">
+				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
+				                Michel Hayek
+				              </div>
+				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
+				                Better Homes And Gardens Real
+				              </div>
+				            </div>
+				        </a>
+	        		</div>
+	        		<div class="cardv2--portrait__header_controls">
+	        			<button type="button" class="btn btn--icon--borderless btn--icon btn--icon--favorite"></button>
+	        			<!-- dropdown with icons -->
+			    		<div class="dropdown dropdown--custom  d-inline-block">
+						 <button type="button" class="btn btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						  <div class="dropdown-menu dropdown-menu__withicons dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_copy.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Copy link</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_share.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Share listing</div>
+						    		<div class="dropdown-item__text__desc">Share listing</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_hide.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Hide listing</div>
+						    		<div class="dropdown-item__text__desc">See fewer listings like this</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_report.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Report this listing</div>
+						    		<div class="dropdown-item__text__desc">Report this listing</div>
+						    	</div>
+						    </a>
+						  </div>
+						</div>
+						<!-- / dropdown with icons -->		        			
+	        		</div>
+	        	</div>
+	        	<!-- / card header -->
+	        	
+	        	<!-- card img -->
+	        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
+	        		<div class="cardv2--portrait__img" style="background-image:url(https://photos.harstatic.com/194227305/lr/img-1.jpeg?ts=2021-08-06T12:35:50.297);"></div>
+				</a>
+	        	<!-- / card img -->
+	        	
+	        	<!-- card body -->
+	        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
+	        	<div class="cardv2--portrait__body">
+	        		<div class="cardv2--portrait__body_flexrow">
+	        			<div class="cardv2--portrait__body_price">$7,009,00</div>
+						<div class="cardv2--portrait__body_status"><div class="label label--forsale">for sale</div></div>
+					</div>
+					<div class="cardv2--portrait__body_flexrow">
+						<div class="cardv2--portrait__body_address">
+							3914 Normandy Ave<br>
+							Highland Park, TX 75205
+						</div>
+					</div>
+					<div class="cardv2--portrait__body_features">
+						<div class="cardv2--portrait__body_features">
+							<ul>
+								<li>Residential - Single Family</li>
+								<li>6 beds</li>
+								<li>1 full & 4 half baths</li>
+								<li>3 stories</li>
+								<li>8,741 built sqft</li>
+								<li>1986 year built</li>
+							</ul>
+						</div>
+						<div class="cardv2--portrait__body_dayson">
+							<div class="circle_nimber">2</div>  Days on HAR
+						</div>
+					</div>					
+	        	</div>
+	        	</a>
+	        	<div class="cardv2--portrait_impovement" onclick="location.href='http://har.com'; return false;">								
+                  	<div class="title">Lot information:</div> 
+                  	<div>Lots Property, in Bbb & C Ry in Fort Bend South/Richmond (Market Area)</div>
+                  	<div class="font_weight--bold">28.17 Acre(s)</div>
+                </div>	        	
+	        	<!-- / card img -->
+	        </div>
+			<!-- / card--portrait v2 -->
+			
+			<br><br>
+			
 			
         </div><!-- left col ended -->
         
@@ -327,21 +558,51 @@ export default class ListingCardsPortraitV2 extends Component {
 
         	<!-- card--portrait v2 -->
 	        <div class="cardv2 cardv2--portrait cardv2--portrait__highrise" onclick="location.href='http://har.com'; return false;">
+	        	<!-- card select -->
+	        	<div class="cardv2--portrait__select">
+	        		<button role="button" class="btn btn--primary btn--small">Add to compare</button>
+	        	</div>
 	        	<!-- card header -->
 	        	<div class="cardv2--portrait__header">
 	        		<div class="cardv2--portrait__header_title text-truncate">
 	        			Cosmopolitan
 	        		</div>
 	        		<div class="cardv2--portrait__header_controls">
-	        			<button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--favorited"></button>
-	        			<div class="dropdown dropdown--custom  d-inline-block">
-						 <button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
-						    <a class="dropdown-item" href="#">Action one</a>
-						    <a class="dropdown-item" href="#">Action two</a>
-						    <a class="dropdown-item" href="#">Action three</a>
+	        			<button type="button" class="btn btn--icon--borderless btn--icon btn--icon--favorited"></button>
+	        			<!-- dropdown with icons -->
+			    		<div class="dropdown dropdown--custom  d-inline-block">
+						 <button type="button" class="btn btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						  <div class="dropdown-menu dropdown-menu__withicons dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_copy.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Copy link</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_share.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Share listing</div>
+						    		<div class="dropdown-item__text__desc">Share listing</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_hide.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Hide listing</div>
+						    		<div class="dropdown-item__text__desc">See fewer listings like this</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_report.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Report this listing</div>
+						    		<div class="dropdown-item__text__desc">Report this listing</div>
+						    	</div>
+						    </a>
 						  </div>
-						</div>	        			
+						</div>
+						<!-- / dropdown with icons -->		        			
 	        		</div>
 	        	</div>
 	        	<!-- / card header -->
@@ -387,21 +648,51 @@ export default class ListingCardsPortraitV2 extends Component {
         
         	<!-- card--portrait v2 -->
     	    <div class="cardv2 cardv2--portrait">
+	        	<!-- card select -->
+	        	<div class="cardv2--portrait__select">
+	        		<button role="button" class="btn btn--primary btn--small">Add to compare</button>
+	        	</div>
 	        	<!-- card header -->
 	        	<div class="cardv2--portrait__header">
 	        		<div class="cardv2--portrait__header_title text-truncate">
 	        			Cabochon At River Cabochon At River
 	        		</div>
 	        		<div class="cardv2--portrait__header_controls">
-	        			<button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--favorite"></button>
-	        			<div class="dropdown dropdown--custom  d-inline-block">
-						 <button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-						  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
-						    <a class="dropdown-item" href="#">Action one</a>
-						    <a class="dropdown-item" href="#">Action two</a>
-						    <a class="dropdown-item" href="#">Action three</a>
+	        			<button type="button" class="btn btn--icon--borderless btn--icon btn--icon--favorite"></button>
+	        			<!-- dropdown with icons -->
+			    		<div class="dropdown dropdown--custom  d-inline-block">
+						 <button type="button" class="btn btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						  <div class="dropdown-menu dropdown-menu__withicons dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_copy.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Copy link</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_share.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Share listing</div>
+						    		<div class="dropdown-item__text__desc">Share listing</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_hide.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Hide listing</div>
+						    		<div class="dropdown-item__text__desc">See fewer listings like this</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_report.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Report this listing</div>
+						    		<div class="dropdown-item__text__desc">Report this listing</div>
+						    	</div>
+						    </a>
 						  </div>
-						</div>	        			
+						</div>
+						<!-- / dropdown with icons -->		        			
 	        		</div>
 	        	</div>
 	        	<!-- / card header -->
@@ -455,6 +746,10 @@ export default class ListingCardsPortraitV2 extends Component {
         	<!-- card--portrait v2 -->
         	<div class="cardv2_outer">		    
 		        <div class="cardv2 cardv2--portrait">
+		        	<!-- card select -->
+		        	<div class="cardv2--portrait__select">
+		        		<button role="button" class="btn btn--primary btn--small">Add to compare</button>
+		        	</div>
 		        	<!-- card header -->
 		        	<div class="cardv2--portrait__header">
 		        		<div class="cardv2--portrait__header_agent">
@@ -471,15 +766,41 @@ export default class ListingCardsPortraitV2 extends Component {
 					        </a>
 		        		</div>
 		        		<div class="cardv2--portrait__header_controls">
-		        			<button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--favorite"></button>
-							<div class="dropdown dropdown--custom  d-inline-block">
-								<button type="button" class="btn btn--small btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-							  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
-							    <a class="dropdown-item" href="#">Action one</a>
-							    <a class="dropdown-item" href="#">Action two</a>
-							    <a class="dropdown-item" href="#">Action three</a>
-							  </div>
-							</div>	        			
+		        			<button type="button" class="btn btn--icon--borderless btn--icon btn--icon--favorite"></button>
+							<!-- dropdown with icons -->
+			    		<div class="dropdown dropdown--custom  d-inline-block">
+						 <button type="button" class="btn btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						  <div class="dropdown-menu dropdown-menu__withicons dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_copy.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Copy link</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_share.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Share listing</div>
+						    		<div class="dropdown-item__text__desc">Share listing</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_hide.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Hide listing</div>
+						    		<div class="dropdown-item__text__desc">See fewer listings like this</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_report.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Report this listing</div>
+						    		<div class="dropdown-item__text__desc">Report this listing</div>
+						    	</div>
+						    </a>
+						  </div>
+						</div>
+						<!-- / dropdown with icons -->		        			
 		        		</div>
 		        	</div>
 		        	<!-- / card header -->
@@ -536,7 +857,465 @@ export default class ListingCardsPortraitV2 extends Component {
         </div><!-- end of right half column -->
         
         
-      </div>`,
+      </div>
+      
+      
+      
+      
+      <hr>
+      
+      <div class="row">
+        <div class="col col-md-6 col-12 mb-0 pb-0 text-left ">
+        	<h4 class="mb-4" tabindex="0">Favorite w/ notes</h4>
+        
+	        <!-- card--portrait v2 -->
+	        <div class="cardv2 cardv2--portrait">
+	        	<!-- card select -->
+	        	<div class="cardv2--portrait__select">
+	        		<button role="button" class="btn btn--primary btn--small">Add to compare</button>
+	        	</div>
+	        	<!-- card header -->
+	        	<div class="cardv2--portrait__header">
+	        		<div class="cardv2--portrait__header_agent">
+	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
+				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
+				            <div class="agent_signaturev2__info">
+				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
+				                Michel Hayek
+				              </div>
+				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
+				                Better Homes And Gardens Real
+				              </div>
+				            </div>
+				        </a>
+	        		</div>
+	        		<div class="cardv2--portrait__header_controls">
+	        			<button type="button" class="btn btn--icon--borderless btn--icon btn--icon--favorite"></button>
+	        			<!-- dropdown with icons -->
+			    		<div class="dropdown dropdown--custom  d-inline-block">
+						 <button type="button" class="btn btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						  <div class="dropdown-menu dropdown-menu__withicons dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_copy.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Copy link</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_share.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Share listing</div>
+						    		<div class="dropdown-item__text__desc">Share listing</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_hide.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Hide listing</div>
+						    		<div class="dropdown-item__text__desc">See fewer listings like this</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_report.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Report this listing</div>
+						    		<div class="dropdown-item__text__desc">Report this listing</div>
+						    	</div>
+						    </a>
+						  </div>
+						</div>
+						<!-- / dropdown with icons -->		        			
+	        		</div>
+	        	</div>
+	        	<!-- / card header -->
+	        	
+	        	<!-- card img -->
+	        	<a href="#">
+	        		<div class="cardv2--portrait__img" style="background-image:url(https://photos.harstatic.com/194227305/lr/img-1.jpeg?ts=2021-08-06T12:35:50.297);"></div>
+				</a>
+	        	<!-- / card img -->
+	        	
+	        	<!-- card body -->
+	        	<a href="#">
+	        	<div class="cardv2--portrait__body">
+	        		<div class="cardv2--portrait__body_flexrow">
+	        			<div class="cardv2--portrait__body_price">$7,009,00</div>
+						<div class="cardv2--portrait__body_status"><div class="label label--forsale">for sale</div></div>
+					</div>
+					<div class="cardv2--portrait__body_flexrow">
+						<div class="cardv2--portrait__body_address">
+							14302 Laurus Estates Lane<br>
+							Cypress, TX 77429
+						</div>						
+					</div>
+					<div class="cardv2--portrait__body_features">
+						<ul>
+							<li>Residential - Single Family</li>
+							<li>6 beds</li>
+							<li>1 full & 4 half baths</li>
+							<li>3 stories</li>
+							<li>8,741 built sqft</li>
+							<li>1986 year built</li>
+						</ul>
+					</div>
+					<div class="cardv2--portrait__body_dayson">
+						<div class="circle_nimber">2</div>  Days on HAR
+					</div>
+	        	</div>
+	        	</a>
+	        	<!-- / card img -->
+	        	
+	        	<!-- / card fav_container -->
+	        	<div class="cardv2--portrait__folder">
+	        		<div class="cardv2--portrait__folder__controls">
+	        			<a class="btn btn--outline" href="#">For my family</a>
+	        			<a class="btn btn--outline" href="#">+1</a>
+	        			<a href="#" class="btn btn--outline editfolder"><img style="height:14px;" src="https://content.harstatic.com/media/icons/edit_outline_blue_.svg">Folders</a>
+	        		</div>
+	        		<div class="cardv2--portrait__folder__notes folder__notes">
+	        			<div class="folder__notes__inner">
+	        				<textarea class="form-control folder__notes__inner__textarea" placeholder="Write some notes..."></textarea>
+						</div>
+	        		</div>
+	        	</div>
+	        </div>
+			<!-- / card--portrait v2 -->
+
+		</div>
+		<div class="col col-md-6 col-12 mb-0 pb-0 text-left ">
+			<h4 class="mb-4" tabindex="0">&nbsp;</h4>
+			
+			<!-- card--portrait v2 -->
+	        <div class="cardv2 cardv2--portrait mb-2">
+	        	<!-- card select -->
+	        	<div class="cardv2--portrait__select">
+	        		<button role="button" class="btn btn--ordinary btn--small btn btn--icon btn--icon--close">Remove</button>
+	        	</div>
+	        	<!-- card header -->
+	        	<div class="cardv2--portrait__header">
+	        		<div class="cardv2--portrait__header_agent">
+	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
+				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
+				            <div class="agent_signaturev2__info">
+				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
+				                Michel Hayek
+				              </div>
+				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
+				                Better Homes And Gardens Real
+				              </div>
+				            </div>
+				        </a>
+	        		</div>
+	        		<div class="cardv2--portrait__header_controls">
+	        			<button type="button" class="btn btn--icon--borderless btn--icon btn--icon--favorited"></button>
+	        			<!-- dropdown with icons -->
+			    		<div class="dropdown dropdown--custom  d-inline-block">
+						 <button type="button" class="btn btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						  <div class="dropdown-menu dropdown-menu__withicons dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_copy.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Copy link</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_share.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Share listing</div>
+						    		<div class="dropdown-item__text__desc">Share listing</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_hide.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Hide listing</div>
+						    		<div class="dropdown-item__text__desc">See fewer listings like this</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_report.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Report this listing</div>
+						    		<div class="dropdown-item__text__desc">Report this listing</div>
+						    	</div>
+						    </a>
+						  </div>
+						</div>
+						<!-- / dropdown with icons -->		        			
+	        		</div>
+	        	</div>
+	        	<!-- / card header -->
+	        	
+	        	<!-- card img -->
+	        	<a href="#">
+	        		<div class="cardv2--portrait__img" style="background-image:url(https://photos.harstatic.com/194227305/lr/img-1.jpeg?ts=2021-08-06T12:35:50.297);"></div>
+				</a>
+	        	<!-- / card img -->
+	        	
+	        	<!-- card body -->
+	        	<a href="#">
+	        	<div class="cardv2--portrait__body">
+	        		<div class="cardv2--portrait__body_flexrow">
+	        			<div class="cardv2--portrait__body_price">$7,009,00</div>
+						<div class="cardv2--portrait__body_status"><div class="label label--forsale">for sale</div></div>
+					</div>
+					<div class="cardv2--portrait__body_flexrow">
+						<div class="cardv2--portrait__body_address">
+							3914 Normandy Ave<br>
+							Highland Park, TX 75205
+						</div>						
+					</div>
+					<div class="cardv2--portrait__body_features">
+						<ul>
+							<li>Residential - Single Family</li>
+							<li>6 beds</li>
+							<li>1 full & 4 half baths</li>
+							<li>3 stories</li>
+							<li>8,741 built sqft</li>
+							<li>1986 year built</li>
+						</ul>
+					</div>
+					<div class="cardv2--portrait__body_dayson">
+						<div class="circle_nimber">2</div>  Days on HAR
+					</div>
+	        	</div>
+	        	</a>
+	        	<!-- / card body -->
+	        	
+	        	<!-- / card fav_container -->
+	        	<div class="cardv2--portrait__folder">
+	        		<div class="cardv2--portrait__folder__controls">
+	        			<a class="btn btn--outline" href="#">For my family</a>
+	        			<a class="btn btn--outline" href="#">+1</a>
+	        			<a href="#" class="btn btn--outline editfolder"><img style="height:14px;" src="https://content.harstatic.com/media/icons/edit_outline_blue_.svg">Folders</a>
+	        		</div>
+	        		<div class="cardv2--portrait__folder__notes folder__notes">
+	        			<div class="folder__notes__inner">
+	        				<textarea class="form-control folder__notes__inner__textarea" placeholder="Write some notes...">This house is so beautiful… look at those texture… however, I’m not sure if it’s too modern to my family, because they are a little bit old fashioned. Anyway, I like the whole place and it seems to be quite good to live at… or not.</textarea>
+						</div>
+	        		</div>
+	        	</div>
+
+	        </div>	        
+			<!-- / card--portrait v2 -->
+      
+      </div>
+      
+      </div>
+      
+      <hr>
+      
+      <div class="row">
+        <div class="col col-md-6 col-12 mb-0 pb-0 text-left ">
+        	<h4 class="mb-4" tabindex="0">Select Feature</h4>
+        
+	        <!-- card--portrait v2 -->
+	        <div class="cardv2 cardv2--portrait">
+	        	<!-- card select -->
+	        	<div class="cardv2--portrait__select cardv2--portrait__select__on">
+	        		<button role="button" class="btn btn--primary btn--small">Add to compare</button>
+	        	</div>
+	        	<!-- card header -->
+	        	<div class="cardv2--portrait__header">
+	        		<div class="cardv2--portrait__header_agent">
+	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
+				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
+				            <div class="agent_signaturev2__info">
+				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
+				                Michel Hayek
+				              </div>
+				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
+				                Better Homes And Gardens Real
+				              </div>
+				            </div>
+				        </a>
+	        		</div>
+	        		<div class="cardv2--portrait__header_controls">
+	        			<button type="button" class="btn btn--icon--borderless btn--icon btn--icon--favorite"></button>
+	        			<!-- dropdown with icons -->
+			    		<div class="dropdown dropdown--custom  d-inline-block">
+						 <button type="button" class="btn btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						  <div class="dropdown-menu dropdown-menu__withicons dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_copy.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Copy link</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_share.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Share listing</div>
+						    		<div class="dropdown-item__text__desc">Share listing</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_hide.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Hide listing</div>
+						    		<div class="dropdown-item__text__desc">See fewer listings like this</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_report.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Report this listing</div>
+						    		<div class="dropdown-item__text__desc">Report this listing</div>
+						    	</div>
+						    </a>
+						  </div>
+						</div>
+						<!-- / dropdown with icons -->		        			
+	        		</div>
+	        	</div>
+	        	<!-- / card header -->
+	        	
+	        	<!-- card img -->
+	        	<a href="#">
+	        		<div class="cardv2--portrait__img" style="background-image:url(https://photos.harstatic.com/194227305/lr/img-1.jpeg?ts=2021-08-06T12:35:50.297);"></div>
+				</a>
+	        	<!-- / card img -->
+	        	
+	        	<!-- card body -->
+	        	<a href="#">
+	        	<div class="cardv2--portrait__body">
+	        		<div class="cardv2--portrait__body_flexrow">
+	        			<div class="cardv2--portrait__body_price">$7,009,00</div>
+						<div class="cardv2--portrait__body_status"><div class="label label--forsale">for sale</div></div>
+					</div>
+					<div class="cardv2--portrait__body_flexrow">
+						<div class="cardv2--portrait__body_address">
+							14302 Laurus Estates Lane<br>
+							Cypress, TX 77429
+						</div>						
+					</div>
+					<div class="cardv2--portrait__body_features">
+						<ul>
+							<li>Residential - Single Family</li>
+							<li>6 beds</li>
+							<li>1 full & 4 half baths</li>
+							<li>3 stories</li>
+							<li>8,741 built sqft</li>
+							<li>1986 year built</li>
+						</ul>
+					</div>
+					<div class="cardv2--portrait__body_dayson">
+						<div class="circle_nimber">2</div>  Days on HAR
+					</div>
+	        	</div>
+	        	</a>
+	        	<!-- / card img -->
+	        	
+	        </div>
+			<!-- / card--portrait v2 -->
+
+		</div>
+		<div class="col col-md-6 col-12 mb-0 pb-0 text-left ">
+			<h4 class="mb-4" tabindex="0">&nbsp;</h4>
+			
+			<!-- card--portrait v2 -->
+	        <div class="cardv2 cardv2--portrait cardv2--portrait__selected mb-2">
+	        	<!-- card select -->
+	        	<div class="cardv2--portrait__select cardv2--portrait__select__on">
+	        		<button role="button" class="btn btn--ordinary btn--small btn btn--icon btn--icon--close">Remove</button>
+	        	</div>
+	        	<!-- card header -->
+	        	<div class="cardv2--portrait__header">
+	        		<div class="cardv2--portrait__header_agent">
+	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
+				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
+				            <div class="agent_signaturev2__info">
+				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
+				                Michel Hayek
+				              </div>
+				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
+				                Better Homes And Gardens Real
+				              </div>
+				            </div>
+				        </a>
+	        		</div>
+	        		<div class="cardv2--portrait__header_controls">
+	        			<button type="button" class="btn btn--icon--borderless btn--icon btn--icon--favorited"></button>
+	        			<!-- dropdown with icons -->
+			    		<div class="dropdown dropdown--custom  d-inline-block">
+						 <button type="button" class="btn btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+						  <div class="dropdown-menu dropdown-menu__withicons dropdown-menu-right" aria-labelledby="dropdownMenuButton" x-placement="bottom-start">
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_copy.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Copy link</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_share.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Share listing</div>
+						    		<div class="dropdown-item__text__desc">Share listing</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_hide.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Hide listing</div>
+						    		<div class="dropdown-item__text__desc">See fewer listings like this</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/dropdown_report.svg"></div>
+						    	<div class="dropdown-item__text">
+						    		<div class="dropdown-item__text__title">Report this listing</div>
+						    		<div class="dropdown-item__text__desc">Report this listing</div>
+						    	</div>
+						    </a>
+						  </div>
+						</div>
+						<!-- / dropdown with icons -->		        			
+	        		</div>
+	        	</div>
+	        	<!-- / card header -->
+	        	
+	        	<!-- card img -->
+	        	<a href="#">
+	        		<div class="cardv2--portrait__img" style="background-image:url(https://photos.harstatic.com/194227305/lr/img-1.jpeg?ts=2021-08-06T12:35:50.297);"></div>
+				</a>
+	        	<!-- / card img -->
+	        	
+	        	<!-- card body -->
+	        	<a href="#">
+	        	<div class="cardv2--portrait__body">
+	        		<div class="cardv2--portrait__body_flexrow">
+	        			<div class="cardv2--portrait__body_price">$7,009,00</div>
+						<div class="cardv2--portrait__body_status"><div class="label label--forsale">for sale</div></div>
+					</div>
+					<div class="cardv2--portrait__body_flexrow">
+						<div class="cardv2--portrait__body_address">
+							3914 Normandy Ave<br>
+							Highland Park, TX 75205
+						</div>						
+					</div>
+					<div class="cardv2--portrait__body_features">
+						<ul>
+							<li>Residential - Single Family</li>
+							<li>6 beds</li>
+							<li>1 full & 4 half baths</li>
+							<li>3 stories</li>
+							<li>8,741 built sqft</li>
+							<li>1986 year built</li>
+						</ul>
+					</div>
+					<div class="cardv2--portrait__body_dayson">
+						<div class="circle_nimber">2</div>  Days on HAR
+					</div>
+	        	</div>
+	        	</a>
+	        	<!-- / card body -->
+	        </div>	        
+			<!-- / card--portrait v2 -->
+      </div>
+	  
+	  
+	</div>  
+      `,
     ];
 
 

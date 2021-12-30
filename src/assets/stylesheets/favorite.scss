@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 
 .card--favorites {
@@ -57,7 +56,6 @@
 		}
 		
 		.fav_container {
-			font-size: 16px;
 			padding: 4px;
 			
 			&__inner {								
@@ -74,10 +72,10 @@
 /* card for fav used in consumer */
 .card .dropdown.show .dropdown-toggle{border-radius: 2px;box-shadow: 0 0 0 2px rgba(103, 161, 249, 0.5);border: solid 2px #67a1f9;}
 .note_block {border-radius: 4px;box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.24);background-color:#f8f2c0;padding:4px 8px 4px 8px;}
-.note_block_innter {background:url("https://content.harstatic.com/media/other/line_repeat_bg3.png") center top;color:#585645;line-height:1.7;}
+.note_block_innter {background:url("https://content.harstatic.com/media/other/line_repeat_bg4.png") center top;line-height:1.5;}
 .note_block_innter a{color:#585645 !important; }
-.note_block_innter .form-control, .nb_font {font-family: 'Caveat', cursive;font-size:16px;}
-.note_block_innter .form-control{background-color:transparent;border:none;padding:0px;outline:none;box-shadow: none !important;font-family: 'Caveat', cursive;font-size:16px;line-height:1.7;max-height:82px;resize:none;}
+.note_block_innter .form-control, .nb_font {font-size:16px;}
+.note_block_innter .form-control{background-color:transparent;border:none;padding:0px;outline:none;box-shadow: none !important;font-size:16px;line-height:1.7;max-height:82px;resize:none;}
 .note_block_innter .form-control::-webkit-input-placeholder { color: rgba(88, 86, 69, 0.4) !important;opacity:0.48 !important;}
 .note_block_innter .form-control::-ms-input-placeholde { color: rgba(88, 86, 69, 0.4)  !important;opacity:0.48 !important;}
 .note_block_innter .form-control::placeholder { color: rgba(88, 86, 69, 0.4) !important;opacity:0.48 !important;}
@@ -85,9 +83,11 @@
 .note_block.editmode_one {box-shadow: 0 0 0 2px rgba(88, 86, 69, 0.48);}
 
 
+
+		
 /* used in listing details */
-.fav_container {background-color: #f2efcf; position: relative;padding:12px; font-family: 'Caveat', cursive;font-family: 'Caveat', cursive;font-size: 18px;line-height: 1.1;color:#585645 !important; }
-.fav_container textarea {background-color: #f2efcf !important;font-family: 'Caveat', cursive;font-size: 18px;line-height: 1.1;color: #585645 !important; border: none !important;padding:2px;resize: none;}
+.fav_container {background-color: #f2efcf; position: relative;padding:12px; }
+.fav_container textarea {background-color: #f2efcf !important;border: none !important;padding:2px;resize: none;}
 .fav_container textarea:focus {border-color:none !important; box-shadow: none !important;}
 
 .fav_container {
@@ -104,6 +104,33 @@
 			width: 11px;
 		}
 	}
+}
+.fav_container,.fav_container textarea { color: $color-har-blue-dark !important; line-height: 1.5; font-size: $font-size-small; font-weight: $font-weight-bold !important; }
+
+
+.folder__notes {
+	padding: 12px 12px 11px;
+	border-radius: 4px;
+	background-color: #f8f3c5;
+	
+	&__inner {
+		background: url(https://content.harstatic.com/media/other/line_repeat_bg4.png) center top;
+
+		&__textarea {
+			background-color: transparent !important;
+		    border: none;
+		    padding: 0px;
+		    outline: none;
+		    box-shadow: none !important;
+			color: $color-har-blue-dark !important;
+		    line-height: 1.5;
+		    font-size: $font-size-small;
+		    resize: none;
+		    font-weight: $font-weight-bold !important;
+		}
+	}
+	
+	
 }
 
 

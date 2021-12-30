@@ -253,7 +253,20 @@ export default class Labels extends Component {
           <a href="#" class="label label--default label--default__team">Lead of A to Z Houston Real Estate Team</a>
           <br><br><br><br>
           <div class="label label--default label--default__open">Open</div>
+          <div class="label label--default label--default__close">Close</div>
           <div class="label label--default label--default__resolved"><img src="https://content.harstatic.com/media/icons/checkmark-rounded_cement.svg">Resolved</div>
+        </div>
+       </div>
+       `,
+       `<div class="row justify-content-center">
+        <div class="col col-12 pt-3 text-left">
+          <br><br>
+          <div class="statusdote statusdote--active"></div>
+          <div class="statusdote statusdote--rent"></div>
+          <div class="statusdote statusdote--sold"></div>
+          <div class="statusdote statusdote--pending"></div>
+          <br><br>
+          
         </div>
        </div>
        `,
@@ -291,6 +304,7 @@ export default class Labels extends Component {
         <TemplateComponentBlock blockTitle="Typeahead Labels" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
 		<TemplateComponentBlock blockTitle="Agent Level Labels" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
 		<TemplateComponentBlock blockTitle="Labels Default" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
+		<TemplateComponentBlock blockTitle="Status Dotes" elements={this.elements[5]} codeSnippets={this.codeSnippets[5]} />
         
       </TemplateDefault>
     )

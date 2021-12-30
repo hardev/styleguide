@@ -39,6 +39,23 @@
 		margin-right: 18px;
 		margin-bottom: 18px;
 		
+		&__selected {
+			box-shadow: 0 0 0 4px rgba(7, 56, 205, 0.12);
+			border: solid 1px $color-auxiliary !important;
+			background-color: #fff;
+		}
+		
+		&__select {
+			padding: 8px 12px;
+			border-bottom: 1px solid $color-cloudy-sky-light;
+			text-align: center;
+			display: none;
+			
+			&__on {
+				display: block;
+			}
+		}
+		
 		&__header {
 			display: flex;
 			padding: 12px;
@@ -202,6 +219,18 @@
 				white-space: nowrap;
 			}
 		}
+		
+		&__folder {
+			&__controls {
+				margin:0px 10px 10px 10px;
+				border-top: 1px solid $color-cloudy-sky-light;
+				padding-top: 8px
+			}	
+			&__notes {
+				margin: 5px;
+			}
+		}
+
 	}
 	//Area Card starts here
 }
@@ -230,3 +259,7 @@
 		}
 	}
 }
+
+
+			
+

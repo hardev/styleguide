@@ -562,7 +562,7 @@ export default class ListingCards extends Component {
 	            </div>
 	            <div class="clearfix"></div>
 	        </div>
-	        <div class="card--claim_action pt-4 pt-md-0">
+	        <div class="card--claim_action pt-md-0">
 	        	 <div class="btn btn--claimprofile">Claim your profile <img class="ml-2" src="https://content.harstatic.com/media/icons/arrow_right_white_simple.svg"></div>
 	        </div>
 	      </a>   
@@ -1099,8 +1099,8 @@ export default class ListingCards extends Component {
       </div>
       <div class="row">
       	<div class="col-12">
-		      	<a href="javascript:void(0);" class="card card--qa">
-		            <div class="card--qa__content">
+		      	<div class="card card--qa">
+		            <a href="#" class="card--qa__content">
 		            	<div class="card--qa__info">
 							<div class="card--qa__info_left">
 								Posted by Shadrick Bogany
@@ -1113,24 +1113,24 @@ export default class ListingCards extends Component {
 		            	</div>
 		            	<h3 tabindex="0">Realtor help with relocation (2wks) and past eviction?</h3>
 		            	<div class="card--qa__text"><div class="card--qa__text_pera">We are relocating to the Houston area for my fiancées job. We are look.</div> <span>read more</span></div>
-		            </div>
+		            </a>
 		            <div class="card--qa__footer">
 		            	<div class="card--qa__footer_small">Answered by</div>
 		            	<div class="card--qa__footer_row">
-							<div tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span>Ross McEathron</span><br><div class="label label--agent label--agent__bronze">Bronze</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/616571.jpg?ts=2018-02-11T22:22:007875');"></div>							
-							<div tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span>Anisa Alagna</span><br><div class="label label--agent label--agent__platinum">Platinum</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/704455.jpg?ts=2018-05-09T20:37:001780');"></div>							
-							<div tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span> Pia Sikes </span><br><div class="label label--agent label--agent__platinum">Platinum</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/730508.jpg?ts=2021-01-18T09:53:002719');"></div>							
-							<div tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span>Kendra Riedel</span><br><div class="label label--agent label--agent__silver">Silver</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/712483.jpg?ts=2020-03-20T14:00:006147');"></div>
-							<div tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span>Diana C. Buckley</span><br><div class="label label--agent label--agent__gold">Gold</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/721108.jpg?ts=2021-04-22T21:28:002311');"></div>							
-							<div class="card--qa__footer_row_more">+2</div>							
+							<a href="javascript:void(0);" tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span>Ross McEathron</span><br><div class="label label--agent label--agent__bronze">Bronze</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/616571.jpg?ts=2018-02-11T22:22:007875');"></a>							
+							<a href="javascript:void(0);" tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span>Anisa Alagna</span><br><div class="label label--agent label--agent__platinum">Platinum</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/704455.jpg?ts=2018-05-09T20:37:001780');"></a>							
+							<a href="javascript:void(0);" tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span> Pia Sikes </span><br><div class="label label--agent label--agent__platinum">Platinum</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/730508.jpg?ts=2021-01-18T09:53:002719');"></a>							
+							<a href="javascript:void(0);" tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span>Kendra Riedel</span><br><div class="label label--agent label--agent__silver">Silver</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/712483.jpg?ts=2020-03-20T14:00:006147');"></a>
+							<a href="javascript:void(0);" tabindex="0" class="card--qa__footer_row_image popover-dismiss popover-agent" data-content='<span>Diana C. Buckley</span><br><div class="label label--agent label--agent__gold">Gold</div>' data-trigger="focus" rel="popover" data-placement="bottom" style="background-image:url('https://pics.harstatic.com/agent/721108.jpg?ts=2021-04-22T21:28:002311');"></a>							
+							<a href="javascript:void(0);" class="card--qa__footer_row_more">+1222</a>							
 							<div class="card--qa__footer_row_label__container"><div class="label label--default label--default__resolved"><img src="https://content.harstatic.com/media/icons/checkmark-rounded_cement.svg">Resolved</div></div>
 						</div>
 		            </div>            	   
-		          </a>
+		          </div>
 		          
 		          
-		          <a href="javascript:void(0);" class="card card--qa">
-		            <div class="card--qa__content">
+		          <div class="card card--qa">
+		            <a href="#" class="card--qa__content">
 		            	<div class="card--qa__info">
 							<div class="card--qa__info_left">
 								Posted by Shadrick Bogany
@@ -1143,14 +1143,14 @@ export default class ListingCards extends Component {
 		            	</div>
 		            	<h3 tabindex="0">Realtor help with relocation (2wks) and past eviction?</h3>
 		            	<div class="card--qa__text"><div class="card--qa__text_pera">We are relocating to the Houston area for my fiancées job. We are look We are relocating to the Houston area for my fiancées job. We are look</div> <span>read more</span></div>
-		            </div>
+		            </a>
 		            <div class="card--qa__footer">
 		            	<div class="card--qa__footer_small">No answers yet</div>
 		            	<div class="card--qa__footer_agents">								
 							<img src="https://content.harstatic.com/media/icons/comment_blue_small.svg" class="mr-1">Be the first to give them an answer!
 						</div>
 		            </div>            	   
-		          </a>
+		          </div>
 		          
 		          <a href="javascript:void(0);" class="card card--qa_simple">
 		          		<h3 tabindex="0">Realtor help with relocation (2wks) and past eviction?</h3>
@@ -1168,6 +1168,41 @@ export default class ListingCards extends Component {
 		          </a>
 		     </div>
 		</div>
+      `,
+      `<div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Appraisers Cards</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-md-5 mb-0">
+          <div class="card card--staff">          	
+          		<div class="card--staff__staffpic" style="background-image: url(https://pics.harstatic.com/staff/95512388.jpg); cursor:pointer;"></div>
+          		<div class="card--staff__staffinfo">
+	          		<a href="#">
+	          			<h4 tabindex="0">Brittany Aucion</h4>
+	          			<div class="card--staff__stafftitle">Marketing Manager</div>
+	          			
+	          			<div class="card--staff__address">
+	          				3693 Southwest Freeway<br>
+			  				Houston, TX. 77027
+	          			</div>
+	          		</a>	
+          			<div class="card--staff__contact">
+          				<a href="#" class="mb-2 color_carbon"><img style="width:15px;margin-top:-5px;" src="https://content.harstatic.com/media/icons/phone_slate.svg"> 713-629-1900 x1155</a>
+          				<a href="#"><img style="width:15px;margin-top:-2px;" src="https://content.harstatic.com/media/icons/email.svg"> Send email</a>
+          			</div>
+          		</div>
+          	
+        </div>
+        <div class="col col-sm-4 col-12 mb-0">
+          
+        </div>
+        <div class="col col-sm-4 col-12 mb-0">
+          
+        </div>        
+        <div class="clear_both"></div>
+      </div>
       `,
     ];
 
@@ -1476,6 +1511,7 @@ $('.popover-agent').popover({
         <TemplateComponentBlock blockTitle="Landscape-Oriented Cards" elements={this.elements[0]} codeSnippets={this.codeSnippets[0]} />
         <TemplateComponentBlock blockTitle="Portrait-Oriented Cards" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
         <TemplateComponentBlock blockTitle="QA Cards" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
+        <TemplateComponentBlock blockTitle="Staff Cards" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
 
       </TemplateDefault>
     )

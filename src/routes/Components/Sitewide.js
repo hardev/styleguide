@@ -123,11 +123,15 @@ export default class Sitewide extends Component {
         	</div>
        </div>`
        ,`
-       <div class="row">
-        	<div class="col col-12">
-        		<a href="#" class="map_pointer__agent"><div class="map_pointer__agent__agentpic" style="background-image:url('https://pics.harstatic.com/agent/720353.jpg?ts=2020-03-04T21:54:005525');"></div></a>
+       <div class="row pl-5 pr-5">
+        	<div class="col col-4">
+        		<a href="#" class="map_pointer map_pointer__agent"><div class="map_pointer__agent__agentpic" style="background-image:url('https://pics.harstatic.com/agent/720353.jpg?ts=2020-03-04T21:54:005525');"></div></a>
+				<div class="component_content__demo__description text-left">Map Agents</div>
+        	</div>
+        	<div class="col col-4">
+        		<a href="#" class="map_pointer map_pointer__agents"><div class="map_pointer__agents__inner">8</div></a>
 
-				<div class="component_content__demo__description">Flags Small</div>
+				<div class="component_content__demo__description text-left">Multiple agents</div>
         	</div>
        </div>`,
        
@@ -171,6 +175,56 @@ export default class Sitewide extends Component {
 					})
    				</script>
    				
+				<div class="component_content__demo__description">Video Popup</div>
+        	</div>
+       </div>`,
+        `
+       <div class="row">
+        	<div class="col col-12">
+        		<div class="scroll">
+	        		<div class="row flex-row flex-nowrap pt-1 pb-3 small-gutters scroll--horizental">
+	        			<div class="col-auto">
+	        				 <select class="custom-select custom-select__rounded custom-select_medium">
+				    		    <option selected>Schools</option>
+				    		    <option value="1">Elementary School</option>
+				    		    <option value="2">Middle School</option>
+				    		    <option value="3">High School</option>
+				    		</select>
+						</div>
+						
+						<div class="col-auto">
+	        				 <select class="custom-select custom-select__rounded custom-select_medium">
+				    		    <option selected>Nearby Places</option>
+				    		    <option value="1">Restaurants</option>
+				    		    <option value="2">Gas Stations</option>
+				    		    <option value="3">Groceries</option>
+				    		    <option value="3">Pharmacies</option>
+				    		    <option value="3">ATMs</option>
+								<option value="3">Convenience stores</option>
+								<option value="3">Post offices</option>
+								<option value="3">Florists</option>
+								<option value="3">Libraries</option>
+								<option value="3">Car wash</option>
+								<option value="3">Copy shops</option>
+								<option value="3">Parking</option>
+								<option value="3">Hospitals</option>
+				    		</select>
+						</div>
+						
+						<div class="col-auto">
+	                    	<a class="btn btn--ordinary d-inline-block" target="_blank" href="https://www.bing.com/maps/default.aspx?cp=29.721845~-95.42681&amp;style=b&amp;dir=0&amp;sp=Point.29.721845_-95.42681_">Bird's Eye View</a>
+						</div>
+						
+						<div class="col-auto ml-auto">
+	        				 <select class="custom-select custom-select__rounded custom-select_medium">
+				    		    <option selected>Map View</option>
+				    		    <option value="1">Sattlite View</option>
+				    		    <option value="2">Hybrid View</option>
+				    		</select>
+						</div>
+						
+					</div>
+				</div>
 				<div class="component_content__demo__description">Video Popup</div>
         	</div>
        </div>`,
@@ -291,6 +345,7 @@ $(document).on('ready', function() {
         <TemplateComponentBlock blockTitle="Flags and Tags" elements={this.elements[6]} codeSnippets={this.codeSnippets[6]} />
         <TemplateComponentBlock blockTitle="Map Pointers" elements={this.elements[7]} codeSnippets={this.codeSnippets[7]} />
         <TemplateComponentBlock blockTitle="Open Youtube video in Popup" elements={this.elements[8]} codeSnippets={this.codeSnippets[8]} />
+        <TemplateComponentBlock blockTitle="Horizental Scrolbar" elements={this.elements[9]} codeSnippets={this.codeSnippets[9]} />
         
         
       </TemplateDefault>

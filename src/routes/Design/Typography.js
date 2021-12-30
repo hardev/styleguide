@@ -187,6 +187,23 @@ export default class Typography extends Component {
           <div class="component_content__demo__description">
             H1 – Main page
           </div>
+          
+        </div>
+        <div class="clear_both"></div>
+      </div>
+      <hr />
+      
+      <div class="row text-left">
+        <div class="col col-12">
+
+          <h1 class="h1--larger" tabindex="0" style="margin-bottom: 0;">
+            Find your home
+          </h1>
+
+          <div class="component_content__demo__description">
+            H1 – Larger
+          </div>
+          
         </div>
         <div class="clear_both"></div>
       </div>
@@ -217,6 +234,19 @@ export default class Typography extends Component {
         </div>
         <div class="clear_both"></div>
       </div>      
+      
+      <hr />
+      <div class="row text-left">
+        <div class="col col-12">
+
+          <h2 tabindex="0" class="h2 h2--strong h2--rightline"><span>Schools</span></h2>
+
+          <div class="component_content__demo__description">
+            Schools
+          </div>
+        </div>
+        <div class="clear_both"></div>
+      </div>
       
       <hr />
       <div class="row text-left">

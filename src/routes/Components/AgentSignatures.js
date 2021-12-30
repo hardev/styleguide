@@ -40,6 +40,49 @@ export default class AgentSignatures extends Component {
         
         <hr>
         
+    <div class="row justify-content-center">
+      <div class="col col-sm-5 col-12">
+         <a href="#" class="agent_signature agent_signature__map" href="https://www.har.com/shadrick-bogany/agent_BOGANYS"  title="View Amy Nabors's profile" aria-label="View Amy Nabors's profile">
+            <div class="agent_signature agent_signature__photo">              
+              	<img class="agent_signature__photo__img" src="https://pics.harstatic.com/agent/593161.jpg?ts=2021-03-04T16:45:004981">              
+            </div>
+            <div class="agent_signature agent_signature__info">
+              <div class="agent_signature__info__agent_name">
+                <img src="https://content.harstatic.com/media/icons/platenium_small.svg"> Richard Ortiz
+              </div>
+              <div class="agent_signature__info__ratings"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg">
+			  </div>
+              <div class="agent_signature__info__broker_name">
+                Better Homes And Gardens Real
+              </div>
+            </div>
+          </a>
+          <div class="component_content__demo__description">Signature for map popup</div>
+        </div>
+      </div>
+        
+        <hr>
+    
+    <div class="row justify-content-center">
+      <div class="col col-sm-5 col-12">
+         <a href="#" class="agent_signature agent_signature__map agent_signature__map__withoutphoto" href="https://www.har.com/shadrick-bogany/agent_BOGANYS"  title="View Amy Nabors's profile" aria-label="View Amy Nabors's profile">
+            <div class="agent_signature agent_signature__info">
+              <div class="agent_signature__info__agent_name">
+                <img src="https://content.harstatic.com/media/icons/platenium_small.svg"> Richard Ortiz
+              </div>
+              <div class="agent_signature__info__ratings"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg">
+			  </div>
+              <div class="agent_signature__info__broker_name">
+                Better Homes And Gardens Real
+              </div>
+            </div>
+          </a>
+          <div class="component_content__demo__description">Signature for map popup single</div>
+        </div>
+      </div>
+        
+        <hr>    
+        
        <div class="row justify-content-center">
         <div class="col col-sm-6 col-12">
 		

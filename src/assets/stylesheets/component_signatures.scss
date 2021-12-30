@@ -20,6 +20,7 @@
 		background-position: center center;
 		background-size: cover;
 		border-radius: 50%;
+		background-image: url(https://content.harstatic.com/media/icons/agent_placeholder.svg);
 	}
   }
   
@@ -41,6 +42,14 @@
       font-size: $font-size-small;
       color: $color-slate !important;
       opacity: 0.85;
+    }
+    
+    &__ratings {
+	    line-height: 11px;
+	    padding-top: 4px;
+	    img { 
+		    width: 10px;
+		}
     }
   }
   
@@ -66,6 +75,54 @@
 		background-size: cover;		
 	}
   }
+  
+  &__map {
+	  display: flex;
+	  text-decoration: none !important;
+	  margin-bottom: 18px;
+	  
+	  .agent_signature__photo {
+		float: none;
+		width: 45px;
+		min-width: 45px;
+		margin-right: 0px;
+		
+		&__img {
+			object-fit: cover;
+			width: 34px;
+			height: 34px;
+			border-radius: 50%;
+		}
+	
+	  }
+	  
+	  .agent_signature__info {
+		  max-width: calc(100% - 45px);
+		  flex: 0 0 calc(100% - 45px);
+		  flex-grow: 1;
+		  
+		  &__agent_name {
+
+			  overflow: hidden;
+			  text-overflow: ellipsis;
+			  line-height: 16px;
+		    }
+		    
+	    &__broker_name {
+	      font-size: $font-size-small-extra;
+		  overflow: hidden;
+		  text-overflow: ellipsis;
+		  line-height: 16px;
+	    }
+	  }
+
+	  &__withoutphoto {
+		.agent_signature__info { 
+			max-width: 100%;
+			flex:0 0 100%;	
+		}  
+	  }
+  }
 }
 
 .agent_signature--large {
@@ -90,6 +147,7 @@
 		background-position: center center;
 		background-size: cover;
 		border-radius: 50%;
+		background-image: url(https://content.harstatic.com/media/icons/agent_placeholder.svg);
 	}
   }
   
@@ -138,6 +196,7 @@
 		background-position: center center;
 		background-size: cover;
 		border-radius: 50%;
+		background-image: url(https://content.harstatic.com/media/icons/agent_placeholder.svg);
 		@media screen and (max-width: 767px) {
 			width: 72px;
 			height: 72px;			
@@ -203,7 +262,8 @@
 		background-repeat: no-repeat;
 		background-position: center center;
 		background-size: cover;
-		border-radius: 4px 0px 0px 4px;		
+		border-radius: 4px 0px 0px 4px;	
+		background-image: url(https://content.harstatic.com/media/icons/agent_placeholder.svg);
 	}
   }
   
@@ -280,7 +340,8 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	border-radius: 50%;	
+	border-radius: 50%;
+	background-image: url(https://content.harstatic.com/media/icons/agent_placeholder.svg);
   }
   
   &__info {

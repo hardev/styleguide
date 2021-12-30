@@ -142,9 +142,7 @@ export default class Header extends Component {
                   <li className={`li ${this.props.activeChild == 'form_elements' ? 'li--active' : ''} `}>
                     <Link to="/components/form_elements">Form Elements</Link>
                   </li>
-                  <li className={`li ${this.props.activeChild == 'listing_cards' ? 'li--active' : ''} `}>
-                    <Link to="/components/listing_cards">Listing Cards</Link>
-                  </li>
+                  
                   <li className={`li ${this.props.activeChild == 'listing_cards_portrait_v2' ? 'li--active' : ''} `}>
                     <Link to="/components/listing_cards_portrait_v2">Listing Cards - Portrait V2</Link>
                   </li>
@@ -186,7 +184,10 @@ export default class Header extends Component {
                   </li>
                   <li className={`li ${this.props.activeChild == 'sitewide' ? 'li--active' : ''} `}>
                     <Link to="/components/Sitewide">Sitewide</Link>
-                  </li>                  
+                  </li>
+                  <li className={`li ${this.props.activeChild == 'listing_cards' ? 'li--active' : ''} `}>
+                    <Link to="/components/listing_cards">Listing Cards [out dated]</Link>
+                  </li>              
                 </ul>
               </li>
 

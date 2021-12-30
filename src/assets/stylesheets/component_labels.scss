@@ -471,7 +471,7 @@
 			color: $color-har-blue !important;
 		}
 		
-		&__open, &__resolved {
+		&__closed, &__close, &__resolved {
 			border:none;
 			height: 28px;
 			padding: 7px 12px;
@@ -480,6 +480,17 @@
 			margin-right: 0px;
 			font-weight: normal;
 			font-size: $font-size-large;
+		}
+		&__open {
+			border:none;
+			height: 28px;
+			padding: 7px 12px;
+			line-height: 12px;
+			margin-bottom: 0px;
+			margin-right: 0px;
+			font-weight: normal;
+			font-size: $font-size-large;
+			background-color: rgba(1, 131, 97, 0.24);
 		}
 	}
 }
@@ -520,6 +531,31 @@
 	&--virtualopenhouse {
 		color: $color-har-blue;
 	}
-	
-
 }
+
+.statusdote {
+	border-radius: 50%;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	margin-right: 2px;
+	background-color: $color-cement-light;
+	
+	&--active {
+		background-color: $color-available;
+	}
+	
+	&--rent {
+		background-color: #8269bc;
+	}
+	
+	&--sold {
+		background-color: $color-sold;
+	}
+	
+	&--pending {
+		background-color: $color-pending;
+	}
+	
+}
+

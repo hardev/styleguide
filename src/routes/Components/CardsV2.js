@@ -206,6 +206,64 @@ export default class CardsV2 extends Component {
         <div class="clear_both"></div>
       </div>
       `,
+      `<div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">School Cards</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-12 mb-0">
+          <div class="cardv2 cardv2--school">
+          	<div class="cardv2--school__image_content">
+              <a href="#" class="cardv2--school__image_content__image" style="background-image:url('https://content.harstatic.com/media/temprary/oak_forest_temp_map.png');"></a>
+            </div>          	
+          	<div class="cardv2--school__content">
+          		<a href="#">
+        		<h4 tabindex="0" class="color_carbon mb-2">Nueces Canyon Lorem Ipsum Dolor School Elementary School</h4>
+        		<div class="font_size--small color_auxiliary pb-2">Grade Span: <span class=" font_weight--bold">PK - 05</span></div>
+            	<div class="pb-3">
+            		<img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg" style="width:16px;"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg" style="width:16px;"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg" style="width:16px;"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg" style="width:16px;"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg" style="width:16px;">
+				</div>
+				<div class="label label--grade label--grade_a">A</div><span class="font_size--medium color_auxiliary">Excellent</span>
+				<div class="pt-3">
+					<img src="https://content.harstatic.com/media/icons/school-grade-medal.svg">
+					<img src="https://content.harstatic.com/media/icons/school-grade-medal.svg">
+					<img src="https://content.harstatic.com/media/icons/school-grade-medal.svg">
+					<img src="https://content.harstatic.com/media/icons/school-grade-medal.svg">
+				</div>
+				</a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 mb-0">
+          <div class="cardv2 cardv2--school">
+          	<div class="cardv2--school__image_content">
+              <a href="#" class="cardv2--school__image_content__image" style="background-image:url('https://content.harstatic.com/media/temprary/oak_forest_temp_map.png');"></a>
+            </div>          	
+          	<div class="cardv2--school__content">
+          		<a href="#">
+	        		<h4 tabindex="0" class="color_carbon mb-2">Nueces Canyon Lorem Ipsum Dolor School Elementary School</h4>
+	        		<div class="font_size--small color_auxiliary pb-2">Grade Span: <span class=" font_weight--bold">PK - 05</span></div>
+	            	<div class="pb-3">
+	            		<img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg" style="width:16px;"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg" style="width:16px;"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg" style="width:16px;"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg" style="width:16px;"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg" style="width:16px;">
+					</div>
+					<div class="label label--grade label--grade_a">A</div><span class="font_size--medium color_auxiliary">Excellent</span>
+					<div class="pt-3">
+						<img src="https://content.harstatic.com/media/icons/school-grade-medal.svg">
+						<img src="https://content.harstatic.com/media/icons/school-grade-medal.svg">
+						<img src="https://content.harstatic.com/media/icons/school-grade-medal.svg">
+						<img src="https://content.harstatic.com/media/icons/school-grade-medal.svg">
+					</div>
+				</a>
+				<div class="cardv2--school__content__impovement">
+				  	<a href="#" class="font_weight--semi_bold">View Nearby Homes For Sale -&gt;</a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="clear_both"></div>
+      </div>
+      `,
     ];
 
 
@@ -231,6 +289,7 @@ export default class CardsV2 extends Component {
         <TemplateComponentBlock blockTitle="Neighborhoods Cards" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
         <TemplateComponentBlock blockTitle="Ratings Cards" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
         <TemplateComponentBlock blockTitle="Appraisers Cards" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
+        <TemplateComponentBlock blockTitle="School Cards" elements={this.elements[5]} codeSnippets={this.codeSnippets[5]} />
 
       </TemplateDefault>
     )

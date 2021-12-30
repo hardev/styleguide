@@ -27,7 +27,6 @@
     display: block;
   }
 
-
   td {
     white-space: nowrap;
   }
@@ -79,6 +78,16 @@
 	  	border-bottom: 1px solid $color-carbon;
       text-transform: uppercase;
   	}
+  }
+  
+  &--first {
+	margin-bottom: 0px !important;
+	
+  	@media screen and (max-width: 767px) {
+		tr:last-child td {
+		  	border-bottom: none !important;
+	  	}
+	}
   }
 
   &--small {
