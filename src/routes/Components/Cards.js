@@ -266,7 +266,7 @@ export default class ListingCards extends Component {
 						<img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg">
 						<span class="font_weight--bold ml-1 align-middle">4.0</span> / <span class="mr-2 align-middle">5.0</span><span class=" color_auxiliary_light">70 surveys</span>
 				   </div>
-		 		   <div class="pt-2 font_size--small_extra d-none d-md-block overflow-ellipsis overflow-hidden">John Daugherty Broker Propert…</div>
+		 		   <div class="pt-2 font_size--small_extra overflow-ellipsis overflow-hidden">John Daugherty Broker Propert…</div>
 	            </div>
 	        </div>
 	        <div class="card--agent_longinfo__certifi pt-4 pt-md-0">
@@ -328,7 +328,7 @@ export default class ListingCards extends Component {
 						<img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg">
 						<span class="font_weight--bold ml-1 align-middle">4.0</span> / <span class="mr-2 align-middle">5.0</span><span class=" color_auxiliary_light">70 surveys</span>
 				   </div>
-		 		   <div class="pt-2 font_size--small_extra d-none d-md-block overflow-ellipsis overflow-hidden">John Daugherty Broker Propert…</div>
+		 		   <div class="pt-2 font_size--small_extra overflow-ellipsis overflow-hidden">John Daugherty Broker Propert…</div>
 	            </div>
 	        </div>
 	        <div class="card--agent_longinfo__certifi pt-4 pt-md-0">
@@ -1175,7 +1175,7 @@ export default class ListingCards extends Component {
         </div>
       </div>
       <div class="row">
-        <div class="col col-md-5 mb-0">
+        <div class="col col-md-6 mb-0">
           <div class="card card--staff">          	
           		<div class="card--staff__staffpic" style="background-image: url(https://pics.harstatic.com/staff/95512388.jpg); cursor:pointer;"></div>
           		<div class="card--staff__staffinfo">
@@ -1195,12 +1195,23 @@ export default class ListingCards extends Component {
           		</div>
           	
         </div>
-        <div class="col col-sm-4 col-12 mb-0">
-          
         </div>
-        <div class="col col-sm-4 col-12 mb-0">
-          
-        </div>        
+        <div class="col col-md-6 mb-0">
+          <div class="card card--staff">          	
+          		<div class="card--staff__staffpic" style="background-image: url(https://pics.harstatic.com/staff/95512388.jpg); cursor:pointer;"></div>
+          		<div class="card--staff__staffinfo">
+	          		<a href="#">
+	          			<h4 tabindex="0">Brittany Aucion</h4>
+	          			<div class="card--staff__stafftitle">Marketing Manager</div>
+	          			
+	          		</a>	
+          			<div class="card--staff__contact">
+          				<a href="#" class="mb-2 color_carbon"><img style="width:15px;margin-top:-5px;" src="https://content.harstatic.com/media/icons/phone_slate.svg"> 713-629-1900 x1155</a>
+          				<a href="#"><img style="width:15px;margin-top:-2px;" src="https://content.harstatic.com/media/icons/email.svg"> Send email</a>
+          			</div>
+          		</div>
+          	
+        </div>
         <div class="clear_both"></div>
       </div>
       `,

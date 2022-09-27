@@ -86,8 +86,8 @@
 
 		
 /* used in listing details */
-.fav_container {background-color: #f2efcf; position: relative;padding:12px; }
-.fav_container textarea {background-color: #f2efcf !important;border: none !important;padding:2px;resize: none;}
+.fav_container {background-color: #fef4c6; position: relative;padding:16px;border-radius:4px; }
+.fav_container textarea {background-color: #fef4c6 !important;border: none !important;padding:2px;resize: none;}
 .fav_container textarea:focus {border-color:none !important; box-shadow: none !important;}
 
 .fav_container {
@@ -105,7 +105,7 @@
 		}
 	}
 }
-.fav_container,.fav_container textarea { color: $color-har-blue-dark !important; line-height: 1.5; font-size: $font-size-small; font-weight: $font-weight-bold !important; }
+.fav_container,.fav_container textarea { color: $color-har-blue-dark !important; line-height:20px; font-size: $font-size-medium; font-weight: $font-weight-semi-bold !important; }
 
 
 .folder__notes {
@@ -134,6 +134,6 @@
 }
 
 
-.fav_container:after {content: ""; display:block; position: absolute; bottom:0px;right:0px;position: absolute;top: auto;left: auto;width: 0px;height: 0px;border-bottom: 12px solid #ffffff;border-left: 12px solid #e2e0ba; }
+/*.fav_container:after {content: ""; display:block; position: absolute; bottom:0px;right:0px;position: absolute;top: auto;left: auto;width: 0px;height: 0px;border-bottom: 12px solid #ffffff;border-left: 12px solid #e2e0ba; }*/
 .bg_color_cement_light .fav_container:after {border-bottom: 12px solid #F3F4F7;}
 

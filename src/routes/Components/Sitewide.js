@@ -94,6 +94,14 @@ export default class Sitewide extends Component {
 					</div>
 					<a class="qoutetion__readmore" href="">read more</a>
         		</blockquote>
+        		
+        		<br><br><br>
+        		
+        		<blockquote class="qoutetion qoutetion__large">
+        			<div class="qoutetion__large__text">        				
+						<span>The greatest compliment you can give me is a referral The greatest compliment you can give me is a referral!<span>
+					</div>
+        		</blockquote>
         	</div>
        </div>`,
        `<div class="row">
@@ -227,7 +235,143 @@ export default class Sitewide extends Component {
 				</div>
 				<div class="component_content__demo__description">Video Popup</div>
         	</div>
+       </div>`,`
+       <div class="row">
+        	<div class="col col-12">
+        		<div class="breadcrumbs">
+	        		<a href="#">Home</a>
+					<a href="#">Market Area Videos</a>
+					<a href="#">1960/Cypress</a>
+					<a href="#">Video</a>
+				</div>
+				<div class="component_content__demo__description">Video Popup</div>
+        	</div>
        </div>`,
+       `
+       <div class="row">
+        	<div class="col col-12">
+        		<div id="accordion" class="accordion accordion__bordered">
+	        
+			        <!-- main item -->
+			        <div class="accordion--faqs overflow-hidden">
+			            <a href="javascript:void(0);" class="accordion--faqs_header collapsed" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">What services are included in MLS Standard Services?</a>
+			            
+			            <div id="collapse1" class="collapse accordion--faqs_body" aria-labelledby="collapse1" data-parent="#collapse1">
+			                <div class="card-body p-0">
+				                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur erat in elit malesuada, nec volutpat nunc mattis. In gravida tortor nunc. Phasellus dictum in 							neque vitae ultricies.
+			
+								Etiam ac tellus facilisis, dignissim dolor sed, gravida nisi. Duis euismod feugiat lectus sit amet viverra. Maecenas pellentesque sem sed magna elementum pellentesque. Cras 							feugiat enim mi, a luctus metus dapibus in.
+			                </div>
+			            </div>
+			        </div>
+			        <!-- main item ended -->
+					
+					<!-- main item -->
+			        <div class="accordion--faqs overflow-hidden">
+			            <a href="javascript:void(0);" class="accordion--faqs_header collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">How much does MLS Standard services cost?</a>
+			            
+			            <div id="collapse2" class="collapse accordion--faqs_body" aria-labelledby="collapse2" data-parent="#collapse2">
+			                <div class="card-body p-0">
+				                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur erat in elit malesuada, nec volutpat nunc mattis. In gravida tortor nunc. Phasellus dictum in 							neque vitae ultricies.
+			
+								Etiam ac tellus facilisis, dignissim dolor sed, gravida nisi. Duis euismod feugiat lectus sit amet viverra. Maecenas pellentesque sem sed magna elementum pellentesque. Cras 							feugiat enim mi, a luctus metus dapibus in.
+			                </div>
+			            </div>
+			        </div>
+			        <!-- main item ended -->
+			        
+			        <!-- main item -->
+			        <div class="accordion--faqs overflow-hidden">
+			            <a href="javascript:void(0);" class="accordion--faqs_header collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">What services are included in MLS Platinum Services?</a>
+			            
+			            <div id="collapse3" class="collapse accordion--faqs_body" aria-labelledby="collapse3" data-parent="#collapse3">
+			                <div class="card-body p-0">
+				                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur erat in elit malesuada, nec volutpat nunc mattis. In gravida tortor nunc. Phasellus dictum in 							neque vitae ultricies.
+			
+								Etiam ac tellus facilisis, dignissim dolor sed, gravida nisi. Duis euismod feugiat lectus sit amet viverra. Maecenas pellentesque sem sed magna elementum pellentesque. Cras 							feugiat enim mi, a luctus metus dapibus in.
+			                </div>
+			            </div>
+			        </div>
+			        <!-- main item ended -->
+			        
+		        </div><!--  id="accordion" -->
+        	</div>
+       </div>`,
+       `
+       <div class="row mb-5">
+        	<div class="col col-12">
+        		<div class="mapprop_popover">
+        			<img class="mapprop_popover__img" src="https://photos.harstatic.com/205272854/hr/img-1.jpeg?ts=2022-03-06T17:09:09.930">
+        			<div class="mapprop_popover__details">
+	        			<div class="row pb-2">
+	        				<div class="col mapprop_popover__details__price">$1,875,000</div>
+	        				<div class="col-auto"><div class="label label--forsale">Active</div></div>        				
+	        			</div>
+	        			<div class="mapprop_popover__details__desc">
+	        				3766 Elmora Street<br>
+							Southside Place,TX 77005
+						</div>
+						<a class="btn btn--ordinary" href="#">View details</a>
+					</div>
+        		</div>
+        	</div>
+       </div>
+       
+       
+       <div class="row">
+        	<div class="col col-12">
+        		<div class="mapprop_popover__small">
+        			<img class="mapprop_popover__small__img" src="https://photos.harstatic.com/205272854/hr/img-1.jpeg?ts=2022-03-06T17:09:09.930">
+        			<div class="mapprop_popover__small__details">
+	        			<div class="row pb-2">
+	        				<div class="col mapprop_popover__small__details__price">$1,875,000</div>
+	        				<div class="col-auto"><div class="label label--forsale">Active</div></div>        				
+	        			</div>
+	        			<div class="mapprop_popover__small__details__desc">
+							<ul>
+								<li>6 beds</li>
+								<li>1 full &amp; 4 half baths</li>
+								<li>3 stories</li>
+								<li>8,741 built sqft</li>
+								<li>1986 year built</li>
+							</ul>
+						</div>
+						<a class="mapprop_popover__small__viewmore" href="#">View details</a>
+					</div>
+        		</div>
+        	</div>
+       </div>
+       
+       
+       
+       
+       <div class="row">
+        	<div class="col col-12">
+       			<div class="date_card date_card__small dept color_auxiliary border_radius--default text-center position-relative overflow-hidden">
+					<div class="date_card_top">Thursday</div>
+					<div class="date_card_date">01</div>
+					<div class="date_card_bottom">Jan</div>							
+				</div>
+        	</div>
+        	
+        	<div class="col col-12">
+       			<div class="date_card date_card__large dept color_auxiliary border_radius--default text-center position-relative overflow-hidden selected">
+					<div class="date_card_top">Friday</div>
+					<div class="date_card_date">01</div>
+					<div class="date_card_bottom">Tomorrow</div>							
+				</div>
+				
+				<div class="date_card date_card__large dept color_auxiliary border_radius--default text-center position-relative overflow-hidden">
+					<div class="date_card_top">Saturday</div>
+					<div class="date_card_date">02</div>
+					<div class="date_card_bottom">Tomorrow</div>							
+				</div>
+        	</div>
+       </div>
+       
+       
+       
+       `,
     ];
 
 
@@ -346,6 +490,9 @@ $(document).on('ready', function() {
         <TemplateComponentBlock blockTitle="Map Pointers" elements={this.elements[7]} codeSnippets={this.codeSnippets[7]} />
         <TemplateComponentBlock blockTitle="Open Youtube video in Popup" elements={this.elements[8]} codeSnippets={this.codeSnippets[8]} />
         <TemplateComponentBlock blockTitle="Horizental Scrolbar" elements={this.elements[9]} codeSnippets={this.codeSnippets[9]} />
+        <TemplateComponentBlock blockTitle="Breadcrumbs" elements={this.elements[10]} codeSnippets={this.codeSnippets[10]} />
+        <TemplateComponentBlock blockTitle="Accordian" elements={this.elements[11]} codeSnippets={this.codeSnippets[11]} />
+        <TemplateComponentBlock blockTitle="Map Popover" elements={this.elements[12]} codeSnippets={this.codeSnippets[12]} />
         
         
       </TemplateDefault>

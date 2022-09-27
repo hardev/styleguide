@@ -7,6 +7,13 @@
 	border-radius: 2px;
 	margin-right: 3px;
 	
+	&--large {
+		height: 37px;
+		border-radius: 4px;
+		font-size: $font-size-large;
+		padding: 7px 10px;
+	}
+	
 	&--grade {
 		height: 24px;
 		width: 24px;
@@ -36,9 +43,33 @@
 		&_f {
 			background-color: #fc291c;
 		}
+		
+		&__large {
+			width: 56px;
+			height: 56px;
+			font-size: $font-size-large-extra-extra-extra;
+			line-height: 1.6;
+			border-radius: 4px;
+		}
+	}
+	
+	&--forsale_type {
+		border: 1px solid $color-available;
+		background-color: $color-snow-white;
+		color: $color-available;
+	}
+	&--forrent_type {
+		border: 1px solid #8268bc;
+		background-color: $color-snow-white;
+		color: #8268bc;
 	}
 	
 	&--forsale {
+		background-color: $color-available;
+		color: $color-snow-white;		
+	}
+	
+	&--active {
 		background-color: $color-available;
 		color: $color-snow-white;		
 	}
@@ -398,8 +429,8 @@
 	}
 	
 	&--badges {
-		height: 28px;
-		padding: 5px 12px;
+		height: auto;
+		padding: 8px 12px;
 		border-radius: 18.5px;
 		background-color: rgba(1,131,97,0.24);
 		color: $color-black;
@@ -407,6 +438,7 @@
 		font-weight: $font-weight-bold;
 		line-height: 1;
 		margin-bottom: 16px;
+		text-align: left;
 		
 		@media screen and (max-width: 767px) {
 			font-size: $font-size-medium;
@@ -435,7 +467,16 @@
 		
 		&__agentsbrokers { 
 			background-color: rgba(4,34,128,0.24);
+		}		
+		
+		&__small {
+			padding: 6px 12px;
+			color: $color-black;
+			font-size: $font-size-medium;
+			font-weight: $font-weight-semi-bold;	
 		}
+		
+		
 	}
 	
 	&--default {
@@ -469,6 +510,9 @@
 		
 		&__team { 
 			color: $color-har-blue !important;
+			height: auto;
+			text-align: left;
+			padding: 7px 16px;
 		}
 		
 		&__closed, &__close, &__resolved {
@@ -530,6 +574,10 @@
 	
 	&--virtualopenhouse {
 		color: $color-har-blue;
+	}
+	
+	&__active {
+		background-color: $color-cement-light;
 	}
 }
 

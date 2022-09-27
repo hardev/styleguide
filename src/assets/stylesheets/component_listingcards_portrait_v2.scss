@@ -134,8 +134,7 @@
 			
 			&_features {
 				font-size: $font-size-medium;
-				color: $color-cement-dark;
-				
+				color: $color-carbon;				
 				line-height: 1.64;
 				
 				
@@ -148,6 +147,10 @@
 						list-style: none;
 						margin: 0px;
 						padding:0px;
+						
+						span {
+							font-weight: $font-weight-semi_bold;
+						}
 						
 						&:after{
 							margin: 0px 3px 0 5px;
@@ -240,7 +243,11 @@
 	border-radius: 8px;
 	max-width: 278px;
     width: 100%;
-	
+
+	@media screen and (max-width: 500px) {
+		max-width: none;
+	}
+
 	.cardv2 {
 		margin-bottom: 0px;
 	}

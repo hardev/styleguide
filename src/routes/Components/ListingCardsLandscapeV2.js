@@ -20,7 +20,7 @@ export default class ListingCardsLandscapeV2 extends Component {
         <div class="col col-12 mb-0 pb-0 text-left ">
         
 	    	<!-- card--landscape v2 -->
-	        <div class="cardv2--landscape">
+	        <div class="cardv2--landscape selected">
 	        	<div class="cardv2--landscape__select cardv2--landscape__select__on">
 	        		<button role="button" class="btn btn--primary btn--small">Add to compare</button>
 	        	</div>
@@ -28,24 +28,25 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        	<!-- / card header -->	        	
 	        	<div class="cardv2--landscape__header">	
 	        		<div class="cardv2--landscape__header_agent">
-	        			<a class="agent_signaturev2" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
-				            <div class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></div>
-				            <div class="agent_signaturev2__info">
-				              <div class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
+	        			<div class="agent_signaturev2">
+				            <a href="#0" class="agent_signaturev2__photo" title="View Michel Hayek's profile" style="background-image:url('https://pics.harstatic.com/agent/639324.jpg?ts=2016-03-18T15:37:007083');"></a>
+				            <div class="agent_signaturev2__info flex-grow-0">
+				              <a href="#1" class="agent_signaturev2__info__agent_name" title="View Michel Hayek's profile" aria-label="View Michel Hayek's profile">
 				                Michel Hayek
-				              </div>
-				              <div class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
-				                Better Homes And Gardens Real
-				              </div>
+				              </a>
+				              <a href="#2" class="agent_signaturev2__info__broker_name" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
+				                Berkshire Hathaway HomeServices Premier Properties
+				              </a>
 				            </div>
-				        </a>
+				        </div>
 	        		</div>
 	        		<div class="cardv2--landscape__header_controls">
 						<button type="button" class="btn btn--icon--borderless btn--icon btn--icon--favorite btn--mobileonly"></button>
 	        			
-	        			<button role="button" class="btn btn--primary btn--small btn--desktoponly">Add to compare</button>
+	        			<button role="button" class="btn btn--primary btn--medium btn--desktoponly">Add to compare</button>
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--dislike btn--desktoponly" aria-label="Button"></button>
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--favorited btn--desktoponly" aria-label="Button"></button>
 	        			
-	        			<button role="button" class="btn btn--ordinary btn--small btn--icon btn--icon--favorite btn--desktoponly" aria-label="Save Bartlett Street #4 Houston TX 77098 as favorite">Save</button>
 	        			
 	        			<!-- dropdown with icons -->
 			    		<div class="dropdown dropdown--custom  d-inline-block">
@@ -116,27 +117,27 @@ export default class ListingCardsLandscapeV2 extends Component {
 				        				<div class="cardv2--landscape__content__body__details_address_left_add">	
 				        					<div class="cardv2--landscape__content__body__details_address_left_add__title">3914 Normandy Ave</div>
 											Highland Park, TX 5205
-										</div>
-										<div class="cardv2--landscape__content__body__details_address_left_info">
-											Residential - Single Family Property<br>
-											Style in Mount Vernon 01 & 03 Subdivision
-										</div>
+										</div>										
 				        			</div>
 				        			<div class="cardv2--landscape__content__body__details_address_right">	
 				        				<div class="cardv2--landscape__content__body__details_price">$13,500,000</div>
-										<div class="label label--forsale">for sale</div>
+										<div class="label label--forsale">Active</div>
 									</div>
 								</div>
 								
+								<div class="cardv2--landscape__content__body__details_address_left_info">
+										Residential - Single Family Property<br>
+										Style in Mount Vernon 01 & 03 Subdivision
+									</div>
 								
 								<div class="cardv2--landscape__content__body__details_features">
-									<div class="cardv2--landscape__content__body__details_features_item">6 bedrooms</div>
-									<div class="cardv2--landscape__content__body__details_features_item">1986 year built</div>
-									<div class="cardv2--landscape__content__body__details_features_item">7 full & 1 half baths</div>
-									<div class="cardv2--landscape__content__body__details_features_item">0.47 Acres</div>		
-									<div class="cardv2--landscape__content__body__details_features_item">3 stories</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>6</span> bedrooms</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>1986</span> year built</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>7</span> full & <span>1</span> half baths</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>0.47</span> Acres</div>		
+									<div class="cardv2--landscape__content__body__details_features_item"><span>3</span> stories</div>
 									<div class="cardv2--landscape__content__body__details_features_item">Private Pool</div>
-									<div class="cardv2--landscape__content__body__details_features_item">8,741 built sqft</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>8,741</span> built sqft</div>
 								</div>
 							</a>
 							
@@ -186,7 +187,8 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        		</div>
 	        		<div class="cardv2--landscape__header_controls">
 	
-	        			<button role="button" class="btn btn--ordinary btn--small btn--icon btn--icon--favorited" aria-label="Save Bartlett Street #4 Houston TX 77098 as favorite">Save</button>
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--dislike btn--desktoponly" aria-label="Button"></button>
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--favorited btn--desktoponly" aria-label="Button"></button>
 	        			<!-- dropdown with icons -->
 			    		<div class="dropdown dropdown--custom  d-inline-block">
 						 <button type="button" class="btn btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
@@ -258,25 +260,28 @@ export default class ListingCardsLandscapeV2 extends Component {
 											Highland Park, TX 5205
 										</div>
 										<div class="cardv2--landscape__content__body__details_address_left_info">
+											<div class="pb-2">
+												<div class="label label--forsale_type">For Sale</div>
+											</div>
 											Residential - Single Family Property<br>
 											Style in Mount Vernon 01 & 03 Subdivision
 										</div>
 				        			</div>
 				        			<div class="cardv2--landscape__content__body__details_address_right">	
 				        				<div class="cardv2--landscape__content__body__details_price">$13,500,000</div>
-										<div class="label label--forsale">for sale</div>
+										<div class="label label--forsale">Active</div>
 									</div>
 								</div>
 								
 								
 								<div class="cardv2--landscape__content__body__details_features">
-									<div class="cardv2--landscape__content__body__details_features_item">6 bedrooms</div>
-									<div class="cardv2--landscape__content__body__details_features_item">1986 year built</div>
-									<div class="cardv2--landscape__content__body__details_features_item">7 full & 1 half baths</div>
-									<div class="cardv2--landscape__content__body__details_features_item">0.47 Acres</div>		
-									<div class="cardv2--landscape__content__body__details_features_item">3 stories</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>6</span> bedrooms</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>1986</span> year built</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>7</span> full & <span>1</span> half baths</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>0.47</span> Acres</div>		
+									<div class="cardv2--landscape__content__body__details_features_item"><span>3</span> stories</div>
 									<div class="cardv2--landscape__content__body__details_features_item">Private Pool</div>
-									<div class="cardv2--landscape__content__body__details_features_item">8,741 built sqft</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>8,741</span> built sqft</div>
 								</div>
 							</a>
 							<div class="cardv2--landscape__content__body__details_impovement">
@@ -330,7 +335,8 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        		</div>
 	        		<div class="cardv2--landscape__header_controls">
 	
-	        			<button role="button" class="btn btn--ordinary btn--small btn--icon btn--icon--favorite" aria-label="Save Bartlett Street #4 Houston TX 77098 as favorite">Save</button>
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--dislike btn--desktoponly" aria-label="Button"></button>
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--favorited btn--desktoponly" aria-label="Button"></button>
 	        			<!-- dropdown with icons -->
 			    		<div class="dropdown dropdown--custom  d-inline-block">
 						 <button type="button" class="btn btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
@@ -398,6 +404,9 @@ export default class ListingCardsLandscapeV2 extends Component {
 											Highland Park, TX 5205
 										</div>
 										<div class="cardv2--landscape__content__body__details_address_left_info">
+											<div class="pb-2">
+												<div class="label label--forsale_type">For Sale</div>
+											</div>
 											Residential - Single Family Property<br>
 											Style in Mount Vernon 01 & 03 Subdivision
 										</div>
@@ -413,13 +422,13 @@ export default class ListingCardsLandscapeV2 extends Component {
 								
 								
 								<div class="cardv2--landscape__content__body__details_features">
-									<div class="cardv2--landscape__content__body__details_features_item">6 bedrooms</div>
-									<div class="cardv2--landscape__content__body__details_features_item">1986 year built</div>
-									<div class="cardv2--landscape__content__body__details_features_item">7 full & 1 half baths</div>
-									<div class="cardv2--landscape__content__body__details_features_item">0.47 Acres</div>		
-									<div class="cardv2--landscape__content__body__details_features_item">3 stories</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>6</span> bedrooms</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>1986</span> year built</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>7</span> full & <span>1</span> half baths</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>0.47</span> Acres</div>		
+									<div class="cardv2--landscape__content__body__details_features_item"><span>3</span> stories</div>
 									<div class="cardv2--landscape__content__body__details_features_item">Private Pool</div>
-									<div class="cardv2--landscape__content__body__details_features_item">8,741 built sqft</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>8,741</span> built sqft</div>
 								</div>
 							</a>
 							<div class="cardv2--landscape__content__body__details_impovement">
@@ -473,7 +482,8 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        		</div>
 	        		<div class="cardv2--landscape__header_controls">
 	
-	        			<button role="button" class="btn btn--ordinary btn--small btn--icon btn--icon--favorite" aria-label="Save Bartlett Street #4 Houston TX 77098 as favorite">Save</button>
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--dislike btn--desktoponly" aria-label="Button"></button>
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--favorited btn--desktoponly" aria-label="Button"></button>
 	        			<!-- dropdown with icons -->
 			    		<div class="dropdown dropdown--custom  d-inline-block">
 						 <button type="button" class="btn btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
@@ -549,25 +559,28 @@ export default class ListingCardsLandscapeV2 extends Component {
 											Highland Park, TX 5205
 										</div>
 										<div class="cardv2--landscape__content__body__details_address_left_info">
+											<div class="pb-2">
+												<div class="label label--forsale_type">For Sale</div>
+											</div>
 											Residential - Single Family Property<br>
 											Style in Mount Vernon 01 & 03 Subdivision
 										</div>
 				        			</div>
 				        			<div class="cardv2--landscape__content__body__details_address_right">	
 				        				<div class="cardv2--landscape__content__body__details_price">$13,500,000</div>
-										<div class="label label--forsale">for sale</div>
+										<div class="label label--forsale">Active</div>
 									</div>
 								</div>
 								
 								
 								<div class="cardv2--landscape__content__body__details_features">
-									<div class="cardv2--landscape__content__body__details_features_item">6 bedrooms</div>
-									<div class="cardv2--landscape__content__body__details_features_item">1986 year built</div>
-									<div class="cardv2--landscape__content__body__details_features_item">7 full & 1 half baths</div>
-									<div class="cardv2--landscape__content__body__details_features_item">0.47 Acres</div>		
-									<div class="cardv2--landscape__content__body__details_features_item">3 stories</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>6</span> bedrooms</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>1986</span> year built</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>7</span> full & <span>1</span> half baths</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>0.47</span> Acres</div>		
+									<div class="cardv2--landscape__content__body__details_features_item"><span>3</span> stories</div>
 									<div class="cardv2--landscape__content__body__details_features_item">Private Pool</div>
-									<div class="cardv2--landscape__content__body__details_features_item">8,741 built sqft</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>8,741</span> built sqft</div>
 								</div>
 							</a>
 							<div class="cardv2--landscape__content__body__details_badges">
@@ -619,7 +632,8 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        		</div>
 	        		<div class="cardv2--landscape__header_controls">
 	
-	        			<button role="button" class="btn btn--ordinary btn--small btn--icon btn--icon--favorite" aria-label="Save Bartlett Street #4 Houston TX 77098 as favorite">Save</button>
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--dislike btn--desktoponly" aria-label="Button"></button>
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--favorited btn--desktoponly" aria-label="Button"></button>
 	        			<!-- dropdown with icons -->
 			    		<div class="dropdown dropdown--custom  d-inline-block">
 						 <button type="button" class="btn btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
@@ -695,25 +709,28 @@ export default class ListingCardsLandscapeV2 extends Component {
 											Highland Park, TX 5205
 										</div>
 										<div class="cardv2--landscape__content__body__details_address_left_info">
+											<div class="pb-2">
+												<div class="label label--forsale_type">For Sale</div>
+											</div>
 											Residential - Single Family Property<br>
 											Style in Mount Vernon 01 & 03 Subdivision
 										</div>
 				        			</div>
 				        			<div class="cardv2--landscape__content__body__details_address_right">	
 				        				<div class="cardv2--landscape__content__body__details_price">$13,500,000</div>
-										<div class="label label--forsale">for sale</div>
+										<div class="label label--forsale">Active</div>
 									</div>
 								</div>
 								
 								
 								<div class="cardv2--landscape__content__body__details_features">
-									<div class="cardv2--landscape__content__body__details_features_item">6 bedrooms</div>
-									<div class="cardv2--landscape__content__body__details_features_item">1986 year built</div>
-									<div class="cardv2--landscape__content__body__details_features_item">7 full & 1 half baths</div>
-									<div class="cardv2--landscape__content__body__details_features_item">0.47 Acres</div>		
-									<div class="cardv2--landscape__content__body__details_features_item">3 stories</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>6</span> bedrooms</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>1986</span> year built</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>7</span> full & <span>1</span> half baths</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>0.47</span> Acres</div>		
+									<div class="cardv2--landscape__content__body__details_features_item"><span>3</span> stories</div>
 									<div class="cardv2--landscape__content__body__details_features_item">Private Pool</div>
-									<div class="cardv2--landscape__content__body__details_features_item">8,741 built sqft</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>8,741</span> built sqft</div>
 								</div>
 							</a>
 							<div class="cardv2--landscape__content__body__details_badges">
@@ -757,7 +774,8 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        		</div>
 	        		<div class="cardv2--landscape__header_controls">
 	
-	        			<button role="button" class="btn btn--ordinary btn--small btn--icon btn--icon--favorite" aria-label="Save Bartlett Street #4 Houston TX 77098 as favorite">Save</button>
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--dislike btn--desktoponly" aria-label="Button"></button>
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--favorited btn--desktoponly" aria-label="Button"></button>
 	        			<!-- dropdown with icons -->
 			    		<div class="dropdown dropdown--custom  d-inline-block">
 						 <button type="button" class="btn btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
@@ -842,13 +860,13 @@ export default class ListingCardsLandscapeV2 extends Component {
 								
 								
 								<div class="cardv2--landscape__content__body__details_features">
-									<div class="cardv2--landscape__content__body__details_features_item">6 bedrooms</div>
-									<div class="cardv2--landscape__content__body__details_features_item">1986 year built</div>
-									<div class="cardv2--landscape__content__body__details_features_item">7 full & 1 half baths</div>
-									<div class="cardv2--landscape__content__body__details_features_item">0.47 Acres</div>		
-									<div class="cardv2--landscape__content__body__details_features_item">3 stories</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>6</span> bedrooms</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>1986</span> year built</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>7</span> full & <span>1</span> half baths</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>0.47</span> Acres</div>		
+									<div class="cardv2--landscape__content__body__details_features_item"><span>3</span> stories</div>
 									<div class="cardv2--landscape__content__body__details_features_item">Private Pool</div>
-									<div class="cardv2--landscape__content__body__details_features_item">8,741 built sqft</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>8,741</span> built sqft</div>
 								</div>
 							</a>
 			        	</div>
@@ -896,7 +914,8 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        		</div>
 	        		<div class="cardv2--landscape__header_controls">
 	
-	        			<button role="button" class="btn btn--ordinary btn--small btn--icon btn--icon--favorite" aria-label="Save Bartlett Street #4 Houston TX 77098 as favorite">Save</button>
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--dislike btn--desktoponly" aria-label="Button"></button>
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--favorited btn--desktoponly" aria-label="Button"></button>
 	        			<!-- dropdown with icons -->
 			    		<div class="dropdown dropdown--custom  d-inline-block">
 						 <button type="button" class="btn btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
@@ -968,25 +987,28 @@ export default class ListingCardsLandscapeV2 extends Component {
 											Highland Park, TX 5205
 										</div>
 										<div class="cardv2--landscape__content__body__details_address_left_info">
+											<div class="pb-2">
+												<div class="label label--forsale_type">For Sale</div>
+											</div>
 											Residential - Single Family Property<br>
 											Style in Mount Vernon 01 & 03 Subdivision
 										</div>
 				        			</div>
 				        			<div class="cardv2--landscape__content__body__details_address_right">	
 				        				<div class="cardv2--landscape__content__body__details_price">$13,500,000</div>
-										<div class="label label--forsale">for sale</div>
+										<div class="label label--forsale">Active</div>
 									</div>
 								</div>
 								
 								
 								<div class="cardv2--landscape__content__body__details_features">
-									<div class="cardv2--landscape__content__body__details_features_item">6 bedrooms</div>
-									<div class="cardv2--landscape__content__body__details_features_item">1986 year built</div>
-									<div class="cardv2--landscape__content__body__details_features_item">7 full & 1 half baths</div>
-									<div class="cardv2--landscape__content__body__details_features_item">0.47 Acres</div>		
-									<div class="cardv2--landscape__content__body__details_features_item">3 stories</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>6</span> bedrooms</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>1986</span> year built</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>7</span> full & <span>1</span> half baths</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>0.47</span> Acres</div>		
+									<div class="cardv2--landscape__content__body__details_features_item"><span>3</span> stories</div>
 									<div class="cardv2--landscape__content__body__details_features_item">Private Pool</div>
-									<div class="cardv2--landscape__content__body__details_features_item">8,741 built sqft</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>8,741</span> built sqft</div>
 								</div>
 							</a>
 							<div class="cardv2--landscape__content__body__details_badges">
@@ -1045,7 +1067,8 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        		</div>
 	        		<div class="cardv2--landscape__header_controls">
 	
-	        			<button role="button" class="btn btn--ordinary btn--small btn--icon btn--icon--favorite" aria-label="Save Bartlett Street #4 Houston TX 77098 as favorite">Save</button>
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--dislike btn--desktoponly" aria-label="Button"></button>
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--favorited btn--desktoponly" aria-label="Button"></button>
 	        			<!-- dropdown with icons -->
 			    		<div class="dropdown dropdown--custom  d-inline-block">
 						 <button type="button" class="btn btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
@@ -1121,6 +1144,9 @@ export default class ListingCardsLandscapeV2 extends Component {
 											Highland Park, TX 5205
 										</div>
 										<div class="cardv2--landscape__content__body__details_address_left_info">
+											<div class="pb-2">
+												<div class="label label--forsale_type">For Sale</div>
+											</div>
 											Residential - Single Family Property<br>
 											Style in Mount Vernon 01 & 03 Subdivision
 										</div>
@@ -1136,13 +1162,13 @@ export default class ListingCardsLandscapeV2 extends Component {
 								
 								
 								<div class="cardv2--landscape__content__body__details_features">
-									<div class="cardv2--landscape__content__body__details_features_item">6 bedrooms</div>
-									<div class="cardv2--landscape__content__body__details_features_item">1986 year built</div>
-									<div class="cardv2--landscape__content__body__details_features_item">7 full & 1 half baths</div>
-									<div class="cardv2--landscape__content__body__details_features_item">0.47 Acres</div>		
-									<div class="cardv2--landscape__content__body__details_features_item">3 stories</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>6</span> bedrooms</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>1986</span> year built</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>7</span> full & <span>1</span> half baths</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>0.47</span> Acres</div>		
+									<div class="cardv2--landscape__content__body__details_features_item"><span>3</span> stories</div>
 									<div class="cardv2--landscape__content__body__details_features_item">Private Pool</div>
-									<div class="cardv2--landscape__content__body__details_features_item">8,741 built sqft</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>8,741</span> built sqft</div>
 								</div>
 							</a>
 							<div class="cardv2--landscape__content__body__details_impovement">
@@ -1200,7 +1226,8 @@ export default class ListingCardsLandscapeV2 extends Component {
 	        		</div>
 	        		<div class="cardv2--landscape__header_controls">
 	
-	        			<button role="button" class="btn btn--ordinary btn--small btn--icon btn--icon--favorite" aria-label="Save Bartlett Street #4 Houston TX 77098 as favorite">Save</button>
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--dislike btn--desktoponly" aria-label="Button"></button>
+	        			<button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--favorited btn--desktoponly" aria-label="Button"></button>
 	        			<!-- dropdown with icons -->
 			    		<div class="dropdown dropdown--custom  d-inline-block">
 						 <button type="button" class="btn btn--icon--borderless btn--icon btn--icon--dot_dot_dot" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
@@ -1272,25 +1299,28 @@ export default class ListingCardsLandscapeV2 extends Component {
 											Highland Park, TX 5205
 										</div>
 										<div class="cardv2--landscape__content__body__details_address_left_info">
+											<div class="pb-2">
+												<div class="label label--forsale_type">For Sale</div>
+											</div>
 											Residential - Single Family Property<br>
 											Style in Mount Vernon 01 & 03 Subdivision
 										</div>
 				        			</div>
 				        			<div class="cardv2--landscape__content__body__details_address_right">	
 				        				<div class="cardv2--landscape__content__body__details_price">$13,500,000</div>
-										<div class="label label--forsale">for sale</div>
+										<div class="label label--forsale">Active</div>
 									</div>
 								</div>
 								
 								
 								<div class="cardv2--landscape__content__body__details_features">
-									<div class="cardv2--landscape__content__body__details_features_item">6 bedrooms</div>
-									<div class="cardv2--landscape__content__body__details_features_item">1986 year built</div>
-									<div class="cardv2--landscape__content__body__details_features_item">7 full & 1 half baths</div>
-									<div class="cardv2--landscape__content__body__details_features_item">0.47 Acres</div>		
-									<div class="cardv2--landscape__content__body__details_features_item">3 stories</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>6</span> bedrooms</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>1986</span> year built</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>7</span> full & <span>1</span> half baths</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>0.47</span> Acres</div>		
+									<div class="cardv2--landscape__content__body__details_features_item"><span>3</span> stories</div>
 									<div class="cardv2--landscape__content__body__details_features_item">Private Pool</div>
-									<div class="cardv2--landscape__content__body__details_features_item">8,741 built sqft</div>
+									<div class="cardv2--landscape__content__body__details_features_item"><span>8,741</span> built sqft</div>
 								</div>
 							</a>
 							
@@ -1307,6 +1337,133 @@ export default class ListingCardsLandscapeV2 extends Component {
         </div>
       </div><!-- <div class="row"> -->
       
+      
+      
+      
+      
+      <div class="row pb-4">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h2 class="h2--simple h2--simple__black" tabindex="0">Mini card</h2>
+        </div>
+      </div>
+
+      <div class="row mb-5 pb-5">
+        <div class="col col-12 mb-0 pb-0 text-left ">
+        <div style="max-width:343px;">
+	    	
+	    	
+	    	<!-- card--mini v2 -->
+	        <div class="cardv2--mini">
+	        	<div class="cardv2--mini__content">		        	
+		        	<div class="cardv2--mini__content__body">
+			        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
+				        	<!-- card img -->
+				        	<div class="cardv2--mini__content__body__image">
+				        		<div class="cardv2--mini__content__body__image__img bg__bottom" style="background-image: url(https://content.harstatic.com/high_rise/lr/196_1.jpg);"></div>				        		
+				        	</div>
+				        	<!-- / card img -->
+				        </a>
+			        	<!-- card header -->
+		        		
+			        	<!-- card details -->
+			        	<div class="cardv2--mini__content__body__details">
+				        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
+				        		<div class="cardv2--mini__content__body__details_address">
+				        			<div class="cardv2--mini__content__body__details_address_left">	
+				        				<div class="cardv2--mini__content__body__details_price">$7,009,00</div>
+				        			</div>
+				        			<div class="cardv2--mini__content__body__details_address_right">				        				
+										<div class="label label--forsale">Active</div>
+									</div>
+								</div>
+								
+								<div class="">
+									<div class="cardv2--mini__content__body__details_address_left_add">			        					
+										9 West Lane<br>
+										Houston, TX 77019
+									</div>
+									<div class="cardv2--mini__content__body__details_features">
+										<ul>
+											<li>5 beds</li>
+											<li>5 baths</li>
+											<li>7,551 sqft</li>
+										</ul>
+									</div>
+									
+									<div class="cardv2--mini__content__body__details_dayson">
+										<div class="circle_nimber">2</div>  Days on HAR
+									</div>
+								</div>
+							</a>
+							
+			        	</div>
+			        	<!-- / card details -->
+				    </div>
+			        <!-- / card body -->
+			    </div>
+			    <!-- / card content -->	
+	        </div>
+			<!-- / card--mini v2 -->
+			
+			
+			
+			
+			
+			<!-- card--mini v2 -->
+	        <div class="cardv2--mini">
+	        	<div class="cardv2--mini__content">		        	
+		        	<div class="cardv2--mini__content__body">
+			        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
+				        	<!-- card img -->
+				        	<div class="cardv2--mini__content__body__image">
+				        		<div class="cardv2--mini__content__body__image__img bg__bottom" style="background-image: url(https://content.harstatic.com/high_rise/lr/196_1.jpg);"></div>				        		
+				        	</div>
+				        	<!-- / card img -->
+				        </a>
+			        	<!-- card header -->
+		        		
+			        	<!-- card details -->
+			        	<div class="cardv2--mini__content__body__details">
+				        	<a href="https://www.har.com/homedetail/120-carnarvon-dr-houston-tx-77024/3144594">
+				        		<div class="cardv2--mini__content__body__details_address">
+				        			<div class="cardv2--mini__content__body__details_address_left">	
+				        				<div class="cardv2--mini__content__body__details_price">$7,009,00</div>
+				        			</div>
+				        			<div class="cardv2--mini__content__body__details_address_right">				        				
+										<div class="label label--sold">Sold</div>
+									</div>
+								</div>
+								
+								<div class="">
+									<div class="cardv2--mini__content__body__details_address_left_add">			        					
+										9 West Lane<br>
+										Houston, TX 77019
+									</div>
+									<div class="cardv2--mini__content__body__details_features">
+										<ul>
+											<li>5 beds</li>
+											<li>5 baths</li>
+											<li>7,551 sqft</li>
+										</ul>
+									</div>
+									
+									<div class="font_weight--semi_bold color_sold text-right pt-2">Sold: 06 June, 2021</div>
+								</div>
+							</a>
+							
+			        	</div>
+			        	<!-- / card details -->
+				    </div>
+			        <!-- / card body -->
+			    </div>
+			    <!-- / card content -->	
+	        </div>
+			<!-- / card--mini v2 -->
+			
+			
+		</div>			        	
+        </div>
+      </div><!-- <div class="row"> -->
           `,
     ];
 

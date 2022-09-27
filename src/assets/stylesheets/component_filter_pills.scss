@@ -50,6 +50,28 @@
 		}		
 	}
 	
+	&--transparent {
+		color: $color-carbon;
+		line-height: 18px;
+		display: inline-block;
+		border: solid 1px rgba(81, 91, 122, 0.24);
+		background-color: rgba(4, 34, 128, 0);
+		&:after {
+			background: none;
+			content: none;
+		}		
+		a {
+			display:block;
+			position: absolute;
+			right: 13px; 
+			top: 13px;
+			width: 10px;
+			height: 10px;
+			background: url(https://content.harstatic.com/media/icons/close_medium_gra.svg) no-repeat center center;
+			background-size:contain;
+		}		
+	}
+	
 	&--all {
 		background-color: $color-har-blue-dark;
 		color: $color-snow-white;
@@ -95,6 +117,7 @@
 	transition-duration: 0.6s;
 	transition-property: all;
 	transition-timing-function: ease;
+	vertical-align: middle;
   
 	span {
 		display: block;
@@ -111,19 +134,67 @@
 	&:hover {
 		opacity: 0.5;
 	}
+	
+	&__icon {
+		padding: 0px;		
+		height: 36px;
+		min-width: 36px;
+		
+		&__img {
+			display: flex;
+			position: absolute;
+			left: 0px; 
+			top: 0px;
+			width:36px;
+			height: 36px;
+			border-radius: 50%;		
+			background-color: transparent !important;
+			text-align: center;
+			justify-content: center;
+			
+			img {
+				max-width: 24px;
+				align-self: center;
+			}
+		}
+		
+		&__text {
+			padding: 9px 16px 9px 35px;
+			font-size: $font-size-medium;
+			font-weight: $font-weight-bold;
+		}
+		
+		
+		&__mobile_shrink {
+			
+			@media (max-width:776px) {
+				
+				.hide_text_resp {
+					display: none !important;
+				}
+				
+				.iconpill__icon__img {
+					width: 36px;
+				}
+			
+			}
+	 
+		}
+	}
 }
 
 .folder {
 	background-color: $color-cement-light;
-	border-radius: 2px;
-	height: 24px;
-	line-height: 24px;
-	font-size: $font-size-small;
+	border-radius: 4px;
+	height: 32px;
+	line-height: 32px;
+	font-size: $font-size-medium;
 	color: $color-carbon;
+	font-weight: $font-weight-semi-bold;
 	display: inline-block;
 	position: relative;
 	padding-left: 6px; 
-	padding-right: 22px;
+	padding-right: 26px;
 	margin-bottom: 5px;
 	margin-right: 5px;
 	
@@ -133,13 +204,30 @@
 			position: absolute;
 			right: 2px; 
 			top: 0px;
-			width: 18px;
-			height: 24px;
+			width: 20px;
+			height: 32px;
+			left: auto;
+			right: 2px;
 			margin-left: 4px;			
-			opacity: 45%;
-			background:url("https://content.harstatic.com/media/icons/cross_auxilary_small.svg") no-repeat right 5px center;
-			background-size: 8px;
+			background:url("https://content.harstatic.com/media/icons/close_cross.svg") no-repeat 4px 11px;
+			background-size: 10px;
 		}		
+	}
+	
+	&__withicon {
+		position: relative;
+		padding-left: 32px !important;
+		
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			left: 8px;
+			top: 10px;
+			width: 16px;
+			height: 12px;
+			background:url("https://content.harstatic.com/media/icons/foolder_icon_small.svg") no-repeat center center;
+		}
 	}
 }
 

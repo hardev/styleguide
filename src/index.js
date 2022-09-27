@@ -32,6 +32,7 @@ import Sitewide from './routes/Components/Sitewide';
 import Favorite from './routes/Components/Favorites';
 
 import Heros from './routes/TemplateBlocks/Heros';
+import PageHeaders from './routes/TemplateBlocks/PageHeaders';
 import CMSBlocks from './routes/TemplateBlocks/CMSBlocks';
 import AgentHeader from './routes/TemplateBlocks/AgentHeader';
 import BrokerHeader from './routes/TemplateBlocks/BrokerHeader';
@@ -76,6 +77,7 @@ ReactDOM.render(
       <Route path="/components/favorites" component={Favorite} />
 
       <Route path="/template_blocks/heros" component={Heros} />
+      <Route path="/template_blocks/page_headers" component={PageHeaders} />
       <Route path="/template_blocks/cmsblocks" component={CMSBlocks} />
       <Route path="/template_blocks/agent_header" component={AgentHeader} />
       <Route path="/template_blocks/broker_header" component={BrokerHeader} />

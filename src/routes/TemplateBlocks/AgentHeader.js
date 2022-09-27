@@ -8,15 +8,15 @@ export default class AgentHeader extends Component {
     super(props);
 
     this.elements = [
-      `<!-- Agent Header block -->
-      <section class="agentheader">
+      `<!-- Agent Header block -->      <section class="agentheader">
       	<div class="agentheader__photo" style="background-image:url(https://content.harstatic.com/img/member/heroimages/Agent_Website_Image_11.jpg);">
-      		<div class="agentheader__photo__inner">
-	      		<div class="agentheader__photo__inner_share">
+      		<div class="agentheader__photo__inner d-flex">
+      			<div class="mr-auto"><a href="#" data-toggle="tooltip" data-placement="top" title="Tooltip on top"><img alt="Facebook" src="https://content.harstatic.com/media/icons/edit_agent_header.svg"></a></div>
+	      		<div class="agentheader__photo__inner_share align-self-start">
 					<a href="#"><img alt="Facebook" src="https://content.harstatic.com/media/icons/social/white/facebook.svg"></a>
 					<a href="#"><img alt="LinkedIn" src="https://content.harstatic.com/media/icons/social/white/linkedin.svg"></a>
 					<a href="#"><img alt="twitter" src="https://content.harstatic.com/media/icons/social/white/twitter.svg"></a>
-					<a class="pl-2" href="#"><span>Share</span></a>
+					<a href="#"><img alt="Share" src="https://content.harstatic.com/media/icons/header_share.svg"></a>
 				</div>
 			</div>
         </div>
@@ -54,29 +54,48 @@ export default class AgentHeader extends Component {
         		</div>
 			</div><!-- /agentheader__agent -->
 			
-			<div class="agentheader__agrow__links d-md-block d-none">
-				<button tabindex="0" class="btn btn--ordinary mb-2">Recommend this Agent</button>
-				<button tabindex="0" class="btn btn--prominent ml-3 mb-2">Request callback</button>
-				<div class="agentheader__agrow__links_more">
-					<button tabindex="0" class="btn btn--ordinary btn--small mr-3">View phone</button>
-					<button tabindex="0" class="btn btn--ordinary btn--small">Send email</button>
+			<div class="agentheader__agrow__links text-center text-md-right pt-5">				
+				
+				<button tabindex="0" class="agent_btn_contact btn btn--prominent mb-2 btn--large mr-3">Contact</button>
+				
+				<div class="dropdown dropdown--custom d-inline-block agent_btn_more agent_btn_more">
+				 <button tabindex="0" class="btn btn--ordinary mb-2 btn--large" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</button>
+				  <div class="dropdown-menu dropdown-menu__withicons dropdown-menu-right pt-2 pb-2" aria-labelledby="dropdownMenuButton" x-placement="bottom-end">
+				    <a class="dropdown-item pt-1 pb-1" href="#">
+				    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_recive.svg"></div>
+				    	<div class="dropdown-item__text align-self-center pl-3">
+				    		<div class="dropdown-item__text__title">Receive callback</div>
+				    	</div>
+				    </a>
+				    <a class="dropdown-item pt-1 pb-1" href="#">
+				    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_calander.svg"></div>
+				    	<div class="dropdown-item__text align-self-center pl-3">
+				    		<div class="dropdown-item__text__title">Schedule an appointment</div>
+				    	</div>
+				    </a>
+				    <a class="dropdown-item pt-1 pb-1" href="#">
+				    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_phone.svg"></div>
+				    	<div class="dropdown-item__text align-self-center pl-3">
+				    		<div class="dropdown-item__text__title">View phone number</div>
+				    	</div>
+				    </a>
+				    <a class="dropdown-item pt-1 pb-1" href="#">
+				    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_sendemail.svg"></div>
+				    	<div class="dropdown-item__text align-self-center pl-3">
+				    		<div class="dropdown-item__text__title">Send email</div>
+				    	</div>
+				    </a>
+				    <a class="dropdown-item pt-1 pb-1" href="#">
+				    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_recommand.svg"></div>
+				    	<div class="dropdown-item__text align-self-center pl-3">
+				    		<div class="dropdown-item__text__title">Recommend</div>
+				    	</div>
+				    </a>
+				  </div>
 				</div>
+				
 			</div><!-- agentheader__links -->
 			
-			<div class="agentheader__agrow__linksresp d-md-none d-block">
-				<button tabindex="0" class="btn btn--prominent btn--medium w-100 mb-2">Request callback</button>
-				<div class="row no-gutters">
-					<div class="col pb-2 pr-2">
-						<button tabindex="0" class="btn btn--ordinary mr-3 w-100">Recommend</button>
-					</div>
-					<div class="col-auto pb-2">
-						<button tabindex="0" class="btn btn--ordinary w-100">Phone</button>
-					</div>
-					<div class="col pb-2 pl-2">
-						<button tabindex="0" class="btn btn--ordinary w-100">Email</button>
-					</div>
-				</div>
-			</div><!-- agentheader__agrow__links_resp -->
 						
         </div><!-- agentheader__agent -->
         <div class="agentheader__certi">
@@ -126,7 +145,7 @@ export default class AgentHeader extends Component {
 					<a href="#"><img alt="Facebook" src="https://content.harstatic.com/media/icons/social/white/facebook.svg"></a>
 					<a href="#"><img alt="LinkedIn" src="https://content.harstatic.com/media/icons/social/white/linkedin.svg"></a>
 					<a href="#"><img alt="twitter" src="https://content.harstatic.com/media/icons/social/white/twitter.svg"></a>
-					<a class="agentheader__certi__list__link" href="#"><span>Share</span></a>
+					<a href="#"><img alt="Share" src="https://content.harstatic.com/media/icons/header_share.svg"></a>
 				</div>
 			</div>
         </div>
@@ -163,31 +182,48 @@ export default class AgentHeader extends Component {
         		</div>
 			</div><!-- /agentheader__agent -->
 			
-			<div class="agentheader__agrow__links d-md-block d-none">
-				<button tabindex="0" class="btn btn--ordinary mb-2">Recommend this Agent</button>
-				<button tabindex="0" class="btn btn--prominent ml-3 mb-2">Request callback</button>
-				<div class="agentheader__agrow__links_more">
-					<button tabindex="0" class="btn btn--ordinary btn--small mr-3">View phone</button>
-					<button tabindex="0" class="btn btn--ordinary btn--small">Send email</button>
+			<div class="agentheader__agrow__links text-center text-md-right pt-5">				
+				
+				<button tabindex="0" class="agent_btn_contact btn btn--prominent mb-2 btn--large mr-3">Contact</button>
+				
+				<div class="dropdown dropdown--custom d-inline-block agent_btn_more agent_btn_more">
+				 <button tabindex="0" class="btn btn--ordinary mb-2 btn--large" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</button>
+				  <div class="dropdown-menu dropdown-menu__withicons dropdown-menu-right pt-2 pb-2" aria-labelledby="dropdownMenuButton" x-placement="bottom-end">
+				    <a class="dropdown-item pt-1 pb-1" href="#">
+				    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_recive.svg"></div>
+				    	<div class="dropdown-item__text align-self-center pl-3">
+				    		<div class="dropdown-item__text__title">Receive callback</div>
+				    	</div>
+				    </a>
+				    <a class="dropdown-item pt-1 pb-1" href="#">
+				    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_calander.svg"></div>
+				    	<div class="dropdown-item__text align-self-center pl-3">
+				    		<div class="dropdown-item__text__title">Schedule an appointment</div>
+				    	</div>
+				    </a>
+				    <a class="dropdown-item pt-1 pb-1" href="#">
+				    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_phone.svg"></div>
+				    	<div class="dropdown-item__text align-self-center pl-3">
+				    		<div class="dropdown-item__text__title">View phone number</div>
+				    	</div>
+				    </a>
+				    <a class="dropdown-item pt-1 pb-1" href="#">
+				    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_sendemail.svg"></div>
+				    	<div class="dropdown-item__text align-self-center pl-3">
+				    		<div class="dropdown-item__text__title">Send email</div>
+				    	</div>
+				    </a>
+				    <a class="dropdown-item pt-1 pb-1" href="#">
+				    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_recommand.svg"></div>
+				    	<div class="dropdown-item__text align-self-center pl-3">
+				    		<div class="dropdown-item__text__title">Recommend</div>
+				    	</div>
+				    </a>
+				  </div>
 				</div>
+				
 			</div><!-- agentheader__links -->
-			
-			<div class="agentheader__agrow__linksresp d-md-none d-block">
-				<button tabindex="0" class="btn btn--prominent btn--medium w-100 mb-2">Request callback</button>
-				<div class="row no-gutters">
-					<div class="col pb-2 pr-2">
-						<button tabindex="0" class="btn btn--ordinary mr-3 w-100">Recommend</button>
-					</div>
-					<div class="col-auto pb-2">
-						<button tabindex="0" class="btn btn--ordinary w-100">Phone</button>
-					</div>
-					<div class="col pb-3 pl-2">
-						<button tabindex="0" class="btn btn--ordinary w-100">Email</button>
-					</div>
-				</div>
-			</div><!-- agentheader__agrow__links_resp -->
-
-					
+								
         </div><!-- agentheader__agent -->
         <div class="agentheader__certi">
         	<div class="agentheader__certi__lang">
@@ -235,7 +271,7 @@ export default class AgentHeader extends Component {
 					<a href="#"><img alt="Facebook" src="https://content.harstatic.com/media/icons/facebook_auxiliary.svg"></a>
 					<a href="#"><img alt="LinkedIn" src="https://content.harstatic.com/media/icons/linkedin_auxiliary.svg"></a>
 					<a href="#"><img alt="twitter" src="https://content.harstatic.com/media/icons/twitter_auxiliary.svg"></a>
-					<a class="pl-2" href="#"><span>Share</span></a>
+					<a href="#"><img alt="Share" src="https://content.harstatic.com/media/icons/header_share_auxilary.svg"></a>
 				</div>
 				<div class="agentheader__agrow__inner__cols">
 					<div class="agentheader__agrow__ag__info  text-truncate">
@@ -255,30 +291,60 @@ export default class AgentHeader extends Component {
 	        				<a class="font_weight--semi_bold" href="#">Get directions</a>
 	        			</div>
 	        		</div>
-					<div class="agentheader__agrow__links d-md-block d-none">
-						<button tabindex="0" class="btn btn--prominent mb-2">Send email</button>
-						<div class="agentheader__agrow__links_more">
-							<button tabindex="0" class="btn btn--ordinary btn--small mr-3">View phone</button>
-							<button tabindex="0" class="btn btn--ordinary btn--small">Visit website ↗</button>
+					
+					<div class="agentheader__share__resp d-md-none d-block">
+						<div class="agentheader__photo__inner_share ">
+							<a href="#"><img alt="Facebook" src="https://content.harstatic.com/media/icons/facebook_auxiliary.svg"></a>
+							<a href="#"><img alt="LinkedIn" src="https://content.harstatic.com/media/icons/linkedin_auxiliary.svg"></a>
+							<a href="#"><img alt="twitter" src="https://content.harstatic.com/media/icons/twitter_auxiliary.svg"></a>
+							<a href="#"><img alt="Share" src="https://content.harstatic.com/media/icons/header_share_auxilary.svg"></a>
 						</div>
+					</div>
+						
+					<div class="agentheader__agrow__links text-center text-md-right pt-md-5">				
+						<button tabindex="0" class="agent_btn_contact btn btn--prominent btn--large mb-2 mr-3">Contact</button>
+						
+						<div class="dropdown dropdown--custom d-inline-block agent_btn_more agent_btn_more">
+						 <button tabindex="0" class="btn btn--ordinary mb-2 btn--large" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</button>
+						  <div class="dropdown-menu dropdown-menu__withicons dropdown-menu-right pt-2 pb-2" aria-labelledby="dropdownMenuButton" x-placement="bottom-end">
+						    <a class="dropdown-item pt-1 pb-1" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_recive.svg"></div>
+						    	<div class="dropdown-item__text align-self-center pl-3">
+						    		<div class="dropdown-item__text__title">Receive callback</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item pt-1 pb-1" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_calander.svg"></div>
+						    	<div class="dropdown-item__text align-self-center pl-3">
+						    		<div class="dropdown-item__text__title">Schedule an appointment</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item pt-1 pb-1" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_phone.svg"></div>
+						    	<div class="dropdown-item__text align-self-center pl-3">
+						    		<div class="dropdown-item__text__title">View phone number</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item pt-1 pb-1" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_sendemail.svg"></div>
+						    	<div class="dropdown-item__text align-self-center pl-3">
+						    		<div class="dropdown-item__text__title">Send email</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item pt-1 pb-1" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_recommand.svg"></div>
+						    	<div class="dropdown-item__text align-self-center pl-3">
+						    		<div class="dropdown-item__text__title">Recommend</div>
+						    	</div>
+						    </a>
+						  </div>
+						</div>
+						
 					</div><!-- agentheader__links -->
+					
 				</div>
 			</div>
 			
-			<div class="agentheader__agrow__linksresp d-md-none d-block">
-				<button tabindex="0" class="btn btn--prominent btn--medium w-100 mb-2">Request callback</button>
-				<div class="row no-gutters">
-					<div class="col pb-2 pr-2">
-						<button tabindex="0" class="btn btn--ordinary mr-3 w-100">Recommend</button>
-					</div>
-					<div class="col-auto pb-2">
-						<button tabindex="0" class="btn btn--ordinary w-100">Phone</button>
-					</div>
-					<div class="col pb-2 pl-2">
-						<button tabindex="0" class="btn btn--ordinary w-100">Email</button>
-					</div>
-				</div>
-			</div><!-- agentheader__agrow__links_resp -->
 			
         </div><!-- agentheader__broker -->
               </section>
@@ -322,36 +388,59 @@ export default class AgentHeader extends Component {
         		</div>
 			</div><!-- /agentheader__agent -->
 			
-			<div class="agentheader__agrow__links d-md-block d-none">
+			<div class="agentheader__agrow__links">
 				<div class="agentheader__photo__inner_share">
 					<a href="#"><img alt="Facebook" src="https://content.harstatic.com/media/icons/facebook_auxiliary.svg"></a>
 					<a href="#"><img alt="LinkedIn" src="https://content.harstatic.com/media/icons/linkedin_auxiliary.svg"></a>
 					<a href="#"><img alt="twitter" src="https://content.harstatic.com/media/icons/twitter_auxiliary.svg"></a>
-					<a class="pl-2" href="#"><span>Share</span></a>
+					<a href="#"><img alt="Share" src="https://content.harstatic.com/media/icons/header_share_auxilary.svg"></a>
 				</div>
-				<button tabindex="0" class="btn btn--prominent ml-3 mb-2">Request callback</button>
-				<div class="agentheader__agrow__links_more">
-					<button tabindex="0" class="btn btn--ordinary btn--small mr-3">View phone</button>
-					<button tabindex="0" class="btn btn--ordinary btn--small">Send email</button>
+				
+				<div class="agentheader__agrow__links_btns">
+				
+						<button tabindex="0" class="agent_btn_contact btn btn--prominent btn--large mb-2 mr-3">Contact</button>
+						
+						<div class="dropdown dropdown--custom d-inline-block agent_btn_more agent_btn_more">
+						 <button tabindex="0" class="btn btn--ordinary mb-2 btn--large" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</button>
+						  <div class="dropdown-menu dropdown-menu__withicons dropdown-menu-right pt-2 pb-2" aria-labelledby="dropdownMenuButton" x-placement="bottom-end">
+						    <a class="dropdown-item pt-1 pb-1" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_recive.svg"></div>
+						    	<div class="dropdown-item__text align-self-center pl-3">
+						    		<div class="dropdown-item__text__title">Receive callback</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item pt-1 pb-1" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_calander.svg"></div>
+						    	<div class="dropdown-item__text align-self-center pl-3">
+						    		<div class="dropdown-item__text__title">Schedule an appointment</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item pt-1 pb-1" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_phone.svg"></div>
+						    	<div class="dropdown-item__text align-self-center pl-3">
+						    		<div class="dropdown-item__text__title">View phone number</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item pt-1 pb-1" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_sendemail.svg"></div>
+						    	<div class="dropdown-item__text align-self-center pl-3">
+						    		<div class="dropdown-item__text__title">Send email</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item pt-1 pb-1" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_recommand.svg"></div>
+						    	<div class="dropdown-item__text align-self-center pl-3">
+						    		<div class="dropdown-item__text__title">Recommend</div>
+						    	</div>
+						    </a>
+						  </div>
+						</div>
+						
 				</div>
+				
+				
 			</div><!-- agentheader__links -->
-			
-			<div class="agentheader__agrow__linksresp d-md-none d-block">
-				<button tabindex="0" class="btn btn--prominent btn--medium w-100 mb-2">Request callback</button>
-				<div class="row no-gutters">
-					<div class="col pb-2 pr-2">
-						<button tabindex="0" class="btn btn--ordinary mr-3 w-100">Recommend</button>
-					</div>
-					<div class="col-auto pb-2">
-						<button tabindex="0" class="btn btn--ordinary w-100">Phone</button>
-					</div>
-					<div class="col pb-3 pl-2">
-						<button tabindex="0" class="btn btn--ordinary w-100">Email</button>
-					</div>
-				</div>
-			</div><!-- agentheader__agrow__links_resp -->
-
-					
+								
         </div><!-- agentheader__agent -->
         <div class="agentheader__certi">
         	<div class="agentheader__certi__lang">
@@ -417,34 +506,58 @@ export default class AgentHeader extends Component {
         		</div>
 			</div><!-- /agentheader__agent -->
 			
-			<div class="agentheader__agrow__links d-md-block d-none">
+			<div class="agentheader__agrow__links">
 				<div class="agentheader__photo__inner_share">
 					<a href="#"><img alt="Facebook" src="https://content.harstatic.com/media/icons/facebook_auxiliary.svg"></a>
 					<a href="#"><img alt="LinkedIn" src="https://content.harstatic.com/media/icons/linkedin_auxiliary.svg"></a>
 					<a href="#"><img alt="twitter" src="https://content.harstatic.com/media/icons/twitter_auxiliary.svg"></a>
-					<a class="pl-2" href="#"><span>Share</span></a>
+					<a href="#"><img alt="Share" src="https://content.harstatic.com/media/icons/header_share_auxilary.svg"></a>
 				</div>
-				<button tabindex="0" class="btn btn--prominent ml-3 mb-2">Request callback</button>
-				<div class="agentheader__agrow__links_more">
-					<button tabindex="0" class="btn btn--ordinary btn--small mr-3">View phone</button>
-					<button tabindex="0" class="btn btn--ordinary btn--small">Send email</button>
+				
+				<div class="agentheader__agrow__links_btns">
+				
+						<button tabindex="0" class="agent_btn_contact btn btn--prominent btn--large mb-2 mr-3">Contact</button>
+						
+						<div class="dropdown dropdown--custom d-inline-block agent_btn_more agent_btn_more">
+						 <button tabindex="0" class="btn btn--ordinary mb-2 btn--large" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</button>
+						  <div class="dropdown-menu dropdown-menu__withicons dropdown-menu-right pt-2 pb-2" aria-labelledby="dropdownMenuButton" x-placement="bottom-end">
+						    <a class="dropdown-item pt-1 pb-1" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_recive.svg"></div>
+						    	<div class="dropdown-item__text align-self-center pl-3">
+						    		<div class="dropdown-item__text__title">Receive callback</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item pt-1 pb-1" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_calander.svg"></div>
+						    	<div class="dropdown-item__text align-self-center pl-3">
+						    		<div class="dropdown-item__text__title">Schedule an appointment</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item pt-1 pb-1" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_phone.svg"></div>
+						    	<div class="dropdown-item__text align-self-center pl-3">
+						    		<div class="dropdown-item__text__title">View phone number</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item pt-1 pb-1" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_sendemail.svg"></div>
+						    	<div class="dropdown-item__text align-self-center pl-3">
+						    		<div class="dropdown-item__text__title">Send email</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item pt-1 pb-1" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_recommand.svg"></div>
+						    	<div class="dropdown-item__text align-self-center pl-3">
+						    		<div class="dropdown-item__text__title">Recommend</div>
+						    	</div>
+						    </a>
+						  </div>
+						</div>
+						
 				</div>
+				
+				
 			</div><!-- agentheader__links -->
-			
-			<div class="agentheader__agrow__linksresp d-md-none d-block">
-				<button tabindex="0" class="btn btn--prominent btn--medium w-100 mb-2">Request callback</button>
-				<div class="row no-gutters">
-					<div class="col pb-2 pr-2">
-						<button tabindex="0" class="btn btn--ordinary mr-3 w-100">Recommend</button>
-					</div>
-					<div class="col-auto pb-2">
-						<button tabindex="0" class="btn btn--ordinary w-100">Phone</button>
-					</div>
-					<div class="col pb-3 pl-2">
-						<button tabindex="0" class="btn btn--ordinary w-100">Email</button>
-					</div>
-				</div>
-			</div><!-- agentheader__agrow__links_resp -->
 
 					
         </div><!-- agentheader__agent -->
@@ -478,6 +591,95 @@ export default class AgentHeader extends Component {
       <!-- /Agent Header block -->
       
       <br><br><br><br><br>
+      `,`
+      <!-- Agent Header (without background) block -->
+      <section class="agentheader agentheader__nobackground">
+      	<div class="agentheader__agrow">
+        	<div class="agentheader__agrow__ag">
+        		<div class="agentheader__agrow__ag__ph">
+        			<a class="agentheader__agrow__ag__ph__img noimg claim_profile" href="#"></a>
+        		</div>        		
+			</div><!-- /agentheader__broker -->
+			
+			<div class="agentheader__agrow__inner">
+				<div class="agentheader__photo__inner_share">
+					<a href="#"><img alt="Share" src="https://content.harstatic.com/media/icons/header_share_auxilary.svg"></a>
+				</div>
+				<div class="agentheader__agrow__inner__cols">
+					<div class="agentheader__agrow__ag__info  text-truncate">
+	        			<div class="agentheader__agrow__ag__info_title">
+	        				<h1 tabindex="0">Stephen Gossett</h1>
+						</div>
+	        			
+	        			<div class="agentheader__agrow__ag__info_text ml-auto mr-auto ml-md-0 mr-md-0">
+	        				ERA Newlin & Company
+	        			</div>
+	        			
+	        			<div class="agentheader__descbox ml-auto mr-auto ml-md-0 mr-md-0" style="max-width:412px;">
+							<a href="#">
+								<span class="font_weight--bold">Get your profile on HAR.com for free -></span><br>
+								Over 10K realtors across Texas have claimed their profile.
+							</a>
+						</div>
+	        		</div>
+					
+					
+					<div class="agentheader__share__resp d-md-none d-block">
+						<div class="agentheader__photo__inner_share ">
+							<a href="#"><img alt="Share" src="https://content.harstatic.com/media/icons/header_share_auxilary.svg"></a>
+						</div>
+					</div>
+						
+					<div class="agentheader__agrow__links text-center text-md-right pt-md-5">				
+						<button tabindex="0" class="agent_btn_contact btn btn--prominent btn--large mb-2 mr-3">Contact</button>
+						
+						<div class="dropdown dropdown--custom d-inline-block agent_btn_more agent_btn_more">
+						 <button tabindex="0" class="btn btn--ordinary mb-2 btn--large" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</button>
+						  <div class="dropdown-menu dropdown-menu__withicons dropdown-menu-right pt-2 pb-2" aria-labelledby="dropdownMenuButton" x-placement="bottom-end">
+						    <a class="dropdown-item pt-1 pb-1" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_recive.svg"></div>
+						    	<div class="dropdown-item__text align-self-center pl-3">
+						    		<div class="dropdown-item__text__title">Receive callback</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item pt-1 pb-1" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_calander.svg"></div>
+						    	<div class="dropdown-item__text align-self-center pl-3">
+						    		<div class="dropdown-item__text__title">Schedule an appointment</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item pt-1 pb-1" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_phone.svg"></div>
+						    	<div class="dropdown-item__text align-self-center pl-3">
+						    		<div class="dropdown-item__text__title">View phone number</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item pt-1 pb-1" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_sendemail.svg"></div>
+						    	<div class="dropdown-item__text align-self-center pl-3">
+						    		<div class="dropdown-item__text__title">Send email</div>
+						    	</div>
+						    </a>
+						    <a class="dropdown-item pt-1 pb-1" href="#">
+						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_recommand.svg"></div>
+						    	<div class="dropdown-item__text align-self-center pl-3">
+						    		<div class="dropdown-item__text__title">Recommend</div>
+						    	</div>
+						    </a>
+						  </div>
+						</div>
+						
+					</div><!-- agentheader__links -->
+					
+				</div>
+			</div>
+			
+			
+        </div><!-- agentheader__broker -->
+              </section>
+      <!-- /broker Header block -->
+      
+      <br><br><br><br><br>
       `,
     ];
 
@@ -503,6 +705,7 @@ export default class AgentHeader extends Component {
         <TemplateComponentBlock hasContainer={false} blockTitle="Agent Header (no image)" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
         <TemplateComponentBlock hasContainer={false} blockTitle="Agent Header (no image + small )" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
         <TemplateComponentBlock hasContainer={false} blockTitle="Agent Header (no image + small + no agent photo shorter info )" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
+        <TemplateComponentBlock hasContainer={false} blockTitle="Agent Header (Claim your profile )" elements={this.elements[5]} codeSnippets={this.codeSnippets[5]} />
 
       </TemplateExpanded>
     )

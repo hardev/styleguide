@@ -64,6 +64,15 @@ label {
 		background-position: left 10px center;
 		padding: 12px 12px 12px 36px;	
 	}
+	
+	&__quicksearch {
+		background: #ffffff url("https://content.harstatic.com/media/icons/icon_search_auxiliary.svg") no-repeat left 20px center;
+		border:1px solid $color-auxiliary;
+		border-radius: 8px;
+		font-size: 18px;
+		padding: 12px 12px 12px 64px;
+		height: 64px;		
+	}
 }
 
 /* form input quick search */
@@ -85,7 +94,7 @@ label {
 
 			&:focus {
 	    	border-color: $color-har-blue;
-	    	box-shadow: 0 0 0 0 rgba(0,0,0, 0.0);
+	    	box-shadow: 0 0 0 0 rgba(0,0,0, 0.0) !important;
 	    	}
 		}
 
@@ -190,6 +199,46 @@ label {
 			}
 		}
 	}
+	
+	
+	&--bordered {
+		border: 1px solid $color-slate-light;
+		border-radius: 8px;
+		padding: 8px;
+		
+		.form-control {
+			height: 48px;
+			font-size: $font-size-large-extra;
+			padding: 0 12px;
+			border-radius: 8px 0px 0px 8px;
+			border: none;
+
+			&::placeholder {
+				color: rgba(0, 0, 0, 0.24);
+			}
+
+			&:focus {
+	    	border-color: $color-har-blue;
+	    	box-shadow: 0 0 0 0 rgba(0,0,0, 0.0);
+	    	}
+		}
+
+		.btn {
+			height: 48px;
+			width: 48px;
+			background-image: url("https://content.harstatic.com/resource_2019/imgs/home/search_white_small.svg") !important;
+			background-repeat: no-repeat !important;
+			background-position: center !important;
+			background-size: 20px 20px !important;
+			border-radius: 8px !important;
+
+			&:active {
+				height: 48px;
+				transform: translate(0, 0);
+		  }
+		}
+
+	}
 }
 
 /* input checkbox */
@@ -198,20 +247,22 @@ label {
   	left: -0px;
   	top: 4px;
   	z-index: 1;
+  	width:18px;
+  	height:18px;
   }
   .custom-control-label {
 	  color: $color-carbon;
-	  font-size:12px;
+	  font-size: $font-size-medium;
 	  font-weight: $font-weight-regular;
-	  padding:2px 0px 0px 3px;
+	  padding:2px 0px 0px 5px;
 	  cursor: pointer;
 	  margin:0px 15px 10px 0px;
   }
   .custom-control-label::before {
     background-color: transparent;
-    background-image:url("https://content.harstatic.com/resource_2019/imgs/icons/checkbox-box-empty.svg");
-    width: 16px;
-    height: 16px;
+    background-image:url("https://content.harstatic.com/media/icons/form/checkbox-empty.svg");
+    width: 20px;
+    height: 20px;
     border: none;
   }
   .custom-control-label::after {
@@ -221,7 +272,7 @@ label {
   .custom-control-input:checked ~ .custom-control-label {
     &::before {
 	  background-color: transparent;
-      background-image:url("https://content.harstatic.com/resource_2019/imgs/icons/checkbox-box-checked.svg");
+      background-image:url("https://content.harstatic.com/media/icons/form/checkbox-checked.svg");
     }
   }
 
@@ -255,6 +306,7 @@ label {
 		  padding-left: 2px;
 		  display: block;
 		  line-height: 16px;
+		  padding:0px 0px 0px 5px;
 	  }
   }
   
@@ -302,20 +354,60 @@ label {
 		    height: 100%;
 		    z-index: -1;
 		    border-bottom: 1px solid $color-cloudy-sky-light;
-		  }
-	  }
+		}
+	}
 	  
 	.custom-control-input:checked ~ .custom-control-label {
 	    &:after {
 		    background-image: none !important ;
 		    background-color: $color-cement-light;
 	    }
-	  }
-
+	}
 	  
   }
 
-
+  
+  
+  &__bluebtn {
+	  position: relative;
+	  padding:0px;
+	  background-color: $color-har-blue;	 
+	  padding-left:0px !important;
+	  padding-right: 15px !important;
+	  
+	  .custom-control-label {
+		 padding-left: 42px;
+		 padding-top: 0px;
+		 padding-bottom: 0px;
+		 margin:0px;
+		 z-index: 11111;
+		 color: #ffffff;
+		 
+		 
+		  &:before {
+			left: 16px;
+			top: 0px;
+			bottom: 0px;
+			height: auto;		
+			background-image: url(https://content.harstatic.com/media/icons/form/checkicon_withoutbg_lighter3.svg);
+			background-repeat: no-repeat;
+			background-position:center center;
+			box-shadow: none !important;			
+		  }
+	  }
+	
+	.custom-control-input:checked ~ .custom-control-label {
+	    &::before {
+		  background-color: transparent;
+	      background-image: url(https://content.harstatic.com/media/icons/form/checkicon_withoutbg_lighter_selected3.svg);
+	    }
+	  }
+	
+	&:focus,&:hover {
+		 opacity: 1 !important;
+	}
+  }
+  
 
   &-row {
 	  font-size: $font-size-small;
@@ -443,7 +535,33 @@ label {
 
     }
   }
-
+  
+  &__forsale, &__forrent {
+	  border: 1px solid #018361;	  
+	  padding: 7px 28px;
+	  border-radius: 4px;
+	  cursor: pointer;
+	  
+	  .custom-control-label {
+		  margin-bottom: 0px;
+		  padding-bottom: 0px;
+		  color: #018361;
+		  font-weight: $font-weight-semi-bold !important;
+		  font-size: $font-size-medium;
+		  line-height: 1.3;
+		  margin-right: 0px;
+		  padding:3px;
+		  display: block;
+	  }
+  }
+  
+  &__forrent {	  
+	  border: 1px solid #8268bc;
+	  .custom-control-label {
+		  color: #8268bc;
+	  }
+  }
+  
   &--large {
 	  .custom-control-label{
 		  font-size:18px;
@@ -454,8 +572,8 @@ label {
 		  color: $color-auxiliary;
 		  
 		  @media screen and (max-width: 786px) {
-	   	  	font-size:12px;
-	   	  	padding:4px 0px 0px 5px;
+	   	  	font-size:$font-size-large;
+	   	  	padding:1px 0px 0px 5px;
 	   	  }
 
 	  }
@@ -554,7 +672,8 @@ label {
 
 }
 
-/* cusotm select */
+/* cusotm select  */
+.mapboxgl-map seelct,
 .custom-select {
 	border: 1px solid $color-auxiliary-light;
 	background:$color-snow-white url("https://content.harstatic.com/resource_2019/imgs/icons/select_arrow.svg")no-repeat right 0.75rem center/10px 9px !important;
@@ -577,7 +696,7 @@ label {
 		height: 32px !important;
 		font-size: $font-size-small !important;
 	}
-	
+		
 	option {
 	    background-color: #fef5e6;
 	    border-bottom: 1px solid #ebdac0;
@@ -604,8 +723,20 @@ label {
 			background-position: right 8px;
 			width: 18px;
 		}
+		
+		&_small{
+			padding: 0 24px 0px 16px !important;
+			background:$color-snow-white url("https://content.harstatic.com/media/icons/select_arrow_black.svg")no-repeat right 1.1rem center/8px 9px !important;
+			height: 32px !important;
+			line-height: 32px !important;
+		}
+
 
 	}
+	
+	 @media screen and (max-width: 786px) {
+   	  	font-size: $font-size-large !important;
+   	 }
 	
 }
 
@@ -709,8 +840,7 @@ label {
 					width: 14px;
 					height:auto;
 					background-size: 8px !important;
-				}				
-							
+				}			
 			}
 			&.show {		
 					.dropdown-toggle {
@@ -720,7 +850,16 @@ label {
 							background-size: 8px !important;
 						}			
 					}
-			}	
+			}
+			&.bottom-arrow,
+			&.bottom-arrow.show {
+				.dropdown-toggle {
+					&:after {
+						background-position: bottom 8px center !important; 
+					}
+				}
+			}
+					
 				
 			&_invers {
 				.dropdown-toggle {
@@ -779,6 +918,41 @@ label {
 					font-size: $font-size-small;
 					color: $color-cement-dark;
 				}
+			}
+		}
+	}
+	
+	&-item.selected{
+		background-image:url(https://content.harstatic.com/media/icons/icon-option-selected-black2.svg);
+		background-repeat: no-repeat;
+		background-position: right 4px center;
+		padding: 10px 32px 10px 11px !important;
+		background-color: $color-cement-light;
+		font-weight: bold;
+	}
+	
+	&--quickselect {
+		.dropdown-toggle {
+			position: relative;
+			padding-right: 24px !important;
+			
+			&:after {
+				position: absolute;
+				right: 10px;
+				top: 0px;
+				bottom: 0px;
+				background: url("https://content.harstatic.com/media/icons/down_arrow_black_small.svg")no-repeat right center;
+				border : none !important;
+				width: 24px;				
+			}
+		}
+		
+		&.show {		
+			.dropdown-toggle {
+				&:after {
+					background: url("https://content.harstatic.com/media/icons/down_arrow_black_small.svg")no-repeat left center;
+					transform: rotate(180deg);
+				}			
 			}
 		}
 	}
@@ -902,20 +1076,19 @@ label {
 	
 	.custom-control-label {
 		border: 1px solid $color-cloudy-sky;
-		border-radius: 4px;
-		height: 48px;
+		border-radius: 8px;
 		overflow: hidden;
 		display: block;
-		margin: 2px;
 		font-size: $font-size-small-extra;
 		text-align: center;
 		cursor:pointer;
 		color: $color-carbon;
 		font-weight: $font-weight-semi-bold;
-		padding-bottom: 7px;
 		position: relative;
-		padding-top: 5px;
+		padding: 8px;
 		width: 100%;
+		min-height:100px;
+		min-width:120px;
 		
 		&:hover {
 			border: 1px solid $color-auxiliary-light;
@@ -929,7 +1102,7 @@ label {
 			position: absolute;
 			left:0px;
 			right:0px;
-			top: 6px;
+			top: 16px;
 			bottom:auto;			
 		}
 		
@@ -938,10 +1111,24 @@ label {
 			position: absolute;
 			left:0px;
 			right:0px;
-			top: 26px;
-			bottom:0px;
+			top: auto;
+			bottom:8px;
 			text-align: center;
-			font-size: $font-size-small-extra;			
+			font-size: $font-size-medium;
+			font-weight: $font-weight-bold;			
+			padding-right: 15px;
+			padding-left: 15px;
+			line-height: 18px;
+		}
+		
+		@media screen and (max-width: 400px) {
+			min-width:100px;
+			&__text {
+				font-size: $font-size-small;
+				padding-right: 5px;
+				padding-left: 5px;
+				line-height: 16px;
+			}
 		}
 	}
 
@@ -954,16 +1141,17 @@ label {
 		border-color: $color-har-blue;
 		color: $color-har-blue;
 		position: relative;
-		
+		box-shadow:0px 0px 0px 2px #0738cd inset;
 		&:before {
 			content:"";
 			position:absolute;
 			right:0px;
 			top:0px;
 			left:auto;
-			width:38px;
-			height:38px;
-			background:transparent url("https://content.harstatic.com/media/icons/rectangle_arrow_small.svg") no-repeat right -2px top !important;
+			width:48px;
+			height:48px;
+			background:transparent url("https://content.harstatic.com/media/icons/filters/rectangle_arrow_2.svg") no-repeat right 0px top !important;
+			background-size: 48px;
 			box-shadow:none !important;
 			border:none !important;	
 		}
@@ -1109,6 +1297,7 @@ label {
 		}
 	}
 	
+	
 	&--nps {
 		flex-wrap: wrap;
 		justify-content: center;
@@ -1145,8 +1334,32 @@ label {
 		    height: 40px;
 		    line-height: 40px;
 		    color: $color-black !important;
-		    border-radius: 8px !important;
+		    border-radius: 4px !important;
 		    margin-right: 15px;
+		
+		    &:hover {
+		      color: $color-black;
+		    }
+
+		}
+	}
+	
+	&--date {
+		width: auto !important;
+		
+		.btn {
+			background: $color-snow-white !important;
+		    border: 1px solid #d0d0d0 !important;
+		    padding: 0 12px;
+		    height: 32px;
+		    line-height: 32px;
+		    color: $color-black !important;
+		    border-radius: 4px !important;
+		    font-size: $font-size-small;
+		    font-weight: $font-weight-semi-bold;
+		    margin-right: 10px;
+		    min-width: 88px;
+		    margin-bottom: 10px; 
 		
 		    &:hover {
 		      color: $color-black;
@@ -1160,6 +1373,75 @@ label {
 			&.active {
 				background-color: $color-available !important;
 				border-color: $color-available !important;
+			}
+		}
+	}
+	
+	&--outline {
+		width: auto !important;
+		
+		.btn {
+			background: $color-snow-white !important;
+		    border: 1px solid #d0d0d0 !important;
+		    padding: 0 24px;
+		    height: 40px;
+		    line-height: 40px;
+		    color: $color-black !important;
+		    border-radius: 4px !important;
+		    margin-right: 15px;
+		    font-weight: normal;
+		    font-size: $font-size-medium;
+		
+		    &:hover {
+		      color: $color-black;
+		    }
+		    
+		    &.active {
+				box-shadow: 0 0 0 2px #042280 !important;
+				border: solid 1px #042280 !important;
+				background-color: $color-snow-white !important;
+				color: $color-black !important;
+			}
+			
+			@media screen and (max-width: 786px) {
+				padding: 0 10px !important;
+			}
+
+		}
+	}
+	
+	&--longtext {
+		width: auto !important;
+		display: flex;		
+		flex-wrap: wrap;
+		
+		.btn {
+			background: $color-snow-white !important;
+		    border: 1px solid #d0d0d0 !important;
+		    padding: 12px 24px !important;
+		    min-height: 64px !important;
+		    height: auto !important;
+		    line-height: 1.2 !important;
+		    color: $color-har-blue !important;
+		    border-radius: 4px !important;
+		    margin-right: 15px;
+		    font-weight: normal;
+		    font-size: $font-size-large !important;
+		    font-weight: $font-weight-semi-bold !important;
+		    align-self: center;
+		    width: 100%;
+		
+		    &.active,&:hover {
+				box-shadow: 0 0 0 0px #042280 !important;
+				border: solid 1px $color-har-blue !important;
+				background-color:#dae1f8 !important;
+				color: $color-har-blue !important;
+			}
+			
+			input[type="radio"] {
+				position: absolute;
+				clip: rect(0, 0, 0, 0);
+				pointer-events: none;
 			}
 		}
 	}
@@ -1288,10 +1570,32 @@ label {
   		position: relative;
   		background-color: $color-snow-white;
   		
+  		&__info {
+	  		display: flex;
+	  		
+	  		&__title {
+		  		flex: 0 0 auto;
+		  		width: auto;
+    			max-width: 100%;
+    			align-self: center;	
+	  		}
+			&__selected {
+				flex-basis: 0;
+				flex-grow: 1;
+    			max-width: 100%;
+    			text-align: right;
+    			padding-right: 24px;
+    			padding-left:10px;
+    			overflow: hidden;
+				text-overflow: ellipsis;
+    			white-space: nowrap;
+			}
+  		}
+  		
   		&:focus{
 	  		outline: none !important;	  		
   		}
-  		&:hover {
+  		&:hover,&__active {
 	  		background-color: #f3f4f7;
   		}
   		&:after {
@@ -1308,7 +1612,7 @@ label {
   		}
 	}
 	&__overlay {
-			display: none;
+		display: none;
 	}
 	&.show {		
 			
@@ -1330,6 +1634,7 @@ label {
 				left: 0px;
 				bottom: 0px;
 				z-index: 1111111;
+				overflow: hidden;
 			}
 	  	}
 
@@ -1376,5 +1681,92 @@ label {
 			transform: none !important;
 		}
 	}
-	
-	}
+
+	&__filter {
+		
+		.popover--dropdown__content {
+			position: relative;
+			margin-top: 0px;
+			&:after {	
+			    position: absolute;
+			    display: block;
+			    top: -20px;
+			    left: 15px;
+			    content: "\25b2";
+			    border-color: transparent;
+			    border-style: solid;
+			    font-size:32px;
+			    color: #ffffff;
+		    }
+		}
+	}	
+}
+
+.btn-group--alert {}
+.btn-group--alert .btn-group--item { 
+	border: none;
+    background-color: #fff;
+    padding: 0px;
+    cursor: pointer;
+    border-radius: 0px;			
+	position: relative;
+	display: inline-block;			
+	flex: 1 1 auto;
+	width: 103px;
+	height: 32px !important;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	font-size: 12px;
+	font-weight: 500 !important;
+}
+.btn-group--alert.btn-group > .btn {
+	color: #212529 !important;
+}
+.btn-group--alert.btn-group .btn.active {
+    background-color: transparent !important;
+    
+    border-color: transparent !important;
+}
+.btn-group--item_inner {
+	padding: 8px;
+	border-radius: 4px;
+		border: 1px solid #d0d0d0 !important;
+	background-color: #fff;
+	text-align: center;	
+}
+.btn-group--alert.btn-group-toggle input[type=radio] {
+	position: absolute;
+	clip: rect(0,0,0,0);
+	pointer-events: none;
+}
+
+.btn-group--alert .btn-group--item_submit {
+	display: none;
+}
+
+.btn-group--alert .btn-group--item_submit .btn {
+	padding: 6px 16px;
+	border-radius: 8px;
+  	background-color: #0738cd !important;
+  	border: none !important;
+  	color: #ffffff !important;
+  	margin-top: 8px;
+}
+  	
+.btn-group--alert .btn-group--item.active { 
+	position: relative;
+	display: inline-block;			
+	width: 103px;
+}
+.btn-group--alert .btn-group--item.active .btn-group--item_inner {
+	box-shadow: 0 0 0 2px #042280;
+		border: solid 1px #042280;
+	background-color: #fff;
+	position: absolute;			
+	z-index: 1000;
+	top: 0px;
+	left:0px;
+	height: 76px;
+	width: 103px;
+}
+.btn-group--alert .btn-group--item.active .btn-group--item_submit {display: inline-block;}	

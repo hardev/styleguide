@@ -233,16 +233,16 @@ export default class Typography extends Component {
           </div>
         </div>
         <div class="clear_both"></div>
-      </div>      
+      </div>     
       
       <hr />
       <div class="row text-left">
         <div class="col col-12">
 
-          <h2 tabindex="0" class="h2 h2--strong h2--rightline"><span>Schools</span></h2>
+          <h2 tabindex="0" class="h2 h2--strong h2--centerline h2--centerline__small"><span>Stay closer to HAR</span></h2>
 
           <div class="component_content__demo__description">
-            Schools
+            H2 – Strong
           </div>
         </div>
         <div class="clear_both"></div>
@@ -277,8 +277,25 @@ export default class Typography extends Component {
         <div class="clear_both"></div>
       </div>
 	  
+	  
 	  <hr />
       <div class="row">
+        <div class="col col-12">
+
+          <h2 tabindex="0" class="h2--extrabold" style="margin-bottom: 0;">
+            Latest real estate blog posts
+          </h2>
+
+          <div class="component_content__demo__description">
+            H2--extrabold
+          </div>
+        </div>
+        <div class="clear_both"></div>
+      </div>
+	  
+	  <hr />
+
+	  <div class="row">
         <div class="col col-12">
 
           <h2 tabindex="0" class="h2--simple">
@@ -323,7 +340,21 @@ export default class Typography extends Component {
         <div class="clear_both"></div>
       </div>
 
+	  <hr />
+      <div class="row">
+        <div class="col col-12">
 
+          <h3 tabindex="0" class="h3--strong" style="margin-bottom: 0;">
+            Rooms/Lot Dimensions
+          </h3>
+
+          <div class="component_content__demo__description">
+            h3--strong
+          </div>
+        </div>
+        <div class="clear_both"></div>
+      </div>
+      
       <hr />
       <div class="row">
         <div class="col col-12">
@@ -427,7 +458,7 @@ export default class Typography extends Component {
 
       `<div class="row text-left">
         <div class="col col-sm-6 col-12">
-          <ul class="list list--inside">
+          <ul class="list--black">
 			<li>List Item</li>
 			<li>Item can be any text</li>
 		  </ul>
@@ -438,6 +469,8 @@ export default class Typography extends Component {
         </div>
         <div class="clear_both"></div>
       </div>
+      
+      
       <div class="row text-left">
         <div class="col col-12">
           <ul class="list list--blue">
@@ -453,6 +486,24 @@ export default class Typography extends Component {
           </div>
         </div>
         <div class="clear_both"></div>
+      </div>
+      
+      
+      <div class="row text-left">
+        <div class="col col-sm-8 col-12">
+            <ul class="list--black list--large" style="max-width:700px;">
+				<li>Explore different options to Sell your Home.</li>
+				<li>Find your home worth through our home value tools. Check now.</li>
+				<li>Request a detailed home selling analysis report to get an insight into the home value/s and the market dynamics. HAR connects you with the local agents to sell your home quickly.  You can hire your local agent at our website.</li>
+				<li>If you state that ‘I want to sell my home, land, or any property in Lago Mar’, hiring a real estate agent can make the home selling process easier. A professional can help you through his/her expertise and step-by-step guidance. Find a local agent.</li>
+				<li>Download the <a href="https://www.har.com/mobile">HAR app</a> for easy access and easy home selling.</li>
+			</ul>
+          
+          <div class="component_content__demo__description">
+            list--black list--large
+          </div>
+        </div>
+        <div class="clear_both"></div>
       </div>`
       ,
 
@@ -461,7 +512,16 @@ export default class Typography extends Component {
           <div class="tagline_text">Your real estate market</div>
         </div>
         <div class="clear_both"></div>
-      </div>`,
+      </div>
+      
+      <hr>
+      <div class="row text-left">
+        <div class="col col-12">
+          <p class="peratext" style="max-width:433px;">Search 117,650 agents or 22,404 brokers in Houston, Texas. Start your real estate search the right way by finding the best agent to work with in your area.</p>
+        </div>
+        <div class="clear_both"></div>
+      </div>
+      `,
     ];
 
 

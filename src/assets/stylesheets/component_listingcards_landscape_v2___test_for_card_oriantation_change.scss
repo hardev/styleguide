@@ -1,0 +1,631 @@
+.cardv2 {
+	border-radius: 4px;
+	border-radius: 8px;
+	border: solid 1px #d0d0d0;
+  
+	text-align: left;
+	text-decoration: none !important;
+	background-position: top left;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	margin-bottom: 30px;
+	background-color: $color-snow-white;
+	transition: all 0.2s ease !important;
+	color: $color-carbon;
+	
+	&:hover {
+		border: 1px solid $color-auxiliary-light;
+		transition: all 0.2s ease !important;
+		color: $color-carbon;
+	}
+	
+
+			
+			
+	//Area Card starts here
+	&--landscape {
+		display: block;
+		overflow:inherit;
+		border-radius: 0px;
+		border:none !important;
+		background-color:transparent !important;
+	
+		a {
+			text-decoration: none !important;
+		}		
+
+		&__header {
+			display: flex;
+			padding: 12px 0px;
+			
+			&_agent {
+				flex-basis: 0;
+				flex-grow: 1;
+				max-width: 100%;
+				overflow: hidden;
+				align-self: center;
+				padding-right: 15px;
+				
+				&_title {
+					font-size: $font-size-medium;					
+				}
+			} 
+						
+			&_controls {
+				text-align: right;					
+				flex: 0 0 auto;
+				width: auto;
+				max-width: 100%;
+				text-align: right;
+				align-self: center;
+				
+				> a {
+					display: inline-block;
+					padding: 2px;
+				}
+				
+				.dropdown-menu {
+					z-index: 111;
+				}
+			}
+		}
+		
+		&__content {
+			
+			border-radius: 8px;
+			border: solid 1px #d0d0d0;
+		  
+			text-align: left;
+			text-decoration: none !important;
+			background-position: top left;
+			background-repeat: no-repeat;
+			margin-bottom: 30px;
+			background-color: $color-snow-white;
+			transition: all 0.2s ease !important;
+			color: $color-carbon;
+			padding: 4px;
+			&:hover {
+				border: 1px solid $color-auxiliary-light;
+				transition: all 0.2s ease !important;
+				color: $color-carbon;
+			}
+			
+			&__body {
+				display: grid !important;
+				grid-gap: 0;
+				grid-template-columns: 42% 58%;
+				grid-template-rows: 100% auto;
+				grid-template-areas: 'a b';
+				
+				@media screen and (max-width: 1300px) {
+					grid-template-columns: 200px calc(100% - 200px);					
+				}
+				
+				@media screen and (max-width: 700px) {
+					grid-template-columns: 100%;
+					grid-template-rows: auto;				
+				}
+				
+				&__image {
+					grid-area: a;
+					width: 100%;
+					max-width: 296px;
+						
+					&__img {
+						min-height: 210px;
+						height: 100%;
+						width: 100%;
+						background-color: $color-cloudy-sky-light;
+						background-repeat: no-repeat;
+						background-size: cover;
+						border-radius: 4px;
+						overflow: hidden;
+						background-image: url("https://content.harstatic.com/media/icons/no_photo_placeholder.svg");
+						background-repeat: no-repeat;
+						background-position: center center ;
+						text-decoration: none;
+						
+						@media screen and (max-width: 1300px) {
+							min-height: 140px;
+						}
+					}
+					@media screen and (max-width: 700px) {
+						
+						max-width: 100%;
+							
+						&__img {		
+							border-radius: 4px 4px 0 0;
+							min-height: 200px;
+						}
+					}
+				}			
+				
+				
+				
+				&__details{
+					grid-area: b;
+					width: 100%;
+					overflow: hidden;
+					margin-left: 0;
+					color: $color-auxiliary;
+					text-decoration: none;
+					min-height:210px;
+					
+					@media screen and (max-width: 700px) {
+						grid-column-start: 1;
+						grid-row-start: 2;
+					}
+				
+					padding: 15px 16px 8px 16px;
+					
+					@media screen and (max-width: 1300px) {
+						padding: 10px 16px 8px 16px;
+					}
+						
+					@media screen and (max-width: 700px) {
+						padding: 12px;
+					}
+					
+					> a { 
+						min-height: 190px;
+						display: block;
+					}
+					&_address {
+						display: flex;
+						
+						&_left {
+							flex-basis: 0;
+							flex-grow: 1;
+							max-width: 100%;					
+							overflow: hidden;
+							
+							&_add {
+								font-size: $font-size-large;
+								font-weight: $font-weight-semi_bold;
+								color: #212529;
+								line-height: 1.38;
+								padding-bottom: 12px;
+								
+								&__title { 
+								    overflow: hidden;
+									text-overflow: ellipsis;
+								    white-space: nowrap;
+								    padding-right: 10px;
+								}
+							}
+							
+							&_info {
+								color: $color-cement-dark;					
+							}					
+						}
+						
+						&_right { 
+							text-align: right;					
+							flex: 0 0 auto;
+							width: auto;
+							max-width: 100%;
+							
+							&_txt {
+								font-weight: $font-weight-semi_bold;
+								color: $color-auxiliary;
+							}
+						}						
+					}
+					
+					
+	
+					&_price {
+						font-size: $font-size-large_extra;
+						font-weight: $font-weight-semi_bold;
+						color: $color-black;
+						padding-bottom: 6px;
+						
+						.price_changed {
+							font-size: 13px;
+							font-weight: $font-weight-semi_bold;
+							color: $color-pricechanged;
+						}
+					}
+					
+					&_features {
+						display: flex;
+						width: 100%;
+						flex-wrap: wrap;
+						padding-top: 12px;
+						
+						&_item {
+							flex: 0 0 50%;
+							max-width: 50%;
+							color: $color-cement-dark;
+							font-weight: $font-weight-semi_bold;
+							text-align: left;
+							line-height: 18px;
+						}
+					}
+					
+										
+					&_impovement {
+						font-size: $font-size-small;
+						color: $color-auxiliary;
+						background-color: $color-cement-light;
+						padding: 12px;
+						margin-top: 12px;
+						line-height: 18px;	
+						
+						> a:hover {
+							text-decoration: underline !important;	
+						}
+						
+						.title {
+							font-weight: $font-weight-semi_bold;
+							color: $color-black;
+						}
+					}
+					
+					&_soldtext {
+						font-weight: $font-weight-semi_bold;
+						color: $color-sold;
+						font-size: $font-size-medium;
+						padding-bottom: 20px;
+					}
+					
+					&_badges {
+						padding-top:6px;
+						
+						.listingbadges {
+							margin-top: 6px;
+						}
+						
+						&_openhouse {
+							display: flex;
+							color:$color-auxiliary;
+							font-size: $font-size-small_extra;
+						}
+					}
+								
+				}//&__details
+			}//&__body {			
+				
+			&__footer{
+				padding-top:6px;
+				padding-left: 12px;
+				padding-bottom: 4px;
+				font-size: $font-size-small;
+				color: $color-auxiliary;
+				
+				&_dayson {
+					display: inline-block;					
+					padding-bottom:6px;
+					margin-bottom: 0px;					
+					padding-top: 6px;
+					margin-right: 10px;
+				}
+				
+				&_ph {					
+					display: inline-block;
+					margin-right: 10px;
+					padding-left: 10px;
+					border-left: 1px solid #dfe3f0;
+					
+					&_3d {
+						display: inline-block;
+						border-radius: 4px;
+						background-color: #000000;
+						padding: 4px;
+						margin-right: 8px;
+						
+						img {
+							max-width: 21px;
+						}
+					}
+				}
+				
+				.listingbadges { 
+					margin-bottom: 4px;
+				}
+			}
+		}
+		
+		&__selected {
+			box-shadow: 0 0 0 4px rgba(7, 56, 205, 0.12);
+			border: solid 1px $color-auxiliary !important;
+			background-color: #fff;
+		}
+		
+		&__select {
+			padding: 8px 12px;
+			border-bottom: 1px solid $color-cloudy-sky-light;
+			text-align: center;
+			display: none;
+			
+			&__on {
+				display: none;
+			}
+		}
+		
+		.btn--mobileonly { 
+			display: none; 
+		}
+		
+		@media screen and (max-width: 700px) {
+			border-radius: 8px;
+			border: solid 1px #d0d0d0 !important;
+			padding: 0px;
+			
+			&__header {
+				padding: 12px;
+				&_agent {
+										
+					&_title {
+					}
+				} 
+							
+				&_controls {					
+					> a {
+						
+					}
+					.dropdown-menu {
+					}
+				}
+			}
+			
+			&__content { 
+				border: none;
+				padding: 0px;
+				border-radius: 0px;
+				margin-bottom: 0px;
+				border-radius: 8px;
+				&__body {
+					&__image {
+						&__img {
+							border-radius: 0px;			
+						}
+					}
+				}
+
+			}
+			
+			.btn--mobileonly { 
+				display: inline-block; 
+			}
+			
+			.btn--desktoponly {
+				display: none;
+			}
+			
+			
+			&__select {
+				&__on {
+					display: block;
+				}
+			}
+			
+			&.selected {
+				box-shadow: 0 0 0 3px rgba(7, 56, 205, 0.24);
+				
+				.cardv2--landscape__content {
+					box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.0) !important;
+					background-color: #fff;
+				}
+			}
+		}
+		
+		&.selected {
+			.cardv2--landscape__content {
+				box-shadow: 0 0 0 3px rgba(7, 56, 205, 0.24);
+				background-color: #fff;
+			}
+		}
+		
+	}
+	//Area Card starts here
+	
+	
+	
+	
+	
+	
+	//Area Card starts here
+	&--mini {
+		display: block;
+		overflow:inherit;
+		border-radius: 0px;
+		border:none !important;
+		background-color:transparent !important;
+	
+		a {
+			text-decoration: none !important;
+		}		
+		
+		&__content {
+			
+			border-radius: 8px;
+			border: solid 1px #d0d0d0;
+		  
+			text-align: left;
+			text-decoration: none !important;
+			background-position: top left;
+			background-repeat: no-repeat;
+			margin-bottom: 30px;
+			background-color: $color-snow-white;
+			transition: all 0.2s ease !important;
+			color: $color-carbon;
+			padding: 0px;
+			&:hover {
+				border: 1px solid $color-auxiliary-light;
+				transition: all 0.2s ease !important;
+				color: $color-carbon;
+			}
+			
+			&__body {
+				display: grid !important;
+				grid-gap: 0;
+				grid-template-columns: 40% 60%;
+				grid-template-rows: 100% auto;
+				grid-template-areas: 'a b';
+				@media screen and (max-width: 700px) {
+				}
+			
+				&__image {
+					grid-area: a;
+					width: 100%;
+					max-width: 132px;
+					height: 100%;
+						
+					&__img {
+						min-height: 133px;
+						height: 100%;
+						width: 100%;
+						background-color: $color-cloudy-sky-light;
+						background-repeat: no-repeat;
+						background-size: cover;
+						border-radius: 4px 0px 0px 4px;
+						overflow: hidden;
+						background-image: url("https://content.harstatic.com/media/icons/no_photo_placeholder.svg");
+						background-repeat: no-repeat;
+						background-position: center center ;
+						text-decoration: none;
+					}
+				}			
+				
+				
+				
+				&__details{
+					grid-area: b;
+					width: 100%;
+					overflow: hidden;
+					margin-left: 0;
+					color: $color-auxiliary;
+					text-decoration: none;
+					min-height:110px;
+					
+					@media screen and (max-width: 700px) {					
+						
+					}
+				
+					padding:10px;
+					> a { 
+						display: block;
+					}
+					&_address {
+						display: flex;
+						
+						&_left {
+							flex-basis: 0;
+							flex-grow: 1;
+							max-width: 100%;					
+							overflow: hidden;
+							
+							&_add {
+								font-size: $font-size-small;
+								font-weight: $font-weight-semi_bold;
+								color: #212529;
+								line-height: 1.38;
+								padding-bottom: 0px;
+								
+								&__title { 
+								    overflow: hidden;
+									text-overflow: ellipsis;
+								    white-space: nowrap;
+								    padding-right: 10px;
+								}
+							}
+							
+							&_info {
+								color: $color-cement-dark;					
+							}					
+						}
+						
+						&_right { 
+							text-align: right;					
+							flex: 0 0 auto;
+							width: auto;
+							max-width: 100%;
+							
+							&_txt {
+								font-weight: $font-weight-semi_bold;
+								color: $color-auxiliary;
+							}
+						}						
+					}
+					
+					
+					&_dayson {
+						display: block;
+						padding-bottom:0px;
+						margin-bottom: 0px;					
+						padding-top: 6px;
+						margin-right: 0px;
+						color: $color-auxiliary;
+						text-align: right;
+						
+						.circle_nimber {
+							height: 16px;
+							width: 16px;
+							font-size: $font-size-small_extra;
+							line-height: 16px;
+							padding: 0px;
+						}
+					}
+
+					&_price {
+						font-size: $font-size-large;
+						font-weight: $font-weight-semi_bold;
+						color: $color-black;
+						padding-bottom: 4px;
+						
+						.price_changed {
+							font-size: 13px;
+							font-weight: $font-weight-semi_bold;
+							color: $color-pricechanged;
+						}
+					}
+					
+					&_features {
+						font-size: $font-size-medium;
+						color: $color-cement-dark;
+						
+						line-height: 1.64;
+						
+						
+						ul	{
+							margin: 0px;
+							padding: 0px;
+		    
+							li {
+								display: inline-block;
+								list-style: none;
+								margin: 0px;
+								padding:0px;
+								font-size: $font-size-small;
+								
+								&:after{
+									margin: 0px 3px 0 5px;
+									content: "·";
+								}
+								
+								&:last-child {
+									&:after{
+										margin: 0px;
+										content: "";
+									}	
+								}
+							}
+						}
+						
+					}
+					
+													
+				}//&__details
+			}//&__body {			
+				
+		}
+		
+	}
+	//CArd mini
+
+}//cardv2
+
+.cardv2--landscape__footer {
+	margin-bottom: 30px;
+}

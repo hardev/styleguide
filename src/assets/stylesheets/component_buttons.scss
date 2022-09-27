@@ -13,11 +13,11 @@
   border:none;
   font-size: $font-size-medium;
   
-  &:hover,
-  &:focus {
+  &:hover {
     opacity: 0.8 !important;
 	-webkit-opacity: 0.8 !important;
 	-moz-opacity: 0.8 !important;
+	box-shadow: none !important;
   }
 
   &:active {
@@ -31,7 +31,7 @@
     line-height: 64px !important;*/
     height: 48px !important;
     line-height: 48px !important;
-    font-size: $font-size-large_extra !important;
+    font-size: $font-size-large !important;
     padding: 0 32px !important;
     
     @media screen and (max-width: 576px) {
@@ -42,7 +42,7 @@
   &--large__extra {
     height: 64px !important;
     line-height: 64px !important;
-    font-size: $font-size-large_extra_extra !important;
+    font-size: 20px !important;
     padding: 0 40px !important;
   }
   
@@ -63,8 +63,8 @@
   &--small {
     height: 32px !important;
     line-height: 32px !important;
-    font-size: $font-size-small !important;
-    padding: 0 16px !important;
+    font-size: $font-size-medium !important;
+    padding: 0 12px !important;
     
     &__inline {
 	    padding: 0px 10px !important
@@ -72,8 +72,9 @@
     
     &.btn--icon {
 	      &:before {
-	        width: 12px;
-	        height: 12px;
+	        width: 16px;
+	        height: 16px;
+	        margin-right: 6px;
 	      }
 	  }
   }
@@ -166,7 +167,7 @@
   &--search {
     width: 24px !important;
     height: 24px !important;
-    background: #fff url(../images/icons/24x24/icon-search.svg) center no-repeat;
+    background: #fff url(https://content.harstatic.com/media/icons/styleguide/icon-search.svg) center no-repeat;
     padding: 0 !important;
     border-radius: 50%;
   }
@@ -200,12 +201,13 @@
   &--filters {
 	height: 40px;
     font-size: $font-size-medium;
-    color: $color-auxiliary !important;
+    color: $color-carbon !important;
     box-shadow: 0 0px 0 $color-har-blue-dark !important;
     padding: 0 10px !important;
     display: flex;
     -ms-flex-align: center !important;
 	align-items: center !important;
+	cursor: pointer;
 
     &:hover {
       background-color: $color-cement-light;
@@ -339,7 +341,15 @@
   //     }
   //   }
   // }
-
+  
+  &--withspiner {
+	display: flex;
+	> span {
+		align-self: center;
+		margin-right: 8px;
+	}	  
+  }
+  
   &--icon {
     &:before {
       content: "";
@@ -370,6 +380,7 @@
         margin-top: 0px;
         width: 24px;
         height: 24px;
+        margin-right: 0px !important;
       }
 
       &:focus {
@@ -415,7 +426,7 @@
     
     &--placeholder {
       &:before {
-        background-image: url(../images/icons/16x16/placeholder.svg);
+        background-image: url(https://content.harstatic.com/media/icons/placeholder.svg);
       }
     }
 
@@ -445,7 +456,7 @@
 
     &--share {
       &:before {
-        background-image: url(https://content.harstatic.com/media/icons/share_slate_16.svg);
+        background-image: url(https://content.harstatic.com/media/icons/share_arrow_black.svg);
       }
     }
     
@@ -533,6 +544,12 @@
       }
     }
     
+    &--callback {
+      &:before {
+        background-image: url(https://content.harstatic.com/media/icons/icon_callback.svg);
+      }
+    }
+    
 	&--email-white {
       &:before {
         background-image: url(https://content.harstatic.com/media/icons/email_small_white_.svg);
@@ -607,7 +624,7 @@
     
     &--print {
       &:before {
-        background-image: url(https://content.harstatic.com/media/icons/icon-print.svg);
+        background-image: url(https://content.harstatic.com/media/icons/icon-print_black.svg);
       }
     }
     
@@ -617,10 +634,28 @@
       }
     }
 
+	&--vtour {
+      &:before {
+        background-image: url(https://content.harstatic.com/media/icons/icon_virtualtour_for_button_4.svg);
+      }
+    }
+    
     &--play {
       &:before {
         background-image: url(https://content.harstatic.com/media/icons/listing_details/icon_play_for_button.svg);
+        width: 32px;
+        height: 32px;
       }
+    }
+    
+    &--phone {
+      &:before {
+        background-image: url(https://content.harstatic.com/media/icons/Phone_style_2.svg);      }
+    }
+    
+    &--user {
+      &:before {
+        background-image: url(https://content.harstatic.com/media/icons/consumer/icon-my-agent.svg);      }
     }
     
     &--audio {
@@ -657,16 +692,48 @@
       }
     }
     
-    
-    
-    
+  	&--like {
+      &:before {
+        background-image: url(https://content.harstatic.com/media/icons/like_slate.svg);
+        width: 20px;
+        height: 20px;
+        background-size: auto;
+        margin-right: 10px;
+      }
+    }
+
+  	&--dislike {
+      &:before {
+        background-image: url(https://content.harstatic.com/media/icons/icon-listing-not-interested.svg);
+        width: 20px;
+        height: 20px;
+        background-size: auto;
+        margin-right: 10px;
+      }
+    }
+      
+    &--disliked {
+      &:before {
+        background-image: url(https://content.harstatic.com/media/icons/icon_disliked_.svg);
+        width: 20px;
+        height: 20px;
+        background-size: auto;
+        margin-right: 10px;
+      }
+    }
+        
     &--lone {
       &:before {
         margin-right: 0;
       }
 
       &.btn--large {
-        padding: 0 16px !important;
+        padding: 0px !important;
+        width: 48px;
+        &:before {
+	        width: 24px;
+	        height: 24px;
+        }
       }
       &.btn--medium {
         padding: 0 12px !important;
@@ -736,6 +803,20 @@
 	  line-height: 1.2;
 	  margin-right: 8px;
 	  margin-bottom: 8px;
+  }
+  
+  
+  &--neighborhoods {
+	border: 1px solid #AFB8D9;
+    background-color: #FFF;
+    border-radius: 0.25rem;
+    color: #52738A;
+    text-align: left;
+    height: 32px;
+    font-size: 14px !important;
+    color: #0738CD !important;
+    font-weight: 700;
+    padding: 4px 8px
   }
 }
 

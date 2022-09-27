@@ -54,7 +54,7 @@ export default class Favorites extends Component {
 				
 				<div class="mb-3 text-left">	        		
 	        		<div class="fav_container">
-	        			<a class="fav_container--lock" href="#"><img src="https://content.harstatic.com/media/icons/Lock.svg"></a>
+	        			<a class="fav_container--lock" href="#"><img src="https://content.harstatic.com/media/icons/lock_blue.svg"></a>
 						<textarea class="form-control" style="resize:none;" rows="2">I need that garden… my wife will love it, and I’ll find some peace in my life. I already see ourself living there.</textarea>
 					</div>
 					<a class="color_slate font_size--small_extra" style="opacity:0.56;" href="#"><img src="https://content.harstatic.com/media/icons/icon-erase-note.svg" style="width:11px;"> Erase note</a>

@@ -86,7 +86,7 @@ export default class ListingCardsPortraitV2 extends Component {
 	        	<div class="cardv2--portrait__body">
 	        		<div class="cardv2--portrait__body_flexrow">
 	        			<div class="cardv2--portrait__body_price">$7,009,00</div>
-						<div class="cardv2--portrait__body_status"><div class="label label--forsale">for sale</div></div>
+						<div class="cardv2--portrait__body_status"><div class="label label--forsale">Active</div></div>
 					</div>
 					<div class="cardv2--portrait__body_flexrow">
 						<div class="cardv2--portrait__body_address">
@@ -97,11 +97,11 @@ export default class ListingCardsPortraitV2 extends Component {
 					<div class="cardv2--portrait__body_features">
 						<ul>
 							<li>Residential - Single Family</li>
-							<li>6 beds</li>
-							<li>1 full & 4 half baths</li>
-							<li>3 stories</li>
-							<li>8,741 built sqft</li>
-							<li>1986 year built</li>
+							<li><span>6</span> beds</li>
+							<li><span>1</span> full & <span>4</span> half baths</li>
+							<li><span>3</span> stories</li>
+							<li><span>8,741</span> built sqft</li>
+							<li><span>1986</span> year built</li>
 						</ul>
 					</div>
 					<div class="cardv2--portrait__body_dayson">
@@ -189,7 +189,7 @@ export default class ListingCardsPortraitV2 extends Component {
 	        	<div class="cardv2--portrait__body">
 	        		<div class="cardv2--portrait__body_flexrow">
 	        			<div class="cardv2--portrait__body_price">$7,009,00</div>
-						<div class="cardv2--portrait__body_status"><div class="label label--forsale">for sale</div></div>
+						<div class="cardv2--portrait__body_status"><div class="label label--forsale">Active</div></div>
 					</div>
 					<div class="cardv2--portrait__body_flexrow">
 						<div class="cardv2--portrait__body_address">
@@ -200,11 +200,11 @@ export default class ListingCardsPortraitV2 extends Component {
 					<div class="cardv2--portrait__body_features">
 						<ul>
 							<li>Residential - Single Family</li>
-							<li>6 beds</li>
-							<li>1 full & 4 half baths</li>
-							<li>3 stories</li>
-							<li>8,741 built sqft</li>
-							<li>1986 year built</li>
+							<li><span>6</span> beds</li>
+							<li><span>1</span> full & <span>4</span> half baths</li>
+							<li><span>3</span> stories</li>
+							<li><span>8,741</span> built sqft</li>
+							<li><span>1986</span> year built</li>
 						</ul>
 					</div>
 					<div class="cardv2--portrait__body_dayson">
@@ -300,7 +300,7 @@ export default class ListingCardsPortraitV2 extends Component {
 	        	<div class="cardv2--portrait__body">
 	        		<div class="cardv2--portrait__body_flexrow">
 	        			<div class="cardv2--portrait__body_price">$7,009,00</div>
-						<div class="cardv2--portrait__body_status"><div class="label label--forsale">for sale</div></div>
+						<div class="cardv2--portrait__body_status"><div class="label label--forsale">Active</div></div>
 					</div>
 					<div class="cardv2--portrait__body_flexrow">
 						<div class="cardv2--portrait__body_address">
@@ -312,11 +312,11 @@ export default class ListingCardsPortraitV2 extends Component {
 						<div class="cardv2--portrait__body_features">
 							<ul>
 								<li>Residential - Single Family</li>
-								<li>6 beds</li>
-								<li>1 full & 4 half baths</li>
-								<li>3 stories</li>
-								<li>8,741 built sqft</li>
-								<li>1986 year built</li>
+								<li><span>6</span> beds</li>
+								<li><span>1</span> full & <span>4</span> half baths</li>
+								<li><span>3</span> stories</li>
+								<li><span>8,741</span> built sqft</li>
+								<li><span>1986</span> year built</li>
 							</ul>
 						</div>
 						<div class="cardv2--portrait__body_dayson">
@@ -413,11 +413,11 @@ export default class ListingCardsPortraitV2 extends Component {
 						<div class="cardv2--portrait__body_features">
 							<ul>
 								<li>Residential - Single Family</li>
-								<li>6 beds</li>
-								<li>1 full & 4 half baths</li>
-								<li>3 stories</li>
-								<li>8,741 built sqft</li>
-								<li>1986 year built</li>
+								<li><span>6</span> beds</li>
+								<li><span>1</span> full & <span>4</span> half baths</li>
+								<li><span>3</span> stories</li>
+								<li><span>8,741</span> built sqft</li>
+								<li><span>1986</span> year built</li>
 							</ul>
 							<div class="cardv2--portrait__body_soldtext">Sold: 06 June, 2021</div>
 						</div>
@@ -511,7 +511,7 @@ export default class ListingCardsPortraitV2 extends Component {
 	        	<div class="cardv2--portrait__body">
 	        		<div class="cardv2--portrait__body_flexrow">
 	        			<div class="cardv2--portrait__body_price">$7,009,00</div>
-						<div class="cardv2--portrait__body_status"><div class="label label--forsale">for sale</div></div>
+						<div class="cardv2--portrait__body_status"><div class="label label--forsale">Active</div></div>
 					</div>
 					<div class="cardv2--portrait__body_flexrow">
 						<div class="cardv2--portrait__body_address">
@@ -523,11 +523,11 @@ export default class ListingCardsPortraitV2 extends Component {
 						<div class="cardv2--portrait__body_features">
 							<ul>
 								<li>Residential - Single Family</li>
-								<li>6 beds</li>
-								<li>1 full & 4 half baths</li>
-								<li>3 stories</li>
-								<li>8,741 built sqft</li>
-								<li>1986 year built</li>
+								<li><span>6</span> beds</li>
+								<li><span>1</span> full & <span>4</span> half baths</li>
+								<li><span>3</span> stories</li>
+								<li><span>8,741</span> built sqft</li>
+								<li><span>1986</span> year built</li>
 							</ul>
 						</div>
 						<div class="cardv2--portrait__body_dayson">
@@ -620,9 +620,9 @@ export default class ListingCardsPortraitV2 extends Component {
 					</div>
 					<div class="cardv2--portrait__body_features">
 						<ul>
-							<li>23 floors</li>
-							<li>80 units</li>
-							<li>10 penthouses</li>
+							<li><span>23</span> floors</li>
+							<li><span>80</span> units</li>
+							<li><span>10</span> penthouses</li>
 						</ul>
 						
 					</div>
@@ -716,9 +716,9 @@ export default class ListingCardsPortraitV2 extends Component {
 					</div>
 					<div class="cardv2--portrait__body_features">
 						<ul>
-							<li>Studio - 3 beds</li>
-							<li>1 - 3 baths</li>
-							<li>550 - 2,000 sqft</li>
+							<li>Studio - <span>3</span> beds</li>
+							<li><span>1 - 3</span> baths</li>
+							<li><span>550 - 2,000</span> sqft</li>
 						</ul>
 					</div>
 					<div class="cardv2--portrait__body_ratings">
@@ -816,7 +816,7 @@ export default class ListingCardsPortraitV2 extends Component {
 		        	<div class="cardv2--portrait__body">
 		        		<div class="cardv2--portrait__body_flexrow">
 		        			<div class="cardv2--portrait__body_price">$7,009,00</div>
-							<div class="cardv2--portrait__body_status"><div class="label label--forsale">for sale</div></div>
+							<div class="cardv2--portrait__body_status"><div class="label label--forsale">Active</div></div>
 						</div>
 						<div class="cardv2--portrait__body_flexrow">
 							<div class="cardv2--portrait__body_address">
@@ -827,11 +827,11 @@ export default class ListingCardsPortraitV2 extends Component {
 						<div class="cardv2--portrait__body_features">
 							<ul>
 								<li>Residential - Single Family</li>
-								<li>6 beds</li>
-								<li>1 full & 4 half baths</li>
-								<li>3 stories</li>
-								<li>8,741 built sqft</li>
-								<li>1986 year built</li>
+								<li><span>6</span> beds</li>
+								<li><span>1</span> full & <span>4</span> half baths</li>
+								<li><span>3</span> stories</li>
+								<li><span>8,741</span> built sqft</li>
+								<li><span>1986</span> year built</li>
 							</ul>
 						</div>
 						<div class="cardv2--portrait__body_dayson">
@@ -940,7 +940,7 @@ export default class ListingCardsPortraitV2 extends Component {
 	        	<div class="cardv2--portrait__body">
 	        		<div class="cardv2--portrait__body_flexrow">
 	        			<div class="cardv2--portrait__body_price">$7,009,00</div>
-						<div class="cardv2--portrait__body_status"><div class="label label--forsale">for sale</div></div>
+						<div class="cardv2--portrait__body_status"><div class="label label--forsale">Active</div></div>
 					</div>
 					<div class="cardv2--portrait__body_flexrow">
 						<div class="cardv2--portrait__body_address">
@@ -951,11 +951,11 @@ export default class ListingCardsPortraitV2 extends Component {
 					<div class="cardv2--portrait__body_features">
 						<ul>
 							<li>Residential - Single Family</li>
-							<li>6 beds</li>
-							<li>1 full & 4 half baths</li>
-							<li>3 stories</li>
-							<li>8,741 built sqft</li>
-							<li>1986 year built</li>
+							<li><span>6</span> beds</li>
+							<li><span>1</span> full & <span>4</span> half baths</li>
+							<li><span>3</span> stories</li>
+							<li><span>8,741</span> built sqft</li>
+							<li><span>1986</span> year built</li>
 						</ul>
 					</div>
 					<div class="cardv2--portrait__body_dayson">
@@ -1057,7 +1057,7 @@ export default class ListingCardsPortraitV2 extends Component {
 	        	<div class="cardv2--portrait__body">
 	        		<div class="cardv2--portrait__body_flexrow">
 	        			<div class="cardv2--portrait__body_price">$7,009,00</div>
-						<div class="cardv2--portrait__body_status"><div class="label label--forsale">for sale</div></div>
+						<div class="cardv2--portrait__body_status"><div class="label label--forsale">Active</div></div>
 					</div>
 					<div class="cardv2--portrait__body_flexrow">
 						<div class="cardv2--portrait__body_address">
@@ -1068,11 +1068,11 @@ export default class ListingCardsPortraitV2 extends Component {
 					<div class="cardv2--portrait__body_features">
 						<ul>
 							<li>Residential - Single Family</li>
-							<li>6 beds</li>
-							<li>1 full & 4 half baths</li>
-							<li>3 stories</li>
-							<li>8,741 built sqft</li>
-							<li>1986 year built</li>
+							<li><span>6</span> beds</li>
+							<li><span>1</span> full & <span>4</span> half baths</li>
+							<li><span>3</span> stories</li>
+							<li><span>8,741</span> built sqft</li>
+							<li><span>1986</span> year built</li>
 						</ul>
 					</div>
 					<div class="cardv2--portrait__body_dayson">
@@ -1181,7 +1181,7 @@ export default class ListingCardsPortraitV2 extends Component {
 	        	<div class="cardv2--portrait__body">
 	        		<div class="cardv2--portrait__body_flexrow">
 	        			<div class="cardv2--portrait__body_price">$7,009,00</div>
-						<div class="cardv2--portrait__body_status"><div class="label label--forsale">for sale</div></div>
+						<div class="cardv2--portrait__body_status"><div class="label label--forsale">Active</div></div>
 					</div>
 					<div class="cardv2--portrait__body_flexrow">
 						<div class="cardv2--portrait__body_address">
@@ -1192,11 +1192,11 @@ export default class ListingCardsPortraitV2 extends Component {
 					<div class="cardv2--portrait__body_features">
 						<ul>
 							<li>Residential - Single Family</li>
-							<li>6 beds</li>
-							<li>1 full & 4 half baths</li>
-							<li>3 stories</li>
-							<li>8,741 built sqft</li>
-							<li>1986 year built</li>
+							<li><span>6</span> beds</li>
+							<li><span>1</span> full & <span>4</span> half baths</li>
+							<li><span>3</span> stories</li>
+							<li><span>8,741</span> built sqft</li>
+							<li><span>1986</span> year built</li>
 						</ul>
 					</div>
 					<div class="cardv2--portrait__body_dayson">
@@ -1285,7 +1285,7 @@ export default class ListingCardsPortraitV2 extends Component {
 	        	<div class="cardv2--portrait__body">
 	        		<div class="cardv2--portrait__body_flexrow">
 	        			<div class="cardv2--portrait__body_price">$7,009,00</div>
-						<div class="cardv2--portrait__body_status"><div class="label label--forsale">for sale</div></div>
+						<div class="cardv2--portrait__body_status"><div class="label label--forsale">Active</div></div>
 					</div>
 					<div class="cardv2--portrait__body_flexrow">
 						<div class="cardv2--portrait__body_address">
@@ -1296,11 +1296,11 @@ export default class ListingCardsPortraitV2 extends Component {
 					<div class="cardv2--portrait__body_features">
 						<ul>
 							<li>Residential - Single Family</li>
-							<li>6 beds</li>
-							<li>1 full & 4 half baths</li>
-							<li>3 stories</li>
-							<li>8,741 built sqft</li>
-							<li>1986 year built</li>
+							<li><span>6</span> beds</li>
+							<li><span>1</span> full & <span>4</span> half baths</li>
+							<li><span>3</span> stories</li>
+							<li><span>8,741</span> built sqft</li>
+							<li><span>1986</span> year built</li>
 						</ul>
 					</div>
 					<div class="cardv2--portrait__body_dayson">

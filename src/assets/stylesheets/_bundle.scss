@@ -1,4 +1,4 @@
-@import url('https://rsms.me/inter/inter.css');
+@import "parts/fonts.scss";
 html { font-family: 'Inter', sans-serif !important; }
 @supports (font-variation-settings: normal) {
   html { font-family: 'Inter var', sans-serif !important; }
@@ -45,3 +45,6 @@ html { font-family: 'Inter', sans-serif !important; }
 
 //Others
 @import "parts/_media_gallery.scss";
+
+//cms
+@import "cms/coponents.scss";

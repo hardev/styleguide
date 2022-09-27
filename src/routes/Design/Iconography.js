@@ -96,7 +96,12 @@ export default class Iconography extends Component {
         	<button class="btn btn--ordinary btn--icon btn--icon--onlyicon btn--icon--full btn--icon--audio btn--large"></button>
         	<button class="btn btn--ordinary btn--icon btn--icon--onlyicon btn--icon--full btn--icon--play btn--large"></button>
         	<button class="btn btn--ordinary btn--icon btn--icon--onlyicon btn--icon--full btn--icon--tour btn--large"></button>
+        	<button class="btn btn--ordinary btn--icon btn--icon--onlyicon btn--icon--full btn--icon--vtour btn--large"></button>
         	<button class="btn btn--ordinary btn--icon btn--icon--gallery btn--large">View Gallery (43 photos)</button>
+        	
+        	<br><br>
+        	<button class="btn btn--ordinary btn--icon btn--icon--play btn--medium">View Gallery (43 photos)</button>
+        	
         </div>
       </div>
       `,

@@ -137,6 +137,12 @@ hr {
   &--mini {
     border-radius: 1px;
   }
+  &--round {
+    border-radius: 16px;
+  }
+  &--rounded {
+    border-radius: 32px;
+  }
 }
 
 .border_thin_light {

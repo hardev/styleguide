@@ -790,13 +790,14 @@
 	}
 	
 	&--blog_post {
-	
+			box-shadow: none;
 			display: grid !important;
 			grid-gap: 0;
 			grid-template-columns: calc(100% - 132px) 132px;
 			grid-template-areas: 'a b';
 			text-decoration: none !important;
 			color: $color-slate-light !important;
+			border-color: #d0d0d0;
 				
 		&__image_content {
 			grid-area: b;
@@ -1844,6 +1845,7 @@
 			background-position: center center;
 			display: block;
 			background-color: $color-cement-light;
+			background-image: url(https://content.harstatic.com/media/icons/icon-broker-light.svg);			
 		}
 		
 		&__content {
@@ -1869,15 +1871,23 @@
 			}
 			
 			&_tage {
-				color: $color-har-blue-dark;
-				font-size: 10px;
+				color: $color-har-blue;
+				border: solid 1px $color-auxiliary-light;
+				background-color: $color-cement-light;
+				font-size: $font-size-small;
 				border-radius: 2px;
-				padding: 2px 4px;
+				padding: 4px 8px;
 				line-height: 1;
 				display: inline-block;
 				margin-bottom: 2px;
-				background-color: $color-cloudy-sky;
-				height: 16px;
+				border-radius: 18px;
+				font-weight: $font-weight-semi_bold;
+				
+				a {
+					color: $color-har-blue;
+					font-weight: $font-weight-semi_bold;
+					text-decoration: none !important;
+				}		
 			}
 		}
 			
@@ -2427,14 +2437,15 @@
 		}
 		
 		&__address {
-			padding: 9px;
+			padding: 9px 9px 0px 9px;
 			border-top: solid 1px #dfe3f0;
 			margin-top: 10px;
 		}
 		
 		&__contact {
 			border-top: solid 1px #dfe3f0;
-			padding: 9px;	
+			padding: 9px;
+			margin-top: 10px;	
 			a {
 				display: block;
 				color: $color-har-blue;		

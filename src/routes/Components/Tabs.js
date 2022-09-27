@@ -30,6 +30,18 @@ export default class Tabs extends Component {
 		  <div class="tab-pane fade" id="RecentlyRented" role="tabpanel" aria-labelledby="RecentlyRented-tab"><br><br>{ Tab: Recently Rented tab content placeholder }<br><br><br></div>
 		  <div class="tab-pane fade" id="RecentlySold" role="tabpanel" aria-labelledby="RecentlySold-tab"><br><br>{ Tab: Recently Sold tab content placeholder }<br><br><br></div>
 		</div>
+		
+		<div class="col col-10 pt-4">
+          <ul class="nav nav-tabs nav-tabs--underline nav-tabs--bold" id="myTab" role="tablist">
+			  <li class="nav-item">
+			    <a class="nav-link active" id="ForRent-tab" data-toggle="tab" href="#ForRent" role="tab" aria-controls="home" aria-selected="true">For Rent</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" id="ForSale-tab" data-toggle="tab" href="#ForSale" role="tab" aria-controls="profile" aria-selected="false">For Sale</a>
+			  </li>
+		  </ul>
+		
+		
           <div class="component_content__demo__description">Underline Style</div>
         </div>`,
         `<div class="component_content__negative_content">
@@ -60,6 +72,56 @@ export default class Tabs extends Component {
         `<div class="row justify-content-center">
         <div class="col col-10 pt-4">
           <ul class="nav nav-tabs nav-tabs--simple" id="myTab" role="tablist">
+		  <li class="nav-item">
+		    <a class="nav-link active" id="ForRent-tab" data-toggle="tab" href="#ForRent" role="tab" aria-controls="home" aria-selected="true">For Rent</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" id="ForSale-tab" data-toggle="tab" href="#ForSale" role="tab" aria-controls="profile" aria-selected="false">For Sale</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" id="RecentlyRented-tab" data-toggle="tab" href="#RecentlyRented" role="tab" aria-controls="contact" aria-selected="false">Recently Rented</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" id="RecentlySold-tab" data-toggle="tab" href="#RecentlySold" role="tab" aria-controls="contact" aria-selected="false">Recently Sold</a>
+		  </li>
+		</ul>
+		<div class="tab-content" id="myTabContent">
+		  <div class="tab-pane fade show active" id="ForRent" role="tabpanel" aria-labelledby="ForRent-tab"><br><br>{ Tab: For Rent tab content placeholder }<br><br><br></div>
+		  <div class="tab-pane fade" id="ForSale" role="tabpanel" aria-labelledby="ForSale-tab"><br><br>{ Tab: For Sale tab content placeholder }<br><br><br></div>
+		  <div class="tab-pane fade" id="RecentlyRented" role="tabpanel" aria-labelledby="RecentlyRented-tab"><br><br>{ Tab: Recently Rented tab content placeholder }<br><br><br></div>
+		  <div class="tab-pane fade" id="RecentlySold" role="tabpanel" aria-labelledby="RecentlySold-tab"><br><br>{ Tab: Recently Sold tab content placeholder }<br><br><br></div>
+		</div>
+          <div class="component_content__demo__description">Underline Style</div>
+        </div>
+        </div>`,
+        `<div class="row justify-content-center">
+        <div class="col col-10 pt-4">
+          <ul class="nav nav-tabs nav-tabs--pink justify-content-center" id="myTab" role="tablist">
+		  <li class="nav-item">
+		    <a class="nav-link active" id="ForRent-tab" data-toggle="tab" href="#ForRent" role="tab" aria-controls="home" aria-selected="true">Buy</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" id="ForSale-tab" data-toggle="tab" href="#ForSale" role="tab" aria-controls="profile" aria-selected="false">Rent</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" id="RecentlyRented-tab" data-toggle="tab" href="#RecentlyRented" role="tab" aria-controls="contact" aria-selected="false">Home Values</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" id="RecentlySold-tab" data-toggle="tab" href="#RecentlySold" role="tab" aria-controls="contact" aria-selected="false">Schools</a>
+		  </li>
+		</ul>
+		<div class="tab-content" id="myTabContent">
+		  <div class="tab-pane fade show active" id="ForRent" role="tabpanel" aria-labelledby="ForRent-tab"><br><br>{ Tab: For Rent tab content placeholder }<br><br><br></div>
+		  <div class="tab-pane fade" id="ForSale" role="tabpanel" aria-labelledby="ForSale-tab"><br><br>{ Tab: For Sale tab content placeholder }<br><br><br></div>
+		  <div class="tab-pane fade" id="RecentlyRented" role="tabpanel" aria-labelledby="RecentlyRented-tab"><br><br>{ Tab: Recently Rented tab content placeholder }<br><br><br></div>
+		  <div class="tab-pane fade" id="RecentlySold" role="tabpanel" aria-labelledby="RecentlySold-tab"><br><br>{ Tab: Recently Sold tab content placeholder }<br><br><br></div>
+		</div>
+          <div class="component_content__demo__description">Underline Style</div>
+        </div>
+        </div>	`,
+        `<div class="row justify-content-center">
+        <div class="col col-10 pt-4">
+          <ul class="nav nav-tabs nav-tabs--filters" id="myTab" role="tablist">
 		  <li class="nav-item">
 		    <a class="nav-link active" id="ForRent-tab" data-toggle="tab" href="#ForRent" role="tab" aria-controls="home" aria-selected="true">For Rent</a>
 		  </li>
@@ -127,6 +189,7 @@ export default class Tabs extends Component {
   <div class="tab-pane fade color_snow_white" id="RecentlyRented" role="tabpanel" aria-labelledby="RecentlyRented-tab"><br><br>{ Tab: Recently Rented tab content placeholder }<br><br><br></div>
   <div class="tab-pane fade color_snow_white" id="RecentlySold" role="tabpanel" aria-labelledby="RecentlySold-tab"><br><br>{ Tab: Recently Sold tab content placeholder }<br><br><br></div>
 </div>`,
+`<!-- tabs simple with pink selected -->`,
 `<ul class="nav nav-tabs nav-tabs--simple" id="myTab" role="tablist">
   <li class="nav-item">
     <a class="nav-link active" id="ForRent-tab" data-toggle="tab" href="#ForRent" role="tab" aria-controls="home" aria-selected="true">For Rent</a>
@@ -163,6 +226,8 @@ export default class Tabs extends Component {
         <TemplateComponentBlock blockTitle="Nav Tabs" elements={this.elements[0]} codeSnippets={this.codeSnippets[0]} />
         <TemplateComponentBlock blockTitle="Nav Tabs Negative" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
         <TemplateComponentBlock blockTitle="Nav Tabs (simple)" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
+        <TemplateComponentBlock blockTitle="Tabs pink underline" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
+        <TemplateComponentBlock blockTitle="Tabs used in Filters" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
 
 
       </TemplateDefault>

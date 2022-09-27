@@ -331,6 +331,9 @@
   text-align: left;
   display: flex;
   text-decoration: none !important;
+  a {
+	  text-decoration: none !important;
+  }
   
   &__photo {
     width: 40px;
@@ -351,19 +354,118 @@
 
     &__agent_name {
       font-size: $font-size-medium;
-      color: $color-black;
+      color: $color-black !important;
       font-weight: $font-weight-semi-bold;
       white-space: nowrap;
 	  overflow: hidden;
 	  text-overflow: ellipsis;
+	  display: block;
     }
     &__broker_name {
       font-size: $font-size-small;
-      color: $color-auxiliary;      
+      color: $color-auxiliary !important;      
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
+      display: block;
     }
+    
+    &__stars {
+      font-size: $font-size-small-extra;
+      color: $color-auxiliary;
+      line-height: 1;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      img {
+	      width: 14px;
+	      margin-right: 1px;
+      }
+    }
+    
+  }
+
+  .lighter {
+		color: #afb8d9 !important;
+  }
+
+  &__medium {
+	  &__photo {
+	    width: 56px;
+	    min-width: 56px;
+	    height: 56px;
+	    margin-right: 8px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		border-radius: 50%;
+		background-image: url(https://content.harstatic.com/media/icons/agent_placeholder.svg);
+	  }
+  }
+  
+  &__large {
+	  &__photo {
+	    width: 88px;
+	    min-width: 88px;
+	    height: 88px;
+	    margin-right: 8px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		border-radius: 50%;
+		background-image: url(https://content.harstatic.com/media/icons/agent_placeholder.svg);
+	  }
+  }
+  
+  &__mediumlarge {
+
+	  &__photo {
+	    width: 72px;
+	    min-width: 72px;
+	    height: 72px;
+	    margin-right: 8px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		border-radius: 50%;
+		background-image: url(https://content.harstatic.com/media/icons/agent_placeholder.svg);
+	  }
+	  
+	  &__info {
+	    flex-grow:1;    
+	    align-self: center;
+		overflow: hidden;
+	
+	    &__agent_name {
+	      font-size: $font-size-large_extra;
+	      color: $color-black !important;
+	      font-weight: $font-weight-semi-bold;
+	      white-space: nowrap;
+		  overflow: hidden;
+		  text-overflow: ellipsis;
+		  display: block;
+	    }
+	    &__broker_name {
+	      font-size: $font-size-medium;
+	      color: $color-auxiliary !important;      
+	      white-space: nowrap;
+	      overflow: hidden;
+	      text-overflow: ellipsis;
+	      display: block;
+	    }
+	  }
+  }
+  
+  &__card {
+	  padding: 16px 78px 16px 16px;
+	  border-radius: 8px;
+	  border: solid 1px #d0d0d0;
+	  background-color: #fff;
+	  
+	  &:hover {
+		border: 1px solid $color-auxiliary-light;
+		transition: all 0.2s ease !important;
+		color: $color-carbon;
+	  }
   }
 }
 
@@ -401,6 +503,7 @@
 			min-width: 32px;
 		}
 	}
+	
 }
 
 .agent_signature--mini__extra{

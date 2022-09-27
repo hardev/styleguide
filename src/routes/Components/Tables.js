@@ -166,6 +166,64 @@ export default class Tables extends Component {
 			</div>        
           <div class="component_content__demo__description">e.g., Table with Borders</div>
         </div>`
+        ,
+        `<div class="row justify-content-center">
+        <div class="col col-10 pt-4">
+        	<div class="table__boxed">
+        		<div class="table__boxed__header">
+					<div class="row">
+						<div class="col-md col-12 align-self-center">
+							<span class="font_weight--bold">MLS# 66274998 — </span>Single-Family
+						</div>
+						<div class="col-md-auto col-12">
+							<div class="label label--sold label--large mr-0">Sold Price: <span class="font_weight--bold">$1,095,000</span></div>
+						</div>
+					</div>
+				</div>
+        		<div class="table__boxed__body">          
+	    			<div class="table_wrapper">
+		    			<table tabindex="0" class="table table--medium">
+							<caption>Listing traffic report table</caption>
+		    				  <thead>
+		    				    <tr>
+		    				      <th scope="col">Table Header</th>
+		    				      <th scope="col">Web Views</th>
+		    				      <th scope="col">App Views</th>
+		    				      <th scope="col">Total</th>
+		    				    </tr>
+		    				  </thead>
+		    				  <tbody>
+		    				    <tr>
+		    				      <td scope="row">Table Row</td>
+		    				      <td>Table Row</td>
+		    				      <td>Table Row</td>
+		    				      <td>Table Row</td>
+		    				    </tr>
+		    				    <tr>
+		    				      <td scope="row">Table Row</td>
+		    				      <td>Table Row</td>
+		    				      <td>Table Row</td>
+		    				      <td>Table Row</td>
+		    				    </tr>
+		    				    <tr>
+		    				      <td scope="row">Table Row</td>
+		    				      <td>Table Row</td>
+		    				      <td>Table Row</td>
+		    				      <td>Table Row</td>
+		    				    </tr>
+		    				    <tr>
+		    				      <td scope="row">Table Row</td>
+		    				      <td>Table Row</td>
+		    				      <td>Table Row</td>
+		    				      <td>Table Row</td>
+		    				    </tr>
+		    				  </tbody>
+						</table>
+		            </div>
+		        </div>
+	        </div>
+          <div class="component_content__demo__description">e.g., Table with Borders</div>
+        </div>`
     ];
 
 
@@ -271,6 +329,9 @@ export default class Tables extends Component {
   </tbody>
 </table>
 </div>
+`,
+
+`<!-- boxed table -->
 `
   ];
 
@@ -286,6 +347,7 @@ export default class Tables extends Component {
         <TemplateComponentBlock blockTitle="Medium Table" elements={this.elements[0]} codeSnippets={this.codeSnippets[0]} />
         <TemplateComponentBlock blockTitle="Small Table" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
         <TemplateComponentBlock blockTitle="Border Table" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
+        <TemplateComponentBlock blockTitle="Boxed Table" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
 
       </TemplateDefault>
     )

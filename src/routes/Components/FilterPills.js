@@ -42,17 +42,52 @@ export default class FilterPill extends Component {
         <div class="clearfix"></div>
         <div class="component_content__demo__description">Closable Pill</div>
       </div>
+      
+      <div class="col col-3">
+        <div class="filterpill filterpill--transparent">
+        	Price 110K - 130K
+        	<a href="#"></a>
+        </div>
+        <div class="clearfix"></div>
+        <div class="component_content__demo__description">Closable Pill</div>
+      </div>
+      
       <div class="col col-3">
         <button class="iconpill" title="" aria-label="Filter by price disabled">Add to Folder  <span><img src="https://content.harstatic.com/media/icons/forbuttons/buttons-save-search.svg"></span></button>
         <div class="clearfix"></div>
         <div class="component_content__demo__description">Icon Pill</div>
       </div>
+      <div class="col col-3">
+        <button class="iconpill iconpill__icon iconpill__icon__mobile_shrink" title="" aria-label="Filter by price disabled"><div class="iconpill__icon__img"><img src="https://content.harstatic.com/media/icons/dollor_with_harblue.svg"></div> <div class="iconpill__icon__text hide_text_resp">Price</div></button>
+        <div class="clearfix"></div>
+        <div class="component_content__demo__description">Icon Pill</div>
+      </div>
+      <div class="col col-3">
+        <button class="iconpill iconpill__icon iconpill__icon__mobile_shrink" title="" aria-label="Filter by price disabled"><div class="iconpill__icon__img"><img src="https://content.harstatic.com/media/icons/filters_icon_for_search.svg"></div> <div class="iconpill__icon__text hide_text_resp">Filters</div></button>
+        <div class="clearfix"></div>
+        <div class="component_content__demo__description">Icon Pill</div>
+      </div>
+      
+      <div class="col col-3">
+        <button class="iconpill iconpill__icon" title="" aria-label="Filter by price disabled"><div class="iconpill__icon__img"><img src="https://content.harstatic.com/media/icons/icon-saved-searches-blue.svg"></div><div class="iconpill__icon__text"> Save Search</div></button>
+        <div class="clearfix"></div>
+        <div class="component_content__demo__description">Icon Pill</div>
+      </div>
+      
       
     </div>
     <div class="row mt-4">
       <div class="col col-3">
         <div class="folder folder--closeable">
         	For my family!
+        	<a class="folder--closeable_close" href="#"></a>
+        </div>
+        <div class="clearfix"></div>
+        <div class="component_content__demo__description">Folder Pill</div>
+      </div>
+      <div class="col col-3">
+        <div class="folder folder--closeable folder__withicon">
+        	Big Houses
         	<a class="folder--closeable_close" href="#"></a>
         </div>
         <div class="clearfix"></div>

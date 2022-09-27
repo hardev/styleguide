@@ -1,0 +1,53 @@
+.accordion--faqs__cms {
+	background-color: #ffffff !important;
+	border-radius: 8px;
+    border: solid 1px #d0d0d0;
+    background-color: #fff;
+    overflow: hidden;
+}
+.accordion--faqs__cms.vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-left.vc_tta-panel-title>a {padding-left:24px !important; }
+.accordion--faqs__cms .vc_tta-panel-heading .vc_tta-panel-title a {
+    line-height: 1.5;
+    padding-left: 24px;
+    padding-right: 60px;
+    display: block;
+    border-radius: 0px;
+    font-weight: bold;
+    color: #212529 !important;
+    position: relative;
+    font-size: 16px;
+    text-decoration: none !important;
+    text-align: left;
+    border-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.accordion--faqs__cms .vc_tta-panel .vc_tta-panel-heading .vc_tta-panel-title a:after {
+
+    content: '';
+    position: absolute;
+    background: url(https://content.harstatic.com/media/icons/accordian_arrow_down.svg) no-repeat center center;
+    width: 32px;
+    height: 32px;
+    background-size: 32px;
+    right: 24px;
+    top: calc(50% - 16px);
+}
+.accordion--faqs__cms .vc_tta-panel.vc_active .vc_tta-panel-heading .vc_tta-panel-title a:after {
+    content: '';
+    position: absolute;
+    background: url(https://content.harstatic.com/media/icons/accordian_arrow_up.svg) no-repeat center center;
+    width: 32px;
+    height: 32px;
+    background-size: 32px;
+    right: 24px;
+    top: calc(50% - 16px);
+}
+.accordion--faqs__cms .vc_tta-panel-heading .vc_tta-panel-title a .vc_tta-controls-icon {
+	display: none !important;
+}
+.accordion--faqs__cms .vc_tta-panel-heading {
+	background-color: #ffffff !important;
+	border:none !important;
+}
+.accordion--faqs__cms.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-body {background-color: #ffffff !important; border-color:  #ffffff !important;}

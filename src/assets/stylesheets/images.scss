@@ -8,6 +8,10 @@
 		padding: 60px;
 		justify-content: center;
 		
+		&__icon img {
+			max-width: 100%;	
+		}
+		
 		@media screen and (max-width: 767px) {
 			padding: 40px;
 			&__icon {

@@ -10,24 +10,23 @@ export default class Buttons extends Component {
     this.elements = [
       `<div class="row">
         <div class="col col-sm-3 col-6">
+          <button role="button" class="btn btn--primary btn--large__extra">Button</button>
+          <div class="component_content__demo__description">Extra Large Button</div>
+        </div>
+
+        <div class="col col-sm-3 col-6">
           <button role="button" class="btn btn--primary btn--large">Button</button>
           <div class="component_content__demo__description">Large Button</div>
         </div>
 
         <div class="col col-sm-3 col-6">
-          <button role="button" class="btn btn--primary btn--medium">Button</button>
-          <button role="button" class="btn btn--primary btn--rounded btn--medium">Button</button>
+          <button role="button" class="btn btn--primary btn--medium">Button</button>          
           <div class="component_content__demo__description">Medium Button</div>
         </div>
 
         <div class="col col-sm-3 col-6">
           <button role="button" class="btn btn--primary btn--small">Button</button>
           <div class="component_content__demo__description">Small Button</div>
-        </div>
-
-        <div class="col col-sm-3 col-6">
-          <button role="button" class="btn btn--primary btn--small-extra">Button</button>
-          <div class="component_content__demo__description">Extra Small Button</div>
         </div>
 
         <div class="clear_both"></div>
@@ -81,9 +80,165 @@ export default class Buttons extends Component {
         </div>
       </div>
       
+      
+      `,
+
+      `<div class="row">
+        <div class="col col-sm-3 col-6">
+          <button role="button" class="btn btn--primary btn--medium btn--withspiner"><span class="spinner-border spinner-border-sm"></span>Button</button>
+          <div class="component_content__demo__description">Button with Icon</div>
+        </div>
+        
+        <div class="col col-sm-3 col-6">
+          <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--placeholder">Button</button>
+          <div class="component_content__demo__description">Button with Icon</div>
+        </div>
+
+        <div class="col col-sm-3 col-6">
+          <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--placeholder" aria-label="Button"></button>
+          <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--placeholder" aria-label="Button"></button>
+          <button role="button" class="btn btn--ordinary btn--medium btn--iconbg" aria-label="Button"><span style="background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/heart_outline.svg);"></span></button>
+          <div class="component_content__demo__description">Button with Lone Icon</div>
+        </div>
+
+        <div class="col col-sm-3 col-6">
+
+          <div class="dropdown">
+            <button class="btn btn--ordinary btn--medium dropdown-toggle" type="button" id="buttonWithOptions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Button
+            </button>
+            <div class="dropdown-menu depth--standed_out" aria-labelledby="buttonWithOptions">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+
+          <div class="component_content__demo__description">Button with Options</div>
+        </div>
+
+        <div class="col col-sm-3 col-6">
+
+          <div class="dropdown">
+            <button class="btn btn--ordinary btn--medium dropdown-toggle btn--icon btn--icon--lone btn--icon--placeholder" type="button" id="buttonWithIconAndOptions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Button
+            </button>
+            <div class="dropdown-menu depth depth--standed_out" aria-labelledby="buttonWithIconAndOptions">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+
+          <div class="component_content__demo__description">Button with Icon and Options</div>
+        </div>
+
+        <div class="clear_both"></div>
+      </div>
+      `
+      ,
+
+      `<div class="row">
+        <div class="col">
+          <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--favorited mb-2" aria-label="Button"></button>
+          <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--favorite mb-2" aria-label="Button"></button>
+          <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--dislike mb-2" aria-label="Button"></button>
+          <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--like mb-2" aria-label="Button"></button>
+          <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--listview mb-2" aria-label="Button"></button>
+          <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--maptoggle mb-2" aria-label="Button"></button>
+          <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--gallery mb-2" aria-label="Button"></button>
+          <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--audio mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--play mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--tour mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--print mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--drive mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--remarks mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--home mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--folder mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--receipt mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--duplicate mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--view mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--comment mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--email mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--download mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--external-link mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--delete-auxiliary mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--delete-red mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--edit mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--add mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--close mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--street_view mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--gallery mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--map_view mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--share mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--filters mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--dot_dot_dot mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--placeholder mb-2" aria-label="Button"></button>
+		  
+		  <br><br><br>
+		  <button role="button" class="btn btn--ordinary btn--icon btn--icon--maptoggle btn--large ">View Map</button>
+          <button role="button" class="btn btn--ordinary btn--icon btn--icon--listview btn--large">View List</button>
+        </div>
+
+        <div class="clear_both"></div>
+      </div>
+      
       <hr>
       
-      <div class="row small-gutters">
+      <div class="row">
+        <div class="col">
+          <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--favorited mb-2" aria-label="Button"></button>
+          <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--favorite mb-2" aria-label="Button"></button>
+          <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--like mb-2" aria-label="Button"></button>
+          <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--dislike mb-2" aria-label="Button"></button>          
+          <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--disliked mb-2" aria-label="Button"></button>
+          <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--listview mb-2" aria-label="Button"></button>
+          <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--maptoggle mb-2" aria-label="Button"></button>
+          <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--gallery mb-2" aria-label="Button"></button>
+          <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--audio mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--play mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--tour mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--print mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--drive mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--remarks mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--home mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--folder mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--receipt mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--duplicate mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--view mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--comment mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--email mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--download mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--external-link mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--delete-auxiliary mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--delete-red mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--edit mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--add mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--close mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--street_view mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--gallery mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--map_view mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--share mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--filters mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--dot_dot_dot mb-2" aria-label="Button"></button>
+		  <button role="button" class="btn btn--ordinary btn--large btn--icon btn--icon--lone btn--icon--placeholder mb-2" aria-label="Button"></button>
+        </div>
+        
+        <div class="clear_both"></div>
+      </div>
+      <hr>
+      
+	    <div class="row">
+	        <div class="col">	          
+			  <button role="button" class="btn btn--simple btn--small  btn--icon btn--icon--phone" aria-label="Search">Call</button>
+			  <button role="button" class="btn btn--simple btn--small  btn--icon btn--icon--callback" aria-label="Search">Call Back</button>
+			  <button role="button" class="btn btn--simple btn--small  btn--icon btn--icon--email" aria-label="Search">Email</button>
+			  <button role="button" class="btn btn--simple btn--small  btn--icon btn--icon--user" aria-label="Search">Profile</button>
+			</div>
+		</div>
+      `,
+
+      `<div class="row small-gutters">
         <div class="col col-4">
           <button role="button" class="btn btn--ordinary btn--fluid">Street View</button>
           <div class="component_content__demo__description">bnt--fluid</div>
@@ -180,7 +335,6 @@ export default class Buttons extends Component {
         <div class="col col-6 text-left">
 	        <a class="category_link" href="#">Active Adults (Age 55+)</a>
         </div>
-
         <div class="col col-sm-3 col-6">
         	<a class="btn btn--outline" href="#"><img src="https://content.harstatic.com/media/icons/icons-12-12-edit.svg"> Edit Folders</a>
         </div>
@@ -190,9 +344,10 @@ export default class Buttons extends Component {
 	        <div class="clearfix"></div>
 	        <div class="component_content__demo__description">btn remove</div>
 	    </div>
-
-        <div class="col col-sm-3 col-6">
-        </div>
+        
+        <div class="col col-12 text-left">
+        	<button role="button" class="btn btn--primary btn--rounded btn--medium">Button Rounded</button>
+		</div>
 
         <div class="clear_both"></div>
       </div>
@@ -208,61 +363,16 @@ export default class Buttons extends Component {
 
         <div class="clear_both"></div>
       </div>
-      `,
-
-      `<div class="row">
-        <div class="col col-sm-3 col-6">
-          <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--placeholder">Button</button>
-          <div class="component_content__demo__description">Button with Icon</div>
-        </div>
-
-        <div class="col col-sm-3 col-6">
-          <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--placeholder" aria-label="Button"></button>
-          <button role="button" class="btn btn--ordinary btn--medium btn--icon btn--icon--lone btn--icon--placeholder" aria-label="Button"></button>
-          <button role="button" class="btn btn--ordinary btn--medium btn--iconbg" aria-label="Button"><span style="background-image: url(https://content.harstatic.com/resource_2019/imgs/icons/heart_outline.svg);"></span></button>
-          <div class="component_content__demo__description">Button with Lone Icon</div>
-        </div>
-
-        <div class="col col-sm-3 col-6">
-
-          <div class="dropdown">
-            <button class="btn btn--ordinary btn--medium dropdown-toggle" type="button" id="buttonWithOptions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Button
-            </button>
-            <div class="dropdown-menu depth--standed_out" aria-labelledby="buttonWithOptions">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+      
+      <hr>
+      <div class="row">
+        <div class="col col-12 text-left">
+	        <button role="button" class="btn btn--neighborhoods">Alvin South</button>
+	        <button role="button" class="btn btn--neighborhoods">Brookshire</button>
+	        <button role="button" class="btn btn--neighborhoods">Conroe Southwest</button>
+			<div 1="" class="neighborhood-show-more dropdown dropdown--custom dropdown--custom_medium dropdown--custom_bold d-inline-block">
+                  <button onclick="#" class="dropdown-toggle btn" type="button" aria-haspopup="true" aria-expanded="false">Alvin South</button>
             </div>
-          </div>
-
-          <div class="component_content__demo__description">Button with Options</div>
-        </div>
-
-        <div class="col col-sm-3 col-6">
-
-          <div class="dropdown">
-            <button class="btn btn--ordinary btn--medium dropdown-toggle btn--icon btn--icon--lone btn--icon--placeholder" type="button" id="buttonWithIconAndOptions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Button
-            </button>
-            <div class="dropdown-menu depth depth--standed_out" aria-labelledby="buttonWithIconAndOptions">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </div>
-
-          <div class="component_content__demo__description">Button with Icon and Options</div>
-        </div>
-
-        <div class="clear_both"></div>
-      </div>
-      `,
-
-      `<div class="row">
-        <div class="col">
-          <button role="button" class="btn btn--ordinary btn--icon btn--icon--maptoggle btn--large ">View Map</button>
-          <button role="button" class="btn btn--ordinary btn--icon btn--icon--listview btn--large">View List</button>
         </div>
 
         <div class="clear_both"></div>
@@ -329,7 +439,8 @@ export default class Buttons extends Component {
         <TemplateComponentBlock blockTitle="Sizes" elements={this.elements[0]} codeSnippets={this.codeSnippets[0]} />
         <TemplateComponentBlock blockTitle="Styles" elements={this.elements[1]} codeSnippets={this.codeSnippets[1]} />
         <TemplateComponentBlock blockTitle="Variations" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
-        <TemplateComponentBlock blockTitle="Buttons with icons" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
+        <TemplateComponentBlock blockTitle="All Buttons with icons" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
+        <TemplateComponentBlock blockTitle="Others" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
 
       </TemplateDefault>
     )
