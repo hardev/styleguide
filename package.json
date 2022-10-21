@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://hardev.github.io/styleguide/",
   "dependencies": {
-    "ajv": "^6.10.2",
+    "ajv": "^7.0.0",
     "bootstrap": "^4.6.1",
     "jquery": "^3.4.1",
     "node-sass": "^4.12.0",
