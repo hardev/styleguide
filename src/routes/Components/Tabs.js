@@ -43,6 +43,20 @@ export default class Tabs extends Component {
 		
 		
           <div class="component_content__demo__description">Underline Style</div>
+        </div>
+        
+        <div class="col col-10 pt-4">
+          <ul class="nav nav-tabs nav-tabs--underline nav-tabs--fullwidth" id="myTab" role="tablist">
+			  <li class="nav-item">
+			    <a class="nav-link active" id="ForRent-tab" data-toggle="tab" href="#ForRent" role="tab" aria-controls="home" aria-selected="true">For Rent</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" id="ForSale-tab" data-toggle="tab" href="#ForSale" role="tab" aria-controls="profile" aria-selected="false">For Sale</a>
+			  </li>
+		  </ul>
+		
+		
+          <div class="component_content__demo__description">Underline Style</div>
         </div>`,
         `<div class="component_content__negative_content">
         <div class="row justify-content-center">

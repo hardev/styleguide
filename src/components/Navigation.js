@@ -221,6 +221,9 @@ export default class Header extends Component {
                   <li className={`li ${this.props.activeChild == 'team_header' ? 'li--active' : ''} `}>
                     <Link to="/template_blocks/team_header">Team Header</Link>
                   </li>
+                  <li className={`li ${this.props.activeChild == 'find_pro_block' ? 'li--active' : ''} `}>
+                    <Link to="/template_blocks/find_pro_block">Find Pro Block</Link>
+                  </li>
                   <li className={`li ${this.props.activeChild == 'cmsblocks' ? 'li--active' : ''} `}>
                     <Link to="/template_blocks/cmsblocks">CMS Blocks</Link>
                   </li>

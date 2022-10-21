@@ -105,6 +105,20 @@ export default class FilterPill extends Component {
         <div class="clearfix"></div>
         <div class="component_content__demo__description">Folder Pill</div>
       </div>
+      
+      <div class="col col-6">
+        <div class="pill pill--filters">
+        	Houston
+        	<a class="folder--closeable_close" href="#"></a>
+        </div>
+        <div class="pill pill--filters">
+        	Austin
+        	<a class="folder--closeable_close" href="#"></a>
+        </div>
+        <div class="clearfix"></div>
+        <div class="component_content__demo__description">Folder Pill</div>
+      </div>
+      
     </div>
     
     <div class="row mb-5">

@@ -178,6 +178,11 @@ export default class Buttons extends Component {
 		  <br><br><br>
 		  <button role="button" class="btn btn--ordinary btn--icon btn--icon--maptoggle btn--large ">View Map</button>
           <button role="button" class="btn btn--ordinary btn--icon btn--icon--listview btn--large">View List</button>
+          
+          <br><br><br>
+          <button class="btn btn--ordinary btn--icon btn--icon--onlyicon btn--icon--full btn--icon--audio mr-md-2"></button>
+		  <button class="btn btn--ordinary btn--icon btn--icon--onlyicon btn--icon--full btn--icon--play mr-md-2"></button>
+		  <button class="btn btn--ordinary btn--icon btn--icon--onlyicon btn--icon--full btn--icon--tour btn--icon--full--text"><span>1 video, 2 tours</span></button>
         </div>
 
         <div class="clear_both"></div>

@@ -108,8 +108,8 @@ label {
 
 			&:active {
 				height: 74px;
-		    transform: translate(0, 0);
-		  }
+				transform: translate(0, 0);
+		  	}
 		}
 	}
 	@media screen and (max-width: 600px) {
@@ -364,6 +364,9 @@ label {
 	    }
 	}
 	  
+	  
+	
+	
   }
 
   
@@ -488,7 +491,48 @@ label {
 		}
 		
 	}
-
+	
+	
+	&__filters {
+		position: relative;
+		background: #FFF;
+		border: 1px solid #d0d0d0;		
+		height: 32px;
+	    line-height: 31px;
+	    display: inline-block;
+	    transition: all 0.2s ease;
+	    border-radius: 8px;
+	    padding: 0px;
+	    
+	    .custom-control-input {
+		    left: 8px;
+		    top: 2px;
+		    z-index: 1;
+		    width: 24px;
+		    height: 24px;
+	    }
+	    
+	    .custom-control-label {
+		    padding: 0px 8px 0px 32px;
+		    margin: 0px;
+		    font-weight: 700;
+			font-size: 14px;
+	    	color: #000;
+	    	display: flex;    
+	    	
+	    	&:before {
+		    	margin-left: 26px;
+		    	margin-top: 4px;
+		    	width: 16px;
+		    	height: 16px;
+		    	background-size: cover
+	    	}
+	    	
+	    	img {
+		    	margin-left: 6px;
+	    	}
+	    }
+	}
 }
 
 /* input radio */
@@ -1717,7 +1761,8 @@ label {
 	margin-bottom: 10px;
 	margin-right: 5px;
 	font-size: 12px;
-	font-weight: 500 !important;
+	font-weight: $font-weight-semi-bold !important;
+	
 }
 .btn-group--alert.btn-group > .btn {
 	color: #212529 !important;
@@ -1730,9 +1775,10 @@ label {
 .btn-group--item_inner {
 	padding: 8px;
 	border-radius: 4px;
-		border: 1px solid #d0d0d0 !important;
+	border: 1px solid #d0d0d0 !important;
 	background-color: #fff;
-	text-align: center;	
+	text-align: center;
+	
 }
 .btn-group--alert.btn-group-toggle input[type=radio] {
 	position: absolute;

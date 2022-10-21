@@ -37,6 +37,7 @@ import CMSBlocks from './routes/TemplateBlocks/CMSBlocks';
 import AgentHeader from './routes/TemplateBlocks/AgentHeader';
 import BrokerHeader from './routes/TemplateBlocks/BrokerHeader';
 import TeamHeader from './routes/TemplateBlocks/TeamHeader';
+import FindProBlock from './routes/TemplateBlocks/FindProBlock';
 
 // import registerServiceWorker from './registerServiceWorker';
 import * as serviceWorker from './serviceWorker';
@@ -82,6 +83,7 @@ ReactDOM.render(
       <Route path="/template_blocks/agent_header" component={AgentHeader} />
       <Route path="/template_blocks/broker_header" component={BrokerHeader} />
       <Route path="/template_blocks/team_header" component={TeamHeader} />
+      <Route path="/template_blocks/find_pro_block" component={FindProBlock} />      
 
       <Route path="/*" exact={true} component={Error404} />
 

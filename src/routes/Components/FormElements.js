@@ -53,7 +53,7 @@ export default class Forms extends Component {
 		    <input type="text" class="form-control form-control__quicksearch" placeholder="Search by address, city or zip code">
 		</div>
 		
-		<div class="col col-12" style="max-width:500px;">
+		<div class="col col-12 pr-sm-5 pl-sm-5" style="max-width:500px;">
 		    <label for="Bedrooms">Bedrooms</label>
 		    <div class="input-grouped mb-2">
 		        <div class="input-grouped__text">
@@ -64,7 +64,72 @@ export default class Forms extends Component {
 		        </div>
 		    </div>
 		</div>
-       </div>`,
+       </div>
+       
+        
+        <div class="pr-sm-5 pl-sm-5 pb-5">
+	        <div class="row mb-4">
+		        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+		          <h4 tabindex="0">Header Inputs</h4>
+		        </div>
+		    </div>
+		    
+		    <div class="row no-gutters mb-5">
+			   <div class="col-auto pr-3">
+			      <div class="dropdown dropdown--quickselect changevalue">
+			         <button class="btn btn--ordinary btn--small dropdown-toggle changevalue__btn" type="button" id="buttonWithOptions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-default="">Price</button>
+			         <div class="dropdown-menu unclosable pt-0 pb-0 depth depth--above_all" aria-labelledby="buttonWithOptions" style="min-width: 280px; position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 32px, 0px);" x-placement="bottom-start">
+			            <div class="p-3 border-bottom">
+			               <div class="row no-gutters">
+			                  <div class="col-6 pr-1">
+			                     <select class="custom-select custom-select_large nfilter changevalue__first" data-pair="1" autocomplete="off" data-bitmask="1" name="listing_price_min" id="SeelctMinPrice">
+			                        <option value="No Min">No Min</option>
+			                        <option value="1">Greater than $0</option>
+			                        <option value="5k">$5,000</option>
+			                        <option value="10k">$10k</option>
+			                        <option value="15k">$15k</option>
+			                     </select>
+			                  </div>
+			                  <div class="col-6 pl-1">
+			                     <select class="custom-select custom-select_large nfilter changevalue__second" autocomplete="off" data-bitmask="1" name="listing_price_max" id="SeelctMaxPrice">
+			                        <option value="No Min">No Max</option>
+			                        <option value="$5k">$5k</option>
+			                        <option value="10k">$10k</option>
+			                        <option value="15k">$15k</option>
+			                        <option value="20k">$20k</option>
+			                     </select>
+			                  </div>
+			               </div>
+			            </div>
+			         </div>
+			      </div>
+			   </div>
+			   <!-- price input -->
+			   
+			   <div class="col-auto pr-3">
+			   		<div role="checkbox" class="custom-control custom-checkbox custom-checkbox__filters">
+			            <input type="checkbox" id="checkbox_button_medium_22" name="checkbox_button_medium2" class="custom-control-input">
+			            <label class="custom-control-label" for="checkbox_button_medium_22">Wonderful houses <img src="https://content.harstatic.com/media/icons/platenium_small.svg"></label>
+			        </div>
+			   </div>
+			   
+			   <div class="col-auto pr-3">
+			   		<div class="dropdown dropdown--quickselect changevalue__single">
+					  <button class="btn btn--ordinary btn--small dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" value="Mid / High-Rise">Mid / High-Rise</button>
+					  <div class="dropdown-menu respnsive_right depth depth--above_all" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 32px, 0px);">
+					    <a class="dropdown-item" href="#">Single Family</a>
+					    <a class="dropdown-item" href="#">Townhouse/Condo</a>
+					    <a class="dropdown-item" href="#">Acreage</a>
+					    <a class="dropdown-item" href="#">Mid / High-Rise</a>
+					    <a class="dropdown-item" href="#">Lots</a>
+					    <a class="dropdown-item" href="#">Multi-Family</a>
+					  </div>
+					</div>
+			   </div>
+			   
+			</div>
+	    </div>
+       `,
 
       `<div class="row">
         <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">

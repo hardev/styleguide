@@ -107,7 +107,7 @@
 	height: 38px;
 	background-color: $color-cloudy-sky;
 	color: $color-har-blue-dark;
-	font-size: $font-size-small;
+	font-size: $font-size-medium;
 	font-weight: $font-weight-semi-bold;
 	border: none;
 	display: inline-block;
@@ -257,7 +257,32 @@
 			background:url("https://content.harstatic.com/media/icons/cross_blue.svg") no-repeat right 4px center;
 			background-size: 20px;
 		}		
+	}	
+	
+	&--filters {
+		background-color: #FFFFFF;
+		border-radius: 8px;
+		border: 1px solid #d0d0d0;
+		line-height: 1;
+		padding: 8px 30px 8px 8px;
+		margin: 0px;
+		color: #000000;
+		font-weight: $font-weight-bold;
+		
+		a {
+			display:block;
+			position: absolute;
+			right: 2px;
+			top: 0px;
+			width: 32px;
+			height: 32px;
+			margin-left: 0px;
+			background:url("https://content.harstatic.com/media/icons/cross_blue.svg") no-repeat right 4px center;
+			background-size: 20px;
+		}		
 	}
+	
+	
 }
 
 .alphabets_filter {
