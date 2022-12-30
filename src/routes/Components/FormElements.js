@@ -66,6 +66,38 @@ export default class Forms extends Component {
 		</div>
        </div>
        
+       
+       <div class="pr-sm-5 pl-sm-5 pb-5">
+       		<div class="row mb-4">
+		        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+		          <h4 tabindex="0">Multiselect Input</h4>
+		        </div>
+		    </div>
+		    
+		    <div class="row no-gutters mb-5">
+			   <div class="col-auto pr-3">
+			   		<select class="form-control form-control__multiselect" style="min-height:415px;" name="cars" id="cars" multiple>
+						<option value="volvo">Communications Advisory Group</option>
+						<option value="volvo">Fort Bend Political Affairs Advisory Leadership (PAAL)</option>
+						<option value="volvo">Global Advisory Group</option>
+						<option value="volvo">Governmental Affairs Advisory Group</option>
+						<option value="volvo">HAR Engage</option>
+						<option value="volvo">Communications Advisory Group</option>
+						<option value="volvo">Fort Bend Political Affairs Advisory Leadership (PAAL)</option>
+						<option value="volvo">Global Advisory Group</option>
+						<option value="volvo">Governmental Affairs Advisory Group</option>
+						<option value="volvo">HAR Engage</option>
+						<option value="volvo">Communications Advisory Group</option>
+						<option value="volvo">Fort Bend Political Affairs Advisory Leadership (PAAL)</option>
+						<option value="volvo">Global Advisory Group</option>
+						<option value="volvo">Governmental Affairs Advisory Group</option>
+						<option value="volvo">HAR Engage</option>
+						<option value="volvo">Communications Advisory Group</option>
+					</select>
+				</div>
+			</div>       
+       </div>
+       
         
         <div class="pr-sm-5 pl-sm-5 pb-5">
 	        <div class="row mb-4">

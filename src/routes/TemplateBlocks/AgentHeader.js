@@ -616,10 +616,10 @@ export default class AgentHeader extends Component {
 	        			</div>
 	        			
 	        			<div class="agentheader__descbox ml-auto mr-auto ml-md-0 mr-md-0" style="max-width:412px;">
-							<a href="#">
-								<span class="font_weight--bold">Get your profile on HAR.com for free -></span><br>
-								Over 10K realtors across Texas have claimed their profile.
+							<a href="#" class="font_weight--bold">
+								Get your profile on HAR.com for free ->								
 							</a>
+							<div>Over 10K realtors across Texas have claimed their profile.</div>
 						</div>
 	        		</div>
 					
@@ -631,42 +631,14 @@ export default class AgentHeader extends Component {
 					</div>
 						
 					<div class="agentheader__agrow__links text-center text-md-right pt-md-5">				
-						<button tabindex="0" class="agent_btn_contact btn btn--prominent btn--large mb-2 mr-3">Contact</button>
-						
-						<div class="dropdown dropdown--custom d-inline-block agent_btn_more agent_btn_more">
-						 <button tabindex="0" class="btn btn--ordinary mb-2 btn--large" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</button>
-						  <div class="dropdown-menu dropdown-menu__withicons dropdown-menu-right pt-2 pb-2" aria-labelledby="dropdownMenuButton" x-placement="bottom-end">
-						    <a class="dropdown-item pt-1 pb-1" href="#">
-						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_recive.svg"></div>
+						<button tabindex="0" class="agent_btn_contact btn btn--prominent btn--large mb-2 mr-3">Send Email</button>
+						<div class="ml-auto">
+							<a class="btn btn--text btn--medium btn--medium__inline d-inline-flex" href="#">
+						    	<img style="width:24px;" src="https://content.harstatic.com/media/icons/phone_icon_small.svg">
 						    	<div class="dropdown-item__text align-self-center pl-3">
-						    		<div class="dropdown-item__text__title">Receive callback</div>
+						    		<div>See Phone</div>
 						    	</div>
 						    </a>
-						    <a class="dropdown-item pt-1 pb-1" href="#">
-						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_calander.svg"></div>
-						    	<div class="dropdown-item__text align-self-center pl-3">
-						    		<div class="dropdown-item__text__title">Schedule an appointment</div>
-						    	</div>
-						    </a>
-						    <a class="dropdown-item pt-1 pb-1" href="#">
-						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_phone.svg"></div>
-						    	<div class="dropdown-item__text align-self-center pl-3">
-						    		<div class="dropdown-item__text__title">View phone number</div>
-						    	</div>
-						    </a>
-						    <a class="dropdown-item pt-1 pb-1" href="#">
-						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_sendemail.svg"></div>
-						    	<div class="dropdown-item__text align-self-center pl-3">
-						    		<div class="dropdown-item__text__title">Send email</div>
-						    	</div>
-						    </a>
-						    <a class="dropdown-item pt-1 pb-1" href="#">
-						    	<div class="dropdown-item__icon"><img src="https://content.harstatic.com/media/icons/dropdownmenu/agent_icon_recommand.svg"></div>
-						    	<div class="dropdown-item__text align-self-center pl-3">
-						    		<div class="dropdown-item__text__title">Recommend</div>
-						    	</div>
-						    </a>
-						  </div>
 						</div>
 						
 					</div><!-- agentheader__links -->

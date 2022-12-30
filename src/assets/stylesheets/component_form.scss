@@ -73,6 +73,21 @@ label {
 		padding: 12px 12px 12px 64px;
 		height: 64px;		
 	}
+	
+	&__multiselect {
+		option {
+			font-size: $font-size-small;
+			color: #212529;
+			padding: 4px 8px;
+			border-radius: 4px;
+			margin-bottom: 1px;
+			
+			&:focus,
+			&:checked {
+				background-color: #dfe3f0;
+			}	
+		}
+	}
 }
 
 /* form input quick search */

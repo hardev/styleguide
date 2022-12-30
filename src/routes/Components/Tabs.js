@@ -158,6 +158,23 @@ export default class Tabs extends Component {
           <div class="component_content__demo__description">Underline Style</div>
         </div>
         </div>	`,
+        `<div class="row justify-content-center">
+        <div class="col col-10 pt-4">
+          <ul class="nav nav-tabs nav-tabs--solid" id="myTab" role="tablist">
+		  <li class="nav-item">
+		    <a class="nav-link active" id="ForRent-tab" data-toggle="tab" href="#ForRent" role="tab" aria-controls="home" aria-selected="true">Listing Details</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" id="ForSale-tab" data-toggle="tab" href="#ForSale" role="tab" aria-controls="profile" aria-selected="false">MLS Subscriber Info</a>
+		  </li>
+		</ul>
+		<div class="tab-content" id="myTabContent">
+		  <div class="tab-pane fade show active" id="ForRent" role="tabpanel" aria-labelledby="ForRent-tab"><br><br>{ Tab: For Rent tab content placeholder }<br><br><br></div>
+		  <div class="tab-pane fade" id="ForSale" role="tabpanel" aria-labelledby="ForSale-tab"><br><br>{ Tab: For Sale tab content placeholder }<br><br><br></div>
+		</div>
+          <div class="component_content__demo__description">Underline Style</div>
+        </div>
+        </div>	`,
 
     ];
 
@@ -242,6 +259,7 @@ export default class Tabs extends Component {
         <TemplateComponentBlock blockTitle="Nav Tabs (simple)" elements={this.elements[2]} codeSnippets={this.codeSnippets[2]} />
         <TemplateComponentBlock blockTitle="Tabs pink underline" elements={this.elements[3]} codeSnippets={this.codeSnippets[3]} />
         <TemplateComponentBlock blockTitle="Tabs used in Filters" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
+        <TemplateComponentBlock blockTitle="Tabs used in listing details" elements={this.elements[5]} codeSnippets={this.codeSnippets[5]} />
 
 
       </TemplateDefault>

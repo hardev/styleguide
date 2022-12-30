@@ -372,6 +372,16 @@ export default class Sitewide extends Component {
        
        
        `,
+       `
+       <div class="section_roundedbg mb-5 mt-5 p-5">
+		   
+		    <div class="text-center">
+		    	<div class="tagline_text mb-4 pt-4">Mobile Apps</div>
+		        <h2 tabindex="0" class="h2 h2--strong mb-4 text-center">Expand your search<br>experience on your phone</h2>
+		    </div>
+		   
+		</div>
+       `
     ];
 
 
@@ -493,6 +503,7 @@ $(document).on('ready', function() {
         <TemplateComponentBlock blockTitle="Breadcrumbs" elements={this.elements[10]} codeSnippets={this.codeSnippets[10]} />
         <TemplateComponentBlock blockTitle="Accordian" elements={this.elements[11]} codeSnippets={this.codeSnippets[11]} />
         <TemplateComponentBlock blockTitle="Map Popover" elements={this.elements[12]} codeSnippets={this.codeSnippets[12]} />
+        <TemplateComponentBlock blockTitle="BG Rounded box" elements={this.elements[13]} codeSnippets={this.codeSnippets[13]} />
         
         
       </TemplateDefault>

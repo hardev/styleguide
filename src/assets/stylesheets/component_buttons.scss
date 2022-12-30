@@ -46,7 +46,10 @@
     padding: 0 40px !important;
     
     @media screen and (max-width: 576px) {
-		padding: 0 20px !important;    
+		padding: 0 20px !important;
+		height: 48px !important;
+		line-height: 48px !important;
+    	font-size: $font-size-large !important;
 	}
 	
   }
@@ -272,12 +275,6 @@
 		  font-weight: normal;
 	  }
   }
-  
-  
-  &--rounded {
-	border-radius: 32px;	  
-  }
-  
   
   
   &--claimprofile {
@@ -840,6 +837,91 @@
     color: #0738CD !important;
     font-weight: 700;
     padding: 4px 8px
+  }
+  
+  &--recomended {
+	  border: solid 1px #d0d0d0;
+	  background-color: #fff;
+	  padding: 12px 24px;
+	  height: 48px;
+	  border-radius: 4px;
+	  display: inline-flex;
+	  font-weight: $font-weight-semi-bold;
+	  
+	  span { 
+		  align-self: center;
+		  img { 
+			  margin-right: 8px;
+		  }
+	  }
+	  
+	  .text__only {
+		  text-align: center;
+		  flex-grow: 1;
+	  }
+  }
+  &--interested {
+	  color: #009677;
+	  border-color: #009677;
+	  &:hover {
+		  color: #009677;
+	  }
+	 &__filled {
+		 background-color: #009677;
+		 border: none;
+		 color: $color-snow-white;
+		 &:hover {
+			color: $color-snow-white;
+		 }
+	 }
+	 &__mini {
+		 font-size: $font-size-small;
+		 font-weight: $font-weight-semi-bold;
+		 border-radius: 16px;
+		 height: 32px;
+		 padding: 7px 12px 7px 13px;
+	 }
+  }
+  &--notinterested {
+	  color: #e34b58;
+	  border-color: #e34b58;
+	  &:hover {
+		color: #e34b58;	  
+	  }
+	  &__filled {
+		 background-color: #e34b58;
+		 border: none;
+		 color: $color-snow-white;
+		 &:hover {
+			color: $color-snow-white;
+		 }
+	 }
+	 
+	 &__mini {
+		 font-size: $font-size-small;
+		 font-weight: $font-weight-semi-bold;
+		 border-radius: 16px;
+		 height: 32px;
+		 padding: 7px 12px 7px 13px;
+	 }
+  }
+  
+  &--maybe {
+	  color: #52738a;
+	  border-color: #bdcfdb;
+	  &:hover {
+		color: #52738a;	  
+	  }
+	  &__filled {
+		 background-color: #bdcfdb;
+		 border: none;
+		 color:#3b5363;
+	 }
+  }
+  
+  
+  &--rounded {
+	border-radius: 32px;	  
   }
 }
 

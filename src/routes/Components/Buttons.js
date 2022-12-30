@@ -79,6 +79,56 @@ export default class Buttons extends Component {
           <div class="component_content__demo__description">Button Flate with hover bg</div>
         </div>
       </div>
+
+	  <hr>
+
+      <div class="row">
+        <div class="col col-sm-4 col-6">
+          <a href="#" class="btn btn--recomended btn--interested"><span><img src="https://content.harstatic.com/media/icons/interested_green.svg"></span><span>Interested</span></a>
+          <div class="component_content__demo__description">outline Button</div>
+        </div>
+        
+        <div class="col col-sm-4 col-6">
+          <a href="#" class="btn btn--recomended btn--notinterested"><span><img src="https://content.harstatic.com/media/icons/not_interested_red.svg"></span><span>Not Interested</span></a>
+          <div class="component_content__demo__description">outline Button</div>
+        </div>
+        
+        <div class="col col-sm-4 col-6">
+          <a href="#" class="btn btn--recomended btn--interested btn--interested__filled"><span><img src="https://content.harstatic.com/media/icons/interested_green_white.svg"></span><span>Interested</span></a>
+          <div class="component_content__demo__description">outline Button</div>
+        </div>
+        
+        <div class="col col-sm-4 col-6">
+          <a href="#" class="btn btn--recomended btn--notinterested  btn--notinterested__filled"><span><img src="https://content.harstatic.com/media/icons/not_interested_white.svg"></span><span>Interested</span></a>
+          <div class="component_content__demo__description">outline Button</div>
+        </div>
+        
+        <div class="col col-sm-4 col-6">
+          <a href="#" class="btn btn--recomended btn--interested"><span class="text__only">Schedule a Showing</span></a>
+          <div class="component_content__demo__description">outline Button</div>
+        </div>        
+        
+        <div class="col col-sm-4 col-6">
+          <a href="#" class="btn btn--recomended btn--maybe"><span class="text__only">Maybe</span></a>
+          <div class="component_content__demo__description">outline Button</div>
+        </div>
+        
+        <div class="col col-sm-4 col-6">
+          <a href="#" class="btn btn--recomended btn--maybe btn--maybe__filled"><span class="text__only">Maybe</span></a>
+          <div class="component_content__demo__description">outline Button</div>
+        </div>
+		
+		<div class="col col-sm-4 col-6">
+          <a href="#" class="btn btn--recomended btn--interested btn--interested__filled btn--interested__mini"><span><img style='width:14px;' src="https://content.harstatic.com/media/icons/interested_green_white.svg"></span><span>Interested</span></a>
+          <div class="component_content__demo__description">outline Button</div>
+        </div>
+        
+        <div class="col col-sm-4 col-6">
+          <a href="#" class="btn btn--recomended btn--notinterested  btn--notinterested__filled btn--notinterested__mini"><span><img style='width:14px;' src="https://content.harstatic.com/media/icons/not_interested_white.svg"></span><span>Interested</span></a>
+          <div class="component_content__demo__description">outline Button</div>
+        </div>
+      </div>
+
       
       
       `,
@@ -379,9 +429,21 @@ export default class Buttons extends Component {
                   <button onclick="#" class="dropdown-toggle btn" type="button" aria-haspopup="true" aria-expanded="false">Alvin South</button>
             </div>
         </div>
-
+		
         <div class="clear_both"></div>
       </div>
+      
+		<hr>
+		<div class="pb-4">
+			<a class="collapsed collapseable_link font_weight--bold font_size--large text-decoration-none" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">More options</a>      
+			<div class="collapse" id="collapseExample">
+		        { placeholder for content }
+		    </div>
+		</div>
+		
+		<br><br><br><br>
+		<hr>
+		<br><br><br><br>
       `
     ];
 

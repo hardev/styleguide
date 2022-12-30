@@ -293,6 +293,56 @@
   }
 }
 
+.agent_signature_button {
+  text-align: left;
+  border: solid 1px $color-cloudy-sky;
+  background-color: $color-snow-white;
+  border-radius: 4px;
+  display: flex;
+  width: 100%;
+  padding: 12px;
+  text-decoration: none !important;
+  
+  a {
+    &:hover {
+	   opacity: 0.85;
+    }
+  }
+
+  &__photo {
+	display: block ;
+	width: 64px;
+	height: 64px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	border-radius: 4px;
+	background-image: url(https://content.harstatic.com/media/icons/agent_placeholder.svg);
+  }
+  
+  &__info {
+    width: calc(100% - 72px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	padding: 0px 12px;
+	align-self: center;
+  }
+  
+	&_name {
+	  font-size: $font-size-medium;
+	  color: $color-carbon !important;
+	  font-weight: $font-weight-bold;
+	  display: block;
+	  padding-bottom: 2px;
+	}
+	&_link {
+	    color: $color-har_blue;
+	    font-weight: $font-weight-bold;
+	}
+}
+
+
 .sticked {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24);
 	

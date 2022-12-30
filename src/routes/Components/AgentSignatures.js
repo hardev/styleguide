@@ -189,6 +189,28 @@ export default class AgentSignatures extends Component {
 	  <hr>
 	  
 	  <div class="row justify-content-center pt-5">
+		<div class="col col-sm-7 col-12">
+		 	<h2 class="mb-0 h2--simple">Large full (card shape)</h2>
+		 	<div class="font_size_small_extra text-left color_cement_dark mb-5">e.g., Find agents nearby</div>
+		 	
+	        <a class="agent_signature_button" href="#">
+	            <div class="agent_signature_button__photo" title="View Amy Nabors's profile" style="background-image:url('https://pics.harstatic.com/agent/593161.jpg?ts=2021-03-04T16:45:004981');"></div>
+	            <div class="agent_signature_button__info">
+	              <div class="agent_signature_button_name" title="View Amy Nabors's profile" aria-label="View Amy Nabors's profile">
+	                Logged as Shadrick Bogany
+	              </div>
+	              <div class="agent_signature_button_link">
+	                I’m not Shadrick. Logout ->
+	              </div>
+	            </div>
+	        </a>	
+		</div>
+	  </div>
+	  
+	  
+	  <hr>
+	  
+	  <div class="row justify-content-center pt-5">
 		<div class="col col-sm-6 col-12">
 		 	<h2 class="mb-0 h2--simple">MediumLarge simple</h2>
 		 	<div class="font_size_small_extra text-left color_cement_dark mb-5">e.g., Advisory Group Leaders card</div>

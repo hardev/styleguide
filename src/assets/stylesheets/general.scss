@@ -520,15 +520,29 @@ hr {
 }
 
 
-.cursor{
-	
+.cursor {
 	&--pointer { 
 		cursor: pointer !important;
-	}
-	
+	}	
 }
 
+/* typeahead styles */
+.typeahead_custom .tp_item { border-bottom: 1px solid #dfe3f0;padding:12px 16px; font-size:14px;text-decoration: none;color: #212529 !important;}
+.typeahead_custom .tp_item:hover {background-color: #f3f4f7;}
+.tp_item_text{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.tp_item .agent_signature__photo a {background-color:#DDDDDD;}
+.tp_item .agent_signature__photo a span {font-weight: bold; font-size: 12px;text-align:center;color:#ffffff;display:block;line-height:32px;}
+.tp_item .status_dote {width:8px;height:8px;border-radius:50%;margin:4px 5px 0px 0px;background-color: #fba000;display: inline-block;float:left;}
+.tp_item.crm .agent_signature__photo a{width:40px;height:40px;line-height:40px;}
+.tp_item.crm .agent_signature__photo a span{line-height:40px;}
+.tp_item.crm .agent_signature__info {width: calc(100% - 48px);}
 
+.ulternate_row:nth-child(odd) { background-color: #F3F4F7; }
+
+.collapseable_link {position: relative;display: inline-block;padding-right: 20px;margin-bottom: 15px;}
+.collapseable_link:after {display: block;content: '';position: absolute;width: 12px;height: 12px;background-image: url('https://content.harstatic.com/media/icons/arrow-gray-up_black.svg');background-repeat: no-repeat;background-position: center center;			background-size: contain;right: 0px;top: 6px;}
+.collapsed.collapseable_link:after {background-image: url('https://content.harstatic.com/media/icons/arrow-gray-down_black.svg');}
+	
 
 // only Medium devices (tablets, 768px and down)
 @media (max-width: 768px) {
