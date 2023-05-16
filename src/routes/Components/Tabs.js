@@ -21,7 +21,7 @@ export default class Tabs extends Component {
 		    <a class="nav-link" id="RecentlyRented-tab" data-toggle="tab" href="#RecentlyRented" role="tab" aria-controls="contact" aria-selected="false">Recently Rented</a>
 		  </li>
 		  <li class="nav-item">
-		    <a class="nav-link" id="RecentlySold-tab" data-toggle="tab" href="#RecentlySold" role="tab" aria-controls="contact" aria-selected="false">Recently Sold</a>
+		    <a class="nav-link d-flex" id="RecentlySold-tab" data-toggle="tab" href="#RecentlySold" role="tab" aria-controls="contact" aria-selected="false"><img class="mr-2" src="https://content.harstatic.com/media/icons/star_pink2.svg">Recently Sold</a>
 		  </li>
 		</ul>
 		<div class="tab-content" id="myTabContent">
@@ -57,7 +57,24 @@ export default class Tabs extends Component {
 		
 		
           <div class="component_content__demo__description">Underline Style</div>
-        </div>`,
+        </div>
+        
+		<div class="row">        
+	        <div class="col col-10 pt-4">
+	          <ul class="nav nav-tabs nav-tabs--underline" id="myTab" role="tablist">
+			  <li class="nav-item">
+			    <a class="nav-link active" id="ListingDetails-tab" data-toggle="tab" href="#ListingDetails" role="tab" aria-controls="contact" aria-selected="false">Listing Details</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link d-flex" id="MLSSubscriberInfo-tab" data-toggle="tab" href="#MLSSubscriberInfo" role="tab" aria-controls="contact" aria-selected="false"><img class="mr-2" src="https://content.harstatic.com/media/icons/star_pink2.svg">MLS Subscriber Info</a>
+			  </li>
+			</ul>
+			<div class="tab-content" id="myTabContent">
+			  <div class="tab-pane fade show active" id="ListingDetails" role="tabpanel" aria-labelledby="ListingDetails-tab"><br><br>{ Tab: For ListingDetails tab content placeholder }<br><br><br></div>
+			  <div class="tab-pane fade" id="MLSSubscriberInfo" role="tabpanel" aria-labelledby="MLSSubscriberInfo-tab"><br><br>{ Tab: MLSSubscriberInfo tab content placeholder }<br><br><br></div>
+			</div>
+	    </div>
+        `,
         `<div class="component_content__negative_content">
         <div class="row justify-content-center">
         <div class="col col-10 pt-4">

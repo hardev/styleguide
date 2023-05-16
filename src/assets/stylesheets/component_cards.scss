@@ -1579,6 +1579,48 @@
 		
 	  } //&_longinfo {
 		  
+		  
+	  &_nohover {
+		  grid-template-rows: auto;
+		  
+		  @media screen and (min-width: 750px) {
+		  	  &:hover {
+			  	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24);
+			  	  transition: all 0.3s ease !important;
+			  	  
+			  	  .card--agent_longinfo__certifi {
+				  	  display: block;
+				  	  transition: all 0.3s ease !important;
+			  	  }
+		  	  }
+		   }
+		   
+		   &__link {
+			   display: flex;
+			   padding-top: 5px;
+			   grid-column-start: 2;
+			   grid-column-end: 3;
+			   grid-row-start: 2;
+			   grid-row-end: 2;
+			   text-align: right;			   
+			   justify-content:flex-end;
+			   color: $color-har-blue;
+			   font-size: $font-size-medium;
+			   
+			   div {
+				   align-self: center;
+			   }
+			   
+			   @media screen and (max-width: 767px) {
+				   justify-content:flex-start;
+				   padding-top: 18px;
+		   	
+		   		}
+		   }
+		   
+		   
+	  }
+		  
 	} //&_agent
 	
 	&--broker {
@@ -1717,7 +1759,46 @@
 		   
 		   }
 		 } //&_longinfo {
-		 
+			 
+		&_nohover {
+		  grid-template-rows: auto;
+		  
+		  @media screen and (min-width: 750px) {
+		  	  &:hover {
+			  	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24);
+			  	  transition: all 0.3s ease !important;
+			  	  
+			  	  .card--broker_longinfo__certifi {
+				  	  display: block;
+				  	  transition: all 0.3s ease !important;
+			  	  }
+		  	  }
+		   }
+		   
+		   &__link {
+			   display: flex;
+			   padding-top: 5px;
+			   grid-column-start: 2;
+			   grid-column-end: 3;
+			   grid-row-start: 2;
+			   grid-row-end: 2;
+			   text-align: right;			   
+			   justify-content:flex-end;
+			   color: $color-har-blue;
+			   font-size: $font-size-medium;
+			   
+			   div {
+				   align-self: center;
+			   }
+			   
+			   @media screen and (max-width: 767px) {
+				   justify-content:flex-start;
+				   padding-top: 18px;
+		   	
+		   		}
+		   }
+	  	}
+
 	} //&_broker
 	
 	&--team {
@@ -2503,6 +2584,30 @@
 
 		&:last-child {
 			padding-right: 15px !important;
+		}
+	}
+}
+
+.card--blog_post_medium__container {
+	border: 1px solid #DFE3F0;
+	border-radius:4px;
+	.card--blog_post_medium__container__title {
+		margin: 10px;
+	}
+	.card--blog_post_medium {
+		border-top:1px solid #DFE3F0;
+		border-left: none;
+		border-right: none;
+		border-bottom: none;
+		border-radius: 0px 0px 4px 4px;
+		margin-bottom: 0px;
+		
+		&__content {
+			padding: 15px;
+		}
+		
+		&__image_content {
+			border-radius: 0px;
 		}
 	}
 }

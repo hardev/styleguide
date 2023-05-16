@@ -20,7 +20,10 @@
 	  width: 48px;
 	  border-radius: 50%;
 	  line-height: 48px;
-	  text-align: center;
+	  text-align: center;	  
+	  display: inline-flex;
+	  justify-content: center;
+	  align-items: center;
 	  
 	  img {
 	  	max-height: 30px;

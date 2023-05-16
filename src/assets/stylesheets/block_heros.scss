@@ -943,7 +943,7 @@
 		color: $color_black;
 		margin-bottom: 16px;
 		
-		@media screen and (max-width: 767px) {
+		@media screen and (max-width: 930px) {
 			font-size: $font-size-large-extra-extra-extra;		
 		}
   	}
@@ -1022,9 +1022,9 @@
 
 			}
 		}
+		
 	}
-	
-	
+		
 	&--withimage{
 		display: flex;		
 		flex-wrap: wrap;

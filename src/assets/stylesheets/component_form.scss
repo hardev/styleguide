@@ -595,31 +595,7 @@ label {
     }
   }
   
-  &__forsale, &__forrent {
-	  border: 1px solid #018361;	  
-	  padding: 7px 28px;
-	  border-radius: 4px;
-	  cursor: pointer;
-	  
-	  .custom-control-label {
-		  margin-bottom: 0px;
-		  padding-bottom: 0px;
-		  color: #018361;
-		  font-weight: $font-weight-semi-bold !important;
-		  font-size: $font-size-medium;
-		  line-height: 1.3;
-		  margin-right: 0px;
-		  padding:3px;
-		  display: block;
-	  }
-  }
   
-  &__forrent {	  
-	  border: 1px solid #8268bc;
-	  .custom-control-label {
-		  color: #8268bc;
-	  }
-  }
   
   &--large {
 	  .custom-control-label{
@@ -726,9 +702,34 @@ label {
 		    background-image:url("https://content.harstatic.com/media/icons/icon-option-selected-black2.svg");		    
 	    }
 	  }
-
   }
-
+  
+  &__forsale, &__forrent {
+    border: 1px solid #018361;
+    padding: 7px 28px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    .custom-control-label {
+	    margin-bottom: 0px;
+	    padding-bottom: 0px;
+	    color: #018361;
+	    font-weight: 600 !important;
+	    font-size: 14px;
+	    line-height: 1.3;
+	    margin-right: 0px;
+	    padding: 3px;
+	    display: block;
+	}
+  }
+  
+  &__forrent {
+    border: 1px solid #8268bc;
+    
+    .custom-control-label {
+    	color: #8268bc;
+	}
+  }
 }
 
 /* cusotm select  */

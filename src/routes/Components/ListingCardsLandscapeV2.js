@@ -1464,6 +1464,67 @@ export default class ListingCardsLandscapeV2 extends Component {
 		</div>			        	
         </div>
       </div><!-- <div class="row"> -->
+      
+      
+      
+      
+      <div class="row pb-4">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h2 class="h2--simple h2--simple__black" tabindex="0">Highrise Finder</h2>
+        </div>
+      </div>
+
+      <div class="row mb-5 pb-5">
+        <div class="col col-12 mb-0 pb-0 text-left ">        
+			<div class="highrise_card">
+				<a href="#" class="highrise_card__img" style="background-image:url(https://content.harstatic.com/high_rise/hr/1074_1.jpg);"></a>
+				<div class="highrise_card__cont">
+					<a href="#">
+						<h4 tabindex="0">1011 STUDEMONT</h4>
+						
+						<div class="highrise_card__cont__loca d-flex">
+							<img src="https://content.harstatic.com/media/icons/map_carbon.svg" class="mr-2">
+							<span>1011 Studemont St, Houston, TX 77077</span>
+						</div>
+						<div class="highrise_card__cont__labels">
+							<div class="label label--forsale_round">2 units for sale</div>
+							<div class="label label--forrent_round">2 units for rent</div>
+						</div>
+						
+						<div class="highrise_card__cont__feat">
+							<div class="card--listing__body__content__description_row">
+			                    <span class="font_weight--semi_bold color_carbon pr-1">11</span> floors
+			                </div>
+			                
+			                <div class="card--listing__body__content__description_row">
+			                    <span class="font_weight--semi_bold color_carbon pr-1">60</span> units
+			                </div>
+			                
+			                <div class="card--listing__body__content__description_row">
+			                    <span class="font_weight--semi_bold color_carbon pr-1">N/A</span> penthouses
+			                </div>
+			                
+			                <div class="card--listing__body__content__description_row">
+			                    <span class="font_weight--semi_bold color_carbon pr-1">2002</span> year built
+			                </div>
+			                
+			                <div class="clearfix"></div>
+		                </div>
+		                
+		                <div class="highrise_card__cont__desc">
+		                The Bayou Bend Towers are located on Westcott St. and wedged between Memorial Park and the Buffalo Bayou. With 3+ acres of private gardens and walking trails along the Buffalo Bayou, residents feel the private estate-like setting not often found in urban living.
+	
+	The high-rise sits adjacent to a bird sanctuary and the Houston Museum of Fine Arts. Residents enjoy the walkability to Memorial Park and the Buffalo Bayou Trails. While the high-rise is set back from busy streets, the Bayou Bend Towers also enjoy easy access to Houston and offer amazing views of the Buffalo Bayou, River Oaks Country Club, and Downtown Houston.
+	
+	If you are interested in relocating to Houston and looking for a high-rise, search and filter to find Houston high-rises and a licensed agent who works in, and is familiar with, the Houston Area neighborhoods.
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	  </div>	
+
+
           `,
     ];
 

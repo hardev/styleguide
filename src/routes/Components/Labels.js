@@ -16,6 +16,16 @@ export default class Labels extends Component {
           <div class="label label--forsale_type">For Sale</div>
           <br><br>
           <div class="label label--forrent_type">For Rent</div>
+          
+          <br><br>
+          <h4 tabindex="">Type usage in Heighrise</h4>
+          
+          <div class="label label--forsale_round">2 units for sale</div>
+          <br><br>
+          <div class="label label--forrent_round">5 units for rent</div>
+          <br><br>
+          <div class="label label--sold_round">19 units sold</div>
+          
         </div>
         
        
@@ -37,7 +47,9 @@ export default class Labels extends Component {
           <br><br>
           <div class="label label--expired">Expired</div>
           <br><br>
-          <div class="label label--withdraw">Withdrawn</div>
+          <div class="label label--withdraw">Withdraw</div>
+          <br><br>
+          <div class="label label--withdrawn">Withdrawn</div>
           <br><br>
           <div class="label label--terminated">Terminated</div>
           <br><br>

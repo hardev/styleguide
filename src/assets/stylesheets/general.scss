@@ -504,9 +504,8 @@ hr {
 .typeahead_wrapper .twitter-typeahead { flex:1 1 auto; }
 .typeahead_custom {right:0px; }
 .typeahead_custom .tp_item_text{ text-align: left; }
-.twitter-typeahead {
-	display: block !important;
-}
+.twitter-typeahead {display: block !important;}
+.typeahead_scrollable .typeahead_custom {overflow-y: scroll !important;bottom: auto;height: 40vh;}
 
 .overflow-inherit 
 	{
@@ -529,7 +528,7 @@ hr {
 /* typeahead styles */
 .typeahead_custom .tp_item { border-bottom: 1px solid #dfe3f0;padding:12px 16px; font-size:14px;text-decoration: none;color: #212529 !important;}
 .typeahead_custom .tp_item:hover {background-color: #f3f4f7;}
-.tp_item_text{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.tp_item_text{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;align-self: center;}
 .tp_item .agent_signature__photo a {background-color:#DDDDDD;}
 .tp_item .agent_signature__photo a span {font-weight: bold; font-size: 12px;text-align:center;color:#ffffff;display:block;line-height:32px;}
 .tp_item .status_dote {width:8px;height:8px;border-radius:50%;margin:4px 5px 0px 0px;background-color: #fba000;display: inline-block;float:left;}
@@ -544,13 +543,28 @@ hr {
 .collapsed.collapseable_link:after {background-image: url('https://content.harstatic.com/media/icons/arrow-gray-down_black.svg');}
 	
 
+.object-fit {
+	&-cover {
+    	-o-object-fit: cover!important;
+		object-fit: cover!important;
+	}
+	&.object-fit-contain {
+    	-o-object-fit: contain!important;
+		object-fit: contain!important
+    }
+	&fill {
+    	-o-object-fit: fill!important;
+		object-fit: fill!important;
+	}
+}
+
+
 // only Medium devices (tablets, 768px and down)
 @media (max-width: 768px) {
   .bg-image-md-none {background-image: none !important; }
 }
 
 // only Small devices (landscape phones, 576px and down)
-@media (max-width: 576px) {
-  
+@media (max-width: 576px) { 
 }
 

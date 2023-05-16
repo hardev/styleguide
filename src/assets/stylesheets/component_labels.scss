@@ -6,7 +6,6 @@
 	display: inline-block;
 	border-radius: 2px;
 	margin-right: 3px;
-	
 	&--large {
 		height: 37px;
 		border-radius: 4px;
@@ -64,6 +63,29 @@
 		color: #8268bc;
 	}
 	
+	&--forsale_round,&--forrent_round, &--sold_round {
+		border: 2px solid $color-available;
+		background-color: $color-snow-white;
+		color: $color-available;
+		font-weight: $font-weight-bold;
+		border-radius: 18px;
+		display: inline-flex;
+		align-items: center;
+		padding-left: 10px;
+		padding-right: 10px;
+		height: 24px;
+	}
+	&--forrent_round {
+		border: 2px solid #8268bc;
+		background-color: $color-snow-white;
+		color: #8268bc;
+	}
+	&--sold_round {
+		background-color: $color-snow-white;
+		color: $color-sold;
+		border: 2px solid $color-sold;
+	}
+	
 	&--forsale {
 		background-color: $color-available;
 		color: $color-snow-white;		
@@ -104,7 +126,8 @@
 		color: $color-snow-white;
 	}
 	
-	&--withdraw {
+	&--withdraw,
+	&--withdrawn {
 		background-color:#f90096;
 		color: $color-snow-white;
 	}
@@ -604,10 +627,7 @@
 	&--pending {
 		background-color: $color-pending;
 	}
-	
 }
-
-
 
 .rbgs__colors {
 	> div:nth-child(1) .label--badges__random { background-color: rgba(1,131,97,0.24); }
@@ -632,7 +652,6 @@
 	> div:nth-child(20) .label--badges__random { background-color: rgba(156,4,216,0.24); }
 	> div:nth-child(21) .label--badges__random { background-color: rgba(7,56,205,0.24); }
 	> div:nth-child(22) .label--badges__random { background-color: rgba(4,34,128,0.24); }	
-	
 }
 
 

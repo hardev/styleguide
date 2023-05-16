@@ -243,8 +243,9 @@ export default class CardsV2 extends Component {
             	<div class="cardv2--rating__prop_img" style="background-image: url(https://photos.harstatic.com/153440342/hr/img-1.jpeg?ts=2018-09-13T14:59:06.353);"></div>
             	<div class="cardv2--rating__prop_text">
             		<h4 tabindex="0">Southlake Drive</h4>
-            		<div class="cardv2--rating__prop_text_desc"><span>Survey on Nov 12, 2018</span><div class="label label--badges label--badges__small label--badges__justlisted mb-0">Represented the Buyer</div></div>
+            		<div class="cardv2--rating__prop_text_desc"><span>Survey on Nov 12, 2018</span></div>            		
             	</div>
+            	<div class="label label--badges label--badges__small label--badges__justlisted mb-0 ml-md-auto mt-3 mt-md-0 h-auto">Represented the Buyer</div>
             </div>
         	<div class="cardv2--rating__chart">
             	<div class="cardv2--rating__chart__outof">

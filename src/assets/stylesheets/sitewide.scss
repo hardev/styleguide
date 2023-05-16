@@ -209,8 +209,64 @@
 			font-size: $font-size-medium;
 			color: $color-auxiliary;
 			text-align: left;
-		}
+		}		
 	}	
+	
+	&--simple {
+		border-bottom: 1px solid rgba(208, 208, 208, 0.4);
+		padding-bottom: 1.5rem;
+		padding-top: 1.5rem;
+		
+		h3 {
+			line-height: 1.5;
+			padding-right: 30px;
+			display: block;
+			border-radius: 0px;
+			font-weight: bold;
+			color: $color-carbon !important;
+			position: relative;
+			font-size: $font-size-large;
+			text-decoration: none !important;
+			text-align: left;
+			border-bottom: 0px;
+			margin-bottom: 0px;
+			cursor: pointer;
+			
+			&:before {
+				content: '';
+				position: absolute;
+				right: 5px;
+				top: 8px;
+				width: 16px;
+				height: 10px;
+				background: url(https://content.harstatic.com/media/icons/arrow-gray-down_black.svg);
+				transform: rotate(180deg);
+			}
+					
+			&.collapsed {
+				background-color: transparent;
+				border-radius: 0px;				
+				&:before {
+					transform: rotate(0deg);
+				}			
+			}
+			
+			&.arrow_left {
+				padding-right: 0px;
+				padding-left: 30px;
+				&:before {
+					left: 0px;
+					right: auto;
+				}
+			}
+		}		
+		&__body {
+			padding-top:10px;
+			margin-bottom: 0px;
+			font-size: $font-size-medium;
+			text-align: left;
+		}		
+	}
 
 }
 
@@ -748,6 +804,10 @@
 	
 	&__readmore {
 		display: none;
+	}
+	
+	&__inline {
+			
 	}
 	
 	@media screen and (max-width: 768px) {

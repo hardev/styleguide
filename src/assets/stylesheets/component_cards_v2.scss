@@ -218,6 +218,8 @@
 		&__prop {
 			display: flex;
 			margin-bottom: 16px;
+			align-items: center;
+			flex-wrap: wrap;
 			
 			@media screen and (max-width: 600px) {
 				margin-top: 24px;
@@ -241,7 +243,7 @@
 				h4 {
 					font-size: $font-size-large_extra;
 					font-weight: $font-weight-semi_bold;
-					margin-bottom: 5px;
+					margin-bottom: 0px;
 					
 				}
 				&_desc {
@@ -739,5 +741,76 @@
 			}
 		}
 		
+	}
+}
+
+
+.highrise_card {
+	display: flex;
+	max-width:800px;
+	
+	&__img,&__cont {
+		flex: 0 0  calc(50% - 15px);
+		max-width: calc(50% - 15px);
+		color: $color-cement-dark;
+	}
+	
+	&__img {
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: cover;
+		border-radius: 8px;
+		background-color: #d8d8d8;
+		margin-right: 15px;
+		min-height: 430px;
+		transition: all 0.2s ease !important;
+		
+	}
+	&:hover {
+		.highrise_card__img {
+			transform: scale(1.015, 1.015) !important;
+		}
+	}
+	&__cont {
+		margin-left: 15px;
+		padding: 16px 0px;
+		text-decoration: none !important;
+		h4 { 
+			font-size: 18px;
+			font-weight: 900;
+		}
+		
+		&__desc { 
+			color: #5d5e5e !important;
+			line-height: 18px;
+		}
+		
+		&__loca,&__feat,&__labels { 
+			margin-bottom: 16px;
+		}
+		&__loca {
+			font-size: $font-size-medium;
+			color: $color-carbon !important;
+		}
+		a {
+			text-decoration: none !important;
+		}
+	}
+	
+	@media screen and (max-width: 767px) {
+		border: 1px solid #d0d0d0;
+		padding: 0px;
+		flex-direction:column;
+		border-radius: 8px;
+		overflow: hidden;
+		
+		&__img,&__cont {
+			flex: 0 0 100%;
+			max-width: 100%;
+			margin: 0px;
+			min-height: 260px;
+			border-radius: 0px;
+			padding: 16px;
+		}
 	}
 }

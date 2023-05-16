@@ -318,6 +318,85 @@ export default class ListingCards extends Component {
           </a>
           
           <br><br>
+          
+          
+          
+          <hr />
+      
+      
+      <div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Agent Card Long info</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 mb-0 pb-0">
+          <a href="#" class="card card--agent_longinfo card--agent_nohover">
+          	<div class="card--agent_longinfo__profile">
+	            <div class="card--agent_longinfo__image" style="background-image: url(https://pics.harstatic.com/agent/716096.jpg?ts=2019-01-18T17:12:001099);"></div>
+	            <div class="card--agent_longinfo__content">
+	              <div class="card--agent_longinfo__content_desc"><img alt="" src="https://content.harstatic.com/media/icons/label-platinum.svg"><div class="clearfix"></div></div>
+	              <div class="card--agent_longinfo__content_name">Aneeka Chauhan</div>
+	              <div class="card--agent_longinfo__content_stars">
+						<img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg">
+						<span class="font_weight--bold ml-1 align-middle">4.0</span> / <span class="mr-2 align-middle">5.0</span><span class=" color_auxiliary_light">70 surveys</span>
+				   </div>
+		 		   <div class="pt-2 font_size--small_extra overflow-ellipsis overflow-hidden">John Daugherty Broker Propert…</div>
+	            </div>
+	        </div>
+	        <div class="card--agent_longinfo__certifi pt-4 pt-md-0">
+	        	<div class="border-bottom mb-3 pb-1 ml-md-auto" style="max-width:240px;">
+		        	<div class="d-flex justify-content-md-end bd-highlight">
+					  <div class="pr-3 bd-highlight">
+					  		<div class="font_weight--bold color_carbon">23</div>
+							<div class="pb-2 color_auxiliary">For Sale</div>
+					  </div>
+					  <div class="pl-3 pr-3 bd-highlight">
+					  		<div class="font_weight--bold color_carbon">35</div>
+							<div class="pb-2 color_auxiliary">For Rent</div>
+					  </div>
+					  <div class="pl-3 pr-3 bd-highlight">
+					  		<div class="font_weight--bold color_carbon">19</div>
+							<div class="pb-2 color_auxiliary">Sold</div>
+					  </div>
+					  <div class="pl-3 bd-highlight">
+					  		<div class="font_weight--bold color_carbon">41</div>
+							<div class="pb-2 color_auxiliary">Leased</div>
+					  </div>
+					</div>
+					
+		        	<div class="font_size--small_extra_extra text-right" style="opacity:0.6;">Based on past 12 mos.</div>
+				</div>
+				
+	        	<div class="d-flex justify-content-md-end bd-highlight">
+				  <div class="pr-3 bd-highlight">
+				  		<div class="font_weight--bold mr-1 float-left overflow-hidden overflow-ellipsis">Portuguese</div>
+						<div class="card--agent_longinfo__more_btn" style="">+2</div>
+				  </div>
+				  <div class="pl-3 bd-highlight">
+				  		<span class="card--agent_longinfo__flag" data-toggle="tooltip" data-placement="top" title="" data-original-title="Brazil">
+							<img alt="Brazil" class="img-fluid" src="https://content.harstatic.com/resources/images/find_a_pro/flags_mini/br.jpg">
+						</span>
+						<span class="card--agent_longinfo__certificate" data-toggle="popover" data-trigger="focus" data-placement="bottom" title="" data-content="The Certified Negotiation Expert (CNE)">
+							CSMS
+						</span>			
+						<div class="card--agent_longinfo__more_btn" style="">+5</div>
+				  </div>
+				</div>
+	        </div>
+	        
+	        <div class="card--agent_nohover__link">
+        		<div><span class="font_weight--bold">View profile</span></div>
+        		<div class="align-self-center ml-3"><img style="height:20px;" src="https://content.harstatic.com/media/icons/arrow_right_blue.svg"></div>
+        	</div>
+          </a>
+          
+          
+          
+          <br><br><br><br>
+          
+          
+          
           <a href="#" class="card card--agent_longinfo">
           	<div class="card--agent_longinfo__profile">
 	            <div class="card--agent_longinfo__image" style="background-image: url(https://pics.harstatic.com/agent/716096.jpg?ts=2019-01-18T17:12:001099);"></div>
@@ -545,6 +624,74 @@ export default class ListingCards extends Component {
       <hr />
       
       
+      
+      <div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Broker Card</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 mb-0 pb-0">
+          <a href="#" class="card card--broker_longinfo  card--broker_nohover">
+          	<div class="card--broker_longinfo__profile">          		
+	            <div class="card--broker_longinfo__image"><div class="align-self-center"><img src="https://pics.harstatic.com/office/975041.gif?ts=1612799615"></div></div>
+	            <div class="card--broker_longinfo__content">
+	              <div class="card--broker_longinfo__content_name">Martha Turner Sotheby's International Realty</div>
+	              <div class="pt-2 font_size--small_extra">50 Briar Hollow Ln Ste 700W Houston, TX 77027</div>
+	            </div>
+	            <div class="clearfix"></div>
+	        </div>
+	        <div class="card--broker_longinfo__certifi pt-4 pt-md-0">
+	        	<div class="border-bottom mb-3 pb-1 ml-md-auto" style="max-width:240px;">
+		        	<div class="d-flex justify-content-md-end bd-highlight">
+					  <div class="pr-3 bd-highlight">
+					  		<div class="font_weight--bold color_carbon">23</div>
+							<div class="pb-2 color_auxiliary">For Sale</div>
+					  </div>
+					  <div class="pl-3 pr-3 bd-highlight">
+					  		<div class="font_weight--bold color_carbon">35</div>
+							<div class="pb-2 color_auxiliary">For Rent</div>
+					  </div>
+					  <div class="pl-3 pr-3 bd-highlight">
+					  		<div class="font_weight--bold color_carbon">19</div>
+							<div class="pb-2 color_auxiliary">Sold</div>
+					  </div>
+					  <div class="pl-3 bd-highlight">
+					  		<div class="font_weight--bold color_carbon">41</div>
+							<div class="pb-2 color_auxiliary">Leased</div>
+					  </div>
+					</div>
+					
+		        	<div class="font_size--small_extra_extra text-right" style="opacity:0.6;">Based on past 12 mos.</div>
+				</div>
+				
+	        	<div class="d-flex justify-content-md-end bd-highlight">
+				  <div class="pr-3 bd-highlight">
+				  		<div class="font_weight--bold mr-1 float-left overflow-hidden overflow-ellipsis">Portuguese</div>
+						<div class="card--broker_longinfo__more_btn" style="">+2</div>
+				  </div>
+				  <div class="pl-3 bd-highlight">
+				  		<span class="card--agent_longinfo__flag" data-toggle="tooltip" data-placement="top" title="" data-original-title="Brazil">
+							<img alt="Brazil" class="img-fluid" src="https://content.harstatic.com/resources/images/find_a_pro/flags_mini/br.jpg">
+						</span>						
+						<div class="card--broker_longinfo__more_btn" style="">+5</div>
+				  </div>
+				</div>
+	        </div>
+			
+			<div class="card--agent_nohover__link">
+        		<div><span class="font_weight--bold">View profile</span></div>
+        		<div class="align-self-center ml-3"><img style="height:20px;" src="https://content.harstatic.com/media/icons/arrow_right_blue.svg"></div>
+        	</div>
+          </a>
+        </div>
+        
+      </div>
+      
+      
+      <hr />
+      
+      
       <div class="row">
         <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
           <h4 tabindex="0">Claim Profile</h4>
@@ -740,22 +887,54 @@ export default class ListingCards extends Component {
       </div>
       <div class="row">
         <div class="col col-md-11 col-12 mb-0 pb-0">
+          
+          	
+          <div class="card card--blog_post card--blog_post_medium">
+          	<div class="card--blog_post_medium__content">
+              <h5 tabindex="0">Basic Tools For Homeowners</h5>
+              <div class="card--blog_post_medium__date pt-1">Jun 14, 2020 <span>|</span> Green Living</div>
+              <div class="card--blog_post_medium__text pt-2">One big thing that you should always have around the house is a few tools for measuring things. Lorem ipsum. The most obvious tool for this is a tape… <a href="#" class="font_weight--bold">read more</a></div>
+            </div>
+            <div class="card--blog_post_medium__image_content">
+              <div class="card--blog_post_medium__image_content__image" style="background-image: url(https://content.harstatic.com/resource_2019/imgs/temprary/badges.jpg);">
+                <div title="Home prices are so high, pending sales have dropped for 7 months in a row"></div>
+              </div>
+            </div>            
+          </div>
+          
+        </div>
+      </div>
+      
+
+
+
+      <hr />
+
+      <div class="row">
+        <div class="col col-12" style="margin-bottom: 0; padding-bottom: 0;">
+          <h4 tabindex="0">Blog Post Medium with agent</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-md-11 col-12 mb-0 pb-0">
           <div class="card--blog_post_medium__container mb-4">
-          	<div class="agent_signature mb-3">
-				<div class="agent_signature agent_signature__photo">
-				  <a tabindex="-1" href="https://www.har.com/shadrick-bogany/agent_BOGANYS" title="View Shadrick Bogany's profile" style="background-image:url('https://pics.harstatic.com/agent/312961.jpg');"></a>
-				</div>
-				<div class="agent_signature agent_signature__info">
-				  <a class="agent_signature agent_signature__info mr-2 font_weight--bold color_har_blue_dark" href="https://www.har.com/shadrick-bogany/agent_BOGANYS" title="View Shadrick Bogany's profile" aria-label="View Shadrick Bogany's profile">
-				    Shadrick Bogany
-				  </a>
-				  <span class=" font_size--small_extra">
-								<img alt="" class="pb-1" style="width:12px;" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" style="width:12px;" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" style="width:12px;" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" style="width:12px;" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" style="width:12px;" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg">															
-			  </span>
-				  <br />
-				  <a class="agent_signature agent_signature__info agent_signature__info__broker_name" href="https://www.har.com/better-homes-and-gardens-real-estate-gary-greene/broker_GGPR11" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
-				    Uptown Real Estate
-				  </a>
+          	<div class="card--blog_post_medium__container__title">
+	          	<div class="agent_signature">
+					<div class="agent_signature agent_signature__photo">
+					  <a tabindex="-1" href="https://www.har.com/shadrick-bogany/agent_BOGANYS" title="View Shadrick Bogany's profile" style="background-image:url('https://pics.harstatic.com/agent/312961.jpg');"></a>
+					</div>
+					<div class="agent_signature agent_signature__info">
+					  <a class="agent_signature agent_signature__info mr-2 font_weight--bold color_har_blue_dark" href="https://www.har.com/shadrick-bogany/agent_BOGANYS" title="View Shadrick Bogany's profile" aria-label="View Shadrick Bogany's profile">
+					    Shadrick Bogany
+					  </a>
+					  <span class=" font_size--small_extra">
+									<img alt="" class="pb-1" style="width:12px;" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" style="width:12px;" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" style="width:12px;" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" style="width:12px;" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" style="width:12px;" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg">															
+				  </span>
+					  <br />
+					  <a class="agent_signature agent_signature__info agent_signature__info__broker_name" href="https://www.har.com/better-homes-and-gardens-real-estate-gary-greene/broker_GGPR11" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
+					    Uptown Real Estate
+					  </a>
+					</div>
 				</div>
 			</div>
           <div class="card card--blog_post card--blog_post_medium">

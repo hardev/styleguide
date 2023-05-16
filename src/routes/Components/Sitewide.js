@@ -97,6 +97,15 @@ export default class Sitewide extends Component {
         		
         		<br><br><br>
         		
+        		<blockquote class="qoutetion qoutetion__inline">
+        			<div class="qoutetion__text">        				
+						<span>The greatest compliment you can give.<img class="qoutetion__text_endqoute" src="https://content.harstatic.com/media/icons/quote-end.svg"><span>
+					</div>
+					<a class="qoutetion__readmore" href="">read more</a>
+        		</blockquote>
+        		
+        		<br><br><br>
+        		
         		<blockquote class="qoutetion qoutetion__large">
         			<div class="qoutetion__large__text">        				
 						<span>The greatest compliment you can give me is a referral The greatest compliment you can give me is a referral!<span>
@@ -249,7 +258,9 @@ export default class Sitewide extends Component {
        </div>`,
        `
        <div class="row">
-        	<div class="col col-12">
+        	<div class="col col-12 text-left">
+        		<h3 tabindex="0">Accordian Faq's</h3>
+        	
         		<div id="accordion" class="accordion accordion__bordered">
 	        
 			        <!-- main item -->
@@ -295,6 +306,72 @@ export default class Sitewide extends Component {
 			        <!-- main item ended -->
 			        
 		        </div><!--  id="accordion" -->
+		        
+		        
+		        
+		        <br><br><br><br>
+		        
+		        <h3 tabindex="0">Accordian Faq's Simple</h3>
+		        
+		        <div class="accordion" id="accordionExample">
+				   <div id="headingOne" class="accordion--simple">
+				      <h3 class="collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+				         Do the Bayou Bend Towers high-rises have an HOA?
+				      </h3>
+				      <div class="accordion--simple__body collapse" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample">Yes, Bayou Bend Towers has an HOA called the Bayou Bend Towers Council of Co-owners.</div>
+				   </div>
+				   <div id="headingTwo" class="accordion--simple">
+				      <h3 class="collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				         Is the Bayou Bend Towers high-rise pet-friendly?
+				      </h3>
+				      <div class="accordion--simple__body collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample">Yes, the Bayou Bend Towers high-rise in Houston is a pet friendly high-rise. The current pet policy allows high-rise residents to own two domestic pets per unit without breed or weight restrictions.</div>
+				   </div>
+				   <div id="headingThree" class="accordion--simple">
+				      <h3 class="collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				         Can I afford a high-rise condominium at the Bayou Bend Towers?
+				      </h3>
+				      <div class="accordion--simple__body collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample">HAR.com offers several tools for homebuyers who want to buy a high-rise in Houston. One such tool is the mortgage calculator which helps homebuyers estimate the monthly cost and fees associated with a mortgage.</div>
+				   </div>
+				   <div id="headingFour" class="accordion--simple">
+				      <h3 class="collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+				         Where can I find Houston agents who specialize in Houston high-rises like the Bayou Bend Towers?
+				      </h3>
+				      <div class="accordion--simple__body collapse" id="collapseFour" aria-labelledby="headingFour" data-parent="#accordionExample">HAR.com provides several tools for home buyers searching for high-rises for sale in Houston. One of those tools lists current high-rises for sale in Houston, and real estate agents who have current listed high-rises, as well as recently sold high-rises.</div>
+				   </div>
+				</div>
+		        
+		        <br><br><br><br>
+		        
+		        <h3 tabindex="0">Accordian Faq's Simple (with left arrow)</h3>
+		        
+		        <div class="accordion" id="accordionExample2">
+				   <div id="headingOne1" class="accordion--simple">
+				      <h3 class="collapsed arrow_left" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
+				         Jan, 2023
+				      </h3>
+				      <div class="accordion--simple__body collapse" id="collapseOne1" aria-labelledby="headingOne" data-parent="#accordionExample">Yes, Bayou Bend Towers has an HOA called the Bayou Bend Towers Council of Co-owners.</div>
+				   </div>
+				   <div id="headingTwo2" class="accordion--simple">
+				      <h3 class="collapsed arrow_left" type="button" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+				         Feb, 2023
+				      </h3>
+				      <div class="accordion--simple__body collapse" id="collapseTwo2" aria-labelledby="headingTwo" data-parent="#accordionExample">Yes, the Bayou Bend Towers high-rise in Houston is a pet friendly high-rise. The current pet policy allows high-rise residents to own two domestic pets per unit without breed or weight restrictions.</div>
+				   </div>
+				   <div id="headingThree3" class="accordion--simple">
+				      <h3 class="collapsed arrow_left" type="button" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+				         Mar, 2023
+				      </h3>
+				      <div class="accordion--simple__body collapse" id="collapseThree3" aria-labelledby="headingThree" data-parent="#accordionExample">HAR.com offers several tools for homebuyers who want to buy a high-rise in Houston. One such tool is the mortgage calculator which helps homebuyers estimate the monthly cost and fees associated with a mortgage.</div>
+				   </div>
+				   <div id="headingFour4" class="accordion--simple">
+				      <h3 class="collapsed arrow_left" type="button" data-toggle="collapse" data-target="#collapseFour4" aria-expanded="false" aria-controls="collapseFour4">
+				         Apr, 2023
+				      </h3>
+				      <div class="accordion--simple__body collapse" id="collapseFour4" aria-labelledby="headingFour" data-parent="#accordionExample">HAR.com provides several tools for home buyers searching for high-rises for sale in Houston. One of those tools lists current high-rises for sale in Houston, and real estate agents who have current listed high-rises, as well as recently sold high-rises.</div>
+				   </div>
+				</div>
+		        
+		        
         	</div>
        </div>`,
        `
@@ -381,6 +458,61 @@ export default class Sitewide extends Component {
 		    </div>
 		   
 		</div>
+       
+       
+       `,
+       `
+       <div class="mb-5 mt-5 p-5">
+       	<div class="row">
+       		<div class="col-auto">
+	   			<a href="#">
+					<img class="object-fit-cover rounded-circle" src="https://pics.harstatic.com/agent/555893.jpg?ts=2017-12-05T17:08:003162" style="width:64px;height:64px;">
+				</a>
+				<br>
+				object-fit-cover
+			</div>
+			
+			<div class="col-auto">
+	   			<a href="#">
+					<img class="object-fit-fill rounded" src="https://pics.harstatic.com/agent/555893.jpg?ts=2017-12-05T17:08:003162" style="width:120px;height:120px;">
+				</a>
+				<br>
+				object-fit-fill
+			</div>
+			
+			<div class="col-auto">
+	   			<a href="#">
+					<img class="object-fit-cover rounded" src="https://pics.harstatic.com/agent/555893.jpg?ts=2017-12-05T17:08:003162" style="width:90px;height:120px;">
+				</a>
+				<br>
+				object-fit-cover
+			</div>
+			
+			<div class="col-auto">
+	   			<a href="#">
+					<img class="object-fit-contain rounded" src="https://pics.harstatic.com/agent/555893.jpg?ts=2017-12-05T17:08:003162" style="width:90px;height:120px;">
+				</a>
+				<br>
+				object-fit-contain
+			</div>			
+			
+		</div>
+		
+		<div class="mb-5 mt-5 p-5">
+	       	<div class="row">
+       		<div class="col-auto">
+		
+				<div class="text-center border_radius--pudgy bg_color_cement_light p-4" style="max-width:400px;">
+					<div class="d-flex align-items-center">
+						<div class="spinner-border mr-4 color_har_blue_dark" style="width: 2rem; height: 2rem;" role="status">
+							<span class="sr-only">Loading...</span>
+						</div>
+						<div class="font_size--medium color_auxiliary">Loading please wait...</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
        `
     ];
 
@@ -478,7 +610,9 @@ $(document).on('ready', function() {
 });
 </script>
 `,
-		
+`
+13
+`	
 ];
 
   }
@@ -504,6 +638,8 @@ $(document).on('ready', function() {
         <TemplateComponentBlock blockTitle="Accordian" elements={this.elements[11]} codeSnippets={this.codeSnippets[11]} />
         <TemplateComponentBlock blockTitle="Map Popover" elements={this.elements[12]} codeSnippets={this.codeSnippets[12]} />
         <TemplateComponentBlock blockTitle="BG Rounded box" elements={this.elements[13]} codeSnippets={this.codeSnippets[13]} />
+        
+        <TemplateComponentBlock blockTitle="Others" elements={this.elements[14]} codeSnippets={this.codeSnippets[14]} />
         
         
       </TemplateDefault>
