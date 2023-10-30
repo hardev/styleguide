@@ -953,7 +953,7 @@ export default class ListingCards extends Component {
         </div>
       </div>
       
-      
+      <!--
       <hr />
 
       <div class="row">
@@ -965,7 +965,6 @@ export default class ListingCards extends Component {
         <div class="col col-md-9 col-12 mb-0 pb-0">
           <div class="pt-4">
           	
-          	<!-- blog post large -->
           	<div class="card--blog_post_large__container">
 	          <div class="agent_signature mb-3">
 				<div class="agent_signature agent_signature__photo">
@@ -998,12 +997,11 @@ export default class ListingCards extends Component {
 	            </div>            
 	          </a>
 	          </div>
-	          <!-- blog post large ended -->
 	          
 	        </div>
         </div>
       </div>
-      
+     
       
       
       <hr />
@@ -1017,7 +1015,6 @@ export default class ListingCards extends Component {
         <div class="col col-md-9 col-12 mb-0 pb-0">
           <div class="pt-4">
           	
-          	<!-- Contact Card -->
           	<a href="#" class="card--contact">
           		<div class="card--contact__img"></div>
           		<div class="card--contact__content">
@@ -1031,12 +1028,11 @@ export default class ListingCards extends Component {
           			<div class="link"><img class="mr-2" style="width:12px;" src="https://content.harstatic.com/media/icons/location_outline_blue.svg"> Get directions</div>
           		</div>
           	</a>
-	        <!-- blog post large ended -->
 	          
 	        </div>
         </div>
       </div>
-      
+      -->
       
 	  </div>`,
 

@@ -11,6 +11,7 @@ export default class Tables extends Component {
       `<div class="row justify-content-center">
         <div class="col col-10 pt-4">
           <div class="table_wrapper">
+          	<div class="table_wrapper__inner">
     			<table tabindex="0" class="table table--medium">
 					<caption>Listing traffic report table</caption>
     				  <thead>
@@ -48,6 +49,7 @@ export default class Tables extends Component {
     				    </tr>
     				  </tbody>
     				</table>
+    			</div>
           </div>
           <div class="component_content__demo__description">e.g., Listing traffic report table</div>
         </div>
@@ -107,6 +109,7 @@ export default class Tables extends Component {
         `<div class="row justify-content-center">
         <div class="col col-10 pt-4">
           <div class="table_wrapper">
+          		<div class="table_wrapper__inner">
     				<table tabindex="0" class="table table--small" style="max-width: 400px; margin:0px auto;">
               <caption>Some data about Houston</caption>
     				  <tbody>
@@ -128,6 +131,7 @@ export default class Tables extends Component {
     				    </tr>
     				  </tbody>
     				</table>
+    			</div>
           </div>
           <div class="component_content__demo__description">Use it for not very important tabular data – <strong>never</strong> for listing card feature table</div>
         </div>`,

@@ -444,7 +444,18 @@ export default class Buttons extends Component {
 		<br><br><br><br>
 		<hr>
 		<br><br><br><br>
+      
+      `,
+
       `
+	  <div class="row justify-content-center">
+          <div class="col col-md-6 col-12">
+			<div class="toggle_switch position-absolute" style="left:10%;top:10%;height:40px;min-width:120px;">
+				<input type="checkbox" id="switch"><label for="switch">Toggle</label>
+			</div>
+		  </div>
+	  </div>
+      `,
     ];
 
 

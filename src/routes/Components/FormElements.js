@@ -747,6 +747,49 @@ export default class Forms extends Component {
 			
           <div class="component_content__demo__description">Dropdown Simple</div>
         </div>
+        
+        
+        <div class="col-12"></div>
+        
+        <div class="col col-sm-6 col-12 pr-sm-5 pl-sm-5">
+    		
+    		<div class="btn-group btn-group__split dropdown">
+			  <button class="btn btn--large btn--prominent" type="button">
+			    Large split button
+			  </button>
+			  <button type="button" class="btn btn--large btn--prominent dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    <span class="sr-only">Toggle Dropdown</span>
+			  </button>
+			  <div class="dropdown-menu dropdown-menu-right dropdown-menu__custom">
+			    <a class="dropdown-item" href="#">Action one</a>
+			    <a class="dropdown-item" href="#">Action two</a>
+			    <a class="dropdown-item" href="#">Action three</a>
+			  </div>
+			</div>
+			
+			<div class="component_content__demo__description">Split button Large</div>
+        </div>
+        
+        <div class="col col-sm-6 col-12 pr-sm-5 pl-sm-5">
+    		
+    		<div class="btn-group btn-group__split dropdown">
+			  <button class="btn btn--medium btn--prominent" type="button">
+			    Large split button
+			  </button>
+			  <button type="button" class="btn btn--medium btn--prominent dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    <span class="sr-only">Toggle Dropdown</span>
+			  </button>
+			  <div class="dropdown-menu dropdown-menu-right dropdown-menu__custom">
+			    <a class="dropdown-item" href="#">Action one</a>
+			    <a class="dropdown-item" href="#">Action two</a>
+			    <a class="dropdown-item" href="#">Action three</a>
+			  </div>
+			</div>
+			
+			<div class="component_content__demo__description">Split button Medium</div>
+        </div>
+        
+        
                 
        </div>
       `,
