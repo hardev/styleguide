@@ -557,7 +557,7 @@ export default class CardsV2 extends Component {
 					  <div class="col-lg-7">
 						  <div class="border_radius--pudgy overflow-hidden">
 							  <a href="/mapsearch/?nid=37199">
-								   <div class="mb-3 border_radius--pudgy image" style="height:240px; width: 100%; background-size: cover; background-repeat: no-repeat; background-position: center center; background-image: url(&quot;https://api.mapbox.com/styles/v1/mapbox/streets-v12/static/path-1+0000ff-0.45+0000ff-0.45(sr%7CtDzaleQ%7EAC%3FyAcB%3F)/auto/570x460?access_token=pk.eyJ1IjoiaGFyZGV2ZXJpY2siLCJhIjoiY2w5Y3h1aGdxMXRrZzNwbDltMXAwMjlwZyJ9.WvBLDoZQnZlozgGqlCij-A&quot;);">
+								   <div class="mb-3 border_radius--pudgy image" style="height:240px; width: 100%; background-size: cover; background-repeat: no-repeat; background-position: center center; background-image: url()">
 								      <img class="img-fluid img-loader" alt="loading" src="https://content.harstatic.com/img/common/loading1.gif" style="display: none;">
 								   </div>
 								   <script type="text/javascript">
