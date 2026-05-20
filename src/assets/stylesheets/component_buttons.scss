@@ -9,9 +9,11 @@
   display: inline-block;
   transition: all 0.2s ease !important;
   border-radius: 8px;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-semi-bold;
   border:none;
   font-size: $font-size-medium;
+  box-shadow: none;
+  text-decoration: none !important;
   
   &:hover {
     opacity: 0.8 !important;
@@ -60,7 +62,7 @@
     line-height: 48px !important;*/
     height: 40px !important;
     line-height: 40px !important;
-    font-size: $font-size-large !important;
+    font-size: $font-size-medium !important;
     padding: 0 20px !important;
     
     &__inline {
@@ -352,6 +354,43 @@
 	}	  
   }
   
+  &--sentiments {
+  	border: solid 1px #f1f1f1;
+  	background-color: #f1f1f1;
+  	display: inline-flex;
+  	align-items: center;
+  	color: #a7a7a7 !important;
+  	font-weight: normal;
+  	border-radius: 4px;
+  	font-size: 14px;
+  	font-weight: 500;
+  	
+  	&__small {
+	  	font-size:12px;
+	  	padding:5px 6px;
+  	}
+  	
+  	&__like_active {
+		  box-shadow: 0 0 0 1px #009677;
+		  border: solid 1px #009677;
+		  background-color: rgba(0, 150, 119, 0.08);
+		  color: #009677 !important;
+  	}
+  	
+  	&__dislike_active {
+		  box-shadow: 0 0 0 1px #e34b58;
+		  border: solid 1px #e34b58;
+		  background-color: rgba(227, 75, 88, 0.08);
+		  color: #e34b58 !important;
+  	}
+  	
+  	&__maybe_active {
+		  box-shadow: 0 0 0 1px #F08B32;
+		  border: solid 1px #F08B32;
+		  background-color: rgba(240, 139, 50, 0.08);
+		  color: #F08B32 !important;
+  	}
+  }
   &--icon {
     &:before {
       content: "";
@@ -814,7 +853,7 @@
   
   &--anchor {
 	  border-radius:18.5px;
-	  font-size: $font-size-large;
+	  font-size: $font-size-medium;
 	  color: $color-har-blue;
 	  font-weight: bold;
 	  border: solid 1px #d0d0d0;

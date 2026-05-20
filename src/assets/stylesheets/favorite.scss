@@ -14,7 +14,7 @@
 
 
 	&__img {
-		border-radius: 4px;
+		border-radius: 8px;
 		overflow: hidden;
 		width: 88px;
 		min-width: 88px;
@@ -70,8 +70,8 @@
 
 
 /* card for fav used in consumer */
-.card .dropdown.show .dropdown-toggle{border-radius: 2px;box-shadow: 0 0 0 2px rgba(103, 161, 249, 0.5);border: solid 2px #67a1f9;}
-.note_block {border-radius: 4px;box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.24);background-color:#f8f2c0;padding:4px 8px 4px 8px;}
+.card .dropdown.show .dropdown-toggle{border-radius: 8px;box-shadow: 0 0 0 2px rgba(103, 161, 249, 0.5);border: solid 2px #67a1f9;}
+.note_block {border-radius: 8px;box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.24);background-color:#f8f2c0;padding:4px 8px 4px 8px;}
 .note_block_innter {background:url("https://content.harstatic.com/media/other/line_repeat_bg4.png") center top;line-height:1.5;}
 .note_block_innter a{color:#585645 !important; }
 .note_block_innter .form-control, .nb_font {font-size:16px;}
@@ -86,7 +86,7 @@
 
 		
 /* used in listing details */
-.fav_container {background-color: #fef4c6; position: relative;padding:16px;border-radius:4px; }
+.fav_container {background-color: #fef4c6; position: relative;padding:16px;border-radius:8px; }
 .fav_container textarea {background-color: #fef4c6 !important;border: none !important;padding:2px;resize: none;}
 .fav_container textarea:focus {border-color:none !important; box-shadow: none !important;}
 
@@ -110,7 +110,7 @@
 
 .folder__notes {
 	padding: 12px 12px 11px;
-	border-radius: 4px;
+	border-radius: 8px;
 	background-color: #f8f3c5;
 	
 	&__inner {

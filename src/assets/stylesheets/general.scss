@@ -20,7 +20,7 @@ strong {
 a {
   @include transition('medium');
   color: $color-har-blue;
-  text-decoration: none;
+  text-decoration: none !important;
 
   &:hover {
     color: $color-har-blue;
@@ -139,6 +139,12 @@ hr {
   }
   &--round {
     border-radius: 16px;
+  }
+  &--round24 {
+    border-radius: 24px;
+  }
+  &--round12 {
+    border-radius: 12px;
   }
   &--rounded {
     border-radius: 32px;
@@ -524,6 +530,39 @@ hr {
 		cursor: pointer !important;
 	}	
 }
+/*inpage menu*/
+.nave_slider{
+    margin: 0px 5px ;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    height: auto !important;
+}
+.nave_slider a,
+.nave_slider a.active,
+#InpageNav.nave_slider a.active,
+#InpageNav.nave_slider a {
+    padding: 10px 18px !important;
+}
+.nave_slider .slick-next:before {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 3px;
+    background-size: contain;
+}
+.nave_slider .slick-prev:before {
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    margin-bottom: 3px;
+}
+.nave_slider .slick-next {
+	right: -12px;
+	margin-bottom: 4px;
+}
+.nave_slider .slick-prev {
+    left: -12px;
+}
+.nave_slider .slick-prev.slick-disabled:before,.nave_slider .slick-next.slick-disabled:before { display: none !important; }
 
 /* typeahead styles */
 .typeahead_custom .tp_item { border-bottom: 1px solid #dfe3f0;padding:12px 16px; font-size:14px;text-decoration: none;color: #212529 !important;}
@@ -536,7 +575,9 @@ hr {
 .tp_item.crm .agent_signature__photo a span{line-height:40px;}
 .tp_item.crm .agent_signature__info {width: calc(100% - 48px);}
 
-.ulternate_row:nth-child(odd) { background-color: #F3F4F7; }
+.ulternate_row { background-color: #F3F4F7; }
+.ulternate_row:nth-child(odd) { background-color: #FFFFFF; }
+
 
 .collapseable_link {position: relative;display: inline-block;padding-right: 20px;margin-bottom: 15px;}
 .collapseable_link:after {display: block;content: '';position: absolute;width: 12px;height: 12px;background-image: url('https://content.harstatic.com/media/icons/arrow-gray-up_black.svg');background-repeat: no-repeat;background-position: center center;			background-size: contain;right: 0px;top: 6px;}
@@ -558,6 +599,13 @@ hr {
 	}
 }
 
+.modal-backdrop {
+	min-height: 100%;
+	bottom: 0px;
+}
+
+.width-fitcontent { width:fit-content; }
+.line_height_1 { line-height:1 !important;}
 
 // only Medium devices (tablets, 768px and down)
 @media (max-width: 768px) {

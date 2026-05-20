@@ -1,10 +1,10 @@
 .cardv2 {
 	display: block;
-	border-radius: 4px;
+	border-radius: 10px;
 	overflow: hidden;
 
 	// depth--emboss
-	border-radius: 8px;
+	border-radius: 10px;
 	border: solid 1px #d0d0d0;
   
 	text-align: left;
@@ -209,7 +209,7 @@
 			background-color: rgba(218,225,248,0.32);
 			padding: 8px 12px;
 			line-height: 1.6;
-			border-radius: 4px;
+			border-radius: 10px;
 			margin: 8px 4px 4px 4px;	
 			> a:hover {
 				text-decoration: underline !important;	
@@ -240,7 +240,7 @@
 
 .cardv2_outer {
 	background-color: $color-cement-light;
-	border-radius: 8px;
+	border-radius: 10px;
 	max-width: 278px;
     width: 100%;
 

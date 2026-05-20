@@ -238,37 +238,37 @@
 
 .agent_signature--square {
   text-align: left;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
   border: solid 1px $color-cloudy-sky;
   background-color: $color-snow-white;
-  border-radius: 4px;
+  border-radius: 8px;
   display: flex;
   width: 100%;
-  
+  align-items: stretch;  
   a {
+	text-decoration: none !important;
     &:hover {
 	   opacity: 0.85;
     }
   }
 
   &__photo {
-	width: 72px;
+	width: 155px;
 	height: 100%;
 	
 	a {
 		display: block ;
-		width: 72px;
-		height: 72px;
+		width: 155px;
+		height: 155px;
 		background-repeat: no-repeat;
 		background-position: center center;
 		background-size: cover;
-		border-radius: 4px 0px 0px 4px;	
+		border-radius: 8px 0px 0px 8px;	
 		background-image: url(https://content.harstatic.com/media/icons/agent_placeholder.svg);
 	}
   }
   
   &__info {
-    width: calc(100% - 72px);
+    width: calc(100% - 155px);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -276,20 +276,44 @@
 	align-self: center;
 
     &__agent_name {
-      font-size: $font-size-small;
-      color: $color-carbon !important;
+      font-size: $font-size-large_extra;
+      color: $color-carbon;
       font-weight: $font-weight-bold;
       display: block;
-      padding-bottom: 5px;
     }
     &__broker_name {
 	    a {
-			font-size: $font-size-small;
+			font-size: $font-size-medium;
 			color: $color-slate-light !important;
 			display: block;
 			opacity: 1;	
 		}
     }
+    .stars img {
+	    width:14px;
+    }
+    .link {
+	    color: $color-har_blue !important;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+	&__photo {
+		width: 125px;
+		height: 100%;
+		
+		a {
+			display: block ;
+			width: 125px;
+			min-height: 170px;
+			height: 100%;
+		}
+	}
+	
+	&__info {
+	    width: calc(100% - 125px);
+	}
+	
   }
 }
 
@@ -578,4 +602,24 @@
 		font-weight: bold;
 	}
 	
+}
+
+.typeahead_custom .card {
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid #dfe3f0;
+    box-shadow:none;
+    margin-bottom: 0px;
+    &.p-4 {
+	    padding: 0.5rem!important
+	    }
+    :hover {
+	    opacity: 0.7;
+    }
+}
+
+.typeahead_custom .card .agent_signaturev2__medium__photo {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
 }

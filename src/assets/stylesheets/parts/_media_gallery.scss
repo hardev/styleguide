@@ -215,7 +215,7 @@
     background-repeat: no-repeat;
      background-size:contain;
     width: calc(100% - 282px);
-    height:100%;
+    /*height:100%;*/
 }
  .gs_item_content {
     left:auto;
@@ -472,7 +472,8 @@
  .gallery_slides.cSlider .slick-list.draggable{
     height: auto !important;
 }
- .sharebar {
+/*
+.sharebar {
     position: absolute;
      top:10px;
     z-index: 1;
@@ -486,16 +487,17 @@
 }
  .sharebar a img {
      max-width:38px;
-}
+}*/
  .gallery_slider.responsive .gs_item {
     background-color:#000000;
     position: relative;
 }
- .gallery_slider.responsive .sharebar {
+/*
+.gallery_slider.responsive .sharebar {
     left:0px;
      max-width: inherit;
      width: inherit;
-}
+}*/
  @media (max-width:1310px) {
      .gallery_slides.gallery_slides.slick-initialized{
         margin:0px 56px;
