@@ -310,28 +310,35 @@ export default class Forms extends Component {
        </div>
 
        <div class="row mt-4 pb-3">
-         <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+         <div class="col col-sm-3 col-12 pr-sm-5 pl-sm-5">
           <div role="checkbox" class="custom-control custom-checkbox custom-control-inline">
             <input type="checkbox" id="checkbox_button_medium_1" name="checkbox_button_medium" class="custom-control-input">
             <label class="custom-control-label" for="checkbox_button_medium_1">Yes</label>
           </div>
-          <div class="component_content__demo__description">checkbox default state</div>
+          <div class="component_content__demo__description">default</div>
         </div>
 
-        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+        <div class="col col-sm-3 col-12 pr-sm-5 pl-sm-5">
           <div role="checkbox" class="custom-control custom-checkbox custom-control-inline">
             <input type="checkbox" id="checkbox_button_medium_2" name="checkbox_button_medium" class="custom-control-input" checked="checked">
             <label class="custom-control-label" for="checkbox_button_medium_2">Yes</label>
           </div>
-          <div class="component_content__demo__description">checkbox checked</div>
+          <div class="component_content__demo__description">checkbox</div>
         </div>
 
-        <div class="col col-sm-4 col-12 pr-sm-5 pl-sm-5">
+        <div class="col col-sm-3 col-12 pr-sm-5 pl-sm-5">
           <div role="checkbox" class="custom-control custom-checkbox custom-control-inline">
             <input type="checkbox" id="checkbox_button_medium_3" name="checkbox_button_medium" class="custom-control-input" disabled="disabled">
-            <label class="custom-control-label" for="checkbox_button_medium_3">Disabled Checkbox</label>
+            <label class="custom-control-label" for="checkbox_button_medium_3">Disabled</label>
           </div>
           <div class="component_content__demo__description">checkbox disabled</div>
+        </div>
+        
+        <div class="col col-sm-3 col-12 pr-sm-5 pl-sm-5">
+        	<label role="checkbox" class="ml-2 custom-control custom-checkbox  custom-control-inline custom-checkbox__indmt">
+        		<input type="checkbox" id="CheckAll33" name="CheckAll33" class="custom-control-input" readonly="">
+        		<span class="custom-control-label mr-0" for="CheckAll33"></span>
+        	</label>
         </div>
         
       </div>
@@ -992,6 +999,69 @@ export default class Forms extends Component {
           </div>
         </div>
         
+		<div class="row mb-md-4 justify-content-center">
+            <div class="col-auto pr-0 mb-md-0 mb-2">
+                <div class="choosable_topic without_check no_padding">
+                    <input type="radio" class="custom-control-input" id="type_public2" name="select_type" checked="">
+                    <label class="choosable_topic-label btn--medium" for="type_public2" data-toggle="tooltip" data-placement="top" title="Public" data-original-title="Public">Public</label>
+                </div>
+            </div>
+            <div class="col-auto pr-0 mb-md-0 mb-2">
+                <div class="choosable_topic without_check no_padding">
+                    <input type="radio" class="custom-control-input" id="type_private2" name="select_type">
+                    <label class="choosable_topic-label btn--medium" for="type_private2" data-toggle="tooltip" data-placement="top" title="Private" data-original-title="Private">Private</label>
+                </div>
+            </div>
+            <div class="col-auto pr-0 mb-md-0 mb-2">
+                <div class="choosable_topic without_check no_padding">
+                    <input type="radio" class="custom-control-input" id="type_byword2" name="select_type">
+                    <label class="choosable_topic-label btn--medium" for="type_byword2" data-toggle="tooltip" data-placement="top" title="By Word" data-original-title="By Word">By Word</label>
+                </div>
+            </div>
+        </div>
+        
+		<div class="row mb-md-4 justify-content-center">
+            <div class="col-auto pr-0 mb-md-0 mb-2">
+                <div class="choosable_topic without_check">
+                    <input type="radio" class="custom-control-input" id="type_public2" name="select_type" checked="">
+                    <label class="choosable_topic-label btn--small" for="type_public2" data-toggle="tooltip" data-placement="top" title="Public" data-original-title="Public">Public</label>
+                </div>
+            </div>
+            <div class="col-auto pr-0 mb-md-0 mb-2">
+                <div class="choosable_topic without_check">
+                    <input type="radio" class="custom-control-input" id="type_private2" name="select_type">
+                    <label class="choosable_topic-label btn--small" for="type_private2" data-toggle="tooltip" data-placement="top" title="Private" data-original-title="Private">Private</label>
+                </div>
+            </div>
+            <div class="col-auto pr-0 mb-md-0 mb-2">
+                <div class="choosable_topic without_check">
+                    <input type="radio" class="custom-control-input" id="type_byword2" name="select_type">
+                    <label class="choosable_topic-label btn--small" for="type_byword2" data-toggle="tooltip" data-placement="top" title="By Word" data-original-title="By Word">By Word</label>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mb-md-4 justify-content-center">
+            <div class="col-auto pr-0 mb-md-0 mb-2">
+                <div class="choosable_topic choosable_topic__small without_check">
+                    <input type="radio" class="custom-control-input" id="type_public" name="select_type" checked="">
+                    <label class="choosable_topic-label btn--medium" for="type_public" data-toggle="tooltip" data-placement="top" title="Public" data-original-title="Public">Public</label>
+                </div>
+            </div>
+            <div class="col-auto pr-0 mb-md-0 mb-2">
+                <div class="choosable_topic choosable_topic__small without_check">
+                    <input type="radio" class="custom-control-input" id="type_private" name="select_type">
+                    <label class="choosable_topic-label btn--medium" for="type_private" data-toggle="tooltip" data-placement="top" title="Private" data-original-title="Private">Private</label>
+                </div>
+            </div>
+            <div class="col-auto pr-0 mb-md-0 mb-2">
+                <div class="choosable_topic choosable_topic__small without_check">
+                    <input type="radio" class="custom-control-input" id="type_byword" name="select_type">
+                    <label class="choosable_topic-label btn--medium" for="type_byword" data-toggle="tooltip" data-placement="top" title="By Word" data-original-title="By Word">By Word</label>
+                </div>
+            </div>
+        </div>
+                
         
         <div class="row justify-content-center">
           <div class="col col-12 pr-sm-5 pl-sm-5">

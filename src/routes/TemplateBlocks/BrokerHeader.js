@@ -94,7 +94,7 @@ export default class BrokerHeader extends Component {
         
         <div class="brokerheader__details">
 	        <div class="brokerheader__details__list">
-	        	<div class="pr-md-3 mr-md-3 border-md-right">
+	        	<div class="">
 		        	<a href="#" tabindex="-1" class="agent_signature--mini" title="View Amy Nabors 's profile">
 	      				<div class="agent_signature--mini__photo" style="background-image:url('https://pics.harstatic.com/agent/593161.jpg?ts=2021-03-04T16:45:004981');"></div>
 		  				<div class="agent_signature--mini__name font_weight--bold text-truncate">Laura Mayer</div>
@@ -229,6 +229,104 @@ export default class BrokerHeader extends Component {
 	        	
 	        </div>
 	    </div>
+	    
+	    
+	    
+	    
+	    <br><br><hr>
+	    <div class="brokerheader__details">
+	        <div class="brokerheader__details__list">
+	        	<div class="">
+		        	<a href="#" tabindex="-1" class="agent_signature--mini" title="View Amy Nabors 's profile">
+	      				<div class="agent_signature--mini__photo" style="background-image:url('https://pics.harstatic.com/agent/593161.jpg?ts=2021-03-04T16:45:004981');"></div>
+		  				<div class="agent_signature--mini__name font_weight--bold text-truncate">Laura Mayer</div>
+		  			</a>
+		  		</div>
+		  		<a href="#" tabindex="-1" class="agent_signature--mini mr-2" title="View Amy Nabors 's profile">
+      				<div class="agent_signature--mini__photo" style="background-image:url('https://pics.harstatic.com/agent/666089.jpg?ts=2021-02-09T16:56:006690');"></div>
+	  				<div class="agent_signature--mini__name text-truncate">Laura</div>
+	  			</a>
+	  			<a href="#" tabindex="-1" class="agent_signature--mini mr-2" title="View Amy Nabors 's profile">
+      				<div class="agent_signature--mini__photo" style="background-image:url('https://content.harstatic.com/media/icons/agent_placeholder.svg');"></div>
+	  				<div class="agent_signature--mini__name text-truncate">Neil</div>
+	  			</a>
+	        </div>
+	        <div class="brokerheader__details__listresp">
+	        	<div class="row small-gutters">
+	        		<div class="col-auto">
+			        	<a href="#" tabindex="-1" class="agent_signature--mini" title="View Amy Nabors 's profile">
+			      			<div class="agent_signature--mini__photo" style="background-image:url('https://pics.harstatic.com/agent/593161.jpg?ts=2021-03-04T16:45:004981');"></div>
+				  			<div class="agent_signature--mini__name font_weight--bold text-truncate">Laura Mayer</div>
+				  		</a>
+				  		<a href="#" tabindex="-1" class="agent_signature--mini mr-2" title="View Amy Nabors 's profile">
+		      				<div class="agent_signature--mini__photo" style="background-image:url('https://pics.harstatic.com/agent/666089.jpg?ts=2021-02-09T16:56:006690');"></div>
+			  				<div class="agent_signature--mini__name text-truncate">Laura</div>
+			  			</a>
+			  			<a href="#" tabindex="-1" class="agent_signature--mini mr-2" title="View Amy Nabors 's profile">
+		      				<div class="agent_signature--mini__photo" style="background-image:url('https://pics.harstatic.com/agent/650268.jpg?ts=2020-08-16T08:41:006234');"></div>
+			  				<div class="agent_signature--mini__name text-truncate">Neil</div>
+			  			</a>
+			  		</div>
+			  		<div class="col font_weight--medium font_weight--bold align-self-center">
+			  			Charles, Carole, Sally<br>
+			  			and more <a href="#">14 agents ↓</a>
+			  		</div>
+			  	</div>
+	        </div>
+	        <div class="brokerheader__details__certi">
+	        	<div class="brokerheader__details__certi__cul">
+	        		<div class="brokerheader__details__certi__title">8 Cultures</div>
+	        		<div class="brokerheader__details__certi__list">
+	        			<a href="#"><img class="flag flag--small" src="https://content.harstatic.com/resources/images/find_a_pro/flags_mini/uk.jpg"></a>
+						<a href="#"><img class="flag flag--small" src="https://content.harstatic.com/resources/images/find_a_pro/flags_mini/kr.jpg"></a>
+						<a href="#"><img class="flag flag--small" src="https://content.harstatic.com/resources/images/find_a_pro/flags_mini/dk.jpg"></a>
+	        			<a class="agentheader__certi__list__link" href="#">+5</a>
+	        		</div>
+	        	</div>
+	        	<div class="brokerheader__details__certi__cert">
+	        		<div class="brokerheader__details__certi__title">6 Certifications</div>
+	        		<div class="brokerheader__details__certi__list">
+	        			<a href="#" class="certificate certificate--small">CSMS</a>
+						<a href="#" class="certificate certificate--small">GRI</a>
+						<a href="#" class="certificate certificate--small">SMP</a>
+	        			<a class="agentheader__certi__list__link" href="#">+3</a>
+	        		</div>
+	        	</div>
+	        </div>
+	    </div>
+	    
+	    
+	    
+	    
+	    <br><br><hr>    
+	    <div class="brokerheader__details box_with_single_item">
+	        <div class="brokerheader__details__list">
+	        	<div class="">
+		        	<a href="#" tabindex="-1" class="agent_signature--mini" title="View Amy Nabors 's profile">
+	      				<div class="agent_signature--mini__photo" style="background-image:url('https://pics.harstatic.com/agent/593161.jpg?ts=2021-03-04T16:45:004981');"></div>
+		  				<div class="agent_signature--mini__name font_weight--bold text-truncate">Laura Mayer</div>
+		  			</a>
+		  		</div>
+	        </div>
+	        <div class="brokerheader__details__listresp">
+	        	<div class="row small-gutters">
+	        		<div class="col-auto">
+			        	<a href="#" tabindex="-1" class="agent_signature--mini" title="View Amy Nabors 's profile">
+			      			<div class="agent_signature--mini__photo" style="background-image:url('https://pics.harstatic.com/agent/593161.jpg?ts=2021-03-04T16:45:004981');"></div>
+				  			<div class="agent_signature--mini__name font_weight--bold text-truncate">Laura Mayer</div>
+				  		</a>
+			  		</div>
+			  		<div class="col font_weight--medium font_weight--bold align-self-center">
+			  			Charles, Carole, Sally<br>
+			  			and more <a href="#">14 agents ↓</a>
+			  		</div>
+			  	</div>
+	        </div>
+	        <div class="brokerheader__details__certi">
+	        	
+	        </div>
+	    </div>
+	    
       </section>
       <!-- /broker Header block -->
       
@@ -471,7 +569,7 @@ export default class BrokerHeader extends Component {
         
         <div class="brokerheader__details">
 	        <div class="brokerheader__details__list">
-	        	<div class="pr-md-3 mr-md-3 border-md-right">
+	        	<div class="">
 		        	<a href="#" tabindex="-1" class="agent_signature--mini" title="View Amy Nabors 's profile">
 	      				<div class="agent_signature--mini__photo" style="background-image:url('https://pics.harstatic.com/agent/593161.jpg?ts=2021-03-04T16:45:004981');"></div>
 		  				<div class="agent_signature--mini__name font_weight--bold text-truncate">Laura Mayer</div>

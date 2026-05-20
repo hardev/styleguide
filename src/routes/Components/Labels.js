@@ -16,16 +16,6 @@ export default class Labels extends Component {
           <div class="label label--forsale_type">For Sale</div>
           <br><br>
           <div class="label label--forrent_type">For Rent</div>
-          
-          <br><br>
-          <h4 tabindex="">Type usage in Heighrise</h4>
-          
-          <div class="label label--forsale_round">2 units for sale</div>
-          <br><br>
-          <div class="label label--forrent_round">5 units for rent</div>
-          <br><br>
-          <div class="label label--sold_round">19 units sold</div>
-          
         </div>
         
        
@@ -47,9 +37,7 @@ export default class Labels extends Component {
           <br><br>
           <div class="label label--expired">Expired</div>
           <br><br>
-          <div class="label label--withdraw">Withdraw</div>
-          <br><br>
-          <div class="label label--withdrawn">Withdrawn</div>
+          <div class="label label--withdraw">Withdrawn</div>
           <br><br>
           <div class="label label--terminated">Terminated</div>
           <br><br>
@@ -59,8 +47,6 @@ export default class Labels extends Component {
           <br><br>
           <div class="label label--sold">Sold</div>
 
-		  <br><br><br><br>
-          <div class="label label--sold label--large">Sold Price: <span class="font_weight--bold">$1,095,000</span></div>
         </div>
         
         
@@ -244,46 +230,6 @@ export default class Labels extends Component {
           <div class="label label--default label--default__close">Close</div>
           <div class="label label--default label--default__resolved"><img src="https://content.harstatic.com/media/icons/checkmark-rounded_cement.svg">Resolved</div>
         </div>
-        
-        <div class="col col-12 pt-3 text-left">
-          <div class="label label--badges label--badges__small label--badges__justlisted">Just Listed</div>
-          <br><br>
-          <div class="label label--badges label--badges__small label--badges__openhouse">Open House</div>
-          <br><br>
-          <div class="label label--badges label--badges__small label--badges__pricereduced">Price Reduced</div>
-          <br><br>
-          <div class="label label--badges label--badges__small label--badges__homevalues">Home Values</div>
-          <br><br>
-          <div class="label label--badges label--badges__small label--badges__neighborhoods">Neighborhoods</div>         
-          <br><br>
-          <div class="label label--badges label--badges__small label--badges__agentsbrokers">Agents & Brokers</div>
-          <br><br>
-          <div class="label label--default label--badges__small label--default__membership">Membership</div>
-          <a href="#" class="label label--default label--default__membership">Member of Something Else</a>
-          <br><br>
-          <a href="#" class="label label--default label--default__team">Lead of A to Z Houston Real Estate Team</a>
-          <br><br><br><br>
-          <div class="label label--default label--default__open">Open</div>
-          <div class="label label--default label--default__close">Close</div>
-          <div class="label label--default label--default__resolved"><img src="https://content.harstatic.com/media/icons/checkmark-rounded_cement.svg">Resolved</div>
-        </div>
-        
-        <div class="col col-12 pt-3 text-left random__badges">
-          <div class="label label--badges">Just Listed</div>
-          <br><br>
-          <div class="label label--badges">Open House</div>
-          <br><br>
-          <div class="label label--badges">Price Reduced</div>
-          <br><br>
-          <div class="label label--badges">Home Values</div>
-          <br><br>
-          <div class="label label--badges">Neighborhoods</div>         
-          <br><br>
-          <div class="label label--badges">Agents & Brokers</div>
-          <br><br>
-        </div>
-        
-        
        </div>
        `,
        `<div class="row justify-content-center">

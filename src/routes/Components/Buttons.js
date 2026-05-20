@@ -127,6 +127,51 @@ export default class Buttons extends Component {
           <a href="#" class="btn btn--recomended btn--notinterested  btn--notinterested__filled btn--notinterested__mini"><span><img style='width:14px;' src="https://content.harstatic.com/media/icons/not_interested_white.svg"></span><span>Interested</span></a>
           <div class="component_content__demo__description">outline Button</div>
         </div>
+        
+        
+        <div class="col col-12 mb-0">
+          <a href="#" class="btn btn--sentiments btn--sentiments__like_active"><span class="pr-2"><img style='width:20px;' src="https://content.harstatic.com/media/icons/interested_green.svg"></span><span>like</span></a>
+          <a href="#" class="btn btn--sentiments btn--sentiments__dislike"><span class="pr-2"><img style='width:20px;opacity:0.4;' src="https://content.harstatic.com/media/artwork/dislike_gray.svg"></span><span>Don’t like</span></a>
+          <a href="#" class="btn btn--sentiments btn--sentiments__maybe"><span class="pr-2"><img class="mr-1" style="width:20px;opacity:0.4;" src="https://content.harstatic.com/media/artwork/maybe_gray.svg"></span><span>May be</span></a>
+        </div>
+        
+        <div class="col col-12 mb-0">
+          <a href="#" class="btn btn--sentiments btn--sentiments__like"><span class="pr-2"><img style='width:20px;opacity:0.4;' src="https://content.harstatic.com/media/artwork/like_gray.svg"></span><span>like</span></a>
+          <a href="#" class="btn btn--sentiments btn--sentiments__dislike_active"><span class="pr-2"><img style='width:20px;' src="https://content.harstatic.com/media/icons/not_interested_red.svg"></span><span>Don’t like</span></a>
+          <a href="#" class="btn btn--sentiments btn--sentiments__maybe"><span class="pr-2"><img class="mr-1" style="width:20px;opacity:0.4;" src="https://content.harstatic.com/media/artwork/maybe_gray.svg"></span><span>May be</span></a>
+        </div>
+        
+        <div class="col col-12">
+          <a href="#" class="btn btn--sentiments btn--sentiments__like"><span class="pr-2"><img style='width:20px;opacity:0.4;' src="https://content.harstatic.com/media/artwork/like_gray.svg"></span><span>like</span></a>
+          <a href="#" class="btn btn--sentiments btn--sentiments__dislike"><span class="pr-2"><img style='width:20px;opacity:0.4;' src="https://content.harstatic.com/media/artwork/dislike_gray.svg"></span><span>Don’t like</span></a>
+          <a href="#" class="btn btn--sentiments btn--sentiments__maybe_active"><span class="pr-2"><img class="mr-1" style="width:20px;" src="https://content.harstatic.com/media/icons/common/recommended-maybe.svg"></span><span>May be</span></a>
+        </div>
+        
+        
+        <div class="col col-12 text-center">          
+          <div class="component_content__demo__description">Small version</div>
+        </div>
+        
+        <div class="col col-12 mb-0">
+          <a href="#" class="btn btn--sentiments btn--sentiments__small btn--sentiments__like_active"><span class="pr-1"><img style='width:16px;' src="https://content.harstatic.com/media/icons/interested_green.svg"></span><span>like</span></a>
+          <a href="#" class="btn btn--sentiments btn--sentiments__small btn--sentiments__dislike"><span class="pr-1"><img style='width:16px;opacity:0.4;' src="https://content.harstatic.com/media/artwork/dislike_gray.svg"></span><span>Don’t like</span></a>
+          <a href="#" class="btn btn--sentiments btn--sentiments__small btn--sentiments__maybe"><span class="pr-1"><img class="mr-1" style="width:16px;opacity:0.4;" src="https://content.harstatic.com/media/artwork/maybe_gray.svg"></span><span>May be</span></a>
+        </div>
+        
+        <div class="col col-12 mb-0">
+          <a href="#" class="btn btn--sentiments btn--sentiments__small btn--sentiments__like"><span class="pr-1"><img style='width:16px;opacity:0.4;' src="https://content.harstatic.com/media/artwork/like_gray.svg"></span><span>like</span></a>
+          <a href="#" class="btn btn--sentiments btn--sentiments__small btn--sentiments__dislike_active"><span class="pr-1"><img style='width:16px;' src="https://content.harstatic.com/media/icons/not_interested_red.svg"></span><span>Don’t like</span></a>
+          <a href="#" class="btn btn--sentiments btn--sentiments__small btn--sentiments__maybe"><span class="pr-1"><img class="mr-1" style="width:16px;opacity:0.4;" src="https://content.harstatic.com/media/artwork/maybe_gray.svg"></span><span>May be</span></a>
+        </div>
+        
+        <div class="col col-12 mb-0">
+          <a href="#" class="btn btn--sentiments btn--sentiments__small btn--sentiments__like"><span class="pr-1"><img style='width:16px;opacity:0.4;' src="https://content.harstatic.com/media/artwork/like_gray.svg"></span><span>like</span></a>
+          <a href="#" class="btn btn--sentiments btn--sentiments__small btn--sentiments__dislike"><span class="pr-1"><img style='width:16px;opacity:0.4;' src="https://content.harstatic.com/media/artwork/dislike_gray.svg"></span><span>Don’t like</span></a>
+          <a href="#" class="btn btn--sentiments btn--sentiments__small btn--sentiments__maybe_active"><span class="pr-1"><img class="mr-1" style="width:16px;" src="https://content.harstatic.com/media/icons/common/recommended-maybe.svg"></span><span>May be</span></a>
+        </div>
+        
+        
+        
       </div>
 
       

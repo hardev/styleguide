@@ -97,7 +97,7 @@ export default class TeamHeader extends Component {
         <div class="team_details_row">
 	        <div class="brokerheader__details">
 		        <div class="brokerheader__details__list">
-		        	<div class="pr-md-3 mr-md-3 border-md-right">
+		        	<div class="">
 			        	<a href="#" tabindex="-1" class="agent_signature--mini" title="View Amy Nabors 's profile">
 		      				<div class="agent_signature--mini__photo" style="background-image:url('https://pics.harstatic.com/agent/593161.jpg?ts=2021-03-04T16:45:004981');"></div>
 			  				<div class="agent_signature--mini__name font_weight--bold text-truncate">Laura Mayer</div>
@@ -310,7 +310,7 @@ export default class TeamHeader extends Component {
         <div class="team_details_row">
 	        <div class="brokerheader__details">
 		        <div class="brokerheader__details__list">
-		        	<div class="pr-md-3 mr-md-3 border-md-right">
+		        	<div class="">
 			        	<a href="#" tabindex="-1" class="agent_signature--mini" title="View Amy Nabors 's profile">
 		      				<div class="agent_signature--mini__photo" style="background-image:url('https://pics.harstatic.com/agent/593161.jpg?ts=2021-03-04T16:45:004981');"></div>
 			  				<div class="agent_signature--mini__name font_weight--bold text-truncate">Laura Mayer</div>

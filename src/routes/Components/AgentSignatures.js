@@ -229,7 +229,56 @@ export default class AgentSignatures extends Component {
 		</div>
 	  </div>
 	  
-	   
+	  <hr>
+	  <div class="row justify-content-center pt-5">
+		<div class="col col-sm-9 col-12">
+		 	<h2 class="mb-0 h2--simple">MediumLarge simple</h2>
+		 	
+		  	  <div class="agent_signature--square">
+	            <div class="agent_signature agent_signature--square__photo">
+	              <a tabindex="-1" href="https://www.har.com/shadrick-bogany/agent_BOGANYS" title="View Amy Nabors
+	
+	's profile" style="background-image:url('https://pics.harstatic.com/agent/593161.jpg?ts=2021-03-04T16:45:004981');"></a>
+	            </div>
+	            <div class="agent_signature--square__info">
+	              <a class="agent_signature--square__info__agent_name" href="https://www.har.com/shadrick-bogany/agent_BOGANYS" title="View Amy Nabors
+	
+	's profile" aria-label="View Amy Nabors
+	
+	's profile">
+	                Amy Nabors
+	
+	
+	              </a>
+	              <div class="agent_signature--square__info__broker_name">
+	              	<div class="d-flex pb-md-2 align-items-center">
+						<div class="mr-2 pt-1"><img alt="" style="width:60px;" src="https://content.harstatic.com/media/icons/label-platinum.svg"></div>
+						<div class="stars">
+	            		<img alt="" src="https://content.harstatic.com/media/icons/stars/star_full.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars/star_half_and_quarter.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars/star_half.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars/star_quarter.svg"><img alt="" src="https://content.harstatic.com/media/icons/stars/star_gray.svg">
+	            		</div>
+					</div>
+	              	
+	              	<a class="mr-3 text-wrap" href="https://www.har.com/better-homes-and-gardens-real-estate-gary-greene/broker_GGPR11" title="View Better Homes And Gardens Real's page" aria-label="View Better Homes And Gardens Real's page">
+				  	Greenwood King Properties - Kirby Office
+					</a>
+					
+					
+					<div class="d-flex pt-1">
+						<a href="" class="pr-3 link">View Phone</a>
+						<a href="" class="pr-3 link">Send Email</a>
+					</div>
+					
+					<div class="d-flex pt-1 flex-wrap">
+						<a class="pr-4"><span class="font_weight--bold link">13</span> For Sale</a>
+						<a class="pr-4"><span class="font_weight--bold link">13</span> For Sale</a>
+						<a class="pr-4"><span class="font_weight--bold link">13</span> Sold</a>
+					</div>
+					
+				  </div>
+	            </div>
+	          </div>
+		</div>
+	</div>
 	   
 	   
 

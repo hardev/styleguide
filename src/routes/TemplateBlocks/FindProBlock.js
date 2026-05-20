@@ -9,8 +9,9 @@ export default class FindProBlock extends Component {
 
     this.elements = [      
       `
-      <!-- Find a pro block -->
-      <div class="cardv2 cardv2--fpro">
+   
+	  <!-- Find a pro block -->
+      <div class="cardv2 cardv2--fpro cardv2--fpro__map">
       	<div class="cardv2--fpro__info">
       		<a class="agent_signaturev2 agent_signaturev2__large" href="https://www.har.com/shadrick-bogany/agent_BOGANYS">
 	            <div class="agent_signaturev2__large__photo" title="View Amy Nabors's profile" style="background-image:url('https://pics.harstatic.com/agent/593161.jpg?ts=2021-03-04T16:45:004981');"></div>
@@ -31,15 +32,7 @@ export default class FindProBlock extends Component {
 	        
 	        <div class="pro_navs">
 	        	<button role="button" class="btn btn--primary btn--large pro_navs_item">View profile</button>
-	        	<button role="button" class="btn btn--ordinary btn--large pro_navs_item">Ordinary</button>
-	        	<div class="btn-group btn-group-toggle pro_navs_item" data-toggle="buttons" style="width:auto;">
-	              <label class="btn btn-secondary btn--large active">
-	                <input type="radio" name="options" id="option1" autocomplete="off"> Ordinary
-	              </label>
-	              <label class="btn btn-secondary btn--large text-nowrap">
-	                <input type="radio" name="options" id="option2" autocomplete="off"> Listings on Map
-	              </label>
-	            </div>
+	        	<button role="button" class="btn btn--ordinary btn--large pro_navs_item">Contact</button>	        	
 			</div>
       	</div>
       	<!--info-->
@@ -62,20 +55,29 @@ export default class FindProBlock extends Component {
       	</div>
       	<!--glns: glance-->
       	
-      	<div class="cardv2--fpro__rtg">
-      		<div class="glns__title pb-4">Client Ratings</div>
-      		<div class="font_size--large_extra_extra"><span class="font_weight--bold">4.99</span> / 5</div>
-      		<div class="pb-3 mb-4 border-bottom border-color--cloudy-sky-light">
-        		<img alt="" class="pb-1 mr-1" src="https://content.harstatic.com/media/icons/stars/star_full.svg" style="width:26px;"><img alt="" class="pb-1 mr-1" src="https://content.harstatic.com/media/icons/stars/star_half_and_quarter.svg" style="width:26px;"><img alt="" class="pb-1 mr-1" src="https://content.harstatic.com/media/icons/stars/star_half.svg" style="width:26px;"><img alt="" class="pb-1 mr-1" src="https://content.harstatic.com/media/icons/stars/star_quarter.svg" style="width:26px;"><img alt="" class="pb-1 mr-1" src="https://content.harstatic.com/media/icons/stars/star_gray.svg" style="width:26px;">
-        		<span class="color_auxiliary font_size--small">4.97/5 (44 surveys)</span>
+      	<div class="cardv2--fpro__rtg h-100">
+      		<div class="bg--image h-100 border_radius--pudgy d-flex align-items-center" style="background-image: url(https://content.harstatic.com/media/bgs/google_map_ui_3.png); background-position: left center !important;">
+				<div class="p-md-5 p-4 flex-grow-1">
+					<div class="d-flex mb-3 font_size--large align-items-center">
+						<div class="border_radius--rounded border border-color--snow-white" style="width:18px;height:18px; border-width:2px !important; background-color:#028261;"></div>
+						<div class="font_weight--bold pl-2">For Sale: 5</div>				
+					</div>
+					
+					<div class="d-flex mb-3 font_size--large align-items-center">
+						<div class="border_radius--rounded border border-color--snow-white" style="width:18px;height:18px; border-width:2px !important; background-color:#893d9f;"></div>
+						<div class="font_weight--bold pl-2">For Rent: 8</div>				
+					</div>
+					
+					<div class="d-flex mb-3 font_size--large align-items-center">
+						<div class="border_radius--rounded border border-color--snow-white" style="width:18px;height:18px; border-width:2px !important; background-color:#d00001;"></div>
+						<div class="font_weight--bold pl-2">Sold: 12</div>
+					</div>
+					
+					<div class="text-center pt-md-5 pt-2">
+						<a href="#" class="btn btn--ordinary">View Map</a>
+					</div>
+				</div>
 			</div>
-      		
-      		<div class="color_cement_dark font_size--small mb-2">Seller's feedback on De Palma Lane</div>
-      		<div class="color_cement_dark">
-      			“Robert has been our guiding light in all of our real estate adventures. His calming demeanor and...” 
-      			<br>
-      			<a class="color_black font_weight--semi_bold" href="#">View more ratings</a>
-      		</div>
       	</div>
       	<!--rtg: ratings-->
       	
@@ -83,14 +85,6 @@ export default class FindProBlock extends Component {
       	<div class="pro_navs__resp">
         	<button role="button" class="btn btn--primary btn--large pro_navs_item">View profile</button>
         	<button role="button" class="btn btn--ordinary btn--large pro_navs_item">Ordinary</button>
-        	<div class="btn-group btn-group-toggle pro_navs_item" data-toggle="buttons" style="width:auto;">
-              <label class="btn btn-secondary btn--large active">
-                <input type="radio" name="options" id="option1" autocomplete="off"> Ordinary
-              </label>
-              <label class="btn btn-secondary btn--large text-nowrap">
-                <input type="radio" name="options" id="option2" autocomplete="off"> Listings on Map
-              </label>
-            </div>
 		</div>
       </div>
       <!-- /Find a pro block -->      
@@ -122,7 +116,7 @@ export default class FindProBlock extends Component {
 	        
 	        <div class="pro_navs">
 	        	<button role="button" class="btn btn--primary btn--large pro_navs_item">View profile</button>
-	        	<button role="button" class="btn btn--ordinary btn--large pro_navs_item">Ordinary</button>
+	        	<button role="button" class="btn btn--ordinary btn--large pro_navs_item">Contact</button>
 	        	<div class="btn-group btn-group-toggle pro_navs_item" data-toggle="buttons" style="width:auto;">
 	              <label class="btn btn-secondary btn--large active">
 	                <input type="radio" name="options" id="option1" autocomplete="off"> Ordinary

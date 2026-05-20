@@ -242,9 +242,10 @@ export default class ListingCardsLandscapeV2 extends Component {
 									
 									<div class="cardv2--landscape__content__footer_ph">
 										39 Photos
-									</div>							
-						        </div>
+									</div>									
+						        </div>						        
 						        <!-- / card footer -->
+						        <div class="btn btn--recomended cursor--pointer btn--notinterested__filled btn--notinterested__mini bg_color_sold" style=""><span>Recently Sold</span></div>
 				        	</div>
 				        	<!-- / card img -->
 				        </a>
@@ -389,6 +390,10 @@ export default class ListingCardsLandscapeV2 extends Component {
 									</div>							
 						        </div>
 						        <!-- / card footer -->
+						        
+						        <div class="btn btn--recomended cursor--pointer btn--notinterested__filled btn--notinterested__mini bg_color_available" style=""><span>Listed For Sale</span></div>
+						        
+						        <div class="btn btn--recomended cursor--pointer btn--notinterested__filled btn--notinterested__mini" style="background-color:#8268bc;"><span>Listed For Rent</span></div>
 				        	</div>
 				        	<!-- / card img -->
 				        </a>
@@ -852,7 +857,7 @@ export default class ListingCardsLandscapeV2 extends Component {
 										</div>
 				        			</div>
 				        			<div class="cardv2--landscape__content__body__details_address_right">	
-				        				<div class="cardv2--landscape__content__body__details_price">$285K - $325K</div>
+				        				<div class="cardv2--landscape__content__body__details_price">$285K - $325K...</div>
 										<div class="label label--sold">Sold</div>
 										<div class="font_weight--bold color_sold pt-3">06/06/2021</div>
 									</div>

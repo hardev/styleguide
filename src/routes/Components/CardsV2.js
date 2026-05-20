@@ -446,6 +446,158 @@ export default class CardsV2 extends Component {
         <div class="clear_both"></div>
       </div>
       `,
+      `
+      <div class="row">
+        
+	        <div class="col col-12 col-md-10 mb-0 text-left">
+				<div class="border_radius--default depth h-100 p-4">
+					<div class="color_auxiliary">Review of <span class="font_weight--bold">Neighborhoods</span></div>
+					<h4 tabindex="0" class="color_carbon font-weight-bold mt-2 mb-2">Afton Oaks / River Oaks</h4>
+					<div class="d-inline-block color_slate font_size--small_extra mb-2">
+						<img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg">
+						<span class="font_weight--bold ml-1 align-middle">4.0</span> / <span class="mr-2 align-middle">5.0</span> <span class="color_slate_light align-middle">1 year ago</span>
+					</div>
+					<p class="mb-0 pb-0 color_slate font_size--medium">“It was extremely easy working with Michele. She was knowledgeable and professional and the whole process could not have went any smoother.”</p>
+					<div class="row small-gutters pt-3">
+						<div class="col-3">
+							<div class="bg--image border_radius--default w-100" style="background-image: url('https://content.harstatic.com/subdivision/hr/3500-289999347.jpg');padding-bottom:70%;"></div>
+						</div>
+						<div class="col-3">
+							<div class="bg--image border_radius--default w-100" style="background-image: url('https://content.harstatic.com/subdivision/hr/3500-288788345.jpg');padding-bottom:70%;"></div>
+						</div>
+						<div class="col-3">
+							<div class="bg--image border_radius--default w-100" style="background-image: url('https://content.harstatic.com/subdivision/hr/3500-288788346.jpg');padding-bottom:70%;"></div>
+						</div>
+						<div class="col-3">
+							<div class="bg--image border_radius--default w-100" style="background-image: url('https://content.harstatic.com/subdivision/hr/3500-289999351.jpg');padding-bottom:70%;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col col-12 col-md-10 mb-0 text-left">
+				<div class="border_radius--default depth h-100 p-4">
+					<div class="color_auxiliary">Review of <span class="font_weight--bold">Master Planned Community</span></div>
+					<h4 tabindex="0" class="color_carbon font-weight-bold mt-2 mb-2">Cane Island</h4>
+					<div class="d-inline-block color_slate font_size--small_extra mb-2">
+						<img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg">
+						<span class="font_weight--bold ml-1 align-middle">4.0</span> / <span class="mr-2 align-middle">5.0</span> <span class="color_slate_light align-middle">1 year ago</span>
+					</div>
+					<p class="mb-0 pb-0 color_slate font_size--medium">“It was extremely easy working with Michele. She was knowledgeable and professional and the whole process could not have went any smoother.”</p>
+					<div class="row small-gutters pt-3">
+						<div class="col-3">
+							<div class="bg--image border_radius--default w-100" style="background-image: url('https://content.harstatic.com/masterplanned/large/116_1061.jpg');padding-bottom:70%;"></div>
+						</div>
+						<div class="col-3">
+							<div class="bg--image border_radius--default w-100" style="background-image: url('https://content.harstatic.com/masterplanned/large/116_1055.jpg');padding-bottom:70%;"></div>
+						</div>
+						<div class="col-3">
+							<div class="bg--image border_radius--default w-100" style="background-image: url('https://content.harstatic.com/masterplanned/large/116_1063.jpg');padding-bottom:70%;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col col-12 col-md-10 mb-0 text-left">
+				<div class="border_radius--default depth h-100 p-4">
+					<div class="color_auxiliary">Review of <span class="font_weight--bold">Master Planned Community</span></div>
+					<h4 tabindex="0" class="color_carbon font-weight-bold mt-2 mb-2">Aliana</h4>
+					<div class="d-inline-block color_slate font_size--small_extra mb-2">
+						<img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_yellow.svg"><img alt="" class="pb-1" src="https://content.harstatic.com/media/icons/stars_16by16_gray.svg">
+						<span class="font_weight--bold ml-1 align-middle">4.0</span> / <span class="mr-2 align-middle">5.0</span> <span class="color_slate_light align-middle">1 year ago</span>
+					</div>
+					<p class="mb-0 pb-0 color_slate font_size--medium">“It was extremely easy working with Michele. She was knowledgeable and professional and the whole process could not have went any smoother.”</p>
+					
+				</div>
+			</div>
+		
+	        
+        </div>        
+        <div class="clear_both"></div>
+      </div>
+      `,
+      
+      `
+      	<div class="row">
+        	<div class="col col-12 col-md-10 mb-0 text-left">  
+        	  
+        	  <div class="card p-4 mb-5">
+				  <div class="row">
+					  <div class="col-lg-5 pb-3 pb-md-0">
+						  <div class="font_size--large_extra font_weight--bold_extra pb-3">Austin Park (77479)</div>
+						  <div class="label label--typeahead mb-3  label--typeahead_subdivision">Subdivision</div>
+						  <div class="font_size--large">County Fortbend<br>Sugar Land, TX 77479</div>
+					  </div>
+					  <div class="col-lg-7">
+						  <div class="border_radius--pudgy overflow-hidden">
+							  <div class="row no-gutters">
+								  <div class="col-6 pr-2">
+									  <div class="bg--image" style="background-image: url(https://listingmedia7.harstatic.com/442609401/hr/1.jpeg?ts=2024-07-30T17:12:41.613); padding-bottom:120%;"></div>
+							      </div>
+								  <div class="col-6">
+									  <div class="bg--image mb-2" style="background-image: url(https://listingmedia7.harstatic.com/442609401/hr/2.jpeg?ts=2024-07-30T17:12:41.613); padding-bottom:calc(60% - 0.5rem);"></div>
+									  <div class="bg--image mt-2" style="background-image: url(https://listingmedia7.harstatic.com/442609401/hr/3.jpeg?ts=2024-07-30T17:12:41.613); padding-bottom:calc(60% - 0.5rem);"></div>
+								  </div>
+							  </div>
+						   </div>
+					  </div>
+				  </div>
+			  </div>
+	        
+	        </div>
+	        
+	        <div class="col col-12 col-md-10 mb-0 text-left">
+	        	<div class="card p-4">
+				  <div class="row">
+					  <div class="col-lg-5 pb-3 pb-md-0">
+						  <div class="font_size--large_extra font_weight--bold_extra pb-3">Lake Pointe (77479)</div>
+						  <div class="label label--typeahead mb-3  label--typeahead_subdivision">Subdivision</div>
+						  <div class="font_size--large">County Fortbend<br>Sugar Land, TX 77479</div>
+					  </div>
+					  <div class="col-lg-7">
+						  <div class="border_radius--pudgy overflow-hidden">
+							  <a href="/mapsearch/?nid=37199">
+								   <div class="mb-3 border_radius--pudgy image" style="height:240px; width: 100%; background-size: cover; background-repeat: no-repeat; background-position: center center; background-image: url(&quot;https://api.mapbox.com/styles/v1/mapbox/streets-v12/static/path-1+0000ff-0.45+0000ff-0.45(sr%7CtDzaleQ%7EAC%3FyAcB%3F)/auto/570x460?access_token=pk.eyJ1IjoiaGFyZGV2ZXJpY2siLCJhIjoiY2w5Y3h1aGdxMXRrZzNwbDltMXAwMjlwZyJ9.WvBLDoZQnZlozgGqlCij-A&quot;);">
+								      <img class="img-fluid img-loader" alt="loading" src="https://content.harstatic.com/img/common/loading1.gif" style="display: none;">
+								   </div>
+								   <script type="text/javascript">
+								      /*! domready (c) Dustin Diaz 2014 - License MIT */
+								      ;!function(e,t){"undefined"!=typeof module?module.exports=t():"function"==typeof define&&"object"==typeof define.amd?define(t):this.domready=t()}(0,function(){var e,t=[],o="object"==typeof document&&document,n=o&&o.documentElement.doScroll,d=o&&(n?/^loaded|^c/:/^loaded|^i|^c/).test(o.readyState);return!d&&o&&o.addEventListener("DOMContentLoaded",e=function(){for(o.removeEventListener("DOMContentLoaded",e),d=1;e=t.shift();)e()}),function(e){d?setTimeout(e,0):t.push(e)}});
+								      
+								   </script>
+								   <script>
+								      window.loadbreak = 30;
+								      window.map_load_1210798090 = function (){    
+								          window.loadbreak--;
+								          if(window.loadbreak && typeof harload !='undefined'){
+								              harload('harmapLoader', 'ready').then(function() {
+								                          HARMap.load().then(function(module) {
+								                          var componentId = 'image1210798090';
+								                          var polygon = 'POLYGON ((-95.42189568167296 29.806661648438137, -95.42187690620986 29.80618453576902, -95.42142897730437 29.80618453576902, -95.42142629509536 29.80668259479585, -95.42189568167296 29.806661648438137))';
+								                          var node = $('.' + componentId).removeClass(componentId);
+								                          var token = "marketarea";
+								                          var result = module.StaticMap.custom.withPolygon(node.width(), node.height(), polygon,{token:token})
+								                          result.backgroundImage(node);            
+								                      });
+								              });
+								          } else{
+								              window.setTimeout(window.map_load_1210798090, 1000);
+								          }
+								      };
+								      window.map_load_1210798090();
+								   </script>
+								</a>
+						   </div>
+					  </div>
+				  </div>
+			  </div>
+	        </div>
+	        
+	        
+        </div>        
+        <div class="clear_both"></div>
+      </div>
+      `,
     ];
 
 
@@ -473,6 +625,8 @@ export default class CardsV2 extends Component {
         <TemplateComponentBlock blockTitle="Appraisers Cards" elements={this.elements[4]} codeSnippets={this.codeSnippets[4]} />
         <TemplateComponentBlock blockTitle="School Cards" elements={this.elements[5]} codeSnippets={this.codeSnippets[5]} />
         <TemplateComponentBlock blockTitle="School Cards Portrait" elements={this.elements[6]} codeSnippets={this.codeSnippets[6]} />
+        <TemplateComponentBlock blockTitle="Review Cards" elements={this.elements[7]} codeSnippets={this.codeSnippets[7]} />
+        <TemplateComponentBlock blockTitle="Neighborhood Cards" elements={this.elements[8]} codeSnippets={this.codeSnippets[8]} />
 
       </TemplateDefault>
     )

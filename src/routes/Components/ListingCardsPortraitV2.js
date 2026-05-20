@@ -400,8 +400,11 @@ export default class ListingCardsPortraitV2 extends Component {
 	        	<a href="#">
 	        	<div class="cardv2--portrait__body">
 	        		<div class="cardv2--portrait__body_flexrow">
-	        			<div class="cardv2--portrait__body_price">$285K - $325K</div>
-						<div class="cardv2--portrait__body_status"><div class="label label--sold">Sold</div></div>
+	        			<div class="cardv2--portrait__body_price">
+	        				<div>$285K - $325K </div>
+	        				<div class="flex-grow-1 pb-2 font_size--small color_auxiliary font_weight--bold">Listed for $359,000</div>
+	        			</div>
+						<div class="cardv2--portrait__body_status"><div class="label label--sold">Sold</div></div>						
 					</div>
 					<div class="cardv2--portrait__body_flexrow">
 						<div class="cardv2--portrait__body_address">
@@ -415,14 +418,9 @@ export default class ListingCardsPortraitV2 extends Component {
 								<li>Residential - Single Family</li>
 								<li><span>6</span> beds</li>
 								<li><span>1</span> full & <span>4</span> half baths</li>
-								<li><span>3</span> stories</li>
 								<li><span>8,741</span> built sqft</li>
-								<li><span>1986</span> year built</li>
 							</ul>
 							<div class="cardv2--portrait__body_soldtext">Sold: 06 June, 2021</div>
-						</div>
-						<div class="cardv2--portrait__body_dayson">
-							<div class="circle_nimber">2</div>  Days on HAR
 						</div>
 					</div>
 					

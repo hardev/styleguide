@@ -84,6 +84,16 @@ export default class ListingCards extends Component {
             <a href="#">Share on Facebook</a>
           </div>
         </div>
+        <div class="col col-sm-4 col-12 mb-0">
+          <div class="card card--landscape_small card--landscape_small--with_icon card--landscape_small--with_icon--twitter">
+            <a href="#">Share on Facebook</a>
+          </div>
+        </div>
+        <div class="col col-sm-4 col-12 mb-0">
+          <div class="card card--landscape_small card--landscape_small--with_icon card--landscape_small--with_icon--facebook">
+            <a href="#">Share on Facebook</a>
+          </div>
+        </div>
       </div>
 
       <hr />
@@ -213,7 +223,7 @@ export default class ListingCards extends Component {
 	            </div>
 	        </div>
 	        <div class="card--agent_large__certifi pt-4 pt-md-0">
-	        	<div class="pb-4 mb-3 text-md-right d-none d-md-block">
+	        	<div class="pt-3 pb-2 mb-3 text-md-right d-none d-md-block">
 	        		<a class="font_size--small font_weight--bold pr-4" href="#">Profile</a>
 	        		<a class="font_size--small font_weight--bold" href="#">Contact</a>	        		
 	        	</div>
@@ -291,6 +301,14 @@ export default class ListingCards extends Component {
 					</div>
 					
 		        	<div class="font_size--small_extra_extra text-right" style="opacity:0.6;">Based on past 12 mos.</div>
+		        	
+		        	<div class="card--agent_longinfo__arrowlink color_har_blue font_size--medium text-decoration-none align-self-center float-right">
+			        	<div class="d-flex justify-content-end">
+			        		<div><span class="font_weight--bold">View profile</span> and<br>have her assistance</div>
+			        		<div class="align-self-center ml-3"><img style="height:20px;" src="https://content.harstatic.com/media/icons/arrow_right_blue.svg"></div>
+			        	</div>
+					  </div>
+					  
 				</div>
 				
 	        	<div class="d-flex justify-content-md-end bd-highlight">
@@ -298,6 +316,7 @@ export default class ListingCards extends Component {
 				  		<div class="font_weight--bold mr-1 float-left overflow-hidden overflow-ellipsis">Portuguese</div>
 						<div class="card--agent_longinfo__more_btn" style="">+2</div>
 				  </div>
+				  
 				  <div class="pl-3 bd-highlight">
 				  		<span class="card--agent_longinfo__flag" data-toggle="tooltip" data-placement="top" title="" data-original-title="Brazil">
 							<img alt="Brazil" class="img-fluid" src="https://content.harstatic.com/resources/images/find_a_pro/flags_mini/br.jpg">
@@ -307,14 +326,15 @@ export default class ListingCards extends Component {
 						</span>			
 						<div class="card--agent_longinfo__more_btn" style="">+5</div>
 				  </div>
+				  
+				  
+				
 				</div>
+				
 	        </div>
-	        <div class="card--agent_longinfo__arrowlink color_har_blue font_size--medium text-decoration-none align-self-center float-right">
-	        	<div class="d-flex justify-content-end">
-	        		<div><span class="font_weight--bold">View profile</span> and<br>have her assistance</div>
-	        		<div class="align-self-center ml-3"><img style="height:20px;" src="https://content.harstatic.com/media/icons/arrow_right_blue.svg"></div>
-	        	</div>
-			</div>
+	        
+	        
+			
           </a>
           
           <br><br>
