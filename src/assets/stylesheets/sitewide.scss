@@ -494,10 +494,17 @@
 
 
 /* inpage nav used in listing detail,heighrise, and other apartment details */
-#InpageNav {}
-#InpageNav a {padding:12px 20px;font-size:14px;display:inline-block;color:$color-auxiliary;text-decoration: none;border-bottom: 4px solid rgba(0,0,0,0.0);font-weight:600;}
-#InpageNav a:hover {opacity:0.6;}
-#InpageNav a.active{border-bottom:4px solid $color-har-blue;color:$color-har-blue !important;}
+#InpageNav { position: relative;
+	@media screen and (max-width: 767px) {	
+		overflow-y: hidden !important;
+		&::after{
+			display: none !important;
+		}
+	}
+}
+#InpageNav:after { position:absolute;content: '';width: 100%;bottom: 0px;height: 1px;border-radius: 4px;background-color: #dee2e6;z-index: 1;}
+#InpageNav a { font-size: 14px !important;display: inline-block;font-weight: 600;border: none !important;color: #212529 !important;position: relative; padding:12px 6px 12px 6px;}
+#InpageNav a.active:after {position: absolute;content: '';border-radius: 4px;background-color: #212529;width: 100%;left: 0px;right: 0px;bottom: 2px;height: 5px;z-index: 10;}
 #InpageNav.row {margin-right: 0;margin-left: 0;}
 #InpageNav.row>.col, #InpageNav.row>[class*=col-] { padding-right: 0; padding-left: 0;}
 
@@ -1134,7 +1141,7 @@
 
 
 /* navbar */
-.inpagenav{cursor: default;background-color:rgba(255, 255, 255, 0.64);min-height:64px;position:static;position:-webkit-sticky;position:-moz-sticky;position:sticky !important;z-index:111;top:0px;-webkit-backdrop-filter: blur(10px);backdrop-filter: blur(10px);white-space: nowrap;overflow-x: auto;-webkit-overflow-scrolling: touch;-ms-overflow-style: -ms-autohiding-scrollbar;border-bottom:2px solid #dae1f8;}
+.inpagenav{cursor: default;background-color:rgba(255, 255, 255, 0.64);min-height:64px;position:static;position:-webkit-sticky;position:-moz-sticky;position:sticky !important;z-index:111;top:0px;-webkit-backdrop-filter: blur(10px);backdrop-filter: blur(10px);white-space: nowrap;overflow-x: auto;-webkit-overflow-scrolling: touch;-ms-overflow-style: -ms-autohiding-scrollbar;border-bottom:0px solid #dae1f8;}
 .inpagenav::-webkit-scrollbar {display: none; }
 .modal-open .inpagenav{position: static;}
 .inpagenav ul {margin: auto;}

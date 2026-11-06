@@ -512,6 +512,44 @@ export default class Sitewide extends Component {
 				</div>
 			</div>
 		</div>
+
+		<div class="mb-5 mt-5 p-5">
+			<div class="row">
+       			<div class="col-auto">
+					<div class="container">
+						<div class="position-sticky inpagenav" style="box-shadow:none !important;top:0px;z-index:100;min-height:0% ">
+							<div class="bg_color_snow_white">
+								<div class="container">
+									<div id="InpageNav" class="row flex-row small-gutters flex-nowrap overflow-auto scroll-touch">
+										<div class="col-auto">
+											<a href="/keith-burrhus/agent_burrhus" class="nav-link menu_item_open nav-link px-md-3 active" id="overview">Overview</a>
+										</div>
+										<div class="col-auto">
+											<a href="/keith-burrhus/listings_burrhus" class="nav-link nav-link px-md-3  ">Listings</a>
+										</div>
+										<div class="col-auto">
+											<a href="https://www.har.com/realestatepro/recommendations/burrhus" class="nav-link nav-link px-md-3 ">Recommendations</a>
+										</div>
+										<div class="col-auto">
+											<a href="/keith-burrhus/answer_273556" class="nav-link nav-link px-md-3 ">Community</a>
+										</div>
+										<div class="col-auto">
+											<a href="/keith-burrhus/blogs_burrhus" class="nav-link nav-link px-md-3 ">Blog</a>
+										</div>
+										<div class="col-auto">
+											<a href="https://www.har.com/keith-burrhus/tools_burrhus" class="nav-link nav-link px-md-3 ">Request Info</a>
+										</div>
+										<div class="col-auto">
+											<a href="/keith-burrhus/website_burrhus" class="nav-link nav-link px-md-3">Website</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		
        `
     ];

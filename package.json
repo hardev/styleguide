@@ -24,6 +24,8 @@
     "deploy": "npm run build && ./node_modules/.bin/gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
+    "styles:build": "sass --style=compressed src/assets/stylesheets/_bundle.scss:src/assets/stylesheets/base.css",
+    "styles:watch": "sass --poll --style=compressed --watch src/assets/stylesheets/_bundle.scss:src/assets/stylesheets/base.css",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

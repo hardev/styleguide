@@ -655,6 +655,14 @@
 				}
 		 	}
 
+			@media screen and (max-width: 767px) {
+				
+				&__ph {
+					&__img {
+						margin-top: -0px !important;
+					}
+				}
+		 	}
 		 	
 			&__info {
 				padding-top: 24px;
