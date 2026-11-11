@@ -811,6 +811,7 @@ hr {
   bottom: 0px;
 }
 
+html:has(body.crm-embed),
 body.crm-embed,
 .crm-embed {
   background-color: #f8fafc !important;
